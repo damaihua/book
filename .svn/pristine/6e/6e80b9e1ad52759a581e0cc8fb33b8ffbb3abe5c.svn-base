@@ -1,0 +1,38 @@
+<div  id="left">
+
+<div  class="block">
+<div  class="blocktitle"><span>用户设置</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="__APP__/member/index">个人首页</a></li>
+<li><a  href="__APP__/member/member_edit">修改资料</a></li>
+<li><a  href="__APP__/member/avatar_edit">修改头像</a></li>
+<li><a  href="__APP__/member/pwd_edit">修改密码</a></li>
+
+<li><a  href="__APP__/member/loginout">退出登录</a></li>
+</ul></div>
+</div>
+
+<div  class="block">
+<div  class="blocktitle"><span>短消息</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="__APP__/letter/inbox">收件箱</a></li>
+<li><a  href="__APP__/letter/outbox">发件箱</a></li>
+<li><a  href="__APP__/letter/write">写新消息</a></li>
+<li><a  href="__APP__/letter/toadmin">写给管理员</a></li>
+</ul></div>
+</div>
+
+<div  class="block">
+<div  class="blocktitle"><span>工具箱</span></div>
+<div  class="blockcontent">
+<ul  class="ulnav">
+<li><a  href="__APP__/book/booklist">我的小说</a></li>
+<li><a  href="__APP__/book/add">添加小说</a></li>
+<li><a  href="http://www.cuiweiju.com/modules/article/bookcase.php">我的书架</a></li>
+<li><a  href="http://www.cuiweiju.com/modules/obook/buylist.php">订阅记录</a></li>
+
+</ul></div>
+
+</div>
+  
+</div>

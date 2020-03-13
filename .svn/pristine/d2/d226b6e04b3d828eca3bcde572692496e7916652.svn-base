@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>单页设置管理</title>
+
+<link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="__PUBLIC__/admin/css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/base.css">
+
+
+<link  rel="stylesheet"  href="__TMPL__/public/css/invalid.css"  type="text/css"  media="screen">	
+<script  language="javascript"  src="__PUBLIC__/admin/js/jquery.min.js"  type="text/javascript"></script>	
+<script  type="text/javascript"  src="__PUBLIC__/admin/js/admin.jquery.configuration.js"></script>
+<script  src="__PUBLIC__/admin/js/frame.js"  language="javascript"  type="text/javascript"></script>
+
+
+
+
+
+<script  language="javascript"  type="text/javascript">
+	window.onload=function (){
+		setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
+	}
+</script>
+
+
+</head>
+<body>
+
+<div id="main-content">
+<script language="javascript">
+$("#plus").addClass("current");$("#ad_main").addClass("current");</script>				
+
+	<div class="content-box"><!-- Start Content Box -->
+				
+				<div class="content-box-header">
+					
+			    <h3 style="cursor: s-resize;">单页设置管理</h3>
+					
+					<ul class="content-box-tabs">
+
+					</ul>
+					
+					<div class="clear"></div>
+					
+				</div> <!-- End .content-box-header -->
+				
+				<div class="content-box-content">
+					
+<div style="display: block;" class="tab-content  default-tab" id="tab1">				
+<table cellpadding="3" cellspacing="1" align="center" bgcolor="#D6D6D6" border="0" width="98%">
+  <tbody><tr class="alt-row">
+    <td colspan="7" style="padding-left:10px;">
+     <a href="__APP__/other/page_add"><u>增加单页设置项</u></a>
+   </td>
+</tr>
+  
+  <tr "="" align="center" bgcolor="#FBFCE2" height="24"> 
+      <td width="10%">编号</td>
+      <td width="33%">单页设置题目</td>
+      <td width="40%">单页设置内容</td>
+      <td width="23%">管理</td>
+   </tr>
+  <foreach name="data" item="vo">
+
+       <tr class="alt-row" onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td><{$vo.id}></td>
+        <td><{$vo.title}></td>
+        <td><{$vo.content}></td>
+        <td>
+         <a href="__APP__/other/page_edit?id=<{$vo.id}>">[更改]</a>
+		     <a href="__APP__/other/page_del?id=<{$vo.id}>">[删除]</a>
+		    </td>
+     </tr>
+ </foreach> 
+		     <tr class="alt-row" align="center" bgcolor="#F9FCEF" height="24"> 
+      <td colspan="7">
+      	<span><{$page}></span>
+      </td>
+     </tr>
+   </tbody></table>
+   
+
+
+							<div class="clear"></div><!-- End .clear -->
+							
+						
+						
+					</div> <!-- End #tab1 -->
+
+					
+				</div> <!-- End .content-box-content -->
+				
+			</div> <!-- End .content-box -->
+			
+			<div class="clear"></div>
+			
+           			<!-- End #footer -->			
+		</div> <!-- End #main-content -->	
+	
+
+</body></html>

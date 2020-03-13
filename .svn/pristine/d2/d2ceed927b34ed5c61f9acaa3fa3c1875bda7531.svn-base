@@ -1,0 +1,31 @@
+<?php
+	/**文章章节类-->>written by LAMp76-36
+	*add方法，为小说更新章节
+	*chap_list小说章节列表
+	*/
+class ChaptersAction extends Action {
+    public function update(){
+		$cats=M('Cats');
+		$data=$cats->where('type=1')->select();
+		$this->assign('data',$data);
+		$this->display();
+	}
+	public function doUpd(){
+		//获取要更新的小说章节的内容
+		$data['book_id']=$_GET['book_id'];		//获取要更新的小说的id
+		$data['chapter_title']=$_POST['chapter_title'];//小说章节的标题
+		$data['content']=$_POST['content1'];//小说章节的内容
+		$data['charge']=$_POST['charge'];//是否收费
+		$data['much']=$_POST['much'];//每章的价格
+		$data['total']=strlen($_POST['content1']);
+		$data['update_time']=time();
+
+		$chapter=M('Chapter');
+		$res=$chapter->add($data);
+		if($res){
+			$this->success('发表成功');
+		}else{
+			$this->error('发表失败');
+		}
+	}
+}

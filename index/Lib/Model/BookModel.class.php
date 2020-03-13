@@ -1,0 +1,58 @@
+<?php
+	/*小说信息的模型类 ->>written by LAMP76-36
+	*此模型类属关联模型类
+	*关联到Cats模型类
+	*tags方法：获取小说中的所有标签
+	*/
+
+	class BookModel extends RelationModel{
+		
+		//设置该类型的关联属性
+		protected $_link=array(
+			
+			//和用户表的关联
+			'User'=>array(
+				'mapping_type'=>BELONGS_TO,
+				'class_name'=>'User',
+				'foreign_key'=>'user_id',
+				'mapping_fields'=>'user_name',
+				'as_fields'=>'user_name'
+			),
+
+			//和小说类别模型的关联
+			'Cats'=>array(
+				'mapping_type'=>BELONGS_TO,
+				'class_name'=>'Cats',
+				'foreign_key'=>'book_cat',
+				'mapping_fields'=>'cat_sortname',
+				'as_fields'=>'cat_sortname'
+			),
+
+			//和章节模型的关联
+			'Chapter'=>array(
+				'mapping_type'=>HAS_MANY,
+				'class_name'=>'Chapter',
+				'foreign_key'=>'book_id',
+				'mapping_name'=>'chapter',
+				'mapping_limit'=>'1',
+				'mapping_order'=>'update_time desc',
+				'mapping_fields'=>'chapter_title',
+				'as_fields'=>'chapter_title'
+			),			
+		);
+
+		//获取所有小说标签的方法
+		public function tags(){
+			
+			//查询book表中的所有记录的字段
+			$data=$this->field('tags')->select();
+			$tags='';
+			foreach($data as $v){
+				$tags.=$v['tags'].' ';
+			}
+			$tags=explode(' ',$tags);
+			array_pop($tags);
+			$tags=array_unique($tags);
+			return $tags;
+		}
+	}

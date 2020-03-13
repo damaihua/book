@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>写信消息--<{$Think.SITE_NAME}></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="<{$Think.SITE_KEYWORDS}>" />
+<meta name="description" content="<{$Think.SITE_DESCRIPT}>" />
+
+	<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+	<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+	<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+	<!--[if IE 6]>
+	<script type="text/javascript" src="/scripts/DD_belatedPNG.js" ></script>
+	<script type="text/javascript">
+		DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
+	</script>
+	<![endif]-->
+
+</head>
+<body>
+<!---头部部分--->
+<include file="Public:header" />
+
+
+<!--------------------------------------------内容部分---------------------------------------------->
+
+<div class="main">
+
+	<include file="Public:memberleft" />
+	<div id="centerm">
+		<div id="content">
+			<script type="text/javascript">
+				<!--
+				function frmnewmessage_validate(){
+					if(typeof(document.frmnewmessage.receiver) != "undefined"){
+						if(document.frmnewmessage.receiver.value == "" ){
+							 alert("请输入收件人");
+							document.frmnewmessage.receiver.focus();
+							return false;
+						}
+					}
+					if(document.frmnewmessage.title.value == ""){
+						 alert("请输入标题");
+						window.document.frmnewmessage.title.focus();
+						return false;
+					 }
+				}
+				//-->
+			</script>
+
+			<block name="write">
+			<form name="frmnewmessage" id="frmnewmessage" action="__URL__/dowrite" method="post" onsubmit="return frmnewmessage_validate();">
+				<table width="580" class="grid" cellspacing="1" align="center">
+					<caption>写新消息</caption>
+					<tr valign="middle" align="left">
+						<td class="odd" width="25%">收件人</td>
+						<td class="even">
+				  
+							<input type="text" class="text" name="receiver" id="receiver" size="30" maxlength="30" value="" />
+				  
+						</td>
+					</tr>
+					<tr valign="middle" align="left"><td class="odd" width="25%">标题</td>
+						<td class="even"><input type="text" class="text" name="title" id="title" size="30" maxlength="100" value="" /></td>
+					</tr>
+					<tr valign="middle" align="left">
+						<td class="odd" width="25%">内容</td>
+						<td class="even"><textarea class="textarea" name="content" id="content" rows="12" cols="60"></textarea></td>
+					</tr>
+					<tr valign="middle" align="left">
+						<td class="odd" width="25%">&nbsp;</td>
+						<td class="even"><input type="submit" class="button" name="submit"  id="submit" value="发 送" /><input type="hidden" name="action" id="action" value="newmessage" /></td>
+					</tr>
+				</table>
+			</form>
+			</block>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+<!--foot底部部分--->
+<include file="Public:footer" />
+
+</body>
+
+</html>

@@ -1,0 +1,386 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VIP专区——听雨轩在线书城</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载" />
+<meta name="description" content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！" />
+<meta name="author" content="http://www.jieqi.com (jieqi cms)" />
+<meta name="copyright" content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
+翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
+
+
+" />
+<meta name="generator" content="jieqi.com" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="__JS__/dd_belatedpng.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
+</script>
+<![endif]-->
+
+</head>
+<body>
+<!---头部部分--->
+
+
+<div  id="ptop">
+<div><span><?php echo showbar();?></span><a  href="book/index.php?charset=gbk">简体</a>|<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>|<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a></div>
+</div>
+
+<div id="phead" class="clearfix">
+	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
+	<a href="#" target="_blank" rel="nofollow"><img src="__IMG__/huan.gif" border="0" width="465" height="55"></a>
+    <ul><li><a href="#" target="_blank">新手必读手册</a></li>
+        <li><a href="#" target="_blank"><font color=red>免费领取翠微币活动</font></a></li>
+        <li><a href="#" target="_blank">举报低俗信息有奖</a></li>
+    </ul>
+</div>
+<div id="pmenu_bar">
+<div id="mynav">
+ <?php echo showHeadermenu();?>
+ </div>
+
+
+    <div class="type">
+   
+   <?php echo showcats();?>
+    </div>
+    <div class="dynamic">
+		<div class="m_quee" id="m_quee">
+		<dl class="dl_quee">
+
+
+
+<dd><a href="/userpage.php?uid=2979095" target="_blank"><em>a593913134</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126334.htm" target="_blank"><strong>《人生得意须纵欢》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=2282522" target="_blank"><em>咪咪姐</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125765.htm" target="_blank"><strong>《川蜀大军阀》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3141175" target="_blank"><em>dong1028</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125832.htm" target="_blank"><strong>《欲望之门》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3151348" target="_blank"><em>27611800</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/111/111082.htm" target="_blank"><strong>《君临战国》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=1850289" target="_blank"><em>lingmuqiang</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126990.htm" target="_blank"><strong>《都市后花园》</strong></a></dd>
+
+
+
+</dl>
+
+<script language="javascript" type="text/javascript">
+
+var Marquee1 = new Marquee("m_quee");
+
+	Marquee1.Direction = "top";
+
+	Marquee1.Step = 1;
+
+	Marquee1.Width = 580;
+
+	Marquee1.Height = 28;
+
+	Marquee1.ScrollStep = 28;
+
+	Marquee1.Timer = 30;
+
+	Marquee1.DelayTime = 3000;
+
+	Marquee1.WaitTime = 3000;
+
+	Marquee1.Start();
+
+</script>
+		</div>
+		<div class="m_sr">
+		<form name="articlesearch" method="post" action="/modules/article/search.php" target="_blank">
+    	<span><input name="searchkey" type="text" class="search_text"> <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	<input type="radio" class="radio" name="searchtype" value="author" />作者<input type="submit" class="search_submit" value=" "></span>
+		</form>
+		</div>
+    </div>
+</div>
+
+
+
+<!--------------------------------------------内容部分---------------------------------------------->
+
+
+
+
+
+<div class="main"><script type="text/javascript" src="__JS__/jquery.tools.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+	 $("h2.tabs01").tabs(".tab_cnt1",{event:'mouseover'});
+	 $("div.tabs02").tabs(".tab_cnt2",{event:'mouseover'});
+	 $("div.slidetabs").tabs("ul.book_rmd_slide > li", {
+		effect: 'fade',
+		event: 'mouseover',
+		fadeOutSpeed: "slow",
+		rotate: true
+	}).slideshow({autoplay:true,interval:5000,fade:1});
+});
+//]]>
+</script>
+<!--------------------------------------------内容部分---------------------------------------------->
+<div id="pbody">
+<!--行1-->
+	
+    <div class="row clearfix">
+    	<div class="column row_bg comments " style="width:717px;">
+            <div class="title_pic ie6_jr">VIP封推</div>
+			<ul class="list07">
+
+	<li>
+	<a href="/cwjinfo/128/128154.htm" target="_blank"><img src="__IMG__/128154s.jpg" /></a>
+<h3><a href="/cwjinfo/128/128154.htm" target="_blank">劫命歌</a></h3>
+<p class="author"><span>作者：</span><a href="http://www.cuiweiju.com/userpage.php?uid=3225993" target="_blank">892229647</a></p>
+<p><span>简介：</span>命如劫，情难解，彼岸山河月如雪。此情无意，却惹红尘，相思难却。歌一曲世事荒烟，梦醒方才发..</p>
+<p class="bt"><a href="http://www.cuiweiju.com/html/128/128154/index.html" class="bt_read">点击阅读</a><a href="http://www.cuiweiju.com/modules/article/reviews.php?aid=128154" class="bt_comment">查看评论</a></p>
+	<div><p><span>作者公告：</span>只是想讲一个故事</p></div>
+	</li>
+
+	<li>
+	<a href="/cwjinfo/127/127533.htm" target="_blank"><img src="__IMG__/128154s.jpg" /></a>
+<h3><a href="/cwjinfo/127/127533.htm" target="_blank">桃色医仙</a></h3>
+<p class="author"><span>作者：</span><a href="http://www.cuiweiju.com/userpage.php?uid=3169944" target="_blank">晶晶司南</a></p>
+<p><span>简介：</span>小小中医青春萌动时付出了自己第一次，从此一发不可收拾。他依靠祖传龙凤决，将中医发扬光大，..</p>
+<p class="bt"><a href="http://www.cuiweiju.com/html/127/127533/index.html" class="bt_read">点击阅读</a><a href="http://www.cuiweiju.com/modules/article/reviews.php?aid=127533" class="bt_comment">查看评论</a></p>
+	<div><p><span>作者公告：</span>暂无公告！</p></div>
+	</li>
+
+</ul>
+        </div>
+        <div class="column">
+                <h2><span>VIP精品</span></h2>
+                <ul class="tab_cnt1">
+
+<li class="pic_text"><a href="/cwjinfo/109/109203.htm" target="_blank"><img src="__IMG__/109203s.jpg" /></a><h3><a href="/cwjinfo/109/109203.htm" target="_blank">娱乐圈之女神诱..</a></h3><p>     妈妈是京城第一美女，姐姐是香港第一美女，小姨是第一美女..</p></li>
+
+<li><em><a href="/cwjsort1/0/1.htm">[玄幻]</a></em><a href="/cwjinfo/111/111015.htm" target="_blank">神鹰帝国</a></li>
+
+<li><em><a href="/cwjsort1/0/1.htm">[玄幻]</a></em><a href="/cwjinfo/124/124918.htm" target="_blank">洪荒少年猎艳录</a></li>
+
+<li><em><a href="/cwjsort2/0/1.htm">[都市]</a></em><a href="/cwjinfo/118/118603.htm" target="_blank">我的校花姐姐</a></li>
+
+<li><em><a href="/cwjsort2/0/1.htm">[都市]</a></em><a href="/cwjinfo/116/116288.htm" target="_blank">姐姐保卫战</a></li>
+
+<li><em><a href="/cwjsort2/0/1.htm">[都市]</a></em><a href="/cwjinfo/110/110629.htm" target="_blank">情燃今生</a></li>
+
+<li><em><a href="/cwjsort3/0/1.htm">[武侠]</a></em><a href="/cwjinfo/123/123588.htm" target="_blank">穿越家丁之百香国</a></li>
+
+<li><em><a href="/cwjsort3/0/1.htm">[武侠]</a></em><a href="/cwjinfo/124/124947.htm" target="_blank">娇娇倚天</a></li>
+
+</ul>
+             </div>
+    </div>
+<!--行2-->
+	<div class="row clearfix">
+    	<div class="column row_bg comments " style="width:717px;height:312px;">
+            <div class="title_pic">最新VIP作品</div>
+            <ul class="list_02 list_vip">
+
+	<li><a href="/cwjinfo/127/127766.htm" target="_blank"><img src="__IMG__/128154s.jpg" /></a><h3><a href="/cwjinfo/127/127766.htm" target="_blank">《提拉米苏不悲伤》</a></h3><p class="author"><a href="http://www.cuiweiju.com/userpage.php?uid=2982022" target="_blank">psai1314</a></p><p>苏晨是一个再普通不过的学生，误打误撞跑到..</p></li>
+
+	<li><a href="/cwjinfo/128/128154.htm" target="_blank"><img src="__IMG__/128154s.jpg" /></a><h3><a href="/cwjinfo/128/128154.htm" target="_blank">《劫命歌》</a></h3><p class="author"><a href="http://www.cuiweiju.com/userpage.php?uid=3225993" target="_blank">892229647</a></p><p>命如劫，情难解，彼岸山河月如雪。此情无意..</p></li>
+
+	<li><a href="/cwjinfo/127/127626.htm" target="_blank"><img src="__IMG__/128154s.jpg" /></a><h3><a href="/cwjinfo/127/127626.htm" target="_blank">《封神后宫春色》</a></h3><p class="author"><a href="http://www.cuiweiju.com/userpage.php?uid=3179436" target="_blank">寒月青山</a></p><p>农民工辛商意外穿越到商朝，并且发现自己居..</p></li>
+
+	<li><a href="/cwjinfo/127/127613.htm" target="_blank"><img src="__IMG__/128154s.jpg" /></a><h3><a href="/cwjinfo/127/127613.htm" target="_blank">《紫色琴》</a></h3><p class="author"><a href="http://www.cuiweiju.com/userpage.php?uid=2797045" target="_blank">风儿沙</a></p><p>   开始是一份相爱的契约，但是天意如此，他..</p></li>
+
+</ul>
+        </div>
+        <div class="column" style="height:312px;">
+                <h2><span class="rank">VIP热销榜</span></h2>
+                <div class="tabs02"><a>周</a>|<a>月</a>|<a>总</a></div>
+
+                <ul class="tab_cnt2">
+
+<li><a href="/cwjinfo/128/128099.htm" target="_blank">都市美艳后宫</a></li>
+
+<li><a href="/cwjinfo/124/124394.htm" target="_blank">玉都花少</a></li>
+
+<li><a href="/cwjinfo/122/122973.htm" target="_blank">风流天下</a></li>
+
+<li><a href="/cwjinfo/127/127842.htm" target="_blank">极品颠覆之风流公子</a></li>
+
+<li><a href="/cwjinfo/124/124763.htm" target="_blank">天下第一风流</a></li>
+
+<li><a href="/cwjinfo/124/124595.htm" target="_blank">狂帝百美缘</a></li>
+
+<li><a href="/cwjinfo/127/127834.htm" target="_blank">穿越风云录</a></li>
+
+<li><a href="/cwjinfo/127/127533.htm" target="_blank">桃色医仙</a></li>
+
+<li><a href="/cwjinfo/116/116517.htm" target="_blank">都市风月奇谭</a></li>
+
+<li><a href="/cwjinfo/127/127021.htm" target="_blank">爱欲轮回</a></li>
+
+</ul>
+
+                <ul class="tab_cnt2">
+
+<li><a href="/cwjinfo/128/128099.htm" target="_blank">都市美艳后宫</a></li>
+
+<li><a href="/cwjinfo/122/122973.htm" target="_blank">风流天下</a></li>
+
+<li><a href="/cwjinfo/124/124394.htm" target="_blank">玉都花少</a></li>
+
+<li><a href="/cwjinfo/124/124595.htm" target="_blank">狂帝百美缘</a></li>
+
+<li><a href="/cwjinfo/127/127830.htm" target="_blank">盛夏晚晴天之美女如云</a></li>
+
+<li><a href="/cwjinfo/111/111015.htm" target="_blank">神鹰帝国</a></li>
+
+<li><a href="/cwjinfo/127/127842.htm" target="_blank">极品颠覆之风流公子</a></li>
+
+<li><a href="/cwjinfo/124/124763.htm" target="_blank">天下第一风流</a></li>
+
+<li><a href="/cwjinfo/111/111082.htm" target="_blank">君临战国</a></li>
+
+<li><a href="/cwjinfo/127/127834.htm" target="_blank">穿越风云录</a></li>
+
+</ul>
+
+				<ul class="tab_cnt2">
+
+<li><a href="/cwjinfo/102/102784.htm" target="_blank">都市奇缘</a></li>
+
+<li><a href="/cwjinfo/109/109203.htm" target="_blank">娱乐圈之女神诱惑</a></li>
+
+<li><a href="/cwjinfo/104/104991.htm" target="_blank">官场风月</a></li>
+
+<li><a href="/cwjinfo/107/107919.htm" target="_blank">福艳之都市后宫</a></li>
+
+<li><a href="/cwjinfo/91/91448.htm" target="_blank">娇娇师娘</a></li>
+
+<li><a href="/cwjinfo/111/111015.htm" target="_blank">神鹰帝国</a></li>
+
+<li><a href="/cwjinfo/99/99682.htm" target="_blank">御心香帅</a></li>
+
+<li><a href="/cwjinfo/108/108553.htm" target="_blank">花都少帅</a></li>
+
+<li><a href="/cwjinfo/106/106845.htm" target="_blank">名门艳旅</a></li>
+
+<li><a href="/cwjinfo/105/105548.htm" target="_blank">红尘都市</a></li>
+
+</ul>
+             </div>
+    </div>
+<!--行3-->
+	<div class="row clearfix">
+    	<div class="column_leftwrap">
+            <div class="column" style="height:312px;">
+                <h2><span>VIP小说推荐</span></h2>
+                <ul class="tab_cnt2">
+
+<li><a href="/cwjinfo/128/128096.htm" target="_blank">香都艳福后宫</a></li>
+
+<li><a href="/cwjinfo/123/123339.htm" target="_blank">公孙轩辕</a></li>
+
+<li><a href="/cwjinfo/111/111082.htm" target="_blank">君临战国</a></li>
+
+<li><a href="/cwjinfo/125/125568.htm" target="_blank">有虞舜华</a></li>
+
+<li><a href="/cwjinfo/125/125332.htm" target="_blank">木帝之运（上）</a></li>
+
+<li><a href="/cwjinfo/128/128099.htm" target="_blank">都市美艳后宫</a></li>
+
+<li><a href="/cwjinfo/127/127861.htm" target="_blank">乡美春蝶</a></li>
+
+<li><a href="/cwjinfo/128/128004.htm" target="_blank">王剑风云</a></li>
+
+<li><a href="/cwjinfo/98/98377.htm" target="_blank">覆雨大唐之无限风流</a></li>
+
+<li><a href="/cwjinfo/91/91448.htm" target="_blank">娇娇师娘</a></li>
+
+</ul>
+             </div>
+         </div>
+        <div class="column column_update" style="height:312px;">
+        	<h2><span class="update">VIP小说最新更新</span></h2>
+            <div class="update_more"><a href="http://www.cuiweiju.com/modules/article/articlefilter.php?other=2">【全部VIP作品】 </a> </div>
+            <ul class="tab_cnt1" style=" margin-top:5px;margin-bottom:5px;">
+
+	<li><span><a href="http://www.cuiweiju.com/userpage.php?uid=3046478" target="_blank">付梁青云</a></span><em><a href="/cwjsort1/0/1.htm">[玄幻]</a></em><a href="/cwjinfo/126/126232.htm" target="_blank">《乡村小知青》</a><em><a href="http://www.cuiweiju.com/html/126/126232/index.html" target="_blank">第三部飞升之路之第二六〇章 心..</a></em></li>
+
+	<li><span><a href="http://www.cuiweiju.com/userpage.php?uid=3036986" target="_blank">花丛猎手</a></span><em><a href="/cwjsort2/0/1.htm">[都市]</a></em><a href="/cwjinfo/127/127830.htm" target="_blank">《盛夏晚晴天之..》</a><em><a href="http://www.cuiweiju.com/html/127/127830/index.html" target="_blank">第二百七十六章&nbsp;&nbsp;梦霜，快点儿（..</a></em></li>
+
+	<li><span><a href="http://www.cuiweiju.com/userpage.php?uid=2983416" target="_blank">捡起平常心</a></span><em><a href="/cwjsort1/0/1.htm">[玄幻]</a></em><a href="/cwjinfo/128/128004.htm" target="_blank">《王剑风云》</a><em><a href="http://www.cuiweiju.com/html/128/128004/index.html" target="_blank">第七十八章 佳人醒来</a></em></li>
+
+	<li><span><a href="http://www.cuiweiju.com/userpage.php?uid=2927314" target="_blank">封啸</a></span><em><a href="/cwjsort5/0/1.htm">[仙侠]</a></em><a href="/cwjinfo/124/124763.htm" target="_blank">《天下第一风流》</a><em><a href="http://www.cuiweiju.com/html/124/124763/index.html" target="_blank">第四百章 多了个娘</a></em></li>
+
+	<li><span><a href="http://www.cuiweiju.com/userpage.php?uid=2742236" target="_blank">一大人</a></span><em><a href="/cwjsort2/0/1.htm">[都市]</a></em><a href="/cwjinfo/127/127831.htm" target="_blank">《官道》</a><em><a href="http://www.cuiweiju.com/html/127/127831/index.html" target="_blank">第一百二十四章&nbsp;&nbsp;余情未了</a></em></li>
+
+	<li><span><a href="http://www.cuiweiju.com/userpage.php?uid=2869178" target="_blank">瘦不了</a></span><em><a href="/cwjsort2/0/1.htm">[都市]</a></em><a href="/cwjinfo/124/124595.htm" target="_blank">《狂帝百美缘》</a><em><a href="http://www.cuiweiju.com/html/124/124595/index.html" target="_blank">第五百五十三章 陈年的往事</a></em></li>
+
+	<li><span><a href="http://www.cuiweiju.com/userpage.php?uid=3179436" target="_blank">寒月青山</a></span><em><a href="/cwjsort5/0/1.htm">[仙侠]</a></em><a href="/cwjinfo/127/127626.htm" target="_blank">《封神后宫春色》</a><em><a href="http://www.cuiweiju.com/html/127/127626/index.html" target="_blank">第一册 后宫春色 第二十七章</a></em></li>
+
+	<li><span><a href="http://www.cuiweiju.com/userpage.php?uid=865290" target="_blank">曲火</a></span><em><a href="/cwjsort2/0/1.htm">[都市]</a></em><a href="/cwjinfo/110/110117.htm" target="_blank">《山村风流》</a><em><a href="http://www.cuiweiju.com/html/110/110117/index.html" target="_blank">第八百六十七章&nbsp;&nbsp;&nbsp;&nbsp;医院艳福无边（..</a></em></li>
+
+	<li><span><a href="http://www.cuiweiju.com/userpage.php?uid=2849767" target="_blank">赖皮老赖</a></span><em><a href="/cwjsort4/0/1.htm">[言情]</a></em><a href="/cwjinfo/127/127892.htm" target="_blank">《一路风流》</a><em><a href="http://www.cuiweiju.com/html/127/127892/index.html" target="_blank">第五十四章&nbsp;&nbsp;夜半深情好景致</a></em></li>
+
+</ul>
+        </div>
+        <div class="column_rightwrap">
+        	<div class="column" style="height:312px;">
+                <h2><span>VIP小说更新榜</span></h2>
+                <ul class="tab_cnt2">
+
+<li><a href="/cwjinfo/128/128099.htm" target="_blank">都市美艳后宫</a></li>
+
+<li><a href="/cwjinfo/128/128144.htm" target="_blank">招惹了美女上司之后</a></li>
+
+<li><a href="/cwjinfo/128/128146.htm" target="_blank">禁忌诱惑：风流小农民</a></li>
+
+<li><a href="/cwjinfo/124/124595.htm" target="_blank">狂帝百美缘</a></li>
+
+<li><a href="/cwjinfo/128/128095.htm" target="_blank">女毒枭的情人保镖</a></li>
+
+<li><a href="/cwjinfo/127/127831.htm" target="_blank">官道</a></li>
+
+<li><a href="/cwjinfo/128/128096.htm" target="_blank">香都艳福后宫</a></li>
+
+<li><a href="/cwjinfo/128/128139.htm" target="_blank">帝宫情殇</a></li>
+
+<li><a href="/cwjinfo/127/127679.htm" target="_blank">门板挡不住</a></li>
+
+<li><a href="/cwjinfo/127/127424.htm" target="_blank">猎香风流</a></li>
+
+</ul>
+            </div>
+         </div>
+    </div>
+</div></div>
+
+
+<!--foot底部部分--->
+
+<div class="cb"></div>
+<div id="pfoot">
+	<div class="foot_nav">
+    	
+        <?php echo showFootermenu();?>
+    </div>
+    <p>请所有作者发布作品时务必遵守国家互联网信息管理办法规定，我们拒绝任何色情小说，一经发现，即作删除！<br />本站所收录作品、社区话题、书库评论及本站所做之广告均属其个人行为，与本站立场无关</p>
+    <p><?php echo (SITE_COPYRIGHT); ?>&nbsp;&nbsp;<?php echo (SITE_BEIAN); ?></p>
+    <div class="authority">
+    	<a href="#"><img src="__IMG__/wj.gif" /></a><a href="#"><img src="__IMG__/ppaa.gif" /></a>
+    </div>
+</div>
+
+
+</body>
+
+</html>

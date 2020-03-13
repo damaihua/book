@@ -1,0 +1,166 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><?php echo ($book_info[0]['book_name']); ?>|作者：<?php echo ($book_info[0]['user_name']); ?>|更新时间：<?php echo (date("Y-m-d ",$book_info[0]['update_time'])); ?>-翠微居小说网</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+
+<meta name="copyright" content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
+翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
+
+
+" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+<script type="text/javascript">
+
+</script>
+</head>
+<body style="background-color:#f5faf3;">
+<script type="text/javascript" src="__JS__/toplink.js"></script>
+<!---头部部分--->
+
+
+<div  id="ptop">
+<div><span><?php echo showbar();?></span><a  href="book/index.php?charset=gbk">简体</a>|<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>|<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a></div>
+</div>
+
+<div id="phead" class="clearfix">
+	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
+	<a href="#" target="_blank" rel="nofollow"><img src="__IMG__/huan.gif" border="0" width="465" height="55"></a>
+    <ul><li><a href="#" target="_blank">新手必读手册</a></li>
+        <li><a href="#" target="_blank"><font color=red>免费领取翠微币活动</font></a></li>
+        <li><a href="#" target="_blank">举报低俗信息有奖</a></li>
+    </ul>
+</div>
+<div id="pmenu_bar">
+<div id="mynav">
+ <?php echo showHeadermenu();?>
+ </div>
+
+
+    <div class="type">
+   
+   <?php echo showcats();?>
+    </div>
+    <div class="dynamic">
+		<div class="m_quee" id="m_quee">
+		<dl class="dl_quee">
+
+
+
+<dd><a href="/userpage.php?uid=2979095" target="_blank"><em>a593913134</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126334.htm" target="_blank"><strong>《人生得意须纵欢》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=2282522" target="_blank"><em>咪咪姐</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125765.htm" target="_blank"><strong>《川蜀大军阀》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3141175" target="_blank"><em>dong1028</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125832.htm" target="_blank"><strong>《欲望之门》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3151348" target="_blank"><em>27611800</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/111/111082.htm" target="_blank"><strong>《君临战国》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=1850289" target="_blank"><em>lingmuqiang</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126990.htm" target="_blank"><strong>《都市后花园》</strong></a></dd>
+
+
+
+</dl>
+
+<script language="javascript" type="text/javascript">
+
+var Marquee1 = new Marquee("m_quee");
+
+	Marquee1.Direction = "top";
+
+	Marquee1.Step = 1;
+
+	Marquee1.Width = 580;
+
+	Marquee1.Height = 28;
+
+	Marquee1.ScrollStep = 28;
+
+	Marquee1.Timer = 30;
+
+	Marquee1.DelayTime = 3000;
+
+	Marquee1.WaitTime = 3000;
+
+	Marquee1.Start();
+
+</script>
+		</div>
+		<div class="m_sr">
+		<form name="articlesearch" method="post" action="/modules/article/search.php" target="_blank">
+    	<span><input name="searchkey" type="text" class="search_text"> <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	<input type="radio" class="radio" name="searchtype" value="author" />作者<input type="submit" class="search_submit" value=" "></span>
+		</form>
+		</div>
+    </div>
+</div>
+
+</div>
+<div id="adhead"><script type="text/javascript" src="__JS__/indextop.js"></script></div>
+<div id="pbody">
+	<p class="position">您当前所在的位置：<a href="__APP__/index/index">首页</a>&gt;<a href="">武侠同人</a>&gt;<a href="__APP__/bookInfo/index/book_id/<?php echo ($book_info[0]['book_id']); ?>"><?php echo ($book_info[0]['book_name']); ?></a>
+      <div class="book_catalog">
+          <div class="c_head">
+              <h2><?php echo ($book_info[0]['book_name']); ?></h2>
+              <p>作者：<a href=""><?php echo ($book_info[0]['user_name']); ?></a>
+			  更新时间：<strong><?php echo (date("Y-m-d",$book_info[0]['update_time'])); ?></strong></p>
+			   <div class="fun clearfix">
+			  <a id="a_tip" href="javascript:;" onclick="openDialog('http://www.cuiweiju.com/modules/article/tip.php?id=128284&ajax_gets=jieqi_contents', false);"><b>这本书写的太好了，我要打赏作者</b></a>┆<a id="a_vipvote" href="javascript:;" onclick="openDialog('http://www.cuiweiju.com/modules/article/gift.php?type=vipvote&id=128284&ajax_gets=jieqi_contents', false);"><strong>我要送月票</strong></a>┆<a id="a_hurry" href="javascript:;" onclick="openDialog('http://www.cuiweiju.com/modules/article/hurry.php?id=128284&ajax_gets=jieqi_contents', false);"><strong>我要催更</strong></a>┆<a href="/modules/article/addbookcase.php?bid=128284" target="_blank">加入书架</a>┆<a href="/modules/article/uservote.php?id=128284" target="_blank">投推荐票</a>┆<a href="/cwjinfo/128/128284.htm">返回书页</a>┆<a href="/offer99.php?pid=y3976b95e7a396522f2b236ae5213484"><font color=red>免费获取翠微币</font></a>
+              </div>
+          </div>
+          <div class="c_body">
+			
+			<!--小说的免费章节start-->
+				<ul class="clearfix">
+				<?php if(is_array($chapters)): foreach($chapters as $key=>$vo): ?><li>
+						<a href="__URL__/read/chapter_id/<?php echo ($vo["chapter_id"]); ?>" title="<?php echo (date("Y-m-d H:i",$vo["update_time"])); ?>发表"><?php echo ($vo["chapter_title"]); ?></a>
+					</li><?php endforeach; endif; ?>
+				</ul>
+			<!--小说的免费章节end-->
+
+			<!--小说的收费章节start-->
+			<form action="__URL__/orders" method="post" name="frmbuy">
+			<h4>VIP章节目录
+				<span>【
+					<a href="" target="_blank">查看VIP信息</a> | 
+					<a href="" target="_blank">帐户充值</a> | 
+					<a href=""><font color=red>免费获取翠微币</font></a>】
+				</span>&nbsp;
+				<input type="button" name="btnbuy1" value="选择全部收费章节" onclick="selectall(this.form)" />	  &nbsp;&nbsp;
+				<input type="button" name="btnbuy2" value="取消全部选择" onclick="cancelall(this.form)" />      &nbsp;&nbsp;
+				<input type="submit" name="btnbuy3" value="订阅选中章节" />	  
+				<input name="book_id" type="hidden" value="<?php echo ($book_info[0]['book_id']); ?>" />
+				<input name="user_id" type="hidden" value="<?php echo ($book_info[0]['user_id']); ?>" />
+				<input name="id" type="hidden" />
+			</h4>
+			
+			<ul class="clearfix">
+			<?php if(is_array($charge)): foreach($charge as $key=>$vo): ?><li>
+					<input type="checkbox" id="checkid[]" name="chapter_id[]" value="<?php echo ($vo["chapter_id"]); ?>">
+					<img align="absmiddle" alt="vip" src="__IMG__/icon_vip.gif">
+					<a href="__URL__/read/chapter_id/<?php echo ($vo["chapter_id"]); ?>" title="<?php echo (date("Y-m-d H:i",$vo["update_time"])); ?>发表，价格：<?php echo ($vo["much"]); ?>"><?php echo ($vo["chapter_title"]); ?></a>
+				</li><?php endforeach; endif; ?>
+			</ul>
+			</form>
+			<!--小说的收费章节end-->
+          </div>
+      </div>
+</div>
+
+<div id="adbottom"><script type="text/javascript" src="__JS__/indexbottom.js"></script></div>
+
+<div id="pfoot">
+	<script type="text/javascript" src="__JS__/bottomlink.js"></script>
+</div>
+
+</body>
+</html>

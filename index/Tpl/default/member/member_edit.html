@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>个人资料修改--<{$Think.SITE_NAME}></title>
+
+<meta name="keywords" content="<{$Think.SITE_KEYWORDS}>" />
+<meta name="description" content="<{$Think.SITE_DESCRIPT}>" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all">
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all">
+<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="__JS__/Validform_v5.3.2.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	//$(".registerform").Validform();  //就这一行代码！;
+		
+	$(".editform").Validform({
+		tiptype:function(msg,o,cssctl){
+        if(!o.obj.is("form")){
+				var objtip=o.obj.siblings(".Validform_checktip");
+				cssctl(objtip,o.type);
+				objtip.text(msg);
+			 }
+		}
+    
+		
+		
+	});
+	
+	
+})
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/scripts/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
+</script>
+<![endif]-->
+
+</head>
+<body>
+<!---头部部分--->
+<include file="Public:header" />
+<!--------------------------------------------内容部分---------------------------------------------->
+
+<div  class="main">
+<!---左侧导航--->
+<include file="Public:memberleft" />
+
+  <div id="centerm"><div id="content">
+
+<form class='editform' name="useredit" id="useredit" action="__APP__/member/do_member_edit" method="post" enctype="multipart/form-data">
+<table class="grid" cellspacing="1" align="center" width="650">
+<caption>
+会员资料修改
+</caption>
+<tbody>
+ <input name="user_id" id="user_id" value="<{$data['user_id']}>" type="hidden">
+<tr align="left" valign="middle">
+  <td class="odd" width="25%">用户名</td>
+  <td class="even"><{$Think.session.user_name}></td>
+</tr>
+<tr align="left" valign="middle">
+  <td class="odd" width="25%">昵称</td>
+  <td class="even"><input class="text" name="user_nicename" id="user_nicename" size="25" maxlength="39" value="<{$data.user_nicename}>" type="text" datatype="s3-10" nullmsg="用户名最少3位，最多10位！" errormsg="用户名最少3位，最多10位！"> <span class="Validform_checktip"></span></td>
+</tr>
+
+<tr align="left" valign="middle">
+  <td class="odd" width="25%">Email</td>
+  <td class="even"><input class="text" name="user_email" id="user_email" size="25" maxlength="60" value="<{$user_email}>" type="text" datatype="e" nullmsg="请填写正确的Email！" errormsg="请填写正确的Email！">
+   <span class="Validform_checktip"></span></td>
+</tr>
+<tr align="left" valign="middle">
+<td class="odd" width="25%">性别</td>
+<td class="even">
+<input class="radio" name="user_sex" value="1" <if condition="$data.user_sex eq 1">
+checked <else /> 
+</if> type="radio">男
+<input class="radio" name="user_sex" value="2" <if condition="$data.user_sex eq 2">
+checked <else /> 
+</if> type="radio">女
+<input name="user_sex"  type="radio" class="radio" value="0" <if condition="$data.user_sex eq 0">
+checked <else /> 
+</if> >保密
+</td></tr>
+
+<tr align="left" valign="middle">
+  <td class="odd" width="35%">个人简介</td>
+  <td class="even"><textarea class="textarea" name="user_info" id="user_info" rows="6" cols="60" ><{$data.user_info}></textarea></td>
+</tr>
+<tr align="left" valign="middle">
+  <td class="odd" width="30%">&nbsp;<input name="action" id="action" value="update" type="hidden"></td>
+  <td class="even"><input class="button" name="submit" id="submit" value="保 存" type="submit"></td>
+</tr>
+</tbody></table>
+</form></div>
+</div>
+
+</div>
+
+
+
+<!--foot底部部分--->
+<include file="Public:footer" />
+</body></html>

@@ -1,0 +1,236 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0038)http://www.cuiweiju.com/userdetail.php -->
+<html  xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>作者中心——听雨轩在线书城</title>
+
+<meta  name="keywords"  content="小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载">
+<meta  name="description"  content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！">
+<meta  name="author"  content="http://www.jieqi.com (jieqi cms)">
+<meta  name="copyright"  content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
+翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
+
+
+">
+<meta  name="generator"  content="jieqi.com">
+<link  rel="stylesheet"  rev="stylesheet"  href="__CSS__/style.css"  type="text/css"  media="all">
+<link  rel="stylesheet"  rev="stylesheet"  href="__CSS__/main.css"  type="text/css"  media="all">
+<script  language="javascript"  type="text/javascript"  src="__JS__/common.js"></script><style  type="text/css"></style>
+<script  language="javascript"  type="text/javascript"  src="__JS__/theme.js"></script>
+
+
+</head>
+<body>
+
+<!---头部部分--->
+
+
+<div  id="ptop">
+<div><span><?php echo showbar();?></span><a  href="book/index.php?charset=gbk">简体</a>|<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>|<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a></div>
+</div>
+
+<div id="phead" class="clearfix">
+	<h1><a href="/">听雨轩-中文原创文学书库</a></h1>
+	<a href="#" target="_blank" rel="nofollow"><img src="__IMG__/huan.gif" border="0" width="465" height="55"></a>
+    <ul><li><a href="#" target="_blank">新手必读手册</a></li>
+        <li><a href="#" target="_blank"><font color=red>免费领取翠微币活动</font></a></li>
+        <li><a href="#" target="_blank">举报低俗信息有奖</a></li>
+    </ul>
+</div>
+<div id="pmenu_bar">
+<div id="mynav">
+	<ul>
+ <?php echo showmenu();?>
+	
+    </ul>
+    </div>
+
+
+    <div class="type">
+   
+   <?php echo showcats();?>
+    </div>
+    <div class="dynamic">
+		<div class="m_quee" id="m_quee">
+		<dl class="dl_quee">
+
+
+
+<dd><a href="/userpage.php?uid=2979095" target="_blank"><em>a593913134</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126334.htm" target="_blank"><strong>《人生得意须纵欢》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=2282522" target="_blank"><em>咪咪姐</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125765.htm" target="_blank"><strong>《川蜀大军阀》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3141175" target="_blank"><em>dong1028</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125832.htm" target="_blank"><strong>《欲望之门》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3151348" target="_blank"><em>27611800</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/111/111082.htm" target="_blank"><strong>《君临战国》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=1850289" target="_blank"><em>lingmuqiang</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126990.htm" target="_blank"><strong>《都市后花园》</strong></a></dd>
+
+
+
+</dl>
+
+<script language="javascript" type="text/javascript">
+
+var Marquee1 = new Marquee("m_quee");
+
+	Marquee1.Direction = "top";
+
+	Marquee1.Step = 1;
+
+	Marquee1.Width = 580;
+
+	Marquee1.Height = 28;
+
+	Marquee1.ScrollStep = 28;
+
+	Marquee1.Timer = 30;
+
+	Marquee1.DelayTime = 3000;
+
+	Marquee1.WaitTime = 3000;
+
+	Marquee1.Start();
+
+</script>
+		</div>
+		<div class="m_sr">
+		<form name="articlesearch" method="post" action="/modules/article/search.php" target="_blank">
+    	<span><input name="searchkey" type="text" class="search_text"> <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	<input type="radio" class="radio" name="searchtype" value="author" />作者<input type="submit" class="search_submit" value=" "></span>
+		</form>
+		</div>
+    </div>
+</div>
+
+</div>
+
+<div  class="main">
+
+<div  id="left">
+
+<div  class="block">
+<div  class="blocktitle"><span>用户设置</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="http://www.cuiweiju.com/userdetail.php">个人首页</a></li>
+<li><a  href="http://www.cuiweiju.com/useredit.php">修改资料</a></li>
+<li><a  href="http://www.cuiweiju.com/setavatar.php">设置头像</a></li>
+<li><a  href="http://www.cuiweiju.com/passedit.php">修改密码</a></li>
+
+<li><a  href="http://www.cuiweiju.com/logout.php">退出登录</a></li>
+</ul></div>
+</div>
+
+<div  class="block">
+<div  class="blocktitle"><span>短消息</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="__APP__/letter/inbox">收件箱</a></li>
+<li><a  href="__APP__/letter/outbox">发件箱</a></li>
+<li><a  href="__APP__/letter/write">写新消息</a></li>
+<li><a  href="__APP__/letter/toadmin">写给管理员</a></li>
+</ul></div>
+</div>
+
+<div  class="block">
+<div  class="blocktitle"><span>工具箱</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="__APP__/book/booklist">我的小说</a></li>
+<li><a  href="__APP__/book/add">添加小说</a></li>
+<li><a  href="__APP__/book/add">更新章节</a></li>
+<li><a  href="http://www.cuiweiju.com/ptopics.php?uid=self">我的留言</a></li>
+<li><a  href="http://www.cuiweiju.com/modules/article/bookcase.php">我的书架</a></li>
+<li><a  href="http://www.cuiweiju.com/modules/obook/buylist.php">订阅记录</a></li>
+
+</ul></div>
+
+</div>
+  
+</div>
+  <div  id="centerm"><div  id="content">
+<div  class="mb_admin_show clearfix">
+                    <div  class="tip clear">你有<strong>0</strong>条未读的站内消息，也许是很重要的信息哦，快去[<a  href="http://www.cuiweiju.com/message.php?box=inbox">查看</a>]吧！</div>
+                    <div  class="avator">
+                        <span  class="ph"><img  src="__IMG__/noavatar.jpg"  class="avatar"  alt="头像"></span>
+                        <a  href="http://www.cuiweiju.com/setavatar.php">修改头像</a>
+                    </div>
+                    <div  class="info">
+                        <h3>angelstreet23</h3>
+                        <ul  class="clearfix">
+                        	<li  class="fl"><em>性别：</em><span>保密</span></li>
+                            <li  class="fl"><em>等级：</em><span>普通会员</span></li>
+                            <li  class="fl"><em>头衔：</em><span>新手上路</span></li>
+                            <li  class="fl"><em>积分：</em><span>20</span></li>
+                            <li  class="fl"><em>推荐票：</em><span>1</span></li>
+                            <li  class="fl"><em>月票：</em><span>0</span></li>
+							<li  class="fl"><em>鲜花：</em><span>0 &nbsp;<a  href="http://www.cuiweiju.com/modules/article/giftbuy.php?gift_type=flower">[购买]</a></span></li>
+							<li  class="fl"><em>鸡蛋：</em><span>0 &nbsp;<a  href="http://www.cuiweiju.com/modules/article/giftbuy.php?gift_type=egg">[购买]</a></span></li>
+                            <li><em>现余翠微币：</em><span>0 点  <a  href="http://www.cuiweiju.com/modules/pay/buyegold.php">[我要充值]</a></span></li>
+							<li><em>Email：</em><span>245629560@qq.com</span>  <span  class="hottext">&nbsp;&nbsp;未验证</span> <a  href="http://www.cuiweiju.com/useredit.php">[修改邮箱]</a> <a  href="http://www.cuiweiju.com/userdetail.php?verifyemail=1">[发验证邮件]</a> <span  class="hottext">（注意:验证成功后无法修改邮箱,为了保护你的账户安全,强烈建议验证邮箱!）</span></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+                <div  class="box3 mb_bkshelf">
+                	<div  class="back_wrap"  style=" border-top:1px solid #e7e7e7; float:none;">
+                 		 <h2><span  class="titile_bg">最近阅读小说</span></h2>
+                          <a  href="http://www.cuiweiju.com/modules/article/bookcase.php"  class="more">访问我的书架&gt;&gt;</a>
+                    </div>
+                    <div class="c_body clearfix">
+						<ul class="bk_list6">
+
+	<li class="clearfix">
+		<span class="fun_bt"><a href="http://www.cuiweiju.com/html/125/125370/index.html">立即阅读</a></span>
+        <a class="ph" href="/cwjinfo/125/125370.htm"><img src="http://www.cuiweiju.com/image/125/125370/125370s.jpg" /></a>
+        <span class="info">
+		<a href="/cwjinfo/125/125370.htm" class="name">江湖猎艳之韦小宝新传</a><em>[全本]</em><br>已撰写字数：2711768<br>最新章节：<a href="http://www.cuiweiju.com/html/125/125370/6650119.html">第十三章计收美女书童</a><br>更新时间：2014-03-26 21:28
+		</span>
+    </li>
+
+	<li class="clearfix">
+		<span class="fun_bt"><a href="http://www.cuiweiju.com/html/126/126804/index.html">立即阅读</a></span>
+        <a class="ph" href="/cwjinfo/126/126804.htm"><img src="http://www.cuiweiju.com/image/126/126804/126804s.jpg" /></a>
+        <span class="info">
+		<a href="/cwjinfo/126/126804.htm" class="name">离了，就别再找了</a><em>[连载]</em><br>已撰写字数：143187<br>最新章节：<a href="http://www.cuiweiju.com/html/126/126804/6700590.html">第三十三章 鸡飞蛋打</a><br>更新时间：2014-03-27 01:01
+		</span>
+    </li>
+
+	<li class="clearfix">
+		<span class="fun_bt"><a href="http://www.cuiweiju.com/html/125/125331/index.html">立即阅读</a></span>
+        <a class="ph" href="/cwjinfo/125/125331.htm"><img src="http://www.cuiweiju.com/image/125/125331/125331s.jpg" /></a>
+        <span class="info">
+		<a href="/cwjinfo/125/125331.htm" class="name">猎艳江湖</a><em>[全本]</em><br>已撰写字数：1801751<br>最新章节：<a href="http://www.cuiweiju.com/html/125/125331/6695074.html">推荐</a><br>更新时间：2014-03-26 22:53
+		</span>
+    </li>
+
+</ul>
+                        
+                    </div>
+                </div>
+</div>
+</div>
+
+</div>
+
+
+<!--foot底部部分--->
+
+<div class="cb"></div>
+<div id="pfoot">
+	<div class="foot_nav">
+    	<a href="__ROOT__/page">关于我们</a>|<a href="__ROOT__/page">联系我们</a>|<a href="__ROOT__/page">商务合作</a>|<a href="__ROOT__/links/add.html">申请链接</a>|<a href="__ROOT__/page">帮助中心</a>|<a href="__ROOT__/page">内容联盟</a>|<a href="__ROOT__/page">用户规则</a>|<a href="__ROOT__/admin.php/login">后台登录</a>
+    </div>
+    <p>请所有作者发布作品时务必遵守国家互联网信息管理办法规定，我们拒绝任何色情小说，一经发现，即作删除！<br />本站所收录作品、社区话题、书库评论及本站所做之广告均属其个人行为，与本站立场无关</p>
+    <p><a href="__ROOT__/" class="site_title">听雨轩在线书城</a>版权所有，本站所收录作品拒绝任何网站私自转载！ Copyright<span>&copy;</span> 2002-2014 京ICP备11032650号</p>
+    <div class="authority">
+    	<a href="#"><img src="__IMG__/wj.gif" /></a><a href="#"><img src="__IMG__/ppaa.gif" /></a>
+    </div>
+</div>
+
+
+</body></html>

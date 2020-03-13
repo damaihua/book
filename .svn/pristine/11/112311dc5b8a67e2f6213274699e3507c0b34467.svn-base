@@ -1,0 +1,114 @@
+[ 2014-04-11T09:41:21+08:00 ] 127.0.0.1 /book/index.php/book/rank.html
+ERR: 非法操作:rank
+
+[ 2014-04-11T14:38:37+08:00 ] 127.0.0.1 /book/index.php/bookinfo/comment
+ERR: 无法加载模块:Bookinfo
+
+[ 2014-04-11T14:38:56+08:00 ] 127.0.0.1 /book/index.php/bookInfo/comment
+ERR: 非法操作:comment
+
+[ 2014-04-11T14:39:14+08:00 ] 127.0.0.1 /book/index.php/bookinfo/comment
+ERR: 无法加载模块:Bookinfo
+
+[ 2014-04-11T14:39:38+08:00 ] 127.0.0.1 /book/index.php/bookinfo/
+ERR: 无法加载模块:Bookinfo
+
+[ 2014-04-11T14:40:51+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: 无法加载模块:BookInfo
+
+[ 2014-04-11T14:41:01+08:00 ] 127.0.0.1 /book/index.php/bookinfo/index/book_id/33
+ERR: 无法加载模块:Bookinfo
+
+[ 2014-04-11T14:43:00+08:00 ] 127.0.0.1 /book/index.php/bookinfo/index/book_id/33
+ERR: 无法加载模块:Bookinfo
+
+[ 2014-04-11T14:44:30+08:00 ] 127.0.0.1 /book/index.php/bookInfo/comment
+ERR: 非法操作:comment
+
+[ 2014-04-11T14:47:27+08:00 ] 127.0.0.1 /book/index.php/bookInfo/comment
+ERR: 非法操作:comment
+
+[ 2014-04-11T14:47:30+08:00 ] 127.0.0.1 /book/index.php/bookInfo/comment
+ERR: 非法操作:comment
+
+[ 2014-04-11T14:47:36+08:00 ] 127.0.0.1 /book/index.php/bookInfo/review
+ERR: 非法操作:review
+
+[ 2014-04-11T14:48:14+08:00 ] 127.0.0.1 /book/index.php/bookInfo/bookcom
+ERR: 非法操作:bookcom
+
+[ 2014-04-11T14:50:13+08:00 ] 127.0.0.1 /book/index.php/bookInfo/bookcom
+ERR: 非法操作:bookcom
+
+[ 2014-04-11T14:52:42+08:00 ] 127.0.0.1 /book/index.php/bookInfo/bookcom
+ERR: 非法操作:bookcom
+
+[ 2014-04-11T14:52:47+08:00 ] 127.0.0.1 /book/index.php/bookInfo/bookcom
+ERR: 非法操作:bookcom
+
+[ 2014-04-11T15:27:50+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: Model:relation您所请求的方法不存在！
+
+[ 2014-04-11T15:56:17+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name'] eq $book_info[0]['user_name']) OR ($_SESSION['user_name'] eq <{$vo.user_name}
+
+[ 2014-04-11T16:28:41+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name'])==(<{$vo.user_name}
+
+[ 2014-04-11T16:29:25+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:27+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:27+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:27+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:27+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:28+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:29+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:29+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:30+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:30+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:32+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:32+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:32+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:32+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:33+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:33+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:35+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:35+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+
+[ 2014-04-11T16:29:35+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: XML标签语法错误 : condition="($_SESSION['user_name']) == <{$vo.user_name}
+

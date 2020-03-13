@@ -1,0 +1,195 @@
+[ 2014-04-15T03:28:34+08:00 ] 127.0.0.1 /book/admin.php/database/index
+ERR: 模板不存在[./Admin/Tpl/default/Database/index.html]
+
+[ 2014-04-15T03:28:57+08:00 ] 127.0.0.1 /book/admin.php/database/index
+ERR: 模板不存在[./Admin/Tpl/default/Database/index.html]
+
+[ 2014-04-15T03:28:58+08:00 ] 127.0.0.1 /book/admin.php/database/index
+ERR: 模板不存在[./Admin/Tpl/default/Database/index.html]
+
+[ 2014-04-15T03:28:58+08:00 ] 127.0.0.1 /book/admin.php/database/index
+ERR: 模板不存在[./Admin/Tpl/default/Database/index.html]
+
+[ 2014-04-15T03:33:17+08:00 ] 127.0.0.1 /book/admin.php/Baksql/index
+ERR: Action:_initialize您所请求的方法不存在！
+
+[ 2014-04-15T03:33:18+08:00 ] 127.0.0.1 /book/admin.php/Baksql/index
+ERR: Action:_initialize您所请求的方法不存在！
+
+[ 2014-04-15T03:38:53+08:00 ] 127.0.0.1 /book/admin.php/database/index
+ERR: 模板不存在[./Admin/Tpl/default/Database/index.html]
+
+[ 2014-04-15T04:10:56+08:00 ] 127.0.0.1 /book/admin.php/score/score_reward
+ERR: 非法操作:score_reward
+
+[ 2014-04-15T04:11:11+08:00 ] 127.0.0.1 /book/admin.php/score/score_reward
+ERR: 非法操作:score_reward
+
+[ 2014-04-15T04:13:33+08:00 ] 127.0.0.1 /book/admin.php/score/score_reward
+ERR: 非法操作:score_reward
+
+[ 2014-04-15T04:13:54+08:00 ] 127.0.0.1 /book/admin.php/score/score_reward
+ERR: 非法操作:score_reward
+
+[ 2014-04-15T04:13:56+08:00 ] 127.0.0.1 /book/admin.php/score/score_reward
+ERR: 非法操作:score_reward
+
+[ 2014-04-15T04:23:47+08:00 ] 127.0.0.1 /book/admin.php/score/score_reward
+ERR: 非法操作:score_reward
+
+[ 2014-04-15T04:23:49+08:00 ] 127.0.0.1 /book/admin.php/score/score_reward
+ERR: 非法操作:score_reward
+
+[ 2014-04-15T04:24:13+08:00 ] 127.0.0.1 /book/admin.php/score/score_reward
+ERR: 非法操作:score_reward
+
+[ 2014-04-15T04:33:14+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:37:12+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:39:16+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:39:19+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:40:09+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:40:39+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:42:04+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:47:02+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:47:30+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:47:33+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:48:12+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:48:13+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:48:21+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:48:22+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:48:34+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:49:50+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:49:54+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:50:11+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:50:17+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:51:21+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:51:30+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:51:35+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:52:29+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:52:32+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:52:36+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:52:42+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:53:13+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:53:17+08:00 ] 127.0.0.1 /book/admin.php/score/score/score_role
+ERR: 非法操作:score
+
+[ 2014-04-15T04:53:48+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T04:53:55+08:00 ] 127.0.0.1 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T11:34:17+08:00 ] 192.168.60.108 /book/admin.php/admin/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T11:34:17+08:00 ] 192.168.60.108 /book/admin.php/admin/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T11:34:20+08:00 ] 192.168.60.108 /book/admin.php/admin/admin_send_letter
+ERR: 非法操作:admin_send_letter
+
+[ 2014-04-15T11:34:27+08:00 ] 192.168.60.108 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T11:35:14+08:00 ] 127.0.0.1 /book/admin.php/admin/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T11:35:22+08:00 ] 127.0.0.1 /book/admin.php/admin/admin_send_letter
+ERR: 非法操作:admin_send_letter
+
+[ 2014-04-15T11:36:07+08:00 ] 127.0.0.1 /book/admin.php/admin/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T11:38:58+08:00 ] 192.168.60.108 /book/admin.php/admin/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T11:39:01+08:00 ] 192.168.60.108 /book/admin.php/admin/admin_send_letter
+ERR: 非法操作:admin_send_letter
+
+[ 2014-04-15T11:39:07+08:00 ] 192.168.60.108 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T11:40:18+08:00 ] 192.168.60.108 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T11:40:23+08:00 ] 192.168.60.108 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T11:41:12+08:00 ] 192.168.60.108 /book/admin.php/admin/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T11:41:12+08:00 ] 192.168.60.108 /book/admin.php/admin/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T11:41:14+08:00 ] 192.168.60.108 /book/admin.php/admin/admin_send_letter
+ERR: 非法操作:admin_send_letter
+
+[ 2014-04-15T11:41:20+08:00 ] 192.168.60.108 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T13:13:21+08:00 ] 127.0.0.1 /book/admin.php/admin/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T13:13:23+08:00 ] 127.0.0.1 /book/admin.php/admin/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T14:45:49+08:00 ] 192.168.60.253 /book/admin.php/score/admin_add.html1_files/reset.css
+ERR: 非法操作:admin_add.html1_files
+
+[ 2014-04-15T14:54:59+08:00 ] 192.168.60.253 /book/admin.php/other/do_notice_add
+ERR: 非法操作:do_notice_add
+

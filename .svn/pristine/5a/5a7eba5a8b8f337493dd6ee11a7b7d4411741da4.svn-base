@@ -1,0 +1,197 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0038)http://www.cuiweiju.com/userdetail.php -->
+<html  xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>关于我们——听雨轩在线书城</title>
+
+<meta  name="keywords"  content="小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载">
+<meta  name="description"  content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！">
+<meta  name="author"  content="http://www.jieqi.com (jieqi cms)">
+<meta  name="copyright"  content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
+翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
+
+
+">
+<meta  name="generator"  content="jieqi.com">
+<link  rel="stylesheet"  rev="stylesheet"  href="__CSS__/style.css"  type="text/css"  media="all">
+<link  rel="stylesheet"  rev="stylesheet"  href="__CSS__/main.css"  type="text/css"  media="all">
+<script  language="javascript"  type="text/javascript"  src="__JS__/common.js"></script><style  type="text/css"></style>
+<script  language="javascript"  type="text/javascript"  src="__JS__/theme.js"></script>
+
+
+</head>
+<body>
+
+<!---头部部分--->
+
+
+<div  id="ptop">
+<div><span><?php echo showbar();?></span><a  href="book/index.php?charset=gbk">简体</a>|<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>|<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a></div>
+</div>
+
+<div id="phead" class="clearfix">
+	<h1><a href="/">听雨轩-中文原创文学书库</a></h1>
+	<a href="#" target="_blank" rel="nofollow"><img src="__IMG__/huan.gif" border="0" width="465" height="55"></a>
+    <ul><li><a href="#" target="_blank">新手必读手册</a></li>
+        <li><a href="#" target="_blank"><font color=red>免费领取翠微币活动</font></a></li>
+        <li><a href="#" target="_blank">举报低俗信息有奖</a></li>
+    </ul>
+</div>
+<div id="pmenu_bar">
+<div id="mynav">
+	<ul>
+ <?php echo showmenu();?>
+	
+    </ul>
+    </div>
+
+
+    <div class="type">
+   
+   <?php echo showcats();?>
+    </div>
+    <div class="dynamic">
+		<div class="m_quee" id="m_quee">
+		<dl class="dl_quee">
+
+
+
+<dd><a href="/userpage.php?uid=2979095" target="_blank"><em>a593913134</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126334.htm" target="_blank"><strong>《人生得意须纵欢》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=2282522" target="_blank"><em>咪咪姐</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125765.htm" target="_blank"><strong>《川蜀大军阀》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3141175" target="_blank"><em>dong1028</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125832.htm" target="_blank"><strong>《欲望之门》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3151348" target="_blank"><em>27611800</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/111/111082.htm" target="_blank"><strong>《君临战国》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=1850289" target="_blank"><em>lingmuqiang</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126990.htm" target="_blank"><strong>《都市后花园》</strong></a></dd>
+
+
+
+</dl>
+
+<script language="javascript" type="text/javascript">
+
+var Marquee1 = new Marquee("m_quee");
+
+	Marquee1.Direction = "top";
+
+	Marquee1.Step = 1;
+
+	Marquee1.Width = 580;
+
+	Marquee1.Height = 28;
+
+	Marquee1.ScrollStep = 28;
+
+	Marquee1.Timer = 30;
+
+	Marquee1.DelayTime = 3000;
+
+	Marquee1.WaitTime = 3000;
+
+	Marquee1.Start();
+
+</script>
+		</div>
+		<div class="m_sr">
+		<form name="articlesearch" method="post" action="/modules/article/search.php" target="_blank">
+    	<span><input name="searchkey" type="text" class="search_text"> <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	<input type="radio" class="radio" name="searchtype" value="author" />作者<input type="submit" class="search_submit" value=" "></span>
+		</form>
+		</div>
+    </div>
+</div>
+
+</div>
+
+<div  class="main">
+
+<div  id="left">
+
+<div  class="block">
+<div  class="blocktitle"><span>关于我们</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="http://www.cuiweiju.com/userdetail.php">网站介绍</a></li>
+<li><a  href="http://www.cuiweiju.com/useredit.php">团队介绍</a></li>
+<li><a  href="http://www.cuiweiju.com/setavatar.php">联系我们</a></li>
+
+</ul></div>
+</div>
+
+<div  class="block">
+<div  class="blocktitle"><span>服务条款</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="http://www.cuiweiju.com/message.php?box=inbox">用户协议</a></li>
+<li><a  href="http://www.cuiweiju.com/message.php?box=outbox">隐私策略</a></li>
+<li><a  href="http://www.cuiweiju.com/newmessage.php">法律声明</a></li>
+
+</ul></div>
+</div>
+
+<div  class="block">
+<div  class="blocktitle"><span>帮助中心</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="http://www.cuiweiju.com/myfriends.php">常见问题</a></li>
+<li><a  href="http://www.cuiweiju.com/ptopics.php?uid=self">签约流程</a></li>
+
+
+<li><a  href="http://www.cuiweiju.com/modules/article/bookcase.php">投稿流程</a></li>
+
+
+</ul></div>
+</div>
+  
+</div>
+  <div  id="centerm">
+	 <h2 class='pagetitle'>版权声明</h2>
+
+  <div class='pagecontent'>
+    <p align="\'left\'"><strong>本声明系为保证香网（www.xiang5.com）的正常运作、避免意外纠纷而设，其目的是为了向用户提供不间断的优质数字阅读服务。</strong></p>
+    <p align="\'left\'"><strong>因此，建议您在接受本站服务之前，请务必仔细阅读本条款。</strong></p>
+    <p align="\'left\'">1.无论是驻站作者原创的作品，还是由读者投稿或转载的文章，其版权均归原作者所有，所有使用必须事先征得原作者同意，若作者有版权声明的或文章从其他网站转载而附带有原所有站的版权声明者，其版权归属以附带声明为准。如有侵犯您的权利，请联系我们，本站立即处理。</p>
+    <p align="\'left\'" pt;\="pt;\"> </p>
+    <p align="\'left\'">2.本站原创作品、收录作品、社区话题、书库评论及均属发布者其个人行为，与本站立场无关，并不表示我们赞同文章中的观点，如果有某些文章侵犯了您的权益，请您和我们联系，我们会及时处理。</p>
+    <p align="\'left\'"> </p>
+    <p align="\'left\'">3.未经本站的明确许可，任何人不得转载、盗链本站作品；不得复制或仿造本网站。</p>
+    <p align="\'left\'"> </p>
+    <p align="\'left\'">4.如因作品内容、版权和其它问题需要同本网联系的，请在30日内进行。</p>
+    <p align="\'left\'"> </p>
+    <p align="\'left\'">5.本网站尊重他人之知识产权。如果您确认您的作品在本网站以某种方式被抄袭，并且该行为触犯了中国及国际版权法的，请向本网站做版权投诉并提供相关证明文件及理由，我们会及时处理。</p>
+    <p align="\'left\'" pt;\="pt;\"> </p>
+    <p align="\'left\'">6.除本网站注明之服务条款外：香网对本网站上所有内容（包括但不限于本网站上的信息、内容、材料或产品）的合法性、准确性、真实性、实用性和安全性，不提供任何形式的保证，亦不承担任何法律责任。</p>
+    <p align="\'left\'" pt;\="pt;\"> </p>
+    <p align="\'left\'">7.您仅有权按照本网站的明确说明和规定使用、浏览本网站相关服务或页面。未经香网或相关权利人明确书面许可，不得对本网站任何组成部分（包括作品页面、 作品段落、作品内容等）进行修改、分发、再造、复制、抄袭、交易、转载等。如果本站确定您的行为违法或有损本网站和他人的利益，将保留包括但不限于拒绝提 供服务、删除用户帐户、提起诉讼的权利。</p>
+    <p align="\'left\'" pt;\="pt;\"> </p>
+    <p align="\'left\'">8.本声明未涉及的问题参见国家有关法律法规，当本声明与国家法律法规冲突时，以国家法律法规为准。本声明的修改及更新权均属于香网所有。</p>
+  </div>
+    
+
+  </div>
+</div>
+
+</div>
+
+
+<!--foot底部部分--->
+
+<div class="cb"></div>
+<div id="pfoot">
+	<div class="foot_nav">
+    	<a href="__ROOT__/page">关于我们</a>|<a href="__ROOT__/page">联系我们</a>|<a href="__ROOT__/page">商务合作</a>|<a href="__ROOT__/links/add.html">申请链接</a>|<a href="__ROOT__/page">帮助中心</a>|<a href="__ROOT__/page">内容联盟</a>|<a href="__ROOT__/page">用户规则</a>|<a href="__ROOT__/admin.php/login">后台登录</a>
+    </div>
+    <p>请所有作者发布作品时务必遵守国家互联网信息管理办法规定，我们拒绝任何色情小说，一经发现，即作删除！<br />本站所收录作品、社区话题、书库评论及本站所做之广告均属其个人行为，与本站立场无关</p>
+    <p><a href="__ROOT__/" class="site_title">听雨轩在线书城</a>版权所有，本站所收录作品拒绝任何网站私自转载！ Copyright<span>&copy;</span> 2002-2014 京ICP备11032650号</p>
+    <div class="authority">
+    	<a href="#"><img src="__IMG__/wj.gif" /></a><a href="#"><img src="__IMG__/ppaa.gif" /></a>
+    </div>
+</div>
+
+
+</body></html>

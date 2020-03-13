@@ -1,0 +1,20 @@
+<?php
+// 本类由系统自动生成，仅供测试用途
+class IndexAction extends CheckAction {
+    public function index(){
+    	$this->display();
+    }
+    //左侧菜单页面
+    public function index_menu(){
+        $admin_name=session('admin_name');
+        $this->assign('admin_name',$admin_name);
+    	$this->display();
+        
+    }
+    //右侧默认页面
+    public function index_body(){
+  
+    	$this->display();
+    }
+
+}

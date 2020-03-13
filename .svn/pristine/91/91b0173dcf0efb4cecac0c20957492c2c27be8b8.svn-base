@@ -1,0 +1,72 @@
+<?php
+//公用显示登录状态栏方法
+function showbar(){
+        $letter=D('Letter');
+        $num=$letter->noReadNum();
+        if(!session('user_name')){
+        	$bar="<a href='__MEMBER__/reg'>我要注册</a>|<a href='__MEMBER__/login'>立即登录</a>";        	
+        }else{
+        	$user_name=session('user_name');
+            if($num==0){
+               $bar="<strong>$user_name</strong> | <a href='__APP__/letter/inbox'>短消息<b>(0)</b></a> <a href='__APP__/member/index'><b class='hottext'>邮箱未验证</b></a> | <a href='__APP__/book/collect'>收藏夹</a> | <a href='__APP__/member/index'>用户面板</a> | <a href='__MEMBER__/loginout'>退出</a>";         
+            }else{
+                $bar="<strong>$user_name</strong> | <a href='__APP__/letter/inbox'>短消息<b class='hottext'>($num)</b></a> <a href='/userdetail.php'><b class='hottext'>邮箱未验证</b></a> | <a href='__APP__/book/collect'>收藏夹</a> |  <a href='__APP__/member/index'>用户面板</a> | <a href='__MEMBER__/loginout'>退出</a>";        
+            }
+        		
+        }
+       return $bar;
+
+    }
+//公用显示分类方法
+function showcats(){
+        $cats=D('Cats');
+        $data=$cats->where('type=0 and status=1')->order('ordernum asc')->select();
+        foreach ($data as $value) {
+        	$catlist.='<a href="#">'.$value['cat_name'].'</a>┊';
+        }        
+        return rtrim("$catlist",'|');
+    }
+//公用显示菜单方法
+function showmenu(){
+        $menu=D('Menu');
+        $data=$menu->where('status=1')->order('ordernum asc')->limit(7)->select();
+        $catlist='<li><a href="__ROOT__">首页</a></li>';
+        foreach ($data as $value) {
+        	$catlist.='<li><a href="__ROOT__'.$value['url'].'">'.$value['name'].'</a></li>';
+        }        
+        return $catlist.'<li><a href="__ROOT__/bbs/">书友论坛</a></li>';
+    }
+
+/**********
+ * 发送邮件 *
+ **********/
+function SendMail($address,$title,$message){
+    vendor('PHPMailer.class#phpmailer');
+
+    $mail=new PHPMailer();          
+    // 设置PHPMailer使用SMTP服务器发送Email
+    $mail->IsSMTP();                
+    // 设置邮件的字符编码，若不指定，则为'UTF-8'
+    $mail->CharSet='UTF-8';         
+    // 添加收件人地址，可以多次使用来添加多个收件人
+    $mail->AddAddress($address);    
+    // 设置邮件正文
+    $mail->Body=$message;           
+    // 设置邮件头的From字段。
+    $mail->From=C('MAIL_ADDRESS');  
+    // 设置发件人名字
+    $mail->FromName='XXX网团队';  
+    // 设置邮件标题
+    $mail->Subject=$title;          
+    // 设置SMTP服务器。
+    $mail->Host=C('MAIL_SMTP');     
+    // 设置为"需要验证" ThinkPHP 的C方法读取配置文件
+    $mail->SMTPAuth=true;           
+    // 设置用户名和密码。
+    $mail->Username=C('MAIL_LOGINNAME');
+    $mail->Password=C('MAIL_PASSWORD'); 
+    // 发送邮件。
+    return($mail->Send());
+    }
+
+?>

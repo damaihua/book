@@ -1,0 +1,46 @@
+<?php
+// 本类由系统自动生成，仅供测试用途
+class MemberAction extends PublicAction {
+    public function index(){
+        $this->islogin();
+    	$this->display();
+    }
+    //会员列表页面
+    public function member_main(){
+        $this->islogin();
+    
+    	$this->display();
+        
+    }
+    //会员信箱页面
+    public function letter_main(){
+        $this->islogin();
+        $letter=M('letter');
+        // 导入分页类
+        import('ORG.Util.Page');
+        // 查询满足要求的总记录数
+        $count = $letter->count();
+        // 实例化分页类 传入总记录数和每页显示的记录数
+        $Page = new Page($count,10);
+        // 分页显示输出
+        $show = $Page->show();
+
+
+        $data=$letter->order('time desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+        $this->assign('data',$data);
+        // 赋值分页输出
+        $this->assign('page',$show);
+    	$this->display();
+    }
+    //删除会员短信方法
+    public function letter_del(){
+        $id=$_GET['id'];
+        $letter=D('Letter');
+        if($letter->delete($id)){
+            $this->success('短信删除成功');
+        }else{
+            $this->error('短信删除失败');
+        }
+    }
+
+}

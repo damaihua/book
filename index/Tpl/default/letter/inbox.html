@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>收信箱--<{$Think.SITE_NAME}></title>
+<meta name="keywords" content="<{$Think.SITE_KEYWORDS}>" />
+<meta name="description" content="<{$Think.SITE_DESCRIPT}>" />
+
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/scripts/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
+</script>
+<![endif]-->
+
+</head>
+<body>
+<!---头部部分--->
+<include file="Public:header" />
+<div class="main">
+<div  class="main">
+<!---左侧导航--->
+<include file="Public:memberleft" />
+  <div id="centerm"><div id="content">
+<form action="" method="post" name="checkform" id="checkform">
+<table class="grid" width="100%" align="center">
+<caption>收件箱</caption>
+  <tr>
+    <th width="5%">
+	<input type="checkbox" id="checkall" name="checkall" value="checkall" onclick="javascript: for(var i=0;i<this.form.elements.length;i++){ if(this.form.elements[i].name != 'checkkall') this.form.elements[i].checked = this.form.checkall.checked; }"></th>
+    <th width="20%">发件人</th>
+    <th width="60%">标题</th>
+    <th width="15%">日期</th>
+  </tr>
+
+<foreach name="data" item="vo">
+  <tr>
+    <td class="odd" align="center">
+		<input type="checkbox" id="checkid[]" name="checkid[]" value="1843141">
+	</td>
+    <td class="even">
+		<span class="hottext"><{$vo.user_name}></span>
+	</td>
+    <td class="odd">
+		<a href="__URL__/detail/letter_id/<{$vo.letter_id}>"					style="color:<{$vo[status]?$colorA:$colorB}>">
+			<{$vo.letter_title}>
+			<span><{$vo['status']?$staB:$staA}></span>
+		</a>
+	</td>
+    <td class="even" align="center"><{$vo.time|date="Y-m-d",###}></td>
+  </tr>
+</foreach>
+  <tr>
+    <td colspan="4" class="foot">&nbsp;
+		<input type="button" name="allcheck" value="全部选中" class="button" 
+			onclick="javascript: for (var i=0;i<this.form.elements.length;i++){										this.form.elements[i].checked = true; }">&nbsp;&nbsp;
+		<input type="button" name="nocheck" value="全部取消" class="button" 
+			onclick="javascript: for (var i=0;i<this.form.elements.length;i++){										this.form.elements[i].checked = false; }">&nbsp;&nbsp;
+		<input type="button" name="delcheck" value="删除选中记录" class="button"						onclick="javascript:if(confirm('确实要删除选中记录么？')){														this.form.checkaction.value='1'; this.form.submit();}">&nbsp;&nbsp;
+		<input type="button" name="delall" value="清空所有记录" class="button"								onclick="javascript:if(confirm('确实要清空所有记录么																？'))document.location='/message.php?box=outbox&checkaction=2'">
+		<input name="checkaction" type="hidden" id="checkaction" value="0">
+	</td>
+  </tr>
+</table>
+</form>
+<div class="pages">
+	<div class="pagelink" id="pagelink"><em id="pagestats">1/1</em>
+	<a href="/message.php?box=outbox&page=1" class="first">1</a>
+	<a href="/message.php?box=outbox&page=1"
+	class="pgroup">&lt;&lt;</a><strong>1</strong>
+	<a href="/message.php?box=outbox&page=1" class="ngroup">&gt;&gt;</a>
+	<a href="/message.php?box=outbox&page=1" class="last">1</a><kbd>
+	<input name="page" type="text" size="4" maxlength="6" onkeydown="if(event.keyCode==13){window.location='/message.php?box=outbox&page='+this.value; return false;}" /></kbd>
+</div></div>
+
+</div>
+</div>
+
+</div>
+
+
+
+<!--foot底部部分--->
+<include file="Public:footer" />
+
+</body>
+
+</html>

@@ -1,0 +1,1909 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>在线书库——听雨轩在线书城</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载" />
+<meta name="description" content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！" />
+<meta name="author" content="http://www.jieqi.com (jieqi cms)" />
+<meta name="copyright" content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
+
+翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
+
+
+
+
+
+" />
+<meta name="generator" content="jieqi.com" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="__JS__/dd_belatedpng.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
+</script>
+<![endif]-->
+
+</head>
+<body>
+<!---头部部分--->
+
+
+<div  id="ptop">
+<div><span><?php echo showbar();?></span><a  href="book/index.php?charset=gbk">简体</a>|<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>|<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a></div>
+</div>
+
+<div id="phead" class="clearfix">
+	<h1><a href="/">听雨轩-中文原创文学书库</a></h1>
+	<a href="#" target="_blank" rel="nofollow"><img src="__IMG__/huan.gif" border="0" width="465" height="55"></a>
+    <ul><li><a href="#" target="_blank">新手必读手册</a></li>
+        <li><a href="#" target="_blank"><font color=red>免费领取翠微币活动</font></a></li>
+        <li><a href="#" target="_blank">举报低俗信息有奖</a></li>
+    </ul>
+</div>
+<div id="pmenu_bar">
+<div id="mynav">
+	<ul>
+ <?php echo showmenu();?>
+	
+    </ul>
+    </div>
+
+
+    <div class="type">
+   
+   <?php echo showcats();?>
+    </div>
+    <div class="dynamic">
+		<div class="m_quee" id="m_quee">
+		<dl class="dl_quee">
+
+
+
+<dd><a href="/userpage.php?uid=2979095" target="_blank"><em>a593913134</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126334.htm" target="_blank"><strong>《人生得意须纵欢》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=2282522" target="_blank"><em>咪咪姐</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125765.htm" target="_blank"><strong>《川蜀大军阀》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3141175" target="_blank"><em>dong1028</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125832.htm" target="_blank"><strong>《欲望之门》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3151348" target="_blank"><em>27611800</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/111/111082.htm" target="_blank"><strong>《君临战国》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=1850289" target="_blank"><em>lingmuqiang</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126990.htm" target="_blank"><strong>《都市后花园》</strong></a></dd>
+
+
+
+</dl>
+
+<script language="javascript" type="text/javascript">
+
+var Marquee1 = new Marquee("m_quee");
+
+	Marquee1.Direction = "top";
+
+	Marquee1.Step = 1;
+
+	Marquee1.Width = 580;
+
+	Marquee1.Height = 28;
+
+	Marquee1.ScrollStep = 28;
+
+	Marquee1.Timer = 30;
+
+	Marquee1.DelayTime = 3000;
+
+	Marquee1.WaitTime = 3000;
+
+	Marquee1.Start();
+
+</script>
+		</div>
+		<div class="m_sr">
+		<form name="articlesearch" method="post" action="/modules/article/search.php" target="_blank">
+    	<span><input name="searchkey" type="text" class="search_text"> <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	<input type="radio" class="radio" name="searchtype" value="author" />作者<input type="submit" class="search_submit" value=" "></span>
+		</form>
+		</div>
+    </div>
+</div>
+
+</div>
+
+<!--------------------------------------------内容部分---------------------------------------------->
+
+
+
+
+
+<div class="main">
+
+<table width="100%" class="grid" cellspacing="1" align="center" style="margin-bottom:5px;">
+
+<caption>筛选条件</caption>
+
+<tr valign="middle" align="left">
+
+  <td class="tdl" width="80"><strong>作品大类：</strong></td>
+
+  <td class="tdr">
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate" class="hottext"><strong>全部</strong></a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&sortid=1">玄幻奇幻</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&sortid=2">都市官场</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&sortid=3">武侠同人</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&sortid=4">言情耽美</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&sortid=5">仙侠修真</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&sortid=6">历史军事</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&sortid=7">游戏竞技</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&sortid=8">科幻灵异</a>&nbsp;
+
+  
+
+  
+
+  
+
+  </td>
+
+</tr>
+
+<tr valign="middle" align="left">
+
+  <td class="tdl"><strong>作品标签：</strong></td>
+
+  <td class="tdr">
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate" class="hottext"><strong>不限</strong></a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=121">种马</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=8">后宫</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=1643">艳情</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=313">香艳</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=198">爽文</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=4">后宫佳丽</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=24">穿越</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=76">都市</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=98">美女</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=222">全收</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=571">yy</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=214">暧昧</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=535">丝袜</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=26">风流</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=1874">YD</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=7">爱情</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=219">热血</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=1884">令狐冲</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=73">流氓</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&tagid=411">异能</a>&nbsp;
+
+  
+
+  
+
+  </td>
+
+</tr>
+
+<tr valign="middle" align="left">
+
+  <td class="tdl"><strong>作品字数：</strong></td>
+
+  <td class="tdr">
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate" class="hottext"><strong>不限</strong></a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&size=1">30万以下</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&size=2">30-50万</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&size=3">50-100万</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&size=4">100-200万</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&size=5">200万以上</a>&nbsp;
+
+  
+
+  
+
+  </td>
+
+</tr>
+
+<tr valign="middle" align="left">
+
+  <td class="tdl"><strong>写作进度：</strong></td>
+
+  <td class="tdr">
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate" class="hottext"><strong>不限</strong></a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&progress=0">新书上传</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&progress=1">情节展开</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&progress=2">精彩纷呈</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&progress=3">接近尾声</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&progress=4">已经完本</a>&nbsp;
+
+  
+
+  
+
+  </td>
+
+</tr>
+
+<tr valign="middle" align="left">
+
+  <td class="tdl"><strong>排序方式：</strong></td>
+
+  <td class="tdr">
+
+    <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate" class="hottext"><strong>不限</strong></a>&nbsp;
+
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=weekvisit">周点击</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=monthvisit">月点击</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=allvisit">总点击</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=weekvote">周推荐</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=monthvote">月推荐</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=allvote">总推荐</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=weekflower">周鲜花</a>&nbsp;
+
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=monthvipvote">月票榜</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=weeksale">周销售</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=monthsale">月销售</a>&nbsp;
+
+  
+
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=size">总字数</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=goodnum">总收藏</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate" >更新时间</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=postdate">入库时间</a>&nbsp;
+
+  
+
+  
+
+  </td>
+
+</tr>
+
+<tr valign="middle" align="left">
+
+  <td class="tdl"><strong>更新时间：</strong></td>
+
+  <td class="tdr">
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate" class="hottext"><strong>不限</strong></a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&update=1">三日内</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&update=2">七日内</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&update=3">半月内</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&update=4">一月内</a>&nbsp;
+
+  
+
+  
+
+  </td>
+
+</tr>
+
+<tr valign="middle" align="left">
+
+  <td class="tdl"><strong>书名首字母：</strong></td>
+
+  <td class="tdr">
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate" class="hottext"><strong>不限</strong></a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=A">[A]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=B">[B]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=C">[C]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=D">[D]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=E">[E]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=F">[F]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=G">[G]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=H">[H]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=I">[I]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=J">[J]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=K">[K]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=L">[L]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=M">[M]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=N">[N]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=O">[O]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=P">[P]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=Q">[Q]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=R">[R]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=S">[S]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=T">[T]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=U">[U]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=V">[V]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=W">[W]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=X">[X]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=Y">[Y]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=Z">[Z]</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&initial=1">[1]</a>&nbsp;
+
+  
+
+  
+
+  </td>
+
+</tr>
+
+<tr valign="middle" align="left">
+
+  <td class="tdl"><strong>其他选项：</strong></td>
+
+  <td class="tdr">
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate" class="hottext"><strong>不限</strong></a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&other=1">只看免费作品</a>&nbsp;
+
+  
+
+  
+
+  
+
+  <a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&other=2">只看vip作品</a>&nbsp;
+
+  
+
+  
+
+  </td>
+
+</tr>
+
+</table>
+
+<table class="grid" width="100%" align="center">
+
+<caption>作品列表</caption>
+
+  <tr align="center">
+
+    <th width="20%">小说名称</th>
+
+    <th width="40%">最新章节</th>
+
+    <th width="15%">作者</th>
+
+	<th width="9%">字数</th>
+
+    <th width="10%">更新</th>
+
+    <th width="6%">状态</th>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127183.htm">李宫俊的诗系列</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127183/index.html" target="_blank"> 《李宫俊的诗》第一百零七季</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3136702" target="_blank">李宫俊</a></td>
+
+	<td class="even">27K</td>
+
+    <td class="odd" align="center">2013-10-17</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127127.htm">西游志</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127127/index.html" target="_blank">三藏法师 三藏法师第十四话： 杀妻 上</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3127858" target="_blank">wangyunlongking</a></td>
+
+	<td class="even">73K</td>
+
+    <td class="odd" align="center">2013-10-17</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126334.htm">人生得意须纵欢</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126334/index.html" target="_blank">第三卷 京城湿意 708章 李家姐妹一起来5</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2997960" target="_blank">baichi83</a></td>
+
+	<td class="even">3040K</td>
+
+    <td class="odd" align="center">2013-10-17</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/124/124116.htm">我用水为你做衣裳</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/124/124116/index.html" target="_blank">新婚燕尔 4.良辰美景奈何天</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2767492" target="_blank">幸然是我</a></td>
+
+	<td class="even">22K</td>
+
+    <td class="odd" align="center">2013-10-17</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127164.htm">禁忌之旅</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127164/index.html" target="_blank">第三卷 赴帝都，绝美娘亲 第41章 五位公主姐姐（一）</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3124128" target="_blank">陌小神</a></td>
+
+	<td class="even">125K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/125/125780.htm">丑鬼猎艳录</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/125/125780/index.html" target="_blank">二 第064章 该当何罪</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3009749" target="_blank">skybo</a></td>
+
+	<td class="even">211K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/122/122973.htm">御女天下</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/122/122973/index.html" target="_blank">卷二豪门荡妇 第283章情不自禁的岳母</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2282272" target="_blank">艳海风波</a></td>
+
+	<td class="even">1168K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127315.htm">笨鸟先飞</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127315/index.html" target="_blank">第一卷〔笨鸟当自强〕 第五章〔离奇迷路〕</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3153348" target="_blank">小不那么黑</a></td>
+
+	<td class="even">6K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/125/125813.htm">结界之传奇</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/125/125813/index.html" target="_blank">第五卷 再谋出路 第二百八十四章 记忆源头</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3006594" target="_blank">亦水</a></td>
+
+	<td class="even">780K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127319.htm">流逝</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127319/index.html" target="_blank"> 第一章&nbsp;&nbsp;引</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3153365" target="_blank">旈灆曦</a></td>
+
+	<td class="even">1K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127318.htm">时过半夏</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127318/index.html" target="_blank"> 第一章&nbsp;&nbsp; 春</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3153365" target="_blank">旈灆曦</a></td>
+
+	<td class="even">2K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127209.htm">情魔艳史</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127209/index.html" target="_blank">第一卷 与美女师父偷情 第五章</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=1824712" target="_blank">平价超市</a></td>
+
+	<td class="even">29K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127201.htm">山村兽医风流</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127201/index.html" target="_blank"> 第 44 章 一命换一命</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3139574" target="_blank">江畔独步寻花</a></td>
+
+	<td class="even">76K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127182.htm">朝廷鹰犬</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127182/index.html" target="_blank"> 第三十二章： 地牢春色</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3132405" target="_blank">女侠饶命</a></td>
+
+	<td class="even">67K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127156.htm">我的灿烂原始生活</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127156/index.html" target="_blank"> 第四十四章·苏小雨狩猎</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3124565" target="_blank">浅尾鱼</a></td>
+
+	<td class="even">48K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126612.htm">官路：春色满园</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126612/index.html" target="_blank"> 第一百章零一章&nbsp;&nbsp;你来接我吧</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2148959" target="_blank">滇南小子</a></td>
+
+	<td class="even">312K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126163.htm">小女子</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126163/index.html" target="_blank"> 第二部第二章 我的未婚妻</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3031976" target="_blank">子吻</a></td>
+
+	<td class="even">166K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126116.htm">西游春色后宫</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126116/index.html" target="_blank">正文 第二册 春梦有痕 第十三章</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=1885096" target="_blank">风云三国</a></td>
+
+	<td class="even">102K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/125/125769.htm">欲界</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/125/125769/index.html" target="_blank">欲魔降生 第十一章 家族会议</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2972568" target="_blank">平生一滴泪</a></td>
+
+	<td class="even">13K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/107/107919.htm">福艳之都市后宫</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/107/107919/index.html" target="_blank"> 第908章 绝美韩雪、韩芸</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2089307" target="_blank">零魂羽</a></td>
+
+	<td class="even">3123K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127296.htm">御女成仙</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127296/index.html" target="_blank">第一卷：攻略姐姐之坤鼎 第十六章 江离的家世</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2139337" target="_blank">牛马不相及</a></td>
+
+	<td class="even">39K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/24/24200.htm">只想诱惑你</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/24/24200/index.html" target="_blank">只想诱惑你 第三百三十章&nbsp;&nbsp;爱情转移</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=820590" target="_blank">只想诱惑你hjr</a></td>
+
+	<td class="even">675K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126754.htm">风月都市后宫录</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126754/index.html" target="_blank"> 第一百五十章到第一百六十章合集</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2889902" target="_blank">萧大帅</a></td>
+
+	<td class="even">618K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/124/124918.htm">洪荒少年猎艳录</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/124/124918/index.html" target="_blank">第四卷&nbsp;&nbsp;重生都市篇 第三百一十五章&nbsp;&nbsp;美艳教师刘诗诗（求月票）</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2937812" target="_blank">天地23</a></td>
+
+	<td class="even">2997K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126785.htm">豪门风流史</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126785/index.html" target="_blank"> 一百二十九&nbsp;&nbsp;则天，你能不能留下来陪我</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3102931" target="_blank">邪性良民</a></td>
+
+	<td class="even">295K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126466.htm">《北京之恋》</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126466/index.html" target="_blank">第四卷：关于心态 一百一十九章&nbsp;&nbsp;也只能如此了</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3015124" target="_blank">夏园园</a></td>
+
+	<td class="even">523K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/111/111082.htm">君临战国</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/111/111082/index.html" target="_blank">第三十三卷 开拓北疆 第七百七十一章 壁垒攻坚战</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=821958" target="_blank">龙竹</a></td>
+
+	<td class="even">1795K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126707.htm">冒牌姐夫</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126707/index.html" target="_blank">第二卷 史上最强姐夫 第一百一十四章 岳凯的背后</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3093770" target="_blank">浮殇若梦</a></td>
+
+	<td class="even">693K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127314.htm">男老师和女学生</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127314/index.html" target="_blank"> 第二章 难忘的老师</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3132832" target="_blank">虫下清</a></td>
+
+	<td class="even">7K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127250.htm">官商风流史</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127250/index.html" target="_blank">第一卷 从官场被放逐 第034章&nbsp;&nbsp;杨氏双姝</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3143778" target="_blank">墙脚君</a></td>
+
+	<td class="even">68K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127241.htm">创造动漫后宫</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127241/index.html" target="_blank"> 各位朋友对不起啦。。。我从现在开始存下来，从现在开始请假</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3143127" target="_blank">噬魂一情</a></td>
+
+	<td class="even">22K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127203.htm">邪霸都市</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127203/index.html" target="_blank"> 第十五章 李媛媛的心理变化</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3129802" target="_blank">踏断繁华</a></td>
+
+	<td class="even">44K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127192.htm">初恋的味道</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127192/index.html" target="_blank"> 第32章 羽大攻发烧了</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3137737" target="_blank">图画怀念</a></td>
+
+	<td class="even">104K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127095.htm">圣女师娘</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127095/index.html" target="_blank"> 合集（1-36） 需要的才订不需要不订</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3074077" target="_blank">红莲弓矢</a></td>
+
+	<td class="even">80K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/127/127049.htm">神御</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/127/127049/index.html" target="_blank"> 第五十四章融雪！</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3124644" target="_blank">没事就犯懵</a></td>
+
+	<td class="even">177K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126914.htm">英雄联盟之决战巅峰</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126914/index.html" target="_blank">第二卷&nbsp;&nbsp;雷霆学院 第三十七章&nbsp;&nbsp;模拟考核</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3107346" target="_blank">裤裆下的风光</a></td>
+
+	<td class="even">100K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126814.htm">乡村欲爱</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126814/index.html" target="_blank"> 第65章 女上男下</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=1064562" target="_blank">易天下</a></td>
+
+	<td class="even">141K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126564.htm">桃色花医</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126564/index.html" target="_blank"> 第二百六十五章　我的爱妻们</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2860455" target="_blank">童鞋真好</a></td>
+
+	<td class="even">863K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126006.htm">剑录：情殇</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126006/index.html" target="_blank">灰色剑影（下） 第一百一十八章</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3028697" target="_blank">风逆</a></td>
+
+	<td class="even">426K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126052.htm">剑录：逆路问道</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126052/index.html" target="_blank">第二十章 佣兵天下 第一百五十八节</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3028697" target="_blank">风逆</a></td>
+
+	<td class="even">613K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/125/125763.htm">厂花情缘</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/125/125763/index.html" target="_blank"> 第一百八十七章　两位嫂子的心情</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2860455" target="_blank">童鞋真好</a></td>
+
+	<td class="even">577K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">全本</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/125/125480.htm">舞生之梦</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/125/125480/index.html" target="_blank"> 第一百六十五章&nbsp;&nbsp;奇妙的气息</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2982001" target="_blank">隐式桀骜</a></td>
+
+	<td class="even">562K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/125/125204.htm">穿越风流之情深深雨蒙蒙</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/125/125204/index.html" target="_blank"> 第三百零五章&nbsp;&nbsp;全面整顿</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2961964" target="_blank">潇洒六子</a></td>
+
+	<td class="even">1271K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/124/124993.htm">超时空新中华</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/124/124993/index.html" target="_blank">第二部 夺鼎华洲 352南洋大婚3</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2944218" target="_blank">gaoxuantian</a></td>
+
+	<td class="even">1180K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/124/124763.htm">天下第一风流</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/124/124763/index.html" target="_blank">小李飞刀篇 第三百二十五章 林诗音</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2927314" target="_blank">封啸</a></td>
+
+	<td class="even">1226K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/124/124471.htm">浪荡在明朝乡村</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/124/124471/index.html" target="_blank">第一卷 第十六章 童年玩伴深夜欢</a></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2900769" target="_blank">叶其</a></td>
+
+	<td class="even">36K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/111/111015.htm">神鹰帝国</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/111/111015/index.html" target="_blank">卷六 第2章 功亏一篑</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2840927" target="_blank">九重天</a></td>
+
+	<td class="even">4341K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/125/125657.htm">征服都市</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/125/125657/index.html" target="_blank"> 第173章 出事</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2904365" target="_blank">才子风流</a></td>
+
+	<td class="even">1236K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/124/124362.htm">风流王</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/124/124362/index.html" target="_blank"> 第462章 废了你老二！</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=2904365" target="_blank">才子风流</a></td>
+
+	<td class="even">4064K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+  <tr>
+
+    <td class="odd"><a href="/cwjinfo/126/126524.htm">被包养的小农民</a></td>
+
+    <td class="even"><a href="http://www.cuiweiju.com/html/126/126524/index.html" target="_blank">第三卷 纠缠 37、捕鸟治病(1)</a><span class="hottext">[vip]</span></td>
+
+    <td class="odd"><a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3077382" target="_blank">linsheng168</a></td>
+
+	<td class="even">358K</td>
+
+    <td class="odd" align="center">2013-10-16</td>
+
+    <td class="even" align="center">连载</td>
+
+  </tr>
+
+  
+
+</table>
+
+<div class="pages"><div class="pagelink" id="pagelink"><em id="pagestats">1/10</em><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=1" class="first">1</a><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=1" class="pgroup">&lt;&lt;</a><strong>1</strong><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=2">2</a><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=3">3</a><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=4">4</a><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=5">5</a><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=6">6</a><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=7">7</a><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=8">8</a><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=9">9</a><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=10">10</a><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=2" class="next">&gt;</a><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=10" class="ngroup">&gt;&gt;</a><a href="/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page=10" class="last">10</a><kbd><input name="page" type="text" size="4" maxlength="6" onkeydown="if(event.keyCode==13){window.location='/modules/article/articlefilter.php?charset=utf-8&order=lastupdate&page='+this.value; return false;}" /></kbd></div></div></div>
+
+
+
+<!--foot底部部分--->
+
+<div class="cb"></div>
+<div id="pfoot">
+	<div class="foot_nav">
+    	<a href="__ROOT__/page">关于我们</a>|<a href="__ROOT__/page">联系我们</a>|<a href="__ROOT__/page">商务合作</a>|<a href="__ROOT__/links/add.html">申请链接</a>|<a href="__ROOT__/page">帮助中心</a>|<a href="__ROOT__/page">内容联盟</a>|<a href="__ROOT__/page">用户规则</a>|<a href="__ROOT__/admin.php/login">后台登录</a>
+    </div>
+    <p>请所有作者发布作品时务必遵守国家互联网信息管理办法规定，我们拒绝任何色情小说，一经发现，即作删除！<br />本站所收录作品、社区话题、书库评论及本站所做之广告均属其个人行为，与本站立场无关</p>
+    <p><a href="__ROOT__/" class="site_title">听雨轩在线书城</a>版权所有，本站所收录作品拒绝任何网站私自转载！ Copyright<span>&copy;</span> 2002-2014 京ICP备11032650号</p>
+    <div class="authority">
+    	<a href="#"><img src="__IMG__/wj.gif" /></a><a href="#"><img src="__IMG__/ppaa.gif" /></a>
+    </div>
+</div>
+
+</body>
+
+</html>

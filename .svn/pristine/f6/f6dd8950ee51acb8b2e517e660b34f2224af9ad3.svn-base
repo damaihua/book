@@ -1,0 +1,981 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>小说信息-听雨轩在线书城</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="行尸走肉之猎艳无限 童鞋真好 科幻灵异" />
+<meta name="description" content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！" />
+<meta name="author" content="http://www.jieqi.com (jieqi cms)" />
+<meta name="copyright" content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
+
+翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
+
+
+
+
+
+" />
+<meta name="generator" content="jieqi.com" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="__JS__/dd_belatedpng.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
+</script>
+<![endif]-->
+
+</head>
+<body>
+<!---头部部分--->
+
+<div  id="ptop">
+<div><span><?php echo showbar();?></span><a  href="book/index.php?charset=gbk">简体</a>|<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>|<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a></div>
+</div>
+
+<div id="phead" class="clearfix">
+	<h1><a href="/">听雨轩-中文原创文学书库</a></h1>
+	<a href="#" target="_blank" rel="nofollow"><img src="__IMG__/huan.gif" border="0" width="465" height="55"></a>
+    <ul><li><a href="#" target="_blank">新手必读手册</a></li>
+        <li><a href="#" target="_blank"><font color=red>免费领取翠微币活动</font></a></li>
+        <li><a href="#" target="_blank">举报低俗信息有奖</a></li>
+    </ul>
+</div>
+<div id="pmenu_bar">
+<div id="mynav">
+	<ul><li><a href="__ROOT__" class="current">首页</a></li>
+    	<li><a href="<?php echo U('book/index');?>">在线书库</a></li>
+        <li><a href="<?php echo U('book/rank');?>">排行榜</a></li>
+        <li><a href="<?php echo U('book/free');?>">免费专区</a></li>
+        <li><a href="<?php echo U('book/vip');?>">VIP专区</a></li>
+		<li><a href="<?php echo U('book/order');?>">订阅记录</a></li>
+        <li><a href="<?php echo U('book/pay');?>">在线充值</a></li>
+		<li><a href="__MEMBER__">会员中心</a></li>
+        <li><a href="__ROOT__/bbs/">书友论坛</a></li>
+        
+
+    </ul>
+    </div>
+
+
+    <div class="type"><a href="__BOOK__/category">玄幻·奇幻</a>┊<a href="__BOOK__/category">都市·官场</a>┊<a href="__BOOK__/category">武侠·同人</a>┊<a href="__BOOK__/category">言情·耽美</a>┊<a href="__BOOK__/category">仙侠·修真</a>┊<a href="__BOOK__/category">历史·军事</a>┊<a href="__BOOK__/category">游戏·竞技</a>┊<a href="__BOOK__/category">科幻·灵异</a>
+    </div>
+    <div class="dynamic">
+		<div class="m_quee" id="m_quee">
+		<dl class="dl_quee">
+
+
+
+<dd><a href="/userpage.php?uid=2979095" target="_blank"><em>a593913134</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126334.htm" target="_blank"><strong>《人生得意须纵欢》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=2282522" target="_blank"><em>咪咪姐</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125765.htm" target="_blank"><strong>《川蜀大军阀》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3141175" target="_blank"><em>dong1028</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125832.htm" target="_blank"><strong>《欲望之门》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3151348" target="_blank"><em>27611800</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/111/111082.htm" target="_blank"><strong>《君临战国》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=1850289" target="_blank"><em>lingmuqiang</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126990.htm" target="_blank"><strong>《都市后花园》</strong></a></dd>
+
+
+
+</dl>
+
+<script language="javascript" type="text/javascript">
+
+var Marquee1 = new Marquee("m_quee");
+
+	Marquee1.Direction = "top";
+
+	Marquee1.Step = 1;
+
+	Marquee1.Width = 580;
+
+	Marquee1.Height = 28;
+
+	Marquee1.ScrollStep = 28;
+
+	Marquee1.Timer = 30;
+
+	Marquee1.DelayTime = 3000;
+
+	Marquee1.WaitTime = 3000;
+
+	Marquee1.Start();
+
+</script>
+		</div>
+		<div class="m_sr">
+		<form name="articlesearch" method="post" action="/modules/article/search.php" target="_blank">
+    	<span><input name="searchkey" type="text" class="search_text"> <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	<input type="radio" class="radio" name="searchtype" value="author" />作者<input type="submit" class="search_submit" value=" "></span>
+		</form>
+		</div>
+    </div>
+</div>
+
+</div>
+<!--------------------------------------------内容部分---------------------------------------------->
+
+<div class="main">
+<script language="javascript" src="__JS__/rating.js"></script>
+<script type="text/javascript" src="__JS__/jquery.tools.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+	$(".tabs").tabs(".tab_cnt",{event:'mouseover'}); 
+	$(".act_tabs").tabs(".act_tab_cnt",{event:'mouseover'}); 
+	$(".award_list div").scrollable({ size:3,vertical: true, circular:true }).autoscroll({ autoplay: true });
+
+	$("a[rel]").overlay({mask: '#000', fixed: false});
+});
+//]]>
+</script>
+<div class="overlay" id="overlay_intro">
+	<div class="c_head">
+    	<h4>作品简介</h4>
+    </div>
+    <div class="c_body main_form">      
+        <div>
+            <div class="clue"><p>　　无尽杀戮下，张荣成为了末世的强者。<br />
+
+　　他找寻着自己在末世中失散的母亲和姐姐还有嫂子们，他也组建着属于自己的王国和后宫。<br />
+
+　　一路探寻，一路收获着。<br />
+
+　　（本书会比较重口味，杀得血肉模糊，内脏翻飞的那种，不喜勿入。）<br />
+
+　　合集索要，请联系ＱＱ５０９０２８６５</p></div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------内容部分---------------------------------------------->
+<div id="pbody">
+<!--行1-->
+
+	<div class="row clearfix">
+    	<div class="main_left">
+            <div class="c_left">
+                <span class="ph"><img alt="<?php echo ($book_info[0]['book_name']); ?>" src="__ROOT__/<?php echo ($book_info[0]['book_cover']); ?>" /></span>
+                <span class="prg"><em>上架时间:<?php echo (date('Y-m-d',$book_info[0]['public_time'])); ?></em>
+				<strong>连载</strong>
+				<a class="bar" title="新书上传"><s class="bar_in" style="width:20%;"></s></a></span>
+                <ul>
+                    <li><em>小说性质：</em><strong>VIP作品</strong></li>
+                    <li><em>小说类别：</em><?php echo ($book_info[0]['cat_name']); ?></li>
+                    <li><em>写作进程：</em>新书上传</li>
+                    <li><em>作品字数：</em><?php echo ($book_info[0]['total']); ?></li>
+                    <li><em>授权状态：</em><strong>A级签约</strong></li>
+                </ul>
+          </div>
+            <div class="c_right">
+                <h3><em><a href="/modules/article/articlemanage.php?id=127180">[管理]</a></em><?php echo ($book_info[0]['book_name']); ?></h3>
+                <div class="info">
+                    <em>总点击：46305</em>
+	<div style="">
+	  <div class="ratediv"><b class="fl">评分：</b>
+	    <div class="rateblock">
+	    <script language="javascript">
+		  showRating(10, 8.1, 'rating', '127180');
+		  function rating(score, id){
+			Ajax.Request( '/modules/article/rating.php?score='+score+'&id='+id,{onComplete:function(){alert(this.response.replace(/<br[^<>]*>/g,'\n'));}});
+		  }
+	    </script>
+	    </div>
+		<span class="ratenum">8.1</span>(81人已评)
+      </div>
+	</div>
+                </div>
+                <div class="sum hidden clearfix">
+                    <h4><span></span>作品简介 <a class="bt_vip" href="" rel="#overlay_intro">[显示全部]</a></h4>
+                    <p class="author">作者：<a href="/userpage.php?uid=2860455" target="_blank"><?php echo ($book_info[0]['user_name']); ?></a><img src="__IMG__/mb_rank4.gif" alt="" /></p> 
+                    <div>
+						<?php echo ($book_info[0]['book_info']); ?>
+                    </div>
+                </div>
+                <div class="fun clearfix">
+					
+					<a class="bt_read" href="/modules/obook/obookinfo.php?id=4033">订阅本书</a>
+					
+					 <a class="bt_vip" href="/html/127/127180/index.html">阅读本书</a>
+                    <a class="bt_add" id="a_addbookcase" href="/modules/article/addbookcase.php?bid=127180" target="_blank">收藏本书</a>
+                    <a class="bt_download" href="/modules/article/packdown.php?id=127180&type=txt&fname=%D0%D0%CA%AC%D7%DF%C8%E2%D6%AE%C1%D4%D1%DE%CE%DE%CF%DE">下载本书</a>  
+                </div>
+                <div class="author_lable">
+                	<strong>标签:</strong>
+                	<a href="/modules/article/tagarticle.php?tag=%C4%A9%CA%C0" target="_blank">末世</a><a href="/modules/article/tagarticle.php?tag=%BA%F3%B9%AC" target="_blank">后宫</a><a href="/modules/article/tagarticle.php?tag=%C1%D4%D1%DE" target="_blank">猎艳</a><a href="/modules/article/tagarticle.php?tag=%D6%D8%BF%DA%CE%B6" target="_blank">重口味</a>
+                </div>
+                <div class="side_share">
+                        <div id="ckepop">
+                        <span class="jiathis_txt">分享到：</span>
+                        <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare" data="{}">
+                        <a class="bds_qzone" title="分享到QQ空间"></a>
+                        <a class="bds_tqq" title="分享到腾讯微博"></a>
+                        <a class="bds_tsina" title="分享到新浪微博"></a>
+                        <a class="bds_renren" title="分享到人人网"></a>
+                        <a class="bds_douban" title="分享到豆瓣网"></a>
+                        <span class="bds_more"></span>
+                        </div>
+                        </div>
+                        <script type="text/javascript" id="bdshare_js" data="type=tools&uid=281447" src="__JS__/fenxiang.js"></script>
+           		</div>
+            </div> 
+        </div>
+        <div class="column">
+            <h2><span>阅读推荐指数</span></h2>
+            <div class="star"></div>
+            <div class="recommend">
+            	<div><strong>1020</strong><p>本周推荐</p></div>
+                <div><strong>3397</strong><p>总推荐</p></div>
+            </div>
+            <span class="info_vote">推荐票：<input type="text" class="text" name="uservote_num" id="uservote_num" size="3" maxlength="10" value="1" /> <a class="vote" id="a_uservote" href="javascript:;" onclick="if(0) Ajax.Tip(event, '/modules/article/uservote.php?id=127180&num='+document.getElementById('uservote_num').value,3000); else openDialog('/login.php?jumpurl=%2Fcwjinfo%2F127%2F127180.htm&ajax_gets=jieqi_contents', false);">确定投票</a></span>
+            <ul class="flowers">
+            	<li><p>(<b>826</b>)</p><a id="a_flower" href="javascript:;" onclick="openDialog('/modules/article/gift.php?type=flower&id=127180&ajax_gets=jieqi_contents', false);">我要送鲜花</a></li>
+                <li><p style="background-position:left bottom;">(<b>0</b>)</p><a id="a_egg" href="javascript:;" onclick="openDialog('/modules/article/gift.php?type=egg&id=127180&ajax_gets=jieqi_contents', false);">我砸臭鸡蛋</a></li>
+            </ul>
+            <div class="dashang">
+                <h4><span style="color:#ff0000;">最近打赏</span></h4>
+                <div class="award_list">
+                <div>
+                    <ul class="items">
+
+
+
+	<li><span>打赏了<b>4000</b>翠微币</span><a href="/userinfo.php?id=1675083" target="_blank">zhouqinak</a></li>
+
+
+
+	<li><span>打赏了<b>500</b>翠微币</span><a href="/userinfo.php?id=2977194" target="_blank">超超ai</a></li>
+
+
+
+	<li><span>打赏了<b>5000</b>翠微币</span><a href="/userinfo.php?id=1675083" target="_blank">zhouqinak</a></li>
+
+
+
+</ul>
+                </div>
+                </div>
+                <div class="dashang_dd clearfix">
+                  <input type="button" value="我要打赏" class="input_submit" id="a_tip" onclick="openDialog('/modules/article/tip.php?id=127180&ajax_gets=jieqi_contents', false);" />
+                </div>
+            </div>
+        </div>
+    </div> 
+<!--行2-->
+	<div class="row clearfix">
+    	<div class="main_left pborder">
+          <div style="border-bottom:#eee solid 1px;" class="box5">
+              <div class="c_head">
+                  <h3><span></span>小说更新列表</h3>
+              </div>
+              <div class="c_body">  
+                  <ul class="tabs">
+                      <li><a>公众更新章节</a></li>
+                      <li><a>VIP更新章节</a></li>
+                  </ul>
+                  <div class="panes">
+                      <div class="tab_cnt">
+                          <div class="book_view_newc">
+                              <h4><span>更新于: 2013-10-16 16:17</span><a href="/html/127/127180/6682713.html">第四十一章　大哥哥出力</a></h4>
+                              <div>
+                                  <p>&nbsp;&nbsp;&nbsp;&nbsp;几吨重的水泥船在河道里面，被食人鱼们撞击的晃来晃去着。<br />
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;无数的食人鱼从船舱里面，飞窜了出去，抢夺着那两个食人鱼的尸体。<br />
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;“这……”看着眼前的场面，张荣知道，登上这条水泥船，到河对面，绝对是一件很愚蠢的事情。<br />
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;“老公，让我来对付吧。”云冰儿看着张荣脸上的难色，想着，自己跳入眼前的河道内，对付这些食人鱼。<br />
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;毕竟云冰儿是条美人鱼的变异人类。<br />
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;“不……”张荣知道着云冰儿的身份，可他不愿云冰儿冒这个险。<br />
+
+<br />
+
+&nbsp;&nbsp;&nbsp;&nbsp;而且眼前的河道内，少说也隐藏着几万头食人鱼，自己的这个老婆，..</p>
+                              </div>
+                          </div>
+                      </div>
+					  
+                      <div class="tab_cnt">
+                          <div class="book_view_newc">
+							  <div class="vip_tuijian clearfix">
+                              	<h3>VIP章节更新</h3>
+                                <p class="vip_gengxin"><span>2013-10-16 16:17</span>更新到：<a href="/modules/obook/reader.php?aid=4033&cid=322914">第七十章　色胚老大</a></p>
+								<h3>VIP推荐</h3>
+								<ul class="list_02">
+
+
+
+<li><a href="/cwjinfo/127/127180.htm" target="_blank"><img src="__IMG__/127180s.jpg" /></a><h3><a href="/cwjinfo/127/127180.htm" target="_blank">《行尸走肉之猎..》</a></h3><p><a href="http://7pcmisajdhgwww.cuiweiju.com/userpage.php?uid=2860455" target="_blank">童鞋真好</a></p></li>
+
+
+
+<li><a href="/cwjinfo/126/126608.htm" target="_blank"><img src="__IMG__/127180s.jpg" /></a><h3><a href="/cwjinfo/126/126608.htm" target="_blank">《邻家二》</a></h3><p><a href="http://7pcmisajdhgwww.cuiweiju.com/userpage.php?uid=3084198" target="_blank">缔造神话龙</a></p></li>
+
+
+
+<li><a href="/cwjinfo/127/127049.htm" target="_blank"><img src="__IMG__/127180s.jpg" /></a><h3><a href="/cwjinfo/127/127049.htm" target="_blank">《神御》</a></h3><p><a href="http://7pcmisajdhgwww.cuiweiju.com/userpage.php?uid=3124644" target="_blank">没事就犯懵</a></p></li>
+
+
+
+<li><a href="/cwjinfo/127/127054.htm" target="_blank"><img src="__IMG__/127054s.jpg" /></a><h3><a href="/cwjinfo/127/127054.htm" target="_blank">《亡灵剑圣》</a></h3><p><a href="http://7pcmisajdhgwww.cuiweiju.com/userpage.php?uid=3106235" target="_blank">霸刀公爵</a></p></li>
+
+
+
+</ul>
+                              </div>
+					    </div>
+                      </div>
+					  
+                  </div>
+                  <div class="book_view_oldc clearfix">
+                      <h4>【前六章节】</h4>
+					  <ul>
+
+
+
+	<li><a href="/html/127/127180/6680791.html"> 第一章　小表妹</a></li>
+
+
+
+	<li><a href="/html/127/127180/6680927.html"> 第二章　表嫂发威</a></li>
+
+
+
+	<li><a href="/html/127/127180/6680943.html"> 第三章　照顾表嫂</a></li>
+
+
+
+	<li><a href="/html/127/127180/6681020.html"> 第四章　三姑六婆</a></li>
+
+
+
+	<li><a href="/html/127/127180/6681038.html"> 第五章　少爷般的生活</a></li>
+
+
+
+	<li><a href="/html/127/127180/6681183.html"> 第六章　女研究员</a></li>
+
+
+
+</ul>
+                      <a href="/html/127/127180/index.html" class="bt_go">进入目录页>></a>
+                  </div>
+              </div> 
+          </div>
+          <div style="border-bottom:#eee solid 1px;" class="box5">
+              <div class="c_head">
+                  <h3><span></span>《行尸走肉之猎艳无限》 互动信息 </h3>
+              </div>
+              <div class="c_body clearfix">  
+                  <ul class="act_tabs">
+                      <li class="i_1"><a><span></span>本书月票</a></li>
+                      <li class="i_4"><a><span></span>催更作者</a></li>
+                      <li class="i_2"><a><span></span>作者调查</a></li>
+                      <li class="i_3"><a><span></span>作品信息</a></li>
+                  </ul>
+                  <div class="panes">
+                      <div class="act_tab_cnt">
+                          <div class="act_vote">
+                              <div class="c_left">
+                                  <div class="info">
+                                      <p>本月：261票&nbsp;&nbsp;今天：0票</p>
+                                      <a id="a_vipvote" href="javascript:;" onclick="openDialog('/modules/article/gift.php?type=vipvote&id=127180&ajax_gets=jieqi_contents', false);"><strong>我要送月票</strong></a>
+                                  </div>
+                                  <ul>
+
+
+
+	<li><span>[2013-10-13 15:29]</span><a href="/userinfo.php?id=3151971" target="_blank">wujiabao1020</a>赠送了<b>1</b>张月票</li>
+
+
+
+	<li><span>[2013-10-10 02:01]</span><a href="/userinfo.php?id=1675083" target="_blank">zhouqinak</a>赠送了<b>50</b>张月票</li>
+
+
+
+	<li><span>[2013-10-09 11:33]</span><a href="/userinfo.php?id=1675083" target="_blank">zhouqinak</a>赠送了<b>40</b>张月票</li>
+
+
+
+	<li><span>[2013-10-08 17:16]</span><a href="/userinfo.php?id=1748498" target="_blank">anubiszx</a>赠送了<b>1</b>张月票</li>
+
+
+
+	<li><span>[2013-10-08 17:16]</span><a href="/userinfo.php?id=1748498" target="_blank">anubiszx</a>赠送了<b>1</b>张月票</li>
+
+
+
+	<li><span>[2013-10-08 17:16]</span><a href="/userinfo.php?id=1748498" target="_blank">anubiszx</a>赠送了<b>1</b>张月票</li>
+
+
+
+</ul>
+                              </div>
+                              <div class="c_right">
+                              	  <h4 class="moth_tik_rank">上月月票排行榜</h4>
+								  <ul class="xianhua">
+
+
+
+	<li>
+
+		<a href="/cwjinfo/111/111015.htm" class="ph"><img src="__IMG__/111015s.jpg" alt="" /></a>
+
+		<span class="info">
+
+		<h4><em><b>4302</b>票</em><a href="/cwjinfo/111/111015.htm">神鹰帝国</a></h4>
+
+		<p>    天神宫、乾坤宫、通天宫、神女宫、九霄宫，号称..</p>
+
+		</span>
+
+	</li>
+
+
+
+	<li>
+
+		<a href="/cwjinfo/124/124918.htm" class="ph"><img src="__IMG__/124918s.jpg" alt="" /></a>
+
+		<span class="info">
+
+		<h4><em><b>3430</b>票</em><a href="/cwjinfo/124/124918.htm">洪荒少年猎艳..</a></h4>
+
+		<p>   他从小生活在一个全是女子的门派，一次偶然的机会..</p>
+
+		</span>
+
+	</li>
+
+
+
+	<li>
+
+		<a href="/cwjinfo/125/125204.htm" class="ph"><img src="__IMG__/125204s.jpg" alt="" /></a>
+
+		<span class="info">
+
+		<h4><em><b>2664</b>票</em><a href="/cwjinfo/125/125204.htm">穿越风流之情..</a></h4>
+
+		<p>  穿越到国民时期，意外地发现自己变成了情深深雨蒙..</p>
+
+		</span>
+
+	</li>
+
+
+
+</ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="act_tab_cnt">
+                        <div class="hurry_update">
+                       	  <h3>您希望作品近日更新多少字？</h3>
+						  <form name="frmhurry" id="frmhurry" action="/modules/article/hurry.php?do=submit&action=post&id=127180" method="post">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td align="right" width="100">我的翠微币：&nbsp;</td>
+                                  <td>您还没有<a href="/login.php">登录</a>！没有账号？去<a href="/register.php">注册</a></td>
+                              </tr>
+                                <tr>
+                                  <td align="right">支付虚拟币：&nbsp;</td>
+                                  <td><input type="text" class="input_txt" name="payegold" id="payegold" size="10" maxlength="10" value="" /><abbr title="本功能是指用赠送翠微币的方式催促作者更新，如果作者在您设定的时间内更新了您要求的字数，则翠微币赠送给作者，否则翠微币退回"><img src="__IMG__/help.gif" style="cursor:pointer" /></abbr><span>（不少于20个翠微币）</span></td>
+                              </tr>
+                                <tr>
+                                  <td align="right">要求更新时间：&nbsp;</td>
+                                  <td>
+									<input type="text" name="overyear" id="overyear" value="2013" /><span>年</span>
+									<input type="text" name="overmonth" id="overmonth" value="10" /><span>月</span>
+                                    <input type="text" name="overday" id="overday" value="" /><span>日</span>
+                                    <input type="text" name="overhour" id="overhour" value="" /><span>时</span>
+                                    <input type="text" name="overminute" id="overminute" value="" /><span>分之前</span>
+                                  </td>
+                              </tr>
+                                <tr>
+                                  <td align="right">要求更新字数：&nbsp;</td>
+                                  <td><select name="minsize">
+                                   	<option selected="selected" value="1000">1000字以上</option>
+                                    <option  value="3000">3000字以上</option>
+                                    <option  value="6000">6000字以上</option>
+                                    <option  value="9000">9000字以上</option>
+                                    <option  value="12000">12000字以上</option>
+                                  </select>
+								  <span>（上面时间设置至少超过当前时间的 2 小时以上）</span>
+								  </td>
+                              </tr>
+                                <tr>
+                                  <td>&nbsp;</td>
+                                  <td><!--<input type="submit" value="我要催更" class="submit" name="submit" />--><input type="button" value="我要催更" class="submit" name="submit" onclick="Ajax.Request('frmhurry',{onComplete:function(){alert(this.response.replace(/<br[^<>]*>/g,'\n'));Form.reset('frmhurry');}});" /></td>
+                                </tr>
+                          </table>
+						  </form>
+
+                        </div>
+                    </div>
+                      <div class="act_tab_cnt">
+                          <div class="act_survey">
+						  
+						  本作品暂无调查！
+						  
+                          </div>
+                      </div>
+                      <div class="act_tab_cnt">
+                          <div class="act_book_info">
+                              <ul>
+                              <li><em>小说性质：</em>VIP</li>
+							  <li><em>小说类别：</em>科幻灵异</li>	
+							  <li><em>完成字数：</em>204501</li>
+                              <li><em>总点击：</em>46305</li>
+                              <li><em>月点击：</em>44289</li>
+                              <li><em>周点击：</em>10458</li>
+                              <li><em>总推荐：</em>3397</li>
+                              <li><em>月推荐：</em>1020</li>
+                              <li><em>周推荐：</em>1020</li>
+                              	
+                              <li><em>授权状态：</em><strong>A级签约</strong></li>
+                              <li><strong>本站首发</strong></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>    
+		 
+       
+		  <a href="/offer99.php?pid=y3976b95e7a396522f2b236ae5213484" target="_blank"><img src="__IMG__/1111.gif"></a>	
+          <div style="border-bottom:#eee solid 1px;" class="box5">
+              <div class="c_head">
+                  <h3><span></span>《行尸走肉之猎艳无限》 书评区 [<a href="/modules/article/reviews.php?aid=127180&type=all" target="_blank"><font color="#0066CC">查看全部评论┊管理书评</font></a>]</h3>
+              </div>
+              <div class="c_body">  
+                  <ul class="tabs">
+                      <li><a>全部评论</a></li>
+                      <li><a>精华评论</a></li>
+                  </ul>
+                  <div class="panes">
+                      <div class="tab_cnt">
+                          <div class="cmt_list">
+							<ul>
+
+	<li>
+		<h4><a href="/modules/article/reviewshow.php?rid=2080213" target="_blank">zhouqinak 打赏 童鞋真好 4000翠微币</a><strong>[置顶]</strong></h4>
+		<div style="float:left;margin:10px;width:75px;border:1px solid #cccccc;"><img src="__IMG__/avatar.php.gif" width="75" height="75" /></div>
+		<div style="float:left;width:500px;">
+		<p><span style="color: #FF0000;">zhouqinak 打赏 童鞋真好 <b>4000翠微币</b>，感谢您的努力，希望后续更加精彩！</span></p>
+		</div>
+		<div class="cb"></div>
+		<span class="info">
+			<em><span>发表人：<a href="/userpage.php?uid=1675083" target="_blank">zhouqinak</a></span><span>时间：2013-10-08 16:35</span><span>点击数：45</span><span>回复数：0</span></em>
+		</span>
+	</li>
+
+	<li>
+		<h4><a href="/modules/article/reviewshow.php?rid=2080174" target="_blank">超超ai 打赏 童鞋真好 500翠微币</a><strong>[置顶]</strong></h4>
+		<div style="float:left;margin:10px;width:75px;border:1px solid #cccccc;"><img src="__IMG__/avatar.php.gif" width="75" height="75" /></div>
+		<div style="float:left;width:500px;">
+		<p><span style="color: #FF0000;">超超ai 打赏 童鞋真好 <b>500翠微币</b>，感谢您的努力，希望后续更加精彩！</span></p>
+		</div>
+		<div class="cb"></div>
+		<span class="info">
+			<em><span>发表人：<a href="/userpage.php?uid=2977194" target="_blank">超超ai</a></span><span>时间：2013-10-08 06:10</span><span>点击数：77</span><span>回复数：1</span></em>
+		</span>
+	</li>
+
+	<li>
+		<h4><a href="/modules/article/reviewshow.php?rid=2080160" target="_blank">zhouqinak 打赏 童鞋真好 5000翠微币</a><strong>[置顶]</strong></h4>
+		<div style="float:left;margin:10px;width:75px;border:1px solid #cccccc;"><img src="__IMG__/avatar.php.gif" width="75" height="75" /></div>
+		<div style="float:left;width:500px;">
+		<p><span style="color: #FF0000;">zhouqinak 打赏 童鞋真好 <b>5000翠微币</b>，感谢您的努力，希望后续更加精彩！</span></p>
+		</div>
+		<div class="cb"></div>
+		<span class="info">
+			<em><span>发表人：<a href="/userpage.php?uid=1675083" target="_blank">zhouqinak</a></span><span>时间：2013-10-08 06:09</span><span>点击数：65</span><span>回复数：2</span></em>
+		</span>
+	</li>
+
+	<li>
+		<h4><a href="/modules/article/reviewshow.php?rid=2081110" target="_blank">吴三毛前来拜访</a><strong></strong></h4>
+		<div style="float:left;margin:10px;width:75px;border:1px solid #cccccc;"><img src="__IMG__/avatar.php.gif" width="75" height="75" /></div>
+		<div style="float:left;width:500px;">
+		<p>吴三毛前来拜访，同样欢迎回看俺的小说，保证YY。让你看得过瘾。</p>
+		</div>
+		<div class="cb"></div>
+		<span class="info">
+			<em><span>发表人：<a href="/userpage.php?uid=2185174" target="_blank">吴三毛</a></span><span>时间：2013-10-16 19:31</span><span>点击数：6</span><span>回复数：0</span></em>
+		</span>
+	</li>
+
+	<li>
+		<h4><a href="/modules/article/reviewshow.php?rid=2079872" target="_blank">建议</a><strong></strong></h4>
+		<div style="float:left;margin:10px;width:75px;border:1px solid #cccccc;"><img src="__IMG__/avatar.php.gif" width="75" height="75" /></div>
+		<div style="float:left;width:500px;">
+		<p>都一般货色。。怎么没有绝色美女！而且有点雷！主角上过的就要是主角一个人的！绝色美女全是主角的。。多数要处 女！人 妻也要！要描写女人的容貌！不然看也没劲！乱 伦多点！生孩子都市女的1！你懂得！</p>
+		</div>
+		<div class="cb"></div>
+		<span class="info">
+			<em><span>发表人：<a href="/userpage.php?uid=2832251" target="_blank">最爱神仙处女</a></span><span>时间：2013-10-16 19:14</span><span>点击数：55</span><span>回复数：1</span></em>
+		</span>
+	</li>
+
+	<li>
+		<h4><a href="/modules/article/reviewshow.php?rid=2081087" target="_blank">支持一下</a><strong></strong></h4>
+		<div style="float:left;margin:10px;width:75px;border:1px solid #cccccc;"><img src="__IMG__/avatar.php.gif" width="75" height="75" /></div>
+		<div style="float:left;width:500px;">
+		<p>顶</p>
+		</div>
+		<div class="cb"></div>
+		<span class="info">
+			<em><span>发表人：<a href="/userpage.php?uid=2791366" target="_blank">qg57985298me</a></span><span>时间：2013-10-16 09:57</span><span>点击数：24</span><span>回复数：0</span></em>
+		</span>
+	</li>
+
+	<li>
+		<h4><a href="/modules/article/reviewshow.php?rid=2081019" target="_blank">喜欢本书</a><strong></strong></h4>
+		<div style="float:left;margin:10px;width:75px;border:1px solid #cccccc;"><img src="__IMG__/avatar.php.gif" width="75" height="75" /></div>
+		<div style="float:left;width:500px;">
+		<p><img src="__IMG__/qqface/a9.gif" alt="睡觉" border="0" /></p>
+		</div>
+		<div class="cb"></div>
+		<span class="info">
+			<em><span>发表人：<a href="/userpage.php?uid=3140193" target="_blank">黑夜残月</a></span><span>时间：2013-10-15 11:51</span><span>点击数：31</span><span>回复数：0</span></em>
+		</span>
+	</li>
+
+	<li>
+		<h4><a href="/modules/article/reviewshow.php?rid=2080965" target="_blank">作者有个不好的习惯啊</a><strong></strong></h4>
+		<div style="float:left;margin:10px;width:75px;border:1px solid #cccccc;"><img src="__IMG__/avatar.php.gif" width="75" height="75" /></div>
+		<div style="float:left;width:500px;">
+		<p>很多段落结尾都带个着，有些句子读着还通顺，有些就觉得别扭了</p>
+		</div>
+		<div class="cb"></div>
+		<span class="info">
+			<em><span>发表人：<a href="/userpage.php?uid=1675083" target="_blank">zhouqinak</a></span><span>时间：2013-10-14 17:14</span><span>点击数：42</span><span>回复数：1</span></em>
+		</span>
+	</li>
+
+</ul>
+                          </div>
+                      </div>
+                      <div class="tab_cnt">
+                      <div class="cmt_list">
+                              <ul>
+
+</ul>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="cmt_box main_form">
+                      <h4 class="titler">发表评论</h4>
+					  <form name="frmreview" id="frmreview" method="post" action="/modules/article/reviews.php?aid=127180" target="_blank">
+                      <table cellspacing="0" cellpadding="0">
+                          <tbody>
+                          <tr>
+                              <td class="t1">
+                                  <label>评论标题：</label>
+                              </td>
+                              <td>
+                                  <input type="text" class="text" style="width:590px;" name="ptitle" id="ptitle" maxlength="60" value="" />
+                              </td>
+                          </tr>
+                          <tr>
+                          <td class="t1">
+                          <label>评论内容：</label></td>
+                          <td>
+						  <textarea class="iptxt" style="width:595px;height:150px;" name="pcontent" id="pcontent"></textarea>
+						  <script language="javascript">loadJs("/scripts/ubbeditor.js", function(){UBBEditor.Create("pcontent");});</script>
+                          </td>
+                          </tr>
+						  
+                           <tr>
+                              <td>&nbsp;<input type="hidden" name="action" id="action" value="newpost" /></td>
+                              <td>
+                                 <!-- <input type="submit" name="Submit" class="button" value=" 发表书评 "> -->
+				  <input type="button" name="Submit" class="bt_comment" value=" 发表书评 " style="cursor:pointer;" onclick="Ajax.Request('frmreview',{onComplete:function(){alert(this.response.replace(/<br[^<>]*>/g,'\n'));if(!this.response.match(/禁用/i)) Form.reset('frmreview');}});">
+                              </td>
+                           </tr>
+                           </tbody>
+                      </table>
+					  </form>
+                  </div>
+      </div> 
+          </div>
+        </div>
+        <div class="column_rightwrap">
+            <div class="column">
+                <h2><span>关于作者</span></h2>
+                <div class="book_view_writer">
+                    <div class="intro clearfix">
+					
+						<a class="avator" href="http://www.cmfu.comwww.cuiweiju.com/userpage.php?uid=2860455"><img src="__IMG__/noavatar.jpg" alt="童鞋真好" /></a>
+
+<a class="name" href="http://www.cmfu.comwww.cuiweiju.com/userpage.php?uid=2860455">童鞋真好</a><br /><img src="__IMG__/mb_rank4.gif" alt="" /><br /><span style="color:#c30;">[专栏作者]</span>
+					
+                     </div>
+                    <h4>TA发布的公告</h4>
+                    <p>　　合集索要：ＱＱ５９０２８６５<br />
+
+　　（一定要全订阅，不然无合集，谢谢。）</p>
+                    <h4>TA发表的作品</h4>
+					<ul class="bk_lt1">
+
+
+
+	<li><a href="/cwjsort2/0/1.htm">[都市]</a><a href="/cwjinfo/125/125763.htm" target="_blank">厂花情缘</a></li>
+
+
+
+	<li><a href="/cwjsort2/0/1.htm">[都市]</a><a href="/cwjinfo/126/126564.htm" target="_blank">桃色花医</a></li>
+
+
+
+	<li><a href="/cwjsort8/0/1.htm">[科幻]</a><a href="/cwjinfo/127/127180.htm" target="_blank">行尸走肉之猎艳无限</a></li>
+
+
+
+	<li><a href="/cwjsort2/0/1.htm">[都市]</a><a href="/cwjinfo/124/124394.htm" target="_blank">玉都花少</a></li>
+
+
+
+	<li><a href="/cwjsort6/0/1.htm">[历史]</a><a href="/cwjinfo/124/124960.htm" target="_blank">满园春色</a></li>
+
+  
+
+</ul>
+                    
+                    <h4>TA推荐作品</h4>
+                    <ul class="bk_lt1">
+						
+                    </ul>
+                </div>
+            </div>
+            <div class="column wrap_mabt">
+                <h2><span>本书粉丝排行榜</span></h2>
+                <div class="tab_cnt2 fans_list">
+					<ul>
+
+	<li><span>舵主</span><a href="/userpage.php?uid=1675083" target="_blank">zhouqinak</a></li>
+
+	<li><span>学徒</span><a href="/userpage.php?uid=2977194" target="_blank">超超ai</a></li>
+
+	<li><span>见习</span><a href="/userpage.php?uid=3143426" target="_blank">3898716</a></li>
+
+	<li><span>见习</span><a href="/userpage.php?uid=3050356" target="_blank">三邪关</a></li>
+
+	<li><span>见习</span><a href="/userpage.php?uid=280671" target="_blank">dahan16888</a></li>
+
+	<li><span>见习</span><a href="/userpage.php?uid=2808843" target="_blank">我乃牛笔</a></li>
+
+	<li><span>见习</span><a href="/userpage.php?uid=1101763" target="_blank">无聊没事做呀</a></li>
+
+	<li><span>见习</span><a href="/userpage.php?uid=2084985" target="_blank">dingao10</a></li>
+
+	<li><span>见习</span><a href="/userpage.php?uid=966222" target="_blank">phredsun</a></li>
+
+	<li><span>见习</span><a href="/userpage.php?uid=3099161" target="_blank">y709473801</a></li>
+
+	<li class="tab_more"><a href="/modules/article/creditlist.php?id=127180" class="moreb">更多&gt;&gt;</a></li>
+</ul>              
+                </div>
+					
+<div class="more_other">
+    <p class="more_mem">您当前的等级：无 <a style='color:#3CA8CC;' href="/modules/forum/showtopic.php?tid=205507" target="_blank">[升级帮助]</a><br />
+                       您当前粉丝值：<b>0</b><br />
+                       您尚未登录：<b><a style='color:#3CA8CC;' href="/login.php">[登录]</a></b>
+    </p>
+</div>
+
+            </div>
+			<div class="column wrap_mabt">
+                <h2><span>强力推荐</span></h2>
+				<ul class="tab_cnt1">
+
+
+
+<li class="pic_text"><a href="/cwjinfo/127/127180.htm" target="_blank"><img src="__IMG__/127180s.jpg" /></a><h3><a href="/cwjinfo/127/127180.htm" target="_blank">行尸走肉之猎艳..</a></h3><p>　　无尽杀戮下，张荣成为了末世的强者。
+
+　　他找寻着自己在..</p></li>
+
+
+
+<li><em><a href="/cwjsort2/0/1.htm">[都市]</a></em><a href="/cwjinfo/127/127162.htm" target="_blank">邪神掠美</a></li>
+
+
+
+<li><em><a href="/cwjsort2/0/1.htm">[都市]</a></em><a href="/cwjinfo/126/126608.htm" target="_blank">邻家二</a></li>
+
+
+
+<li><em><a href="/cwjsort3/0/1.htm">[武侠]</a></em><a href="/cwjinfo/126/126693.htm" target="_blank">《书生剑》</a></li>
+
+
+
+<li><em><a href="/cwjsort5/0/1.htm">[仙侠]</a></em><a href="/cwjinfo/127/127101.htm" target="_blank">妖蛊风流录</a></li>
+
+
+
+<li><em><a href="/cwjsort1/0/1.htm">[玄幻]</a></em><a href="/cwjinfo/127/127049.htm" target="_blank">神御</a></li>
+
+
+
+<li><em><a href="/cwjsort2/0/1.htm">[都市]</a></em><a href="/cwjinfo/127/127054.htm" target="_blank">亡灵剑圣</a></li>
+
+
+
+<li><em><a href="/cwjsort2/0/1.htm">[都市]</a></em><a href="/cwjinfo/127/127120.htm" target="_blank">欲满花都</a></li>
+
+
+
+<li><em><a href="/cwjsort1/0/1.htm">[玄幻]</a></em><a href="/cwjinfo/126/126894.htm" target="_blank">破灭大帝</a></li>
+
+
+
+<li><em><a href="/cwjsort4/0/1.htm">[言情]</a></em><a href="/cwjinfo/126/126244.htm" target="_blank">锁梦千年</a></li>
+
+
+
+<li><em><a href="/cwjsort5/0/1.htm">[仙侠]</a></em><a href="/cwjinfo/126/126116.htm" target="_blank">西游春色后宫</a></li>
+
+
+
+<li><em><a href="/cwjsort4/0/1.htm">[言情]</a></em><a href="/cwjinfo/126/126990.htm" target="_blank">都市后花园</a></li>
+
+
+
+<li><em><a href="/cwjsort2/0/1.htm">[都市]</a></em><a href="/cwjinfo/126/126817.htm" target="_blank">僵尸艳行都市</a></li>
+
+
+
+<li><em><a href="/cwjsort1/0/1.htm">[玄幻]</a></em><a href="/cwjinfo/127/127021.htm" target="_blank">斗破苍穹后传</a></li>
+
+
+
+<li><em><a href="/cwjsort2/0/1.htm">[都市]</a></em><a href="/cwjinfo/127/127028.htm" target="_blank">妾不如妻</a></li>
+
+
+
+<li><em><a href="/cwjsort1/0/1.htm">[玄幻]</a></em><a href="/cwjinfo/126/126993.htm" target="_blank">异界之绯色无双</a></li>
+
+
+
+</ul>
+            </div>
+            <div class="column wrap_mabt">
+                <h2><span>同类推荐</span></h2>
+				<ul class="tab_cnt1">
+
+
+
+<li class="pic_text"><a href="/cwjinfo/125/125332.htm" target="_blank"><img src="__IMG__/127180s.jpg" /></a><h3><a href="/cwjinfo/125/125332.htm" target="_blank">木帝之运（上）</a></h3><p>内容提要
+
+本书共收集了汉武帝刘彻、东吴大帝孙权、东吴废帝孙..</p></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/127/127180.htm" target="_blank">行尸走肉之猎艳无限</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/126/126731.htm" target="_blank">末日</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/126/126433.htm" target="_blank">无限穿越逍遥行</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/99/99046.htm" target="_blank">生化危机逐艳曲</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/92/92417.htm" target="_blank">星泪传奇之梧桐秋叶</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/125/125433.htm" target="_blank">西装里的007</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/126/126620.htm" target="_blank">远古鬼墓</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/124/124540.htm" target="_blank">巫艳传说</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/127/127030.htm" target="_blank">密室之迷雾重重</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/124/124141.htm" target="_blank">邪武</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/125/125769.htm" target="_blank">欲界</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/127/127268.htm" target="_blank">生人勿进</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/125/125344.htm" target="_blank">诡异事件簿</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/127/127245.htm" target="_blank">无限邪恶反派</a></li>
+
+
+
+<li><em><a href="/cwjsort8/0/1.htm">[科幻]</a></em><a href="/cwjinfo/126/126671.htm" target="_blank">重生吞噬星空之猎美记</a></li>
+
+
+
+</ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<!--foot底部部分--->
+
+<div class="cb"></div>
+<div id="pfoot">
+	<div class="foot_nav">
+    	<a href="__ROOT__/page">关于我们</a>|<a href="__ROOT__/page">联系我们</a>|<a href="__ROOT__/page">商务合作</a>|<a href="__ROOT__/links/add.html">申请链接</a>|<a href="__ROOT__/page">帮助中心</a>|<a href="__ROOT__/page">内容联盟</a>|<a href="__ROOT__/page">用户规则</a>|<a href="__ROOT__/admin.php/login">后台登录</a>
+    </div>
+    <p>请所有作者发布作品时务必遵守国家互联网信息管理办法规定，我们拒绝任何色情小说，一经发现，即作删除！<br />本站所收录作品、社区话题、书库评论及本站所做之广告均属其个人行为，与本站立场无关</p>
+    <p><a href="__ROOT__/" class="site_title">听雨轩在线书城</a>版权所有，本站所收录作品拒绝任何网站私自转载！ Copyright<span>&copy;</span> 2002-2014 京ICP备11032650号</p>
+    <div class="authority">
+    	<a href="#"><img src="__IMG__/wj.gif" /></a><a href="#"><img src="__IMG__/ppaa.gif" /></a>
+    </div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+<?php
+// 本类由系统自动生成，仅供测试用途
+class PageAction extends Action {
+    	public function index(){
+    	$Pages = D('Pages');
+   		$data = $Pages->select();
+
+   		$this->assign('data',$data);
+   		$this->display();
+
+    }
+
+//网站介绍的模板
+
+ public function intro(){
+
+ 	$Pages = D("Pages"); 
+// 获取标题 
+	$data = $Pages->where('id=10')->select();
+	$this->assign('data',$data);
+	$this->display();
+}
+
+//团队介绍的模板
+
+public function team_intro(){
+
+	$Pages = D('Pages');
+
+	$data = $Pages->where('id=9')->select();
+	$this->assign('data',$data);
+	$this->display();
+}
+
+
+//联系我们的模板
+
+public function link_us(){
+
+	$Pages = D('Pages');
+
+	$data = $Pages->where('id=11')->select();
+	$this->assign('data',$data);
+	$this->display();
+
+}
+
+//用户协议的的模板
+
+public function user_agree(){
+
+	$Pages = D('Pages');
+
+	$data = $Pages->where('id=13')->select();
+	$this->assign('data',$data);
+	$this->display();
+
+}
+
+//隐私策略的模板
+
+public function point(){
+
+	$Pages = D('Pages');
+	$data = $Pages->where('id=14')->select();
+
+	$this->assign('data',$data);
+	$this->display();
+
+
+}
+
+//法律声明的模板
+
+public function u_call(){
+
+	$Pages = D('Pages');
+	$data = $Pages->where('id=15')->select();
+	$this->assign('data',$data);
+	$this->display();
+
+}
+
+//常见问题的模板
+
+public function question(){
+
+	$Pages = D('Pages');
+
+	$data = $Pages->where('id=16')->select();
+
+	$this->assign('data',$data);
+
+	$this->display();
+
+}
+
+//签约流程的模板
+
+public function author_line(){
+
+
+	$Pages = D('Pages');
+
+	$data = $Pages->where('id=17')->select();
+
+	$this->assign('data',$data);
+	$this->display();
+}
+
+
+//投稿流程的模板
+
+public function write_line(){
+
+	$Pages = D('Pages');
+
+	$data = $Pages->where('id=18')->select();
+
+	$this->assign('data',$data);
+
+	$this->display();
+
+}
+
+
+//商务合作的模板
+
+public function friends(){
+
+	$Pages = D('Pages');
+
+	$data = $Pages->where('id=19')->select();
+
+	$this->assign('data',$data);
+	$this->display();
+
+
+}
+
+
+//内容联盟的模板
+
+
+public function contents(){
+
+	$Pages = D('Pages');
+
+	$data = $Pages->where('id=20')->select();
+	$this->assign('data',$data);
+
+	$this->display();
+}
+
+}

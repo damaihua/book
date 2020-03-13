@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>单页设置管理</title>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="__PUBLIC__/admin/css/style.css" type="text/css" media="screen">
+<script charset="UTF-8"src="__PUBLIC__/kindeditor/kindeditor-min.js"></script> 
+ 	<script charset="UTF-8"src="__PUBLIC__/kindeditor/lang/zh_CN.js">
+ 	</script>
+ 	<script>
+			var editor;
+			KindEditor.ready(function(K) {
+				editor = K.create('textarea[name="content"]', {
+					resizeType : 1,
+					allowPreviewEmoticons : false,
+					allowImageUpload : false,
+					items : [
+						'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+						'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+						'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+				});
+			});
+		</script>
+
+
+
+
+
+</head>
+<body>
+
+<div id="main-content">
+	<script language="javascript">
+	$("#plus").addClass("current");$("#ad_main").addClass("current");</script>				
+
+	<div class="content-box"><!-- Start Content Box -->
+				
+				<div class="content-box-header">
+					
+					<h3 style="cursor: s-resize;">单页设置管理</h3>
+					
+					<div class="clear"></div>
+					
+				</div> <!-- End .content-box-header -->
+				
+				<div class="content-box-content">
+<div style="display: block;" class="tab-content  default-tab" id="tab1">
+			
+<table cellpadding="6" cellspacing="6" align="center" bgcolor="#FBFCE2" border="0" width="98%">
+	<form action="__URL__/inser" method="post">	
+  		<tr ><th avalign="center">添加单页项</th></tr>
+            <tr><td>添加题目</td><td><input type="text" name="title" value=""></td></tr><br />
+  		<tr><td>添加内容</td><td><textarea name="content" style="width:45px;height:45px;visibility:hidden;"></textarea></td><tr><br />
+  		<tr><td><input type="submit" name="submit" value="提交"></td></tr><br />	
+</form>
+  </table>
+
+   
+
+							<div class="clear"></div><!-- End .clear -->
+							
+						
+						
+					</div> <!-- End #tab1 -->
+
+					
+				</div> <!-- End .content-box-content -->
+				
+			</div> <!-- End .content-box -->
+			
+			<div class="clear"></div>
+			
+           			<!-- End #footer -->			
+		</div> <!-- End #main-content -->	
+	
+
+</body></html>

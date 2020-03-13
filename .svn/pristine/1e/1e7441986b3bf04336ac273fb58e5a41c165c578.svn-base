@@ -1,0 +1,338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>广告管理</title>
+
+<link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="__PUBLIC__/admin/css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/base.css">
+
+
+</head>
+<body>
+
+<div id="main-content">
+<script language="javascript">
+$("#plus").addClass("current");$("#ad_main").addClass("current");</script>				
+
+	<div class="content-box"><!-- Start Content Box -->
+				
+				<div class="content-box-header">
+					
+			    <h3 style="cursor: s-resize;">广告管理</h3>
+					
+					<ul class="content-box-tabs">
+
+					</ul>
+					
+					<div class="clear"></div>
+					
+				</div> <!-- End .content-box-header -->
+				
+				<div class="content-box-content">
+					
+<div style="display: block;" class="tab-content  default-tab" id="tab1">				
+<table cellpadding="3" cellspacing="1" align="center" bgcolor="#D6D6D6" border="0" width="98%">
+  <tbody><tr class="alt-row">
+    <td colspan="7" style="padding-left:10px;">
+     [<a href="http://localhost/dede/dede/ad_add.php"><u>增加一个新广告</u></a>]
+   </td>
+</tr>
+  
+  <tr "="" align="center" bgcolor="#FBFCE2" height="24"> 
+      <td width="8%">编号</td>
+      <td width="20%">分类</td>
+      <td width="20%">广告名称</td>
+      <td width="12%">投放范围</td>
+      <td width="11%">是否限时</td>
+      <td width="11%">结束时间</td>
+      <td width="18%">管理</td>
+   </tr>
+   
+       <tr class="alt-row" onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>20</td>
+        <td>默认分类</td>
+        <td>内容顶部导航小图-200*60</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-20</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=20&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=20&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=20&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>19</td>
+        <td>默认分类</td>
+        <td>内容顶部导航大图-500*60</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-20</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=19&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=19&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=19&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr class="alt-row" onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>18</td>
+        <td>默认分类</td>
+        <td>搜索页面顶部banner广告-300*40</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-20</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=18&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=18&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=18&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>17</td>
+        <td>默认分类</td>
+        <td>首页右侧图片广告-240*200</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-20</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=17&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=17&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=17&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr class="alt-row" onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FCFDEE" height="24"> 
+        <td>16</td>
+        <td>默认分类</td>
+        <td>搜索页右侧广告-300*268</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-20</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=16&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=16&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=16&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>15</td>
+        <td>默认分类</td>
+        <td>内容页内容中广告-300*250</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-20</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=15&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=15&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=15&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr class="alt-row" onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>14</td>
+        <td>默认分类</td>
+        <td>内容右侧图片广告2-240*200</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-20</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=14&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=14&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=14&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>13</td>
+        <td>默认分类</td>
+        <td>(频道/列表)右侧图片广告2-240*200</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-20</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=13&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=13&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=13&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr class="alt-row" onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>12</td>
+        <td>默认分类</td>
+        <td>内容右侧图片广告-240*200</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-20</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=12&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=12&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=12&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>11</td>
+        <td>默认分类</td>
+        <td>(频道/列表)右侧图片广告-240*200</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-20</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=11&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=11&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=11&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr class="alt-row" onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>10</td>
+        <td>默认分类</td>
+        <td>内容底部图片广告-726*91</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-20</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=10&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=10&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=10&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>9</td>
+        <td>默认分类</td>
+        <td>(频道/列表)底部图片广告-726*91</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-20</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=9&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=9&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=9&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr class="alt-row" onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>8</td>
+        <td>默认分类</td>
+        <td>首页底部图片广告-726*91</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-19</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=8&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=8&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=8&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>7</td>
+        <td>默认分类</td>
+        <td>首页右侧小块图2-240*65</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-19</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=7&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=7&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=7&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr class="alt-row" onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>6</td>
+        <td>默认分类</td>
+        <td>首页右侧小块图1-240*65</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-19</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=6&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=6&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=6&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>5</td>
+        <td>默认分类</td>
+        <td>首页左侧大图广告-712*75</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-19</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=5&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=5&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=5&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr class="alt-row" onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>4</td>
+        <td>默认分类</td>
+        <td>(频道/列表)顶部导航小图-200*60</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-19</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=4&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=4&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=4&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>3</td>
+        <td>默认分类</td>
+        <td>(频道/列表)顶部导航大图-500*60</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-19</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=3&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=3&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=3&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr class="alt-row" onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>2</td>
+        <td>默认分类</td>
+        <td>首页顶部导航小图-200*60</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-19</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=2&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=2&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=2&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		    <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="24"> 
+        <td>1</td>
+        <td>默认分类</td>
+        <td>首页顶部导航大图-500*60</td>
+        <td>所有栏目</td>
+        <td>不限时间</td>
+        <td>2011-03-19</td>
+        <td>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=1&amp;dopost=gettag">[代码]</a>
+         <a href="http://localhost/dede/dede/ad_edit.php?aid=1&amp;dopost=edit">[更改]</a>
+		     <a href="http://localhost/dede/dede/ad_edit.php?aid=1&amp;dopost=delete">[删除]</a>
+		    </td>
+     </tr>
+		     <tr class="alt-row" align="center" bgcolor="#F9FCEF" height="24"> 
+      <td colspan="7">
+      	<span>共 1 页/20条记录</span>
+      </td>
+     </tr>
+   </tbody></table>
+   
+
+
+							<div class="clear"></div><!-- End .clear -->
+							
+						
+						
+					</div> <!-- End #tab1 -->
+
+					
+				</div> <!-- End .content-box-content -->
+				
+			</div> <!-- End .content-box -->
+			
+			<div class="clear"></div>
+			
+           			<!-- End #footer -->			
+		</div> <!-- End #main-content -->	
+	
+
+</body></html>

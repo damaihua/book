@@ -1,0 +1,12 @@
+<?php
+// 本类由系统自动生成，仅供测试用途
+class IndexAction extends PublicAction {
+    public function index(){
+    	$title='听雨轩在线书城-小清新中文原创小说网站';
+    	$this->assign('title',$title);
+    	
+    	//显示模板
+    	$this->display();
+    }
+
+}

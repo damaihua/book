@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>会员注册——<{$Think.SITE_NAME}></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="<{$Think.SITE_KEYWORDS}>" />
+<meta name="description" content="<{$Think.SITE_DESCRIPT}>" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+
+<script language="javascript" type="text/javascript" src="__JS__/jquery-1.8.3.min.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+<script type="text/javascript" src="__JS__/Validform_v5.3.2.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	//$(".registerform").Validform();  //就这一行代码！;
+		
+	$(".registerform").Validform({
+		tiptype:function(msg,o,cssctl){
+			//msg：提示信息;
+			//o:{obj:*,type:*,curform:*}, obj指向的是当前验证的表单元素（或表单对象），type指示提示的状态，值为1、2、3、4， 1：正在检测/提交数据，2：通过验证，3：验证失败，4：提示ignore状态, curform为当前form对象;
+			//cssctl:内置的提示信息样式控制函数，该函数需传入两个参数：显示提示信息的对象 和 当前提示的状态（既形参o中的type）;
+			if(!o.obj.is("form")){//验证表单元素时o.obj为该表单元素，全部验证通过提交表单时o.obj为该表单对象;
+				var objtip=o.obj.siblings(".Validform_checktip");
+				cssctl(objtip,o.type);
+				objtip.text(msg);
+			}
+		}
+	});
+})
+</script>
+
+
+</head>
+<body>
+<!-- 头部部分 -->
+<include file="Public:header" />
+
+<div class="main"><div id="pbody">
+   		<div class="column_register"><div class="column_cr clearfix">
+            <div class="left" style="height:500px;">
+                <div class="register_intro">
+                	<ul>
+                    <li>海量的文学作品</li>
+                    <li>良好的阅读操作体验</li>
+                    <li>系统的作者创作发展体系</li>
+                    <li>丰富的版权拓展营销推广渠道</li>
+                    </ul>
+                </div>
+            </div>
+        	<div class="right" style="height:500px;">
+            	<div class="box1" style="margin:0px;">
+                	<div class="c_head">
+                    	<h3><span></span>新用户注册</h3>
+                    </div>
+                    <div class="c_body">
+                    	<div class="main_form" style="padding:50px 0px 0px 0px;">                   
+                            <form class="registerform"  action="__URL__/do_reg" method="post">
+                            <table cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td class="t1">
+                                    <label>用户名：</label>
+                                    </td>
+                                  <td>
+                                    <input class="text" name="user_name" type="text" nullmsg="请输入用户名！"  datatype="/\w{6,16}/i"  errormsg="用户名由6-16位字母，数字或下划线组成！" >
+      <span class="Validform_checktip">6-16位字母，数字或下划线</span>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="t1">
+                                    <label>用户密码：</label>
+                                    </td>
+                                    <td>
+                                    <input class="text" name="user_pwd" id="user_pwd" type="password" datatype="s6-16" errormsg="密码至少6个字符,最多16个字符！"  >
+                                    <span class="quick_feeaback Validform_checktip">密码范围在6~15位之间！</span>
+                                    </td>
+                                </tr>
+                                 <tr>
+                                    <td class="t1">
+                                    <label>确定密码：</label>
+                                    </td>
+                                    <td>
+                                    <input class="text" name="repassword" id="repassword"  type="password" datatype="*" recheck="user_pwd" errormsg="您两次输入的账号密码不一致！" >
+                                    <span class="quick_feeaback Validform_checktip">密码范围在6~15位之间！</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="t1">
+                                    <label>电子邮箱：</label>
+                                    </td>
+                                    <td>
+                                    <input class="text" name="user_email" id="user_email"  type="text" datatype="e" errormsg="请输入正确的电子邮箱！">
+                                     <span class="Validform_checktip">用于会员验证，找回密码等</span>
+
+                                    </td>
+                                </tr>
+                                
+								
+                                <tr>
+                                    <td class="t1">
+                                    <label>验证码：</label>
+                                    </td>
+                                    <td>
+                                    <input type="text" class="text" size="8" maxlength="8" name="verify">&nbsp;<img  src="__APP__/Public/verify/" alt="点击更换验证码" style="cursor:pointer;" onclick="this.src='__APP__/Public/verify/?rand='+Math.random();">
+                          
+                                    </td>
+                                </tr>
+								
+								<!--
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                    <input class="checkbox" type="checkbox"><span class="checkbox_t">同意《<a href="/help.html">注册协议</a>》</span>
+                                    </td>
+                                </tr>
+                                -->
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                    <input name="" value="提交注册" id="" class="bt_reg" type="submit">
+                                    </td>
+                                </tr>
+                            </table>
+                            </form>
+
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div></div>
+</div></div>
+
+
+
+<!--foot底部部分--->
+<include file="Public:footer" />
+
+
+
+</body>
+
+</html>

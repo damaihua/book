@@ -1,0 +1,225 @@
+<?php
+	/**文章章节类-->>written by LAMp76-36
+	*update方法，为小说更新章节
+	*lists小说的章节列表
+	*read小说章节阅读的方法
+	*/
+class ChaptersAction extends Action {
+    public function update(){
+		$cats=M('Cats');
+		$data=$cats->where('type=1')->select();
+		$book_id=$_GET['book_id'];
+		$this->assign('book_id',$book_id);
+		$this->assign('data',$data);
+		$this->display();
+	}
+	public function doUpd(){
+		//获取要更新的小说章节的内容
+		$data['book_id']=$_GET['book_id'];		//获取要更新的小说的id
+		$data['chapter_title']=$_POST['chapter_title'];//小说章节的标题
+		$data['content']=$_POST['content1'];//小说章节的内容
+		$data['charge']=$_POST['charge'];//是否收费
+		$data['much']=$_POST['much'];//每章的价格
+		$data['update_time']=time();
+		$chapter=M('Chapter');
+		$res=$chapter->add($data);
+		if($res){
+			$this->success('发表成功');
+			//同时改变小说的最新更新时间和小说的进度
+			$book=M('Book');
+			$data['progress']=$_POST['prog'];//小说的进度
+			$data['book_size'].=strlen($_POST['content1']);
+			$data['update_time']=time();
+			$book->save($data);
+		}else{
+			$this->error('发表失败');
+		}
+	}
+	public function chapList(){
+		//小说的章节列表
+		//显示的信息包括小说的名字，作者，收费章节和免费章节
+		//获取小说的id
+		$book_id=$_GET['book_id'];
+		//获取小说的信息
+		$book=D('Book');
+		$where['book_id']=$book_id;
+		$book_info=$book->where($where)->relation(true)->select();
+
+		//获取小说的免费章节
+		$chapter=M('Chapter');
+		$where['charge']=0;
+		$chapters=$chapter->where($where)->select();
+		
+		//搜素小说的收费章节
+		$where['charge']=1;
+		$charge=$chapter->where($where)->select();
+		
+		//为模版赋值
+		$this->assign('book_info',$book_info);//小说信息的变量
+		$this->assign('chapters',$chapters);//小说的免费章节的数组
+		$this->assign('charge',$charge);//小说的收费章节
+		$this->display();
+	}
+
+	//读取章节的方法
+	public function read(){
+		//获取要阅读的章节的id
+		$chapter_id=$_GET['chapter_id'];
+		//获取章节的信息
+		$chapters=M('Chapter');
+		$chapter=$chapters->select($chapter_id);
+
+		//得到book_id
+		$book_id=$chapter[0]['book_id'];
+		//获取小说的信息
+		$book=D('Book');
+		$where['book_id']=$book_id;
+		$book_info=$book->where($where)->relation(true)->select();
+
+		//阅读小说前先检查是否是收费章节，用户是否购买过
+		if($chapter[0]['charge']){
+			//收费章节，检查用户是否登录
+			if(isset($_SESSION['user_name']) && !empty($_SESSION['user_name'])){
+				
+				//获取当前用户的id
+				$user_id=$_SESSION['user_id'];
+				//获得当前用户的所有购买章节的数组 
+				$order=D('Order');				
+		$orders=$order->orders($user_id,$book_id);
+				//如果是收费章节，检查用户是否购买过该章节
+				if(in_array($chapter_id,$orders)){
+					//如果购买过，则直接显示阅读页面
+					$this->assign('chapter',$chapter);
+					$this->assign('book_info',$book_info);
+					$this->display();	
+				}else{
+					//没购买过，检查用户的账户是否有虚拟币
+					$user=M('User_info');
+					$where='user_id='.$user_id;
+					$user_money=$user->field('user_score')->where($where)->find();
+					$money=$user_money['user_score'];
+					//拿章节的收费和余额比较
+					$much=$chapter[0]['much'];		
+					if(($money-$much)>0){
+						//有余额并且够，扣除余额后，再进行阅读
+						$data['user_score']=$money-$much;
+						$res=$user->where($where)->save($data);
+						//创建数据对象
+						$order=M('Order');
+						$data['user_id']=$_SESSION['user_id'];
+						$data['book_id']=$book_id;
+						$data['chapter_id']=$_GET['chapter_id'];
+						$res=$order->add($data);
+						//购买成功后，显示阅读页面
+						if($res){
+							$this->assign('chapter',$chapter);
+							$this->assign('book_info',$book_info);
+							$this->display();	
+						}
+					}else{
+						$this->error('余额不足，请充值后再阅读');
+					}
+				}
+			
+
+			}else{
+				//如若没有登录，跳转到登录页面
+				$this->redirect('/member/login');
+			}
+			
+		}else{
+			//免费章节，直接进入阅读页面
+			$this->assign('chapter',$chapter);
+			$this->assign('book_info',$book_info);
+			$this->display();
+		}
+		
+		
+	}
+
+	//订阅章节的方法
+	public function orders(){
+		
+		//订阅之前检查用户是否登录
+		if(isset($_SESSION['user_name']) && !empty($_SESSION['user_name'])){
+			
+			/*订阅之前，检查用户之前是否订阅过
+			*获取用户已经订阅的章节数组，和当前要订阅的章节的数组
+			*求两个数组的不同的章节，就是最终要订阅的章节
+			*如果没有，则提示用户已经购买过，无须再购买*/
+
+			//获得要订阅的章节的id和当前用户的id
+			$chapter_id=$_POST['chapter_id'];//要订阅的章节数组
+			$user_id=$_SESSION['user_id'];//订阅的用户的id
+			$book_id=$_POST['book_id'];//订阅的章节的所属小说的id
+			
+			//获取用户已经订阅过的本书章节的数组
+			$orders=D('Order');
+			$order_arr=$orders->orders($user_id,$book_id);
+		
+			//把要订阅的章节的数组不存在已订阅的章节数组的元素重新组成最终要订阅的章节数组
+			for($i=0;$i<count($chapter_id);$i++){
+				if(!in_array($chapter_id[$i],$order_arr)){
+					$chap_arr[]=$chapter_id[$i];//最终要购买的章节的数组
+				}
+			}
+			
+			//如果要购买的章节的数组为空，提示都已购买过，无须购买
+			if(empty($chap_arr)){
+				//数组为空，都已经购买过
+				$this->success('已订阅过过，无须重复订阅');
+			}else{
+				//计算出总共要花的虚拟币
+				for($i=0;$i<count($chap_arr);$i++){
+				$chapter=M('Chapter');
+				$where='chapter_id='.$chap_arr[$i];
+				$money=$chapter->field('much')->where($where)->find();
+				$count+=$money['much'];//最终订阅要花费的虚拟币
+				}
+
+				//从用户的账户中扣除相应的虚拟币
+				$user=M('User_info');
+				$where='user_id='.$_SESSION['user_id'];
+				$score=$user->field('user_score')->where($where)->find();
+				$much=$score['user_score'];//用户当前账户的虚拟币
+				//从用户的账户中扣除相应的虚拟币
+				if(($much-$count)<0){
+					//余额不足
+					$this->error('你的账户的余额不足，请充值后在订阅');
+				}else{
+					//余额充足
+					$data['user_score']=$much-$count;
+					$res=$user->where($where)->save($data);
+					if($res){
+						//扣除成功,将订阅的章节数组存到数据库中
+						//先把数组的元素连接成字符串，就是最后要插入到数据库中的数据
+						$chap_str='';
+						foreach($chap_arr as $v){
+						$chap_str.=$v.',';
+						}
+						//创建数据对象
+						$order=M('Order');
+						$data['user_id']=$_SESSION['user_id'];
+						$data['book_id']=$book_id;
+						$data['chapter_id']=rtrim($chap_str,',');
+						$res=$order->add($data);
+						if($res){
+							//订阅成功
+							$this->success('订阅成功');
+						}else{
+							//订阅失败
+							$this->error('订阅失败');
+						}
+					}else{
+						$this->error('订阅失败，请重试');
+					}
+				}
+			}
+			
+		}else{
+			//没有登录，跳转到登录页面
+			$this->redirect('/member/login');
+		}
+	}
+
+}

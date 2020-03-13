@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>会员注册——听雨轩在线书城</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载" />
+<meta name="description" content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！" />
+
+<meta name="copyright" content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
+翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
+
+
+" />
+<meta name="generator" content="jieqi.com" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+<script language="javascript" type="text/javascript" src="__JS__/jquery-1.8.3.min.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+<script>
+	$(function(){
+		$("#user_name").blur(function(){
+            var $name=$(this).val();
+            if($name=='admin'){
+                alert('admin不允许注册，请重新输入！');
+            }
+            
+        })
+		
+	})
+
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="__JS__/index/dd_belatedpng.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
+</script>
+<![endif]-->
+
+</head>
+<body>
+<!-- 头部部分 -->
+<include file="Public:header" />
+
+<div class="main"><div id="pbody">
+   		<div class="column_register"><div class="column_cr clearfix">
+            <div class="left" style="height:500px;">
+                <div class="register_intro">
+                	<ul>
+                    <li>海量的文学作品</li>
+                    <li>良好的阅读操作体验</li>
+                    <li>系统的作者创作发展体系</li>
+                    <li>丰富的版权拓展营销推广渠道</li>
+                    </ul>
+                </div>
+            </div>
+        	<div class="right" style="height:500px;">
+            	<div class="box1" style="margin:0px;">
+                	<div class="c_head">
+                    	<h3><span></span>新用户注册</h3>
+                    </div>
+                    <div class="c_body">
+                    	<div class="main_form" style="padding:50px 0px 0px 0px;">                   
+                            <form name="frmregister" id="frmregister" action="__URL__/do_reg" method="post">
+                            <table cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td class="t1">
+                                    <label>用户名：</label>
+                                    </td>
+                                    <td>
+                                    <input class="text" name="user_name" id="user_name" style="width:200px;" type="text" value="请在此输入注册用户名" onFocus="if(this.value=='请在此输入注册用户名'){this.value='';}" onBlur="if(this.value==''){this.value='请在此输入注册用户名';}" >
+                                    <span class="quick_feeaback" id="usermsg"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="t1">
+                                    <label>用户密码：</label>
+                                    </td>
+                                    <td>
+                                    <input class="text" name="user_pwd" id="user_pwd" style="width:200px;" type="password" value="" >
+                                    <span class="quick_feeaback" id="passmsg">请设置8位及以上密码</span>
+                                    </td>
+                                </tr>
+                                 <tr>
+                                    <td class="t1">
+                                    <label>确定密码：</label>
+                                    </td>
+                                    <td>
+                                    <input class="text" name="repassword" id="repassword" style="width:200px;" type="password" value="" >
+                                    <span class="quick_feeaback" id="repassmsg"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="t1">
+                                    <label>电子邮箱：</label>
+                                    </td>
+                                    <td>
+                                    <input class="text" name="user_email" id="user_email" value="" style="width:200px;" type="text" >
+                                    <span class="quick_feeaback" id="mailmsg"></span>
+                                    </td>
+                                </tr>
+                                
+								
+                                <tr>
+                                    <td class="t1">
+                                    <label>验证码：</label>
+                                    </td>
+                                    <td>
+                                    <input type="text" class="text" size="8" maxlength="8" name="verify">&nbsp;<img  src="__APP__/Public/verify/" alt="点击更换验证码" style="cursor:pointer;" onclick="this.src='__APP__/Public/verify/?rand='+Math.random();">
+                          
+                                    </td>
+                                </tr>
+								
+								<!--
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                    <input class="checkbox" type="checkbox"><span class="checkbox_t">同意《<a href="/help.html">注册协议</a>》</span>
+                                    </td>
+                                </tr>
+                                -->
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                    <input name="" value="提交注册" id="" class="bt_reg" type="submit">
+                                    </td>
+                                </tr>
+                            </table>
+                            </form>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div></div>
+</div></div>
+
+
+
+<!--foot底部部分--->
+<include file="Public:footer" />
+
+
+
+</body>
+
+</html>

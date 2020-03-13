@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.bottom_box{ position:fixed; left:0; bottom:0; z-index:1000; width:100%; display:none; background:#202020; filter:alpha(opacity=80); -moz-opacity:.8; opacity:.8;}
+* html .bottom_box{position:absolute; left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft,10)||0)-(parseInt(this.currentStyle.marginRight,10)||0)); top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))}
+	.bottom{ width:900px; height:auto; margin:0 auto; color:#fff; line-height:30px; padding:16px 0; position:relative;	font-size: 13px;}
+		.bottom p{ width:650px;}
+		.close{ position:absolute; right:50px; top:16px; width:18px; height:18px; background:url(../images/close.png) no-repeat;}
+		.ask{ position:absolute; bottom:25px; right:-15px;}
+		.register{ position:absolute;  bottom:25px; left:675px;}
+.mini{ position:fixed; bottom:0; right:20px; cursor:pointer; z-index:1000; display:none;}
+* html .mini{position:absolute; left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft,10)||0)-(parseInt(this.currentStyle.marginRight,10)||20)); top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))}
+

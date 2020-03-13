@@ -1,0 +1,21 @@
+[ 2014-04-10T09:27:57+08:00 ] 127.0.0.1 /book/index.php/book/add
+ERR: Model:showCats您所请求的方法不存在！
+
+[ 2014-04-10T13:32:36+08:00 ] 127.0.0.1 /book/index.php/book/add
+ERR: Model:showCats您所请求的方法不存在！
+
+[ 2014-04-10T16:49:38+08:00 ] 127.0.0.1 /book/index.php/bookInfo/book_id/22
+ERR: 非法操作:book_id
+
+[ 2014-04-10T16:50:49+08:00 ] 127.0.0.1 /book/index.php/book/rank.html
+ERR: 非法操作:rank
+
+[ 2014-04-10T17:21:30+08:00 ] 127.0.0.1 /book/index.php/book/rank.html
+ERR: 非法操作:rank
+
+[ 2014-04-10T19:31:05+08:00 ] 127.0.0.1 /book/index.php/book
+ERR: 非法操作:index
+
+[ 2014-04-10T19:53:30+08:00 ] 127.0.0.1 /book/index.php/chapters/orders
+ERR: Model:orders您所请求的方法不存在！
+

@@ -1,0 +1,17 @@
+<?php
+
+	/*小说的章节的模型类 written by LAMP76-36
+	*该模型类关联到book表
+	*/
+
+	class ChapterModel extends RelationModel{
+		protected $_link=array(
+			'Book'=>array(
+					'mapping_type'=>BELONGS_TO,
+					'class_name'=>'Book',
+					'foreign_key'=>'book_id',
+					'mapping_fields'=>'book_name',
+					'as_fields'=>'user_name'
+			),	
+		);
+	}

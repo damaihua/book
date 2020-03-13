@@ -1,0 +1,26 @@
+<?php
+
+	/*所有小说的页面 ->>written by LAMP76-36
+	*index方法：显示所有小说的最近更新页面
+	*并且可以根据条件进行排序
+	*/
+	class BooksAction extends Action{
+		
+		public function index(){
+			
+			//查询所有的小说类别
+			$cats=M('Cats');
+			$cat=$cats->where('type=0')->select();
+
+			//查询所有的小说标签的名字
+			$data=D('Book');
+			$tags=$data->tags();
+			
+			//查询所有的写作进度的类别
+			$pro=$cats->where('type=1')->select();
+			dump($tags);
+			die();
+			$this->display();
+		}
+
+	}

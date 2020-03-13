@@ -1,0 +1,18 @@
+<?php
+	/*CommentModel小说评论的模型 ->>writtten by LAMP76-36
+	*此模型为关联模型，关联到user表
+	*/
+
+	class CommentModel extends RelationModel{
+	
+		protected $_link=array(
+			'User'=>array(
+					'mapping_type'=>BELONGS_TO,
+					'class_name'=>'User',
+					'foreign_key'=>'user_id',
+					'mapping_fields'=>'user_name',
+					'as_fields'=>'user_name'
+			),	
+		);
+
+	}

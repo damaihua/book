@@ -1,0 +1,42 @@
+<extend name="write" />
+<block name="write">
+	<table class="grid" width="100%" align="center">
+		<caption>标题：<{$data.letter_title}></caption>
+		  <tr>
+			<td width="15%" class="odd">发送人：</td>
+			<td width="85%" class="even"><a href=" " target="_blank"><{$data.user_name}></a></td>
+		  </tr>
+		  <tr>
+			<td class="odd">接收人：</td>
+			<td class="even"><a href="" target="_blank"><{$data.letter_to}></a></td>
+		  </tr>
+		  <tr>
+			<td class="odd">时&nbsp; 间：</td>
+			<td class="even"><{$data.time|date='Y-m-d H:i:s',###}></td>
+		  </tr>
+		  <tr>
+			<td class="odd">内&nbsp; 容：</td>
+			<td class="even"><{$data.letter_content}></td>
+		  </tr>
+		  <tr>
+			<td colspan="2" class="foot">
+			<a href="__URL__/write">回复消息</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="javascript:if(confirm('确实要该消息么？')) document.location='__URL__/del/lette_id/<{$data.letter_id}>'">删除消息</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="__URL__/inbox">返回收件箱</a>
+			</td>
+		  </tr>
+</table>
+
+<script type="text/javascript">
+<!--
+  function jieqiFormValidate_newmessage(){
+    if ( window.document.newmessage.title.value == "" ){
+      alert( "请输入 标题" );
+      window.document.newmessage.title.focus();
+      return false;
+    }
+  }
+//-->
+</script>
+<br />
+
+</block>

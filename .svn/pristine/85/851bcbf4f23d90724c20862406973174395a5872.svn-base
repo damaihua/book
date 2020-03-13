@@ -1,0 +1,3351 @@
+[ 2014-04-02T00:26:15+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001907s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002223s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028684s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002077s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001157s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001185s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006345s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001345s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2014-04-02T00:26:17+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001341s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028368s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002027s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001130s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005856s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001266s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001454s ]
+
+[ 2014-04-02T00:28:00+08:00 ] 192.168.60.108 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002239s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013324s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000847s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000833s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000692s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003927s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001308s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2014-04-02T00:28:00+08:00 ] 192.168.60.108 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013012s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000947s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000866s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003872s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2014-04-02T00:28:00+08:00 ] 192.168.60.108 /book/admin.php/index/index_body
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013623s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001007s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001583s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000840s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005104s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002414s ]
+
+[ 2014-04-02T00:28:01+08:00 ] 192.168.60.108 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001647s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012998s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002146s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000866s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005188s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001064s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2014-04-02T00:28:01+08:00 ] 192.168.60.108 /book/admin.php/index/index_body
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001164s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010941s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000813s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000795s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003522s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2014-04-02T00:28:01+08:00 ] 192.168.60.108 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001230s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001596s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012953s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001025s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000957s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004137s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001065s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2014-04-02T00:28:06+08:00 ] 192.168.60.108 /book/admin.php/other/link_main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001827s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015638s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000937s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001037s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004100s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000966s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2014-04-02T00:28:07+08:00 ] 192.168.60.108 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012595s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000924s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000926s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004130s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001137s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2014-04-02T00:28:07+08:00 ] 192.168.60.108 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001309s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012934s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001013s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000963s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000723s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004222s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2014-04-02T00:28:07+08:00 ] 192.168.60.108 /book/admin.php/index/index_body
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001103s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011591s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000847s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000795s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003634s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001088s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2014-04-02T00:28:11+08:00 ] 192.168.60.108 /book/admin.php/other/link_main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002367s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002613s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015435s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000891s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000822s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003774s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2014-04-02T00:30:07+08:00 ] 192.168.60.108 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001227s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010489s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000779s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000758s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000554s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003475s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000961s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001131s ]
+
+[ 2014-04-02T00:30:07+08:00 ] 192.168.60.108 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001280s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016429s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001044s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000942s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000720s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004399s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001118s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2014-04-02T00:30:07+08:00 ] 192.168.60.108 /book/admin.php/index/index_body
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001294s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012091s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000919s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000916s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000655s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004414s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2014-04-02T00:30:11+08:00 ] 192.168.60.108 /book/admin.php/other/link_main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013457s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001026s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000788s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004380s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001232s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001409s ]
+
+[ 2014-04-02T00:30:17+08:00 ] 192.168.60.108 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001416s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012268s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001007s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000869s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003976s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2014-04-02T00:30:17+08:00 ] 192.168.60.108 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001824s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014047s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000961s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000878s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000619s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003954s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001078s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2014-04-02T00:30:17+08:00 ] 192.168.60.108 /book/admin.php/index/index_body
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011706s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000903s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000895s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000695s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004005s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001067s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001262s ]
+
+[ 2014-04-02T00:33:56+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027827s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001745s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000896s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000720s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004963s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001031s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2014-04-02T00:34:29+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001668s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028895s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001801s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000968s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005096s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001090s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2014-04-02T00:34:30+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001228s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027993s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002031s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001211s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000848s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005701s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001090s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2014-04-02T00:35:39+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002490s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002752s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027339s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001771s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000873s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000630s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004704s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000994s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2014-04-02T00:35:40+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028288s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002103s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001166s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000764s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005872s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001237s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001422s ]
+
+[ 2014-04-02T00:35:40+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001770s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028107s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001929s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000880s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004816s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2014-04-02T00:43:48+08:00 ] 127.0.0.1 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013865s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000963s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000910s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000898s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004544s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2014-04-02T00:43:48+08:00 ] 127.0.0.1 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001674s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013661s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000998s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000814s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003889s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001077s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2014-04-02T00:43:48+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036839s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001833s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001258s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005388s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001051s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2014-04-02T00:48:05+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032850s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001903s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000863s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000557s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004764s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000926s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2014-04-02T01:00:47+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002172s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030323s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001939s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001038s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005360s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001726s ]
+
+[ 2014-04-02T01:04:15+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001757s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028431s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002027s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001241s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000742s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005570s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001049s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2014-04-02T01:04:16+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027717s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001990s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001240s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005894s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001628s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001832s ]
+
+[ 2014-04-02T01:04:16+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001936s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028525s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001748s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000883s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000660s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004772s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000998s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2014-04-02T01:04:17+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027499s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001887s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001034s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006041s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2014-04-02T01:06:19+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002853s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003288s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028472s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001952s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001317s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005538s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000952s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2014-04-02T01:06:21+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025488s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001850s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000819s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004492s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000866s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2014-04-02T01:06:21+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001313s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026324s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001792s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000929s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004744s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000928s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2014-04-02T01:06:21+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024908s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001605s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000865s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004266s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-04-02T01:26:20+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001739s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002033s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028993s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002080s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001053s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005439s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001034s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2014-04-02T01:26:22+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001036s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027751s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001948s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001017s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005854s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001256s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2014-04-02T01:26:22+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001384s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030237s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002057s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000975s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005164s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2014-04-02T01:26:24+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028590s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001835s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000939s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000716s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005220s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2014-04-02T01:26:24+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029499s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001834s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000937s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000633s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004915s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001102s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2014-04-02T01:26:24+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001633s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031284s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002032s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000639s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005155s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2014-04-02T01:26:24+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001455s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031294s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001743s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000906s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000641s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004806s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001068s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2014-04-02T01:26:24+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027935s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002288s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000994s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005461s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2014-04-02T01:26:39+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002727s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030346s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002052s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000934s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005083s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001039s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2014-04-02T01:30:00+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001419s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001655s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030843s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001860s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001036s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001054s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005609s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001180s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2014-04-02T01:30:01+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001640s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028581s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001813s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000924s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000692s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002585s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002778s ]
+
+[ 2014-04-02T01:30:01+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001455s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001701s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028865s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001768s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000882s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004699s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001324s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2014-04-02T01:30:02+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034331s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001699s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000888s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000582s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000970s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2014-04-02T01:30:02+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041815s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001806s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001044s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004917s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002342s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002544s ]
+
+[ 2014-04-02T01:31:52+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001926s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002191s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028767s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001670s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000850s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000574s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004780s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001881s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002067s ]
+
+[ 2014-04-02T01:31:53+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026912s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001567s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000736s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004083s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000831s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2014-04-02T01:31:55+08:00 ] 127.0.0.1 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010323s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000726s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000773s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003590s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2014-04-02T01:31:55+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006252s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029479s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001894s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001024s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005145s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2014-04-02T01:31:55+08:00 ] 127.0.0.1 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001685s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001934s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021769s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003829s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001558s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000769s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007758s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001121s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2014-04-02T01:31:58+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031018s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001555s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000718s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004041s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000818s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2014-04-02T01:31:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028909s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001655s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000805s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000535s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004361s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000993s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2014-04-02T01:32:00+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001296s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027428s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001726s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000879s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000502s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004534s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000853s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2014-04-02T01:32:01+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001305s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027135s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001673s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000975s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005300s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2014-04-02T01:32:34+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001769s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035256s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001748s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000833s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005342s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001251s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2014-04-02T01:32:37+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001376s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028819s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001829s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000964s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004958s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001134s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2014-04-02T01:32:42+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001597s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028722s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001879s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001058s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001186s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2014-04-02T01:32:43+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001691s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002183s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030354s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001948s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001137s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000642s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005423s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001180s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2014-04-02T01:32:45+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030564s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001973s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000955s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000691s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005135s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001047s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2014-04-02T01:32:47+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001843s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028830s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001737s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000905s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005096s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001149s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2014-04-02T01:32:52+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001620s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001879s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029747s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001863s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001010s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000718s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005192s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001134s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2014-04-02T01:32:53+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001773s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030563s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001763s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000919s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004782s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001037s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2014-04-02T01:33:06+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042146s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002990s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001080s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006940s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001781s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001980s ]
+
+[ 2014-04-02T01:33:09+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001706s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002020s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030666s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001917s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001146s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000769s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005603s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2014-04-02T01:33:11+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001897s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002154s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030763s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001858s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000990s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005100s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2014-04-02T01:33:55+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002087s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030570s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001847s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000954s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005030s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001084s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2014-04-02T01:33:58+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001629s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030256s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002145s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001082s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000790s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005676s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001193s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2014-04-02T01:34:02+08:00 ] 127.0.0.1 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011153s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000905s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001133s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000856s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004647s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001239s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2014-04-02T01:34:02+08:00 ] 127.0.0.1 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014358s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000983s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000818s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003784s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001020s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2014-04-02T01:34:02+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001372s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045810s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001959s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001367s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000979s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006648s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006982s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007202s ]
+
+[ 2014-04-02T01:34:03+08:00 ] 127.0.0.1 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001705s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011163s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001187s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000895s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000703s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004359s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001153s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2014-04-02T01:34:03+08:00 ] 127.0.0.1 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016471s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000947s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001886s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005090s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001705s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001889s ]
+
+[ 2014-04-02T01:34:03+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001336s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032041s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010838s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001187s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002363s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018200s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003337s ]
+
+[ 2014-04-02T01:34:04+08:00 ] 127.0.0.1 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001564s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001907s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011440s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000839s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000807s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003691s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2014-04-02T01:34:04+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001480s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001780s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028420s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002889s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000752s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006351s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000995s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2014-04-02T01:34:04+08:00 ] 127.0.0.1 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001379s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015017s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000903s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000849s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003790s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001007s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2014-04-02T01:34:08+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001476s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029214s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001780s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000934s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000686s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004942s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001087s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2014-04-02T01:34:09+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001675s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001922s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030317s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001947s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001115s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000856s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005659s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001296s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2014-04-02T01:34:10+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001473s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001801s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030048s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002060s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001058s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000748s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005475s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001136s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2014-04-02T01:34:11+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001769s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030031s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001867s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001029s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000743s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005289s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2014-04-02T01:34:12+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001355s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030241s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002546s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001051s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005842s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001022s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2014-04-02T01:34:13+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029508s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002007s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001122s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000870s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005740s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2014-04-02T01:34:15+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001696s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001931s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028411s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001789s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000958s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000703s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006140s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001340s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2014-04-02T01:34:16+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001658s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029991s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001868s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001026s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000745s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005239s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001894s ]
+
+[ 2014-04-02T01:34:26+08:00 ] 127.0.0.1 /book/admin.php/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_softname F:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 4 行.
+NOTIC: [8] Undefined variable: cfg_version F:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 4 行.
+NOTIC: [8] Undefined variable: redmsg F:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 116 行.
+NOTIC: [8] Undefined variable: cfg_powerby F:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 117 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012377s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000927s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000898s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000742s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004163s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001023s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2014-04-02T01:34:26+08:00 ] 127.0.0.1 /book/admin.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001140s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+
+[ 2014-04-02T01:34:34+08:00 ] 127.0.0.1 /book/admin.php/Public/verify/?rand=0.727574660758713
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001356s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+
+[ 2014-04-02T01:34:35+08:00 ] 127.0.0.1 /book/admin.php/Public/verify/?rand=0.3155792192538479
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001273s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+
+[ 2014-04-02T01:34:39+08:00 ] 127.0.0.1 /book/admin.php/login/check
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001720s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.004046s ]
+SQL: SELECT * FROM `book_admin` WHERE ( admin_name='admin' ) LIMIT 1   [ RunTime:0.000510s ]
+
+[ 2014-04-02T01:34:39+08:00 ] 127.0.0.1 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001362s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011998s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001051s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001056s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000845s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004632s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001266s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2014-04-02T01:34:39+08:00 ] 127.0.0.1 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001578s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001870s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022854s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001048s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000925s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000789s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004311s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001108s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2014-04-02T01:34:40+08:00 ] 127.0.0.1 /book/admin.php/index/index_body
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001330s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021399s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001094s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001865s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005702s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002513s ]
+
+[ 2014-04-02T01:34:43+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002032s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002365s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030558s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001877s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001022s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000746s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005498s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001730s ]
+
+[ 2014-04-02T01:49:30+08:00 ] 127.0.0.1 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001794s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002069s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012654s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000951s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000887s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000712s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004402s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001226s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2014-04-02T01:49:30+08:00 ] 127.0.0.1 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015936s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000992s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001215s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000837s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004952s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2014-04-02T01:49:30+08:00 ] 127.0.0.1 /book/admin.php/index/index_body
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001388s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038179s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001312s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001098s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000994s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005990s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001422s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2014-04-02T01:49:33+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001876s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002124s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033691s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001795s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001118s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005407s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000943s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2014-04-02T01:50:09+08:00 ] 127.0.0.1 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002072s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011225s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000828s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000944s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004346s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001484s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001787s ]
+
+[ 2014-04-02T01:50:09+08:00 ] 127.0.0.1 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001293s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021252s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001538s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001664s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000836s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005632s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001223s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2014-04-02T01:50:09+08:00 ] 127.0.0.1 /book/admin.php/index/index_body
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001731s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001973s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042257s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004345s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008092s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001120s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2014-04-02T01:50:13+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001589s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+NOTIC: [8] Constant THEME_NAME already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined F:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 102 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 112 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 117 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 122 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 132 行.
+NOTIC: [8] Undefined variable: data F:\wamp\www\book\Admin\Runtime\Cache\481e601f2041b3f0d983179995afaa04.php 第 142 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033613s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001935s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001004s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000712s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005234s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001132s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2014-04-02T01:53:53+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set1
+ERR: 非法操作:sys_set1
+
+[ 2014-04-02T01:53:59+08:00 ] 127.0.0.1 /book/admin.php/sitese1t/sys_set
+ERR: 无法加载模块:Sitese1t
+
+[ 2014-04-02T09:05:56+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+ERR: 无法加载模块:Siteset
+
+[ 2014-04-02T09:05:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+ERR: 无法加载模块:Siteset
+
+[ 2014-04-02T09:05:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+ERR: 无法加载模块:Siteset
+
+[ 2014-04-02T09:06:01+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+ERR: 无法加载模块:Siteset
+
+[ 2014-04-02T09:18:04+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+ERR: XML标签语法错误 : condition="<{$data['site_status']}
+
+[ 2014-04-02T09:18:55+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+ERR: XML标签语法错误 : condition="<{$data['site_status']}
+
+[ 2014-04-02T09:18:56+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+ERR: XML标签语法错误 : condition="<{$data['site_status']}
+
+[ 2014-04-02T09:18:57+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+ERR: XML标签语法错误 : condition="<{$data['site_status']}
+
+[ 2014-04-02T09:18:57+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+ERR: XML标签语法错误 : condition="<{$data['site_status']}
+
+[ 2014-04-02T09:18:57+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+ERR: XML标签语法错误 : condition="<{$data['site_status']}
+
+[ 2014-04-02T09:18:58+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+ERR: XML标签语法错误 : condition="<{$data['site_status']}
+
+[ 2014-04-02T09:18:58+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_set
+ERR: XML标签语法错误 : condition="<{$data['site_status']}
+
+[ 2014-04-02T10:01:08+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T10:01:11+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-02T10:57:37+08:00 ] 127.0.0.1 /book/admin.php/login/check
+ERR: 模板不存在[./Admin/Tpl/default/Login/check.html]
+
+[ 2014-04-02T11:06:46+08:00 ] 127.0.0.1 /book/admin.php/siteset/menu_main
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/menu_main.html]
+
+[ 2014-04-02T11:08:21+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:08:21+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:08:55+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:08:55+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:08:56+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:08:56+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:08:57+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:09:33+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:09:33+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:09:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:09:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:10:00+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:10:00+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:10:01+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:10:01+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:10:02+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:10:02+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:05+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:05+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:58+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:58+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:58+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:58+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:21:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:22:00+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:22:00+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:22:37+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:22:37+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:22:37+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:22:37+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:22:37+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:22:38+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:22:38+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:22:38+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:22:38+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:22:45+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:22:45+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:24:36+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:24:36+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:24:37+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:24:37+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:24:38+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:24:38+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:24:39+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:24:39+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:24:40+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:24:40+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:25:32+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:25:32+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:25:33+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:25:33+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:25:34+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:25:34+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:25:35+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:25:35+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:25:36+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:25:36+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:25:46+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:25:46+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:26:52+08:00 ] 192.168.60.108 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:26:52+08:00 ] 192.168.60.108 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:27:40+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:27:40+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:27:40+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:28:41+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:28:41+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:28:42+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:28:42+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:28:43+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:28:43+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:28:44+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:28:44+08:00 ] 127.0.0.1 /book/admin.php/siteset/catalog_main.htm
+ERR: 模板不存在[./Admin/Tpl/default/Siteset/catalog_main.htm.html]
+
+[ 2014-04-02T11:31:30+08:00 ] 127.0.0.1 /book/admin.php/other/page_main/
+ERR: 非法操作:page_main
+
+[ 2014-04-02T11:31:38+08:00 ] 127.0.0.1 /book/admin.php/other/page_main/
+ERR: 非法操作:page_main
+
+[ 2014-04-02T11:33:01+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T11:33:02+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-02T11:34:31+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T11:37:49+08:00 ] 127.0.0.1 /book/admin.php/index/index.html
+ERR: 无法加载模块:Index
+
+[ 2014-04-02T11:38:34+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_edit
+ERR: 非法操作:sys_edit
+
+[ 2014-04-02T13:27:18+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-02T13:27:18+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T13:38:02+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-02T13:55:52+08:00 ] 127.0.0.1 /book/admin.php/other/page_main/
+ERR: 非法操作:page_main
+
+[ 2014-04-02T13:56:15+08:00 ] 127.0.0.1 /book/admin.php/other/friendlink_main.php?keyword=&ischeck=1&imageField.x=0&imageField.y=0
+ERR: 非法操作:friendlink_main.php
+
+[ 2014-04-02T13:56:26+08:00 ] 127.0.0.1 /book/admin.php/other/page_main/
+ERR: 非法操作:page_main
+
+[ 2014-04-02T14:00:10+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-02T14:00:11+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T14:00:36+08:00 ] 127.0.0.1 /book/admin.php/other/page_main/
+ERR: 非法操作:page_main
+
+[ 2014-04-02T15:13:47+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T15:20:57+08:00 ] 127.0.0.1 /book/admin.php/siteset/
+ERR: 非法操作:index
+
+[ 2014-04-02T16:06:03+08:00 ] 127.0.0.1 /book/admin.php/book/menu_edit?id=
+ERR: 非法操作:menu_edit
+
+[ 2014-04-02T16:07:18+08:00 ] 127.0.0.1 /book/admin.php/book/menu_edit?id=
+ERR: 非法操作:menu_edit
+
+[ 2014-04-02T16:07:42+08:00 ] 127.0.0.1 /book/admin.php/book/menu_add
+ERR: 非法操作:menu_add
+
+[ 2014-04-02T16:08:03+08:00 ] 127.0.0.1 /book/admin.php/book/menu_add
+ERR: 非法操作:menu_add
+
+[ 2014-04-02T16:08:14+08:00 ] 127.0.0.1 /book/admin.php/book/menu_edit?id=
+ERR: 非法操作:menu_edit
+
+[ 2014-04-02T16:08:20+08:00 ] 127.0.0.1 /book/admin.php/book/menu_add
+ERR: 非法操作:menu_add
+
+[ 2014-04-02T16:09:12+08:00 ] 127.0.0.1 /book/admin.php/book/menu_edit?id=
+ERR: 非法操作:menu_edit
+
+[ 2014-04-02T16:33:07+08:00 ] 127.0.0.1 /book/admin.php/siteset/insert
+ERR: 非法操作:insert
+
+[ 2014-04-02T18:02:47+08:00 ] 192.168.60.36 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T18:07:42+08:00 ] 192.168.60.36 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T18:07:43+08:00 ] 192.168.60.36 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-02T19:53:28+08:00 ] 127.0.0.1 /book/admin.php//index.php/book/rank.html
+ERR: 无法加载模块:Index.php
+
+[ 2014-04-02T19:53:32+08:00 ] 127.0.0.1 /book/admin.php//index.php/book/index.html
+ERR: 无法加载模块:Index.php
+
+[ 2014-04-02T19:56:46+08:00 ] 127.0.0.1 /book/admin.php/siteset/menu_del?cid=
+ERR: 非法操作:menu_del
+
+[ 2014-04-02T21:00:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/db_main
+ERR: 非法操作:db_main
+
+[ 2014-04-02T21:08:26+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T21:08:27+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-02T21:18:46+08:00 ] 127.0.0.1 /book/admin.php/other/page_main/
+ERR: 模板不存在[./Admin/Tpl/default/Other/page_main.html]
+
+[ 2014-04-02T21:18:52+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-02T21:18:54+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T21:18:57+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T21:18:58+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-02T21:19:00+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T21:19:43+08:00 ] 127.0.0.1 /book/admin.php/other/page_main/
+ERR: 模板不存在[./Admin/Tpl/default/Other/page_main.html]
+
+[ 2014-04-02T21:20:26+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T21:20:28+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-02T21:20:28+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-02T21:20:29+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-02T21:20:29+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-02T23:12:31+08:00 ] 127.0.0.1 /book/admin.php/member/member_main
+ERR: 无法加载模块:Member
+
+[ 2014-04-02T23:13:52+08:00 ] 127.0.0.1 /book/admin.php/member/member_main
+ERR: 无法加载模块:Member
+
+[ 2014-04-02T23:14:55+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/reset.css
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:55+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/style.css
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:56+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/member.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:56+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/jquery.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:56+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/admin.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:56+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/base.css
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:56+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/dedeajax2.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:56+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/global.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/style.css
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/jquery.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/global.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/member.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/dedeajax2.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/reset.css
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/base.css
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/admin.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/style.css
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/base.css
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/dedeajax2.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/member.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/global.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/jquery.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/reset.css
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:14:57+08:00 ] 127.0.0.1 /book/admin.php/member/user_main_files/admin.js
+ERR: 非法操作:user_main_files
+
+[ 2014-04-02T23:41:48+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/reset.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:41:48+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/style.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:41:48+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/dedeajax2.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:41:48+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/admin.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:41:48+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/base.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:41:48+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/global.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:41:48+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/jquery.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:41:48+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/stat.php
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:12+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/reset.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:12+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/base.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:12+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/dedeajax2.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:12+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/jquery.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:12+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/global.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:12+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/admin.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:12+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/style.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:12+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/stat.php
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/base.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/admin.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/dedeajax2.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/reset.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/global.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/style.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/jquery.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/stat.php
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/admin.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/base.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/style.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/reset.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/dedeajax2.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/jquery.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/global.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:42:13+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/stat.php
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:05+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/reset.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:05+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/dedeajax2.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:05+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/base.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:05+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/style.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:05+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/jquery.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:05+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/admin.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:05+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/global.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/style.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/admin.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/base.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/global.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/jquery.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/reset.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/dedeajax2.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/jquery.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/style.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/base.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/admin.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/reset.css
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/dedeajax2.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:43:06+08:00 ] 0.0.0.0 /book/admin.php/member/letter_main_files/global.js
+ERR: 非法操作:letter_main_files
+
+[ 2014-04-02T23:49:59+08:00 ] 0.0.0.0 /book/admin.php/member/member_pm.php?keyword=&username=&folder=inbox&imageField=%E6%90%9C%E7%B4%A2
+ERR: 非法操作:member_pm.php
+

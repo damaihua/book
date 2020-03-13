@@ -1,0 +1,273 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>友情链接管理</title>
+
+<link rel="stylesheet" href="__TMPL__/public/css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="__TMPL__/public/css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" type="text/css" href="__TMPL__/public/css/base.css">
+<script language="javascript" src="__TMPL__/public/js/jquery.js" type="text/javascript"></script>	
+<script type="text/javascript" src="__TMPL__/public/js/admin.js"></script>
+
+<script language="javascript" src="__TMPL__/public/js/global.js"></script>
+
+<script language="javascript">
+function Sel(stype)
+{
+	  for(var i=0;i < document.getElementsByName('aids').length;i++)
+	  {
+		  if(stype=='all') document.getElementsByName('aids')[i].checked=true;
+		  else document.getElementsByName('aids')[i].checked=false;
+	  }
+}
+function checkSubmit()
+{
+	var str = '';
+	for(var i=0;i < document.getElementsByName('aids').length;i++)
+	{
+		  if(document.getElementsByName('aids')[i].checked){
+		  	if(str=='') str += document.getElementsByName('aids')[i].value;
+		  	else str += ',' + document.getElementsByName('aids')[i].value;
+		  }
+	}
+	if(str=='')
+	{
+		alert('你没选择任何内容！');
+		return false;
+	}
+	else
+	{
+		location="friendlink_edit.php?aids="+str+"&dopost=delall";
+	}
+}
+</script>
+</head>
+<body>
+
+<div id="main-content">
+<script language="javascript">
+$("#plus").addClass("current");$("#friendlink_main").addClass("current");</script>				
+
+	<div class="content-box"><!-- Start Content Box -->
+				
+				<div class="content-box-header">
+					
+					<h3 style="cursor: s-resize;">友情链接管理</h3>
+					
+					<ul class="content-box-tabs">
+
+					</ul>
+					
+					<div class="clear"></div>
+					
+				</div> <!-- End .content-box-header -->
+				
+				<div class="content-box-content">
+					
+<div style="display: block;" class="tab-content  default-tab" id="tab1">				
+<table cellpadding="3" cellspacing="1" align="center" bgcolor="#D6D6D6" border="0" width="98%">
+  <tbody><tr class="alt-row">
+    <td colspan="8" style="padding-left:10px;">
+  <div style="float:left">
+		[<a href="http://localhost/dede/dede/friendlink_add.php"><u>增加链接</u></a>]
+	</div>
+
+  </td>
+</tr>
+<tr>
+   <td colspan="8" align="center" height="30"> 
+   <form action="friendlink_main.php" name="form1" method="get">
+	  
+          关键字：
+          <input name="keyword" id="keyword" size="12" style="width:250px" type="text">
+          
+          	<select name="ischeck" id="ischeck">
+        			<option value="0">不限类型</option>
+<option selected="selected" value="-1">未审核</option>
+<option value="1">已审核</option>
+						</select>
+          
+           <input name="imageField" class="np" src="%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5%E7%AE%A1%E7%90%86_files/button_search.gif" border="0" height="22" type="image" width="60">
+          
+	  </form>
+    </td>
+</tr>
+<form name="form1" method="post" action="friendlink_edit.php" onsubmit="return checkSubmit();"></form>
+<input name="dopost" value="delall" type="hidden">
+<input name="allid" value="" type="hidden">
+<tr class="alt-row" align="center" bgcolor="#FBFCE2" height="26">
+          <td width="10%">选择</td>
+          <td width="10%">网站名称</td>
+          <td width="15%">网站地址</td>
+          <td width="15%">站长Email</td>
+          <td width="15%">手机</td>
+          <td width="10%">状态</td>
+          <td width="5%">顺序</td>
+          <td width="19%">管理</td>
+        </tr>
+                <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="26">
+          <td><input checked="checked" name="aids" value="9" class="np" type="checkbox"></td>
+          <td>百度</td>
+          <td><a href="#" target="_blank">http://www.baidu.com</a></td>
+          <td>245629560@qq.com</td>
+          <td>18301331513</td>
+          <td>已审核</td>
+          <td>1</td>
+          <td>
+          	<a href="http://localhost/dede/dede/friendlink_edit.php?id=9&amp;dopost=getedit">[更改]</a>
+		        <a href="http://localhost/dede/dede/friendlink_edit.php?id=9&amp;dopost=delete">[删除]</a>
+		      </td>
+        </tr>
+		        <tr class="alt-row" onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="26">
+          <td><input checked="checked" name="aids" value="8" class="np" type="checkbox"></td>
+          <td>百度</td>
+          <td><a href="#" target="_blank">http://www.baidu.com</a></td>
+          <td>245629560@qq.com</td>
+          <td>18301331513</td>
+          <td>首页</td>
+          <td>1</td>
+          <td>
+          	<a href="http://localhost/dede/dede/friendlink_edit.php?id=8&amp;dopost=getedit">[更改]</a>
+		        <a href="http://localhost/dede/dede/friendlink_edit.php?id=8&amp;dopost=delete">[删除]</a>
+		      </td>
+        </tr>
+		        <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="26">
+          <td><input checked="checked" name="aids" value="2" class="np" type="checkbox"></td>
+          <td>百度</td>
+          <td><a href="#" target="_blank">http://www.baidu.com</a></td>
+          <td>245629560@qq.com</td>
+          <td>18301331513</td>
+          <td>首页</td>
+          <td>1</td>
+          <td>
+          	<a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=getedit">[更改]</a>
+		        <a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=delete">[删除]</a>
+		      </td>
+        </tr>
+		 <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="26">
+          <td><input checked="checked" name="aids" value="2" class="np" type="checkbox"></td>
+          <td>百度</td>
+          <td><a href="#" target="_blank">http://www.baidu.com</a></td>
+          <td>245629560@qq.com</td>
+          <td>18301331513</td>
+          <td>首页</td>
+          <td>1</td>
+          <td>
+          	<a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=getedit">[更改]</a>
+		        <a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=delete">[删除]</a>
+		      </td>
+        </tr>
+        <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="26">
+          <td><input checked="checked" name="aids" value="2" class="np" type="checkbox"></td>
+          <td>百度</td>
+          <td><a href="#" target="_blank">http://www.baidu.com</a></td>
+          <td>245629560@qq.com</td>
+          <td>18301331513</td>
+          <td>首页</td>
+          <td>1</td>
+          <td>
+          	<a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=getedit">[更改]</a>
+		        <a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=delete">[删除]</a>
+		      </td>
+        </tr>
+        <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="26">
+          <td><input checked="checked" name="aids" value="2" class="np" type="checkbox"></td>
+          <td>百度</td>
+          <td><a href="#" target="_blank">http://www.baidu.com</a></td>
+          <td>245629560@qq.com</td>
+          <td>18301331513</td>
+          <td>首页</td>
+          <td>1</td>
+          <td>
+          	<a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=getedit">[更改]</a>
+		        <a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=delete">[删除]</a>
+		      </td>
+        </tr>
+        <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="26">
+          <td><input checked="checked" name="aids" value="2" class="np" type="checkbox"></td>
+          <td>百度</td>
+          <td><a href="#" target="_blank">http://www.baidu.com</a></td>
+          <td>245629560@qq.com</td>
+          <td>18301331513</td>
+          <td>首页</td>
+          <td>1</td>
+          <td>
+          	<a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=getedit">[更改]</a>
+		        <a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=delete">[删除]</a>
+		      </td>
+        </tr>
+        <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="26">
+          <td><input checked="checked" name="aids" value="2" class="np" type="checkbox"></td>
+          <td>百度</td>
+          <td><a href="#" target="_blank">http://www.baidu.com</a></td>
+          <td>245629560@qq.com</td>
+          <td>18301331513</td>
+          <td>首页</td>
+          <td>1</td>
+          <td>
+          	<a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=getedit">[更改]</a>
+		        <a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=delete">[删除]</a>
+		      </td>
+        </tr>
+        <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="26">
+          <td><input checked="checked" name="aids" value="2" class="np" type="checkbox"></td>
+          <td>百度</td>
+          <td><a href="#" target="_blank">http://www.baidu.com</a></td>
+          <td>245629560@qq.com</td>
+          <td>18301331513</td>
+          <td>首页</td>
+          <td>1</td>
+          <td>
+          	<a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=getedit">[更改]</a>
+		        <a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=delete">[删除]</a>
+		      </td>
+        </tr>
+        <tr onmousemove="javascript:this.bgColor='#FCFDEE';" onmouseout="javascript:this.bgColor='#FFFFFF';" align="center" bgcolor="#FFFFFF" height="26">
+          <td><input checked="checked" name="aids" value="2" class="np" type="checkbox"></td>
+          <td>百度</td>
+          <td><a href="#" target="_blank">http://www.baidu.com</a></td>
+          <td>245629560@qq.com</td>
+          <td>18301331513</td>
+          <td>首页</td>
+          <td>1</td>
+          <td>
+          	<a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=getedit">[更改]</a>
+		        <a href="http://localhost/dede/dede/friendlink_edit.php?id=2&amp;dopost=delete">[删除]</a>
+		      </td>
+        </tr>   
+     <tr class="alt-row" bgcolor="#ffffff" height="28">
+      <td colspan="8">
+      	<input class="button" onclick='Sel("all")' name="imageField" value="全选" type="button">
+       <input class="button" onclick='Sel("none")' name="imageField" value="取消" type="button">
+       <input class="button" onclick="checkSubmit()" name="imageField" value="批量删除" type="button">
+      	
+
+      </td>
+     </tr>
+     <tr align="center" bgcolor="#F9FCEF" height="28">
+      <td colspan="8">
+      	<span>共 1 页/3条记录</span>
+      </td>
+     </tr>
+   </tbody></table>
+  
+
+
+							<div class="clear"></div><!-- End .clear -->
+							
+						
+						
+					</div> <!-- End #tab1 -->
+
+					
+				</div> <!-- End .content-box-content -->
+				
+			</div> <!-- End .content-box -->
+			
+			<div class="clear"></div>
+			
+           			<!-- End #footer -->			
+		</div> <!-- End #main-content -->	
+	
+
+</body></html>

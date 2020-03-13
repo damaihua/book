@@ -1,0 +1,29 @@
+
+<extend name="write" />
+<block name="write">
+<form name="frmnewmessage" id="frmnewmessage" action="
+__URL__/doadmin/letter_to/kefu" method="post" onsubmit="return frmnewmessage_validate();">
+<table width="580" class="grid" cellspacing="1" align="center">
+<caption>写新消息</caption>
+<tr valign="middle" align="left">
+  <td class="odd" width="25%">收件人</td>
+  <td class="even">
+  
+  网站管理员<input type="hidden" name="tosys" id="tosys" value="1" />
+  
+  </td>
+</tr>
+  <tr valign="middle" align="left"><td class="odd" width="25%">标题</td>
+  <td class="even"><input type="text" class="text" name="title" id="title" size="30" maxlength="100" value="" /></td>
+</tr>
+<tr valign="middle" align="left">
+  <td class="odd" width="25%">内容</td>
+  <td class="even"><textarea class="textarea" name="content" id="content" rows="12" cols="60"></textarea></td>
+</tr>
+<tr valign="middle" align="left">
+  <td class="odd" width="25%">&nbsp;</td>
+  <td class="even"><input type="submit" class="button" name="submit"  id="submit" value="发 送" /><input type="hidden" name="action" id="action" value="newmessage" /></td>
+</tr>
+</table>
+</form>
+</block>

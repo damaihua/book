@@ -1,0 +1,47 @@
+<?php
+/*小说的公共信息类 ->> written by LAMP76-36
+*该类主要是小说的公共信息
+*不需要用户登录就能够看到的
+*index方法:小说的信息
+*/
+
+class BookInfoAction extends Action{
+	
+	//小说的信息显示方法
+	public function index(){
+		//获取小说的id
+		$book_id=$_GET['book_id'];
+		
+		//根据id获取小说的信息
+		$book=D('Book');
+		$book_info=$book->relation(true)->select($book_id);
+		//获取小说的tags
+		$tags=explode(' ',$book_info[0]['tags']);
+		//获取小说的进度类别的id
+		$pro_id=$book_info[0][progress];
+		//根据id查处进度名称，并给模版赋值
+		$pro=M('Cats');
+		$pro_name=$pro->getFieldByCatId($pro_id,'cat_name');
+		
+		//根据小说的id获得小说的最近更新免费章节
+		$chapters=M('Chapter');
+		$where['book_id']=$book_id;
+		$where['charge']=0;
+		$chapter=$chapters->where($where)->order('update_time desc')->find();
+		//小说的最近更新收费章节
+		$where['book_id']=$book_id;
+		$where['charge']=1;
+		$charge=$chapters->where($where)->order('update_time desc')->find();
+		$this->assign('chap',$chapter);
+		$this->assign('progress',$pro_name);
+		$this->assign('book_info',$book_info);
+		$this->assign('tags',$tags);
+		$this->display();
+	}
+
+	//小说的所有标签
+	public function tags(){
+		$tags=D('Book');
+		dump($tags->tags());
+	}
+}

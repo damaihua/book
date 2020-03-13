@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0038)http://www.cuiweiju.com/userdetail.php -->
+<html  xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>关于我们——听雨轩在线书城</title>
+
+<meta  name="keywords"  content="小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载">
+<meta  name="description"  content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！">
+<meta  name="author"  content="http://www.jieqi.com (jieqi cms)">
+<meta  name="copyright"  content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
+翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
+
+
+">
+<meta  name="generator"  content="jieqi.com">
+<link  rel="stylesheet"  rev="stylesheet"  href="__CSS__/style.css"  type="text/css"  media="all">
+<link  rel="stylesheet"  rev="stylesheet"  href="__CSS__/main.css"  type="text/css"  media="all">
+<script  language="javascript"  type="text/javascript"  src="__JS__/common.js"></script><style  type="text/css"></style>
+<script  language="javascript"  type="text/javascript"  src="__JS__/theme.js"></script>
+
+
+</head>
+<body>
+
+<!---头部部分--->
+<include file="Public:header" />
+
+<div  class="main">
+
+<div  id="left">
+
+<div  class="block">
+<div  class="blocktitle"><span>关于我们</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="__APP__/page/intro">网站介绍</a></li>	 
+<li><a  href="__APP__/page/team_intro">团队介绍</a></li>
+<li><a  href="__APP__/page/link_us">联系我们</a></li>	
+</ul></div>
+</div>
+
+<div  class="block">
+<div  class="blocktitle"><span>版权声明</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="__APP__/page/user_agree">用户协议</a></li>	
+<li><a  href="__APP__/page/point">隐私策略</a></li>
+<foreach name="data" item="vo">	
+<li><a  href="__APP__/page/u_call">法律声明</a></li>
+</foreach>
+</ul></div>
+</div>
+
+<div  class="block">
+<div  class="blocktitle"><span>帮助中心</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<foreach name="data" item="vo">	
+<li><a  href="__APP__/page/question"><{$vo.title}></a></li>
+</foreach>
+<li><a  href="__APP__/page/author_line">签约流程</a></li>
+
+
+<li><a  href="__APP__/page/write_line">投稿流程</a></li>
+
+
+</ul></div>
+</div>
+  
+<div  class="block">
+<div  class="blocktitle"><span>商务合作</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="__APP__/page/friends">合作伙伴</a></li>
+</ul></div>
+</div>
+
+
+<div  class="block">
+<div  class="blocktitle"><span>内容联盟</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="__APP__/page/contents">联盟伙伴</a></li>
+</ul></div>
+</div>
+
+
+</div>
+  <div  id="centerm">
+    <foreach name="data" item="vo">
+	 <h2 class='pagetitle'><{$vo.title}></h2>
+     </foreach>
+  <div class='pagecontent'>   
+   <foreach name="data" item="vo">
+    <p><{$vo.content}></p>
+    </foreach>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!--foot底部部分--->
+<include file="Public:footer" />
+
+</body></html>

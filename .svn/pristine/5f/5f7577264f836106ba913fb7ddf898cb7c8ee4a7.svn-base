@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>重生之皇子天下|作者：yiyefeisheng|更新时间：2014-04-04-翠微居小说网</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta name="keywords" content="重生之皇子天下,作者：yiyefeisheng,更新时间：2014-04-04,翠微居小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载" />
+<meta name="description" content="重生之皇子天下,作者：yiyefeisheng,秦皇后代受秦皇迫害重生到古代，夺舍重生的他成为一代皇子，得到十七皇子记忆的秦风也得到了他的一切，皇宫能缺美女吗？秦风靠着智慧与身份，魔教小魔女，大家族的大小姐，以及创下春宫图的家族年轻管理者全被他收入后宫，，，
+一个想成为皇帝的秦风身边美女会有这么多吗？，，
+QQ：1481381101
+群号： 389145891" />
+<meta name="copyright" content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
+翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
+
+
+" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+<script type="text/javascript">
+<!--
+var articleid = "128284";
+var chaptername = "重生之皇子天下";
+
+function jumpPage() {
+  var event = document.all ? window.event : arguments[0];
+  if (event.keyCode==37) location = "http://www.cuiweiju.com/html/128/128284/6700603.html";
+  if (event.keyCode==39) location = "http://www.cuiweiju.com/html/128/128284/6700933.html";
+}
+document.onkeydown=jumpPage;
+-->
+</script>
+</head>
+<body style="background-color:#f5faf3;">
+
+<script type="text/javascript" src="__JS__/toplink.js"></script>
+
+<!---头部部分--->
+<include file="Public:header" />
+
+<div id="adhead"><script type="text/javascript" src="__JS__/indextop.js"></script></div>
+
+<div id="pbody">
+	<p class="position">您当前所在的位置：<a href="__APP__/index/index">首页</a>&gt;<a href="">武侠同人</a>&gt;<a href="__APP__/bookInfo/index/book_id/<{$book_info[0]['book_id']}>"><{$book_info[0]['book_name']}></a>
+      <div class="book_catalog">
+          <div class="c_head">
+              <h2><{$book_info[0]['book_name']}></h2>
+              <p>作者：<a href=""><{$book_info[0]['user_name']}></a>
+			  更新时间：<strong><{$book_info[0]['update_time']|date="Y-m-d",###}></strong></p>
+			   <div class="fun clearfix">
+			  <a id="a_tip" href="javascript:;" onclick="openDialog('http://www.cuiweiju.com/modules/article/tip.php?id=128284&ajax_gets=jieqi_contents', false);"><b>这本书写的太好了，我要打赏作者</b></a>┆<a id="a_vipvote" href="javascript:;" onclick="openDialog('http://www.cuiweiju.com/modules/article/gift.php?type=vipvote&id=128284&ajax_gets=jieqi_contents', false);"><strong>我要送月票</strong></a>┆<a id="a_hurry" href="javascript:;" onclick="openDialog('http://www.cuiweiju.com/modules/article/hurry.php?id=128284&ajax_gets=jieqi_contents', false);"><strong>我要催更</strong></a>┆<a href="/modules/article/addbookcase.php?bid=128284" target="_blank">加入书架</a>┆<a href="/modules/article/uservote.php?id=128284" target="_blank">投推荐票</a>┆<a href="/cwjinfo/128/128284.htm">返回书页</a>┆<a href="/offer99.php?pid=y3976b95e7a396522f2b236ae5213484"><font color=red>免费获取翠微币</font></a>
+              </div>
+          </div>
+          <div class="c_body">
+			
+			<!--小说的免费章节start-->
+				<ul class="clearfix">
+				<foreach name="chapters" item="vo">
+					<li>
+						<a href="__URL__/read/chapter_id/<{$vo.chapter_id}>" title="<{$vo.update_time|date="Y-m-d H:i",###}>发表"><{$vo.chapter_title}></a>
+					</li>
+				</foreach>
+				</ul>
+			<!--小说的免费章节end-->
+
+			<!--小说的收费章节start-->
+			<form action="http://www.cuiweiju.com/modules/obook/buyobook.php" method="post" name="frmbuy" onsubmit="return checkbuy(this);">
+			<h4>VIP章节目录<span>【<a href="http://www.cuiweiju.com/modules/obook/obookinfo.php?id=4266" target="_blank">查看VIP信息</a> | <a href="http://www.cuiweiju.com/modules/pay/buyegold.php" target="_blank">帐户充值</a> | <a href="/offer99.php?pid=y3976b95e7a396522f2b236ae5213484"><font color=red>免费获取翠微币</font></a>】</span>&nbsp;<input type="button" name="btnbuy1" value="选择全部VIP章节" onclick="selectall(this.form)" />	  &nbsp;&nbsp;<input type="button" name="btnbuy2" value="取消全部选择" onclick="cancelall(this.form)" />      &nbsp;&nbsp;<input type="submit" name="btnbuy3" value="订阅选中章节" />	  <input name="oid" type="hidden" value="4266" /></h4>
+			
+			<ul class="clearfix">
+			<foreach name="charge" item="vo">
+				<li>
+					<input type="checkbox" id="checkid[]" name="checkid[]" value="342073">
+					<img align="absmiddle" alt="vip" src="__IMG__/icon_vip.gif">
+					<a href="__URL__/read/chapter_id/<{$vo.chapter_id}>" title="<{$vo.update_time|date="Y-m-d H:i",###}>发表，价格：<{$vo.much}>"><{$vo.chapter_title}></a>
+				</li>
+			</foreach>
+			<!--小说的收费章节end-->
+			</ul>
+			</form>
+          </div>
+      </div>
+</div>
+
+<div id="adbottom"><script type="text/javascript" src="__JS__/indexbottom.js"></script></div>
+
+<div id="pfoot">
+	<script type="text/javascript" src="__JS__/bottomlink.js"></script>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+
+body.showmenu .left{display:block;}body.hidemenu .left{display:none;}body.showmenu .right{left:240px;}body.hidemenu .right{left:0px;}.left{position:absolute;top:0px;width:240px;left:0px;bottom:0px;z-index:7;}.left{*height:100%;*top:0;*bottom:0;*border-top:0px solid #FFF;*border-bottom:0px solid #FFF;*z-index:1;}.menu{height:100%;}.menu iframe{height:100%;width:99.99%;z-index:20;}.right{position:absolute;right:0px;top:1px;bottom:0px;z-index:7;}.right{*height:100%;*top:0;*right:-20px;*bottom:0;*border-top:0px solid #FFF;*border-bottom:0px solid #FFF;*z-index:1;}.main{height:100%;}.main iframe{height:100%;width:99.99%;z-index:20;}
+

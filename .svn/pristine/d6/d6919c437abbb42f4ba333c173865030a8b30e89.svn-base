@@ -1,0 +1,15 @@
+<?php
+class loginbarModel{
+	public function showbar(){
+		if(!session('user_name')){
+			$str='<a  href="#">我要注册</a> |<a  href="#">立即登录</a>';
+			return $str;
+		}
+		
+	}
+
+
+
+
+}
+?>

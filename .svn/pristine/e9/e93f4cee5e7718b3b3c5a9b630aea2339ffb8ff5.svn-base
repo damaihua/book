@@ -1,0 +1,22 @@
+<?php
+// 本类由系统自动生成，仅供测试用途
+class OtherAction extends PublicAction {
+    //单页管理页面
+    public function page_main(){
+        $this->islogin();
+    	$this->display();
+        
+    }
+    //广告管理页面
+    public function ad_main(){
+        $this->islogin();
+    	$this->display();
+        
+    }
+    //友情链接管理页面
+    public function link_main(){
+  		$this->islogin();
+    	$this->display();
+    }
+
+}

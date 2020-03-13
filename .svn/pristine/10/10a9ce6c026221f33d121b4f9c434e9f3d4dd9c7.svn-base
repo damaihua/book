@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0055)http://www.cuiweiju.com/modules/article/applywriter.php -->
+<html  xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>申请友情链接--<{$Think.SITE_NAME}></title>
+
+<meta name="keywords" content="<{$Think.SITE_KEYWORDS}>" />
+<meta name="description" content="<{$Think.SITE_DESCRIPT}>" />
+<link  rel="stylesheet"  rev="stylesheet"  href="__CSS__/style.css"  type="text/css"  media="all">
+<link  rel="stylesheet"  rev="stylesheet"  href="__CSS__/main.css"  type="text/css"  media="all">
+<script  language="javascript"  type="text/javascript"  src="__JS__/common.js"></script>
+<script  language="javascript"  type="text/javascript"  src="__JS__/theme.js"></script>
+
+<script language="javascript" type="text/javascript" src="__JS__/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="__JS__/Validform_v5.3.2.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	//$(".registerform").Validform();  //就这一行代码！;
+		
+	$(".applyform").Validform({
+		tiptype:function(msg,o,cssctl){
+        if(!o.obj.is("form")){
+				var objtip=o.obj.siblings(".Validform_checktip");
+				cssctl(objtip,o.type);
+				objtip.text(msg);
+			 }
+		}
+    
+		
+		
+	});
+	
+	
+})
+</script>
+
+<style  type="text/css"></style></head>
+<body>
+
+<!---头部部分--->
+<include file="Public:header" />
+
+<div  class="main">
+
+
+<div  id="pbody">
+
+	<div  class="row row_bg clearfix">
+    	<div  class="title_pic ts">友情链接申请</div>
+        <div  class="regulation">
+        	<h2>申请说明：</h2>
+              <p>1、不收录有反动、色情、赌博等不良内容或提供不良内容链接的网站，以及网站名称或内容违反国家有关法规的网站</p>
+              <p>2.不收录无实用内容的网站，如您的网站正在建设中，尚无完整内容，请不必现在登录，欢迎您在网站建设完成后再来登录</p>
+            
+              
+              <p>3.不收录含有病毒、木马，弹出插件或恶意更改他人电脑设置的网站及有多个弹窗广告的网站</p>
+              
+              <p>4.对挂靠别人的网站下的网站 ( 即没有自己单独域名的网站 ) ，本站将不予收录</p>
+               <p>5.不收录在正常情况下无法正常连接或浏览的网站</p>
+                <p>6.本站保留收录决定权以及在本站网址数据库中相关内容的编辑决定权</p>
+              
+              <h2>申请表单：</h2>
+             
+			  <form class='applyform' action="__URL__/insert"  method="post" >
+           <ul class='link'>
+		<li>
+        <label>网站域名：</label>
+        <input type="text" class="ad-wnameth1" value="http://" name="url" datatype="url" nullmsg="请填写正确的url！" errormsg="请填写正确的url！">
+         <span class="Validform_checktip"></span>
+        </li>
+		<li>
+        <label>网站名称：</label><input type="text" class="ad-wnameth1" name="name" maxlength="50" datatype="*" nullmsg="请填写网站名称！" errormsg="请填写网站名称！">
+         <span class="Validform_checktip"></span>
+        </li>
+		
+		<li>
+        <label>Email：</label><input type="text" class="ad-wnameth2" name="email" maxlength="70" datatype="e" nullmsg="请填写正确的Email！" errormsg="请填写正确的Email！">
+         <span class="Validform_checktip">(审核通过会通过该邮箱通知)</span>
+        </li>
+		<li>
+        <label>电话：</label><input type="text" class="ad-wnameth2" name="phone" maxlength="30" datatype="/^\d{11}$/" nullmsg="请输入11位手机号码！" errormsg="请输入11位手机号码！" ignore="ignore">
+         <span class="Validform_checktip">(选填)</span>
+        </li>
+		
+		<li>
+        <label>网站描述：</label><textarea data-max="500" name="intro" datatype="s20-250" nullmsg="请输入10-250字网站简介！" errormsg="请输入20-250字网站简介！"></textarea> <span class="Validform_checktip"></span>
+        </li>
+		
+		<li class="ad-form-bd-info">如果您提交申请两周之后没有被收录，可能是因为您的网站还未达到我们的收录标准，您可以等待一个月后再次提交，请不要重复提交。</li>
+		<li class="ad-form-bd-submit"><input  type="submit"  class="agree_bt"  value="同意并申请"><input  name="action"  type="hidden"  value="applywriter"></li>
+	</ul>
+			  </form>
+      </div>
+		
+    </div>
+</div>
+</div>
+
+
+<!--foot底部部分--->
+<include file="Public:footer" />
+
+</body>
+</html>

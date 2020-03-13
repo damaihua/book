@@ -1,0 +1,84 @@
+[ 2014-04-14T09:16:47+08:00 ] 127.0.0.1 /book/index.php/book/add
+ERR: Model:showCats您所请求的方法不存在！
+
+[ 2014-04-14T09:21:29+08:00 ] 127.0.0.1 /book/index.php/book/add
+ERR: Model:showCats您所请求的方法不存在！
+
+[ 2014-04-14T09:21:41+08:00 ] 127.0.0.1 /book/index.php/book/add
+ERR: Model:showCats您所请求的方法不存在！
+
+[ 2014-04-14T09:28:55+08:00 ] 127.0.0.1 /book/index.php/book/add
+ERR: Model:showCats您所请求的方法不存在！
+
+[ 2014-04-14T09:53:20+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: 模板不存在[./Index/Tpl/default/BookInfo/index.html]
+
+[ 2014-04-14T09:53:57+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: 模板不存在[./Index/Tpl/default/BookInfo/index.html]
+
+[ 2014-04-14T09:53:59+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/33
+ERR: 模板不存在[./Index/Tpl/default/BookInfo/index.html]
+
+[ 2014-04-14T11:16:15+08:00 ] 127.0.0.1 /book/index.php/bookinfo/index/book_id/32
+ERR: 无法加载模块:Bookinfo
+
+[ 2014-04-14T11:32:23+08:00 ] 127.0.0.1 /book/index.php/book/rank.html
+ERR: 非法操作:rank
+
+[ 2014-04-14T11:32:47+08:00 ] 127.0.0.1 /book/index.php/book/rank.html
+ERR: 非法操作:rank
+
+[ 2014-04-14T11:33:10+08:00 ] 127.0.0.1 /book/index.php/member/order.html
+ERR: Model:relation您所请求的方法不存在！
+
+[ 2014-04-14T11:33:15+08:00 ] 127.0.0.1 /book/index.php/member/pay_files/toplink.js
+ERR: 非法操作:pay_files
+
+[ 2014-04-14T11:33:20+08:00 ] 127.0.0.1 /book/index.php/member/order.html
+ERR: Model:relation您所请求的方法不存在！
+
+[ 2014-04-14T11:33:36+08:00 ] 127.0.0.1 /book/index.php/book/add
+ERR: Model:showCats您所请求的方法不存在！
+
+[ 2014-04-14T13:38:09+08:00 ] 127.0.0.1 /book/index.php/book/rank.html
+ERR: 非法操作:rank
+
+[ 2014-04-14T13:40:55+08:00 ] 127.0.0.1 /book/index.php/book/add
+ERR: Model:showCats您所请求的方法不存在！
+
+[ 2014-04-14T13:41:30+08:00 ] 127.0.0.1 /book/index.php/member/collect
+ERR: Model:relation您所请求的方法不存在！
+
+[ 2014-04-14T13:42:32+08:00 ] 127.0.0.1 /book/index.php/book/add
+ERR: Model:showCats您所请求的方法不存在！
+
+[ 2014-04-14T13:52:09+08:00 ] 127.0.0.1 /book/index.php/book/add
+ERR: Model:showCats您所请求的方法不存在！
+
+[ 2014-04-14T14:05:53+08:00 ] 127.0.0.1 /book/index.php/book/add
+ERR: Model:selectCats您所请求的方法不存在！
+
+[ 2014-04-14T16:39:57+08:00 ] 127.0.0.1 /book/index.php/member/order.html
+ERR: Model:relation您所请求的方法不存在！
+
+[ 2014-04-14T16:40:01+08:00 ] 127.0.0.1 /book/index.php/book/vip.html
+ERR: 非法操作:vip
+
+[ 2014-04-14T16:40:13+08:00 ] 127.0.0.1 /book/index.php/member/order
+ERR: Model:relation您所请求的方法不存在！
+
+[ 2014-04-14T19:00:32+08:00 ] 127.0.0.1 /book/index.php/book/free.html
+ERR: 非法操作:free
+
+[ 2014-04-14T19:20:15+08:00 ] 127.0.0.1 /book/index.php/member/order
+ERR: 模板不存在[./Index/Tpl/default/Member/order.html]
+
+[ 2014-04-14T19:45:39+08:00 ] 127.0.0.1 /book/index.php/book/free.html
+ERR: 非法操作:free
+
+[ 2014-04-14T19:45:44+08:00 ] 127.0.0.1 /book/index.php/book/free.html
+ERR: 非法操作:free
+
+[ 2014-04-14T19:59:45+08:00 ] 127.0.0.1 /book/index.php/book/free.html
+ERR: 非法操作:free
+

@@ -1,0 +1,245 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>会员注册——听雨轩在线书城</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载" />
+<meta name="description" content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！" />
+<meta name="author" content="http://www.jieqi.com (jieqi cms)" />
+<meta name="copyright" content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
+翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
+
+
+" />
+<meta name="generator" content="jieqi.com" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="__JS__/index/dd_belatedpng.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
+</script>
+<![endif]-->
+
+</head>
+<body>
+<!---头部部分--->
+<div  id="ptop"><div><span><strong>admin</strong> | <a  href="http://www.cuiweiju.com/message.php?box=inbox">短消息<b  class="hottext">(0)</b></a> <a  href="http://www.cuiweiju.com/userdetail.php"><b  class="hottext">邮箱未验证</b></a> | <a  href="http://www.cuiweiju.com/modules/article/bookcase.php">我的书架</a> | <a  href="http://www.cuiweiju.com/modules/obook/buylist.php">订阅记录</a> | <a  href="http://www.cuiweiju.com/userdetail.php">用户面板</a> | <a  href="http://www.cuiweiju.com/logout.php">退出</a></span><a  href="http://www.cuiweiju.com/index.php?charset=gbk">简体</a>|<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>|<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">收藏</a>|<a   href="http://www.cuiweiju.com/userdetail.php#">设为首页</a></div></div>
+
+<div id="phead" class="clearfix">
+	<h1><a href="/">听雨轩-中文原创文学书库</a></h1>
+	<a href="#" target="_blank" rel="nofollow"><img src="__IMG__/huan.gif" border="0" width="465" height="55"></a>
+    <ul><li><a href="#" target="_blank">新手必读手册</a></li>
+        <li><a href="#" target="_blank"><font color=red>免费领取翠微币活动</font></a></li>
+        <li><a href="#" target="_blank">举报低俗信息有奖</a></li>
+    </ul>
+</div>
+<div id="pmenu_bar">
+<div id="mynav">
+	<ul><li><a href="__ROOT__" class="current">首页</a></li>
+    	<li><a href="__ROOT__/online/">在线书库</a></li>
+        <li><a href="__ROOT__/rank/">排行榜</a></li>
+        <li><a href="__ROOT__/free/">免费专区</a></li>
+        <li><a href="__ROOT__/vip/">VIP专区</a></li>
+		<li><a href="__ROOT__/online/">订阅记录</a></li>
+        <li><a href="__ROOT__/pay/">在线充值</a></li>
+		<li><a href="__ROOT__/member/">会员中心</a></li>
+        <li><a href="__ROOT__/bbs/">书友论坛</a></li>
+        
+
+    </ul>
+    </div>
+
+
+    <div class="type"><a href="__ROOT__/category">玄幻·奇幻</a>┊<a href="__ROOT__/category">都市·官场</a>┊<a href="__ROOT__/category">武侠·同人</a>┊<a href="__ROOT__/category">言情·耽美</a>┊<a href="__ROOT__/category">仙侠·修真</a>┊<a href="__ROOT__/category">历史·军事</a>┊<a href="__ROOT__/category">游戏·竞技</a>┊<a href="__ROOT__/category">科幻·灵异</a>
+    </div>
+    <div class="dynamic">
+		<div class="m_quee" id="m_quee">
+		<dl class="dl_quee">
+
+
+
+<dd><a href="/userpage.php?uid=2979095" target="_blank"><em>a593913134</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126334.htm" target="_blank"><strong>《人生得意须纵欢》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=2282522" target="_blank"><em>咪咪姐</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125765.htm" target="_blank"><strong>《川蜀大军阀》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3141175" target="_blank"><em>dong1028</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125832.htm" target="_blank"><strong>《欲望之门》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3151348" target="_blank"><em>27611800</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/111/111082.htm" target="_blank"><strong>《君临战国》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=1850289" target="_blank"><em>lingmuqiang</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126990.htm" target="_blank"><strong>《都市后花园》</strong></a></dd>
+
+
+
+</dl>
+
+<script language="javascript" type="text/javascript">
+
+var Marquee1 = new Marquee("m_quee");
+
+	Marquee1.Direction = "top";
+
+	Marquee1.Step = 1;
+
+	Marquee1.Width = 580;
+
+	Marquee1.Height = 28;
+
+	Marquee1.ScrollStep = 28;
+
+	Marquee1.Timer = 30;
+
+	Marquee1.DelayTime = 3000;
+
+	Marquee1.WaitTime = 3000;
+
+	Marquee1.Start();
+
+</script>
+		</div>
+		<div class="m_sr">
+		<form name="articlesearch" method="post" action="/modules/article/search.php" target="_blank">
+    	<span><input name="searchkey" type="text" class="search_text"> <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	<input type="radio" class="radio" name="searchtype" value="author" />作者<input type="submit" class="search_submit" value=" "></span>
+		</form>
+		</div>
+    </div>
+</div>
+<!--------------------------------------------内容部分---------------------------------------------->
+
+
+
+
+
+<div class="main"><div id="pbody">
+   		<div class="column_register"><div class="column_cr clearfix">
+            <div class="left" style="height:500px;">
+                <div class="register_intro">
+                	<ul>
+                    <li>海量的文学作品</li>
+                    <li>良好的阅读操作体验</li>
+                    <li>系统的作者创作发展体系</li>
+                    <li>丰富的版权拓展营销推广渠道</li>
+                    </ul>
+                </div>
+            </div>
+        	<div class="right" style="height:500px;">
+            	<div class="box1" style="margin:0px;">
+                	<div class="c_head">
+                    	<h3><span></span>新用户注册</h3>
+                    </div>
+                    <div class="c_body">
+                    	<div class="main_form" style="padding:50px 0px 0px 0px;">                   
+                            <form name="frmregister" id="frmregister" action="http://www.cuiweiju.com/register.php?do=submit" method="post">
+                            <table cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td class="t1">
+                                    <label>用户名：</label>
+                                    </td>
+                                    <td>
+                                    <input class="text" name="username" id="username" style="width:200px;" type="text" value="" onBlur="Ajax.Update('http://www.cuiweiju.com/regcheck.php?item=u&username='+this.value, {outid:'usermsg', tipid:'usermsg', onLoading:'<img border=picture/12f02fac73f74e33bcca2954bd70670d.gif'0picture/12f02fac73f74e33bcca2954bd70670d.gif' height=picture/12f02fac73f74e33bcca2954bd70670d.gif'16picture/12f02fac73f74e33bcca2954bd70670d.gif' width=picture/12f02fac73f74e33bcca2954bd70670d.gif'16picture/12f02fac73f74e33bcca2954bd70670d.gif' src=picture/12f02fac73f74e33bcca2954bd70670d.gif'/images/loading.gifpicture/12f02fac73f74e33bcca2954bd70670d.gif' /> Loading...'});">
+                                    <span class="quick_feeaback" id="usermsg"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="t1">
+                                    <label>密码：</label>
+                                    </td>
+                                    <td>
+                                    <input class="text" name="password" id="password" style="width:200px;" type="password" value="" onBlur="Ajax.Update('http://www.cuiweiju.com/regcheck.php?item=p&password='+this.value, {outid:'passmsg', tipid:'passmsg', onLoading:'<img border=picture/12f02fac73f74e33bcca2954bd70670d.gif'0picture/12f02fac73f74e33bcca2954bd70670d.gif' height=picture/12f02fac73f74e33bcca2954bd70670d.gif'16picture/12f02fac73f74e33bcca2954bd70670d.gif' width=picture/12f02fac73f74e33bcca2954bd70670d.gif'16picture/12f02fac73f74e33bcca2954bd70670d.gif' src=picture/12f02fac73f74e33bcca2954bd70670d.gif'/images/loading.gifpicture/12f02fac73f74e33bcca2954bd70670d.gif' /> Loading...'});">
+                                    <span class="quick_feeaback" id="passmsg">请设置8位及以上密码</span>
+                                    </td>
+                                </tr>
+                                 <tr>
+                                    <td class="t1">
+                                    <label>确定密码：</label>
+                                    </td>
+                                    <td>
+                                    <input class="text" name="repassword" id="repassword" style="width:200px;" type="password" value=""  onBlur="Ajax.Update('http://www.cuiweiju.com/regcheck.php?item=r&password='+password.value+'&repassword='+this.value, {outid:'repassmsg', tipid:'repassmsg', onLoading:'<img border=picture/12f02fac73f74e33bcca2954bd70670d.gif'0picture/12f02fac73f74e33bcca2954bd70670d.gif' height=picture/12f02fac73f74e33bcca2954bd70670d.gif'16picture/12f02fac73f74e33bcca2954bd70670d.gif' width=picture/12f02fac73f74e33bcca2954bd70670d.gif'16picture/12f02fac73f74e33bcca2954bd70670d.gif' src=picture/12f02fac73f74e33bcca2954bd70670d.gif'/images/loading.gifpicture/12f02fac73f74e33bcca2954bd70670d.gif' /> Loading...'});">
+                                    <span class="quick_feeaback" id="repassmsg"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="t1">
+                                    <label>电子邮箱：</label>
+                                    </td>
+                                    <td>
+                                    <input class="text" name="email" id="email" value="" style="width:200px;" type="text" onBlur="Ajax.Update('http://www.cuiweiju.com/regcheck.php?item=m&email='+this.value, {outid:'mailmsg', tipid:'mailmsg', onLoading:'<img border=picture/12f02fac73f74e33bcca2954bd70670d.gif'0picture/12f02fac73f74e33bcca2954bd70670d.gif' height=picture/12f02fac73f74e33bcca2954bd70670d.gif'16picture/12f02fac73f74e33bcca2954bd70670d.gif' width=picture/12f02fac73f74e33bcca2954bd70670d.gif'16picture/12f02fac73f74e33bcca2954bd70670d.gif' src=picture/12f02fac73f74e33bcca2954bd70670d.gif'/images/loading.gifpicture/12f02fac73f74e33bcca2954bd70670d.gif' /> Loading...'});">
+                                    <span class="quick_feeaback" id="mailmsg"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="t1">
+                                    <label>QQ：</label>
+                                    </td>
+                                    <td>
+                                    <input class="text" name="qq" id="qq" value="" style="width:200px;" type="text">
+                                    
+                                    </td>
+                                </tr>
+								
+                                <tr>
+                                    <td class="t1">
+                                    <label>验证码：</label>
+                                    </td>
+                                    <td>
+                                    <input class="text" name="checkcode" id="checkcode" value="" style="width:120px;" type="text">
+                                    <span style="display:block;float:left;"><img id="checkcodeimg" src="__APP__/Public/verify/" ></span>
+                                    <a style="display:block; float:left;color:#309dc6;padding:5px 0px 0px 10px" href="javascript;" onclick="document.getElememtById('checkcodeimg').src='__APP__/Public/verify/?rand='+Math.random();">看不清，换一张</a>
+                                    </td>
+                                </tr>
+								
+								<!--
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                    <input class="checkbox" type="checkbox"><span class="checkbox_t">同意《<a href="/help.html">注册协议</a>》</span>
+                                    </td>
+                                </tr>
+                                -->
+                                <tr>
+                                    <td><input type="hidden" name="action" id="action" value="newuser" /></td>
+                                    <td>
+                                    <input name="" value="提交注册" id="" class="bt_reg" type="submit">
+                                    </td>
+                                </tr>
+                            </table>
+                            </form>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div></div>
+</div></div>
+
+
+
+<!--foot底部部分--->
+
+<div class="cb"></div>
+<div id="pfoot">
+	<div class="foot_nav">
+    	<a href="__ROOT__/page">关于我们</a>|<a href="__ROOT__/page">联系我们</a>|<a href="__ROOT__/page">商务合作</a>|<a href="__ROOT__/link/add.html">申请链接</a>|<a href="__ROOT__/page">帮助中心</a>|<a href="__ROOT__/page">内容联盟</a>|<a href="__ROOT__/page">用户规则</a>|<a href="__ROOT__/page">诚聘英才</a>
+    </div>
+    <p>请所有作者发布作品时务必遵守国家互联网信息管理办法规定，我们拒绝任何色情小说，一经发现，即作删除！<br />本站所收录作品、社区话题、书库评论及本站所做之广告均属其个人行为，与本站立场无关</p>
+    <p><a href="/" class="site_title">听雨轩在线书城</a>版权所有，本站所收录作品拒绝任何网站私自转载！ Copyright<span>&copy;</span> 2002-2014 京ICP备11032650号</p>
+    <div class="authority">
+    	<a href="#"><img src="__IMG__/wj.gif" /></a><a href="#"><img src="__IMG__/ppaa.gif" /></a>
+    </div>
+</div>
+
+
+
+
+</body>
+
+</html>

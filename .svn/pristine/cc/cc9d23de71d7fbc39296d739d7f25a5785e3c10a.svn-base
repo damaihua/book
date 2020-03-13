@@ -1,0 +1,153 @@
+[ 2014-04-03T09:08:13+08:00 ] 127.0.0.1 /book/index.php/bookInfo/book_id/14
+ERR: 非法操作:book_id
+
+[ 2014-04-03T09:08:14+08:00 ] 127.0.0.1 /book/Public/js/rating.js
+ERR: 非法操作:js
+
+[ 2014-04-03T09:08:14+08:00 ] 127.0.0.1 /book/Public/js/fenxiang.js
+ERR: 非法操作:js
+
+[ 2014-04-03T09:08:14+08:00 ] 127.0.0.1 /book/index.php/bookinfo
+ERR: 无法加载模块:Bookinfo
+
+[ 2014-04-03T09:22:24+08:00 ] 127.0.0.1 /book/letter/etail
+ERR: 非法操作:etail
+
+[ 2014-04-03T09:28:39+08:00 ] 127.0.0.1 /book/index.php/letter/toamdin
+ERR: 非法操作:toamdin
+
+[ 2014-04-03T09:28:46+08:00 ] 127.0.0.1 /book/index.php/letter/toamdin
+ERR: 非法操作:toamdin
+
+[ 2014-04-03T09:29:33+08:00 ] 127.0.0.1 /book/index.php/letter/show/letter_id/153
+ERR: 非法操作:show
+
+[ 2014-04-03T09:29:44+08:00 ] 127.0.0.1 /book/index.php/letter/toamdin
+ERR: 非法操作:toamdin
+
+[ 2014-04-03T09:53:34+08:00 ] 127.0.0.1 /book/index.php/letter/detail/letter_id/153
+ERR: Model:relation您所请求的方法不存在！
+
+[ 2014-04-03T09:59:47+08:00 ] 127.0.0.1 /book/Public/js/rating.js
+ERR: 非法操作:js
+
+[ 2014-04-03T09:59:47+08:00 ] 127.0.0.1 /book/Public/js/fenxiang.js
+ERR: 非法操作:js
+
+[ 2014-04-03T10:17:40+08:00 ] 127.0.0.1 /book/index.php/letter/del/lette_id/161
+ERR: 非法操作:del
+
+[ 2014-04-03T10:22:50+08:00 ] 127.0.0.1 /book/index.php/letter/del/lette_id/161
+ERR: Model:deleter您所请求的方法不存在！
+
+[ 2014-04-03T11:12:48+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T11:23:25+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T11:23:46+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T11:30:50+08:00 ] 127.0.0.1 /book/book/tags
+ERR: 非法操作:tags
+
+[ 2014-04-03T12:02:52+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T12:05:43+08:00 ] 127.0.0.1 /book/index.php/book/index.html
+ERR: 非法操作:index
+
+[ 2014-04-03T14:01:53+08:00 ] 127.0.0.1 /book/books
+ERR: 无法加载模块:Books
+
+[ 2014-04-03T14:01:54+08:00 ] 127.0.0.1 /book/books
+ERR: 无法加载模块:Books
+
+[ 2014-04-03T15:00:01+08:00 ] 127.0.0.1 /book/index.php/search/search/
+ERR: 非法操作:search
+
+[ 2014-04-03T15:00:05+08:00 ] 127.0.0.1 /book/index.php/search/search/
+ERR: 非法操作:search
+
+[ 2014-04-03T15:02:44+08:00 ] 127.0.0.1 /book/index.php/search/search/
+ERR: 非法操作:search
+
+[ 2014-04-03T16:04:23+08:00 ] 127.0.0.1 /book/index.php/search/search/cats/1
+ERR: 非法操作:search
+
+[ 2014-04-03T16:06:55+08:00 ] 127.0.0.1 /book/search
+ERR: 无法加载模块:Search
+
+[ 2014-04-03T16:07:11+08:00 ] 127.0.0.1 /book/booksear
+ERR: 模板不存在[./Index/Tpl/default/Booksear/index.html]
+
+[ 2014-04-03T16:07:37+08:00 ] 127.0.0.1 /book/index.php/booksear/search/cats/1
+ERR: 非法操作:search
+
+[ 2014-04-03T16:08:38+08:00 ] 127.0.0.1 /book/index.php/booksear/booksear/cats/1
+ERR: 非法操作:booksear
+
+[ 2014-04-03T16:09:08+08:00 ] 127.0.0.1 /book/index.php/booksear/cats/1
+ERR: 非法操作:cats
+
+[ 2014-04-03T17:24:09+08:00 ] 127.0.0.1 /book/index.php/book/booksear
+ERR: 非法操作:booksear
+
+[ 2014-04-03T17:24:20+08:00 ] 127.0.0.1 /book/index.php/book/index%E3%80%81booksear
+ERR: 非法操作:index、booksear
+
+[ 2014-04-03T17:43:17+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T17:43:25+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T19:15:56+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T19:16:02+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T19:16:05+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T19:17:28+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T19:18:05+08:00 ] 127.0.0.1 /book/index/booksear/index
+ERR: 非法操作:booksear
+
+[ 2014-04-03T19:19:20+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T19:20:39+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T21:00:08+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T21:41:41+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T21:41:46+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T21:41:54+08:00 ] 127.0.0.1 /book/index.php/book/order.html
+ERR: 非法操作:order
+
+[ 2014-04-03T21:42:00+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T21:42:06+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T21:42:36+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T21:42:40+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+
+[ 2014-04-03T21:43:34+08:00 ] 127.0.0.1 /book/style/footlogin.css
+ERR: 无法加载模块:Style
+

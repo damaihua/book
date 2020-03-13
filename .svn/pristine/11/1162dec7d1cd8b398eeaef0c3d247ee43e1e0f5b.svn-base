@@ -1,0 +1,46 @@
+[ 2014-04-08T10:15:17+08:00 ] 127.0.0.1 /book/
+ERR: Host '192.168.60.36' is not allowed to connect to this MySQL server
+
+[ 2014-04-08T10:16:43+08:00 ] 127.0.0.1 /book/
+ERR: Host '192.168.60.36' is not allowed to connect to this MySQL server
+
+[ 2014-04-08T11:10:34+08:00 ] 127.0.0.1 /book/index.php/member/pay_files/toplink.js
+ERR: 闈炴硶鎿嶄綔:pay_files
+
+[ 2014-04-08T11:10:57+08:00 ] 127.0.0.1 /book/index.php/member/pay_files/toplink.js
+ERR: 闈炴硶鎿嶄綔:pay_files
+
+[ 2014-04-08T13:36:35+08:00 ] 127.0.0.1 /book/index.php/book/order.html
+ERR: 闈炴硶鎿嶄綔:order
+
+[ 2014-04-08T13:36:40+08:00 ] 127.0.0.1 /book/index.php/member/pay_files/toplink.js
+ERR: 闈炴硶鎿嶄綔:pay_files
+
+[ 2014-04-08T13:38:28+08:00 ] 127.0.0.1 /book/index.php/book/order.html
+ERR: 闈炴硶鎿嶄綔:order
+
+[ 2014-04-08T13:38:37+08:00 ] 127.0.0.1 /book/index.php/member/pay_files/toplink.js
+ERR: 闈炴硶鎿嶄綔:pay_files
+
+[ 2014-04-08T14:10:28+08:00 ] 127.0.0.1 /book/index.php/book/rank.html
+ERR: 妯℃澘涓嶅瓨鍦╗./Index/Tpl/default/Book/rank.html]
+
+[ 2014-04-08T19:06:34+08:00 ] 127.0.0.1 /book/index.php/book/booklist
+ERR: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2014-04-08T19:07:52+08:00 ] 127.0.0.1 /book/index.php/book/booklist
+ERR: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2014-04-08T19:10:01+08:00 ] 127.0.0.1 /book/index.php/bookInfo/index/book_id/14
+ERR: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2014-04-08T19:10:27+08:00 ] 127.0.0.1 /book/index.php/book/booklist
+ERR: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2014-04-08T21:16:35+08:00 ] 127.0.0.1 /book/
+ERR: Host 'jishen' is not allowed to connect to this MySQL server
+

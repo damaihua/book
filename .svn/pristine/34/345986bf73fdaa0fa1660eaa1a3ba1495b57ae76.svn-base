@@ -1,0 +1,199 @@
+<?php
+// 会员模块
+class MemberAction extends PublicAction {
+	//默认index方法进入会员中心
+    public function index(){
+        $user_id=session('user_id');
+        //显示会员信息
+        $user_info=M('User_info');
+        $userinfo=$user_info->where("user_id=$user_id")->find();
+        $user=M('User');
+        $user=$user->where("user_id=$user_id")->find();
+
+        //如果会员类型为普通会员(type=1),则转跳到会员中心
+        if(session('user_type')==1){
+            
+            $this->assign('user',$user);
+            $this->assign('userinfo',$userinfo);
+            
+            $this->display('Member/index');
+        }
+        //如果会员类型为作者(type=2),则转跳到作者中心
+        elseif(session('user_type')==2){
+            $this->assign('user',$user);
+            $this->assign('userinfo',$userinfo);
+            $this->display('Member/author');
+        }else{
+             $this->redirect('Member/login');
+        }  
+        
+    }
+    //调用作者模板方法
+    public function author(){
+
+        //如果会员类型为作者(type=2),则转跳到作者中心
+        if(session('user_type')==2){
+            $this->display('Member/author');
+        }else{
+            $this->redirect('Member/login');
+        }
+        
+    }
+    //调用会员登录模板方法
+    public function login(){
+        //如果会员类型为普通会员(type=1),则转跳到会员中心
+        if(session('user_type')==1){
+            $this->redirect('Member/index');
+        }
+        //如果会员类型为作者(type=2),则转跳到作者中心
+        elseif(session('user_type')==2){
+            $this->redirect('Member/author');
+        }else{
+             $this->display('Member/login');
+        }  
+    }
+    //会员登录验证方法
+    public function checklogin(){
+        //判断是否是经过表单提交的数据,如果不是返回登录页面 
+        if(!I('submit')){
+            $this->redirect('Member/login');
+        }
+        
+        //实例化一个user类
+        $user=M('User');
+        //获取提交表单值
+        $user_name=I('user_name');
+        $user_pwd=md5(I('user_pwd'));
+        //检验该用户是否存在
+        $result=$user->where("user_name='$user_name'")->find();
+        if(!$result){
+            $this->error('该用户不存在！请重新输入用户名');
+        }
+        //检验该用户是否禁止登陆
+        if($result['user_status']==0){
+            $this->error('抱歉，该用户禁止登陆');
+        }
+        // 检验密码是否正确
+        if($result['user_pwd']!=$user_pwd){
+            $this->error('密码错误！请重新输入');
+        }
+        // 判断验证码是否正确
+        if($_SESSION['verify']!=md5($_POST['verify'])){
+           $this->error('验证码错误！！');        
+        }
+        //保存session值
+        session('user_id',$result['user_id']);
+        session('user_name',$result['user_name']);
+        session('user_type',$result['user_type']);
+        //如果会员类型为普通会员(type=1),则转跳到会员中心
+        if(session('user_type')==1){
+            $this->redirect('Member/index');
+        }
+        //如果会员类型为作者(type=2),则转跳到作者中心
+        if(session('user_type')==2){
+            $this->redirect('Member/author');
+        }
+    }
+    //调用会员注册模板方法
+    public function reg(){
+    	$this->display();
+    }
+    
+    public function do_reg(){
+        
+    	// 判断验证码是否正确
+    	if($_SESSION['verify']!=md5($_POST['verify'])){
+	       $this->error('验证码错误！！');        
+		}
+		// 实例化模型类
+		$User=M('User');
+		// 构建写入会员主表的数据数组
+		$data["user_name"] = I('user_name');     
+		$data["user_pwd"] = md5(I('user_pwd'));     
+		$data["user_email"] = I('user_email');      
+		$data["reg_time"] = time();
+		//将数据数组插入数据库，如果插入成功转跳到登录页面 
+		if($User->add($data)){
+			//提示注册成功并转跳到会员中心 
+			$this->success('注册成功！正在转跳到登录页面……',U('Member/login/'));
+		}else{
+			$this->error('注册失败！正在返回注册页面……',U('Member/reg/'));
+		}
+    }
+    
+    //退出登录方法
+    public function loginout(){
+        session('user_name',null); // 清空当前的session
+        session('user_type',null); // 清空当前的session
+        $this->success('退出登录成功！','__MEMBER__/login');
+    }
+    //会员资料修改页面
+    public function member_edit(){
+        $user_id=session('user_id');
+        $userinfo=M('User_info');
+        $data=$userinfo->where("user_id=$user_id")->find();
+        $this->assign('data',$data);
+        $this->display();
+    }
+    public function do_member_edit(){
+        $user_info=M('User_info');
+        //调用PublicAction里的upload方法返回生成的图片缩略图地址
+        $avatar=$this->upload('user_avatar','avatar','140','140');
+        if($avatar){
+            $data['user_avatar']=$avatar;
+        }
+        $data['user_nicename']=I('user_nicename');
+        $data['user_email']=I('user_email');
+        $data['user_sex']=I('user_sex');
+        $data['user_info']=I('user_info');
+        $user_id=I('user_id');
+        $result=$user_info->where("user_id=$user_id")->save($data);
+        if($result === FALSE){
+            $this->error('个人资料修改失败！');
+        }elseif($result === 0){
+            $this->error('个人资料未做修改！');
+        }else{
+            $this->success('个人资料修改成功！');
+        }
+    }
+    //密码修改页面
+    public function pwd_edit(){
+        $this->display();
+    }
+    public function do_pwd_edit(){
+        $user_id=session('user_id');
+        $user=M('User');
+        $data=$user->field('user_pwd')->find($user_id);
+        if($data['user_pwd']!=md5(I('oldpass'))){
+            echo "<script>alert('原始密码错误');history.go(-1);</script>";
+        }
+        $user_pwd=md5(I('newpass'));
+        $result=$user->where("user_id=$user_id")->setField('user_pwd',"$user_pwd");
+        if($result){
+            session('user_name','null');
+            session('user_type','null');
+            $this->success('密码修改成功，请重新登录','__APP__/member/login');
+        }else{
+            $this->error('密码修改错误');
+        }
+    }
+    //在线充值页面
+    public function pay(){
+        $this->islogin();
+
+        $this->display();
+    }
+    //邮箱验证方法
+    public function verifmail(){
+        $address='gouguolei@vip.qq.com';
+        $title='邮箱验证';
+        $message='欢迎注册听雨轩在线书城会员，本次验证码为1234';
+        $result=SendMail($address,$title,$message);
+        if($result){
+            echo '发送成功';
+        }else{
+            echo '发送失败';
+        }
+    }
+
+}

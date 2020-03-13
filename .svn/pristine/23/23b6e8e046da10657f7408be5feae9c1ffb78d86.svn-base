@@ -1,0 +1,83 @@
+<?php
+	/**文章章节类-->>written by LAMp76-36
+	*update方法，为小说更新章节
+	*lists小说的章节列表
+	*read小说章节阅读的方法
+	*/
+class ChaptersAction extends Action {
+    public function update(){
+		$cats=M('Cats');
+		$data=$cats->where('type=1')->select();
+		$book_id=$_GET['book_id'];
+		$this->assign('book_id',$book_id);
+		$this->assign('data',$data);
+		$this->display();
+	}
+	public function doUpd(){
+		//获取要更新的小说章节的内容
+		$data['book_id']=$_GET['book_id'];		//获取要更新的小说的id
+		$data['chapter_title']=$_POST['chapter_title'];//小说章节的标题
+		$data['content']=$_POST['content1'];//小说章节的内容
+		$data['charge']=$_POST['charge'];//是否收费
+		$data['much']=$_POST['much'];//每章的价格
+		$data['update_time']=time();
+		$chapter=M('Chapter');
+		$res=$chapter->add($data);
+		if($res){
+			$this->success('发表成功');
+			//同时改变小说的最新更新时间和小说的进度
+			$book=M('Book');
+			$data['progress']=$_POST['prog'];//小说的进度
+			$data['book_size'].=strlen($_POST['content1']);
+			$data['update_time']=time();
+			$book->save($data);
+		}else{
+			$this->error('发表失败');
+		}
+	}
+	public function chapList(){
+		//小说的章节列表
+		//显示的信息包括小说的名字，作者，收费章节和免费章节
+		//获取小说的id
+		$book_id=$_GET['book_id'];
+		//获取小说的信息
+		$book=D('Book');
+		$where['book_id']=$book_id;
+		$book_info=$book->where($where)->relation(true)->select();
+
+		//获取小说的免费章节
+		$chapter=M('Chapter');
+		$where['charge']=0;
+		$chapters=$chapter->where($where)->select();
+		
+		//搜素小说的收费章节
+		$where['charge']=1;
+		$charge=$chapter->where($where)->select();
+		
+		//为模版赋值
+		$this->assign('book_info',$book_info);//小说信息的变量
+		$this->assign('chapters',$chapters);//小说的免费章节的数组
+		$this->assign('charge',$charge);//小说的收费章节
+		$this->display();
+	}
+
+	//读取章节的方法
+	public function read(){
+		//获取要阅读的章节的id
+		$chapter_id=$_GET['chapter_id'];
+		//获取章节的信息
+		$chapters=M('Chapter');
+		$chapter=$chapters->select($chapter_id);
+
+		//得到book_id
+		$book_id=$chapter[0]['book_id'];
+		//获取小说的信息
+		$book=D('Book');
+		$where['book_id']=$book_id;
+		$book_info=$book->where($where)->relation(true)->select();
+		
+		$this->assign('chapter',$chapter);
+		$this->assign('book_info',$book_info);
+		$this->display();
+	}
+}

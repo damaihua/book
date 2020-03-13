@@ -1,0 +1,1086 @@
+[ 2014-04-07T00:04:13+08:00 ] 127.0.0.1 /book/admin.php/member/member_main
+ERR: Model:filed您所请求的方法不存在！
+
+[ 2014-04-07T00:04:14+08:00 ] 127.0.0.1 /book/admin.php/member/member_main
+ERR: Model:filed您所请求的方法不存在！
+
+[ 2014-04-07T00:04:14+08:00 ] 127.0.0.1 /book/admin.php/member/member_main
+ERR: Model:filed您所请求的方法不存在！
+
+[ 2014-04-07T00:56:26+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-07T00:56:27+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-07T00:56:29+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-07T00:56:30+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-07T00:56:30+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-07T00:56:33+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-07T00:56:33+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-07T00:56:41+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_role
+ERR: 非法操作:sys_role
+
+[ 2014-04-07T00:56:46+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_role
+ERR: 非法操作:sys_role
+
+[ 2014-04-07T00:57:40+08:00 ] 127.0.0.1 /book/admin.php/other/page_main/
+ERR: 模板不存在[./Admin/Tpl/default/Other/page_main.html]
+
+[ 2014-04-07T01:04:58+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-07T01:04:59+08:00 ] 127.0.0.1 /book/admin.php/index/article_add
+ERR: 非法操作:article_add
+
+[ 2014-04-07T01:10:23+08:00 ] 127.0.0.1 /book/admin.php/book/book_main_files/base.css
+ERR: 非法操作:book_main_files
+
+[ 2014-04-07T01:10:23+08:00 ] 127.0.0.1 /book/admin.php/book/book_main_files/dedeajax2.js
+ERR: 非法操作:book_main_files
+
+[ 2014-04-07T01:10:23+08:00 ] 127.0.0.1 /book/admin.php/book/book_main_files/ieemu.js
+ERR: 非法操作:book_main_files
+
+[ 2014-04-07T01:10:23+08:00 ] 127.0.0.1 /book/admin.php/book/book_main_files/list.js
+ERR: 非法操作:book_main_files
+
+[ 2014-04-07T01:10:23+08:00 ] 127.0.0.1 /book/admin.php/book/book_main_files/context_menu.js
+ERR: 非法操作:book_main_files
+
+[ 2014-04-07T01:10:23+08:00 ] 127.0.0.1 /book/admin.php/book/book_main_files/main.js
+ERR: 非法操作:book_main_files
+
+[ 2014-04-07T01:10:23+08:00 ] 127.0.0.1 /book/admin.php/book/book_main_files/content_list.htm
+ERR: 非法操作:book_main_files
+
+[ 2014-04-07T01:11:04+08:00 ] 127.0.0.1 /book/admin.php/book/book_main_files/content_list.htm
+ERR: 非法操作:book_main_files
+
+[ 2014-04-07T01:11:37+08:00 ] 127.0.0.1 /book/admin.php/book/book_main_files/content_list.htm
+ERR: 非法操作:book_main_files
+
+[ 2014-04-07T01:16:27+08:00 ] 127.0.0.1 /book/admin.php/book/book_main_files/content_list.htm
+ERR: 非法操作:book_main_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/reset.css
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/style.css
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/dedeajax2.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/base.css
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/ieemu.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/dialog.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/main.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/jquery.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/context_menu.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/list.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/admin.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/global.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/core.php
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/stat.php
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/reset.css
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/dedeajax2.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/style.css
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/context_menu.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/jquery.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/ieemu.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/base.css
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/admin.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/dialog.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/list.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/global.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/main.js
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/core.php
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/stat.php
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:18:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:19:36+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/stat.php
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:19:36+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/core.php
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:19:36+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:20:02+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:20:03+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:20:03+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:20:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:21:20+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:21:50+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:21:51+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:21:52+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-07T01:21:53+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:22:03+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:22:04+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:22:04+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:22:04+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:22:04+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:22:27+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:22:28+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:22:28+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:22:51+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:23:10+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:23:11+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:23:11+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:23:11+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:23:11+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:23:30+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:26:25+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:26:26+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:26:26+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:26:26+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:26:27+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:26:27+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:26:27+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:26:57+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:27:27+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:27:29+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:27:30+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:27:30+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:27:30+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:27:37+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:27:39+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:27:39+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:27:50+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:27:58+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:28:13+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:28:15+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:28:26+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:28:27+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:28:28+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:29:16+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:29:28+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:29:42+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:29:44+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:29:45+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:29:45+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:30:02+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:30:04+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:30:04+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:30:04+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:30:17+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:30:20+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:30:20+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:30:21+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:30:30+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:31:19+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:31:31+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:32:01+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:33:26+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:42:24+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:42:25+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:42:25+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:42:26+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:42:29+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-07T01:42:30+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:42:30+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-07T01:42:31+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:42:31+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-07T01:42:32+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:43:09+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-07T01:43:12+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-07T01:43:40+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-07T01:43:42+08:00 ] 127.0.0.1 /book/admin.php/index/catalog_main
+ERR: 非法操作:catalog_main
+
+[ 2014-04-07T01:43:46+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T01:43:49+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:43:51+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T01:43:52+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:43:54+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T01:43:55+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:43:56+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:43:57+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T01:43:58+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:44:17+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:44:18+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T01:45:05+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:45:06+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T01:46:35+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:46:36+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:46:36+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:46:36+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:46:37+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:48:26+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:48:26+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:48:26+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:48:27+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:48:27+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:52:00+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:52:57+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:52:58+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:52:59+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:53:03+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:54:41+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:54:42+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:54:42+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:54:43+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:55:26+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:55:27+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:55:27+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:55:27+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:55:28+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:55:28+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:55:57+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:55:58+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T01:55:59+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:00:40+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:00:42+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:00:42+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:00:43+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:01:24+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:01:25+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:01:26+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:01:29+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:02:37+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:02:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:02:39+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:02:39+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:02:39+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:02:43+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:02:44+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:06:43+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:06:44+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:06:45+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:07:04+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:07:06+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:07:06+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:07:07+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:10:57+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:10:58+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:10:59+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:10:59+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:08+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:09+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:10+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:11+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:12+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:12+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:13+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:13+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:22+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:23+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:24+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:53+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:55+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:22:59+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:23:02+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:23:02+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:23:15+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:23:16+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:23:17+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:24:08+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:24:09+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:24:10+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:24:11+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:24:11+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:24:13+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:24:36+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:24:37+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:24:38+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:26:05+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:26:06+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:26:36+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:29:50+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:29:51+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:29:52+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:29:54+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:29:58+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:30:01+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:30:28+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:30:29+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:30:30+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:30:30+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:30:31+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:30:53+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:30:55+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:47:42+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:47:43+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:47:45+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:47:45+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:47:46+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:49:12+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:49:13+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:49:15+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:49:16+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:59:12+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T02:59:13+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T02:59:17+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T03:00:16+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T10:04:10+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T10:04:11+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T10:41:04+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T10:41:07+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T10:42:51+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T10:44:33+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T10:44:40+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T10:46:52+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T10:46:53+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T10:46:54+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T10:46:54+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T10:46:54+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T10:46:54+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T10:46:54+08:00 ] 127.0.0.1 /book/admin.php/book/%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86_files/content_list.htm
+ERR: 非法操作:文档管理_files
+
+[ 2014-04-07T10:47:42+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T20:50:59+08:00 ] 127.0.0.1 /book/admin.php/index/media_add
+ERR: 非法操作:media_add
+
+[ 2014-04-07T20:51:00+08:00 ] 127.0.0.1 /book/admin.php/index/media_main
+ERR: 非法操作:media_main
+
+[ 2014-04-07T20:51:02+08:00 ] 127.0.0.1 /book/admin.php/index/media_add
+ERR: 非法操作:media_add
+
+[ 2014-04-07T20:51:03+08:00 ] 127.0.0.1 /book/admin.php/index/media_main
+ERR: 非法操作:media_main
+
+[ 2014-04-07T20:51:03+08:00 ] 127.0.0.1 /book/admin.php/index/media_add
+ERR: 非法操作:media_add
+
+[ 2014-04-07T20:51:04+08:00 ] 127.0.0.1 /book/admin.php/index/media_main
+ERR: 非法操作:media_main
+
+[ 2014-04-07T20:51:04+08:00 ] 127.0.0.1 /book/admin.php/index/media_add
+ERR: 非法操作:media_add
+
+[ 2014-04-07T20:51:05+08:00 ] 127.0.0.1 /book/admin.php/index/media_main
+ERR: 非法操作:media_main
+
+[ 2014-04-07T20:51:06+08:00 ] 127.0.0.1 /book/admin.php/index/media_add
+ERR: 非法操作:media_add
+
+[ 2014-04-07T20:51:07+08:00 ] 127.0.0.1 /book/admin.php/index/media_main
+ERR: 非法操作:media_main
+
+[ 2014-04-07T20:51:08+08:00 ] 127.0.0.1 /book/admin.php/index/media_add
+ERR: 非法操作:media_add
+
+[ 2014-04-07T20:51:08+08:00 ] 127.0.0.1 /book/admin.php/index/media_main
+ERR: 非法操作:media_main
+
+[ 2014-04-07T20:51:22+08:00 ] 127.0.0.1 /book/admin.php/index/media_main
+ERR: 非法操作:media_main
+
+[ 2014-04-07T20:51:59+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T20:54:38+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T20:54:41+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T21:07:59+08:00 ] 127.0.0.1 /book/admin.php/siteset/sys_role
+ERR: 非法操作:sys_role
+
+[ 2014-04-07T21:08:06+08:00 ] 127.0.0.1 /book/admin.php/index/media_add
+ERR: 非法操作:media_add
+
+[ 2014-04-07T21:11:10+08:00 ] 127.0.0.1 /book/admin.php/book/book_del?book_id=20
+ERR: 非法操作:book_del
+
+[ 2014-04-07T21:33:17+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit?book_id=14
+ERR: 模板不存在[./Admin/Tpl/default/Book/book_edit.html]
+
+[ 2014-04-07T21:37:55+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/reset.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:55+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/tb-box.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:55+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/main.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:55+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/style.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:55+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/calendar-green.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:55+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/dedeajax2.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:55+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/config.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:55+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/editor.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:55+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/jquery.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:55+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/admin.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:55+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/swfupload.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:55+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/calendar.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:56+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/plugin_002.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:56+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/plugin.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:56+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/plugin_003.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:56+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/calendar-green.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:56+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/default.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:56+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/editor.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:56+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/zh-cn.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:56+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/ckeditor.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:56+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/stat.php
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:37:56+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/core.php
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:21+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/reset.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:21+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/tb-box.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/style.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/main.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/dedeajax2.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/calendar-green.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/calendar.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/config.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/jquery.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/admin.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/plugin.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/editor.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/zh-cn.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/plugin_002.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/default.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/swfupload.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/calendar-green.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/editor.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/plugin_003.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/stat.php
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/ckeditor.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:38:22+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/core.php
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:39:36+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/config.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:39:36+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/default.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:39:36+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/plugin.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:39:36+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/editor.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:39:36+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/plugin_003.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:39:36+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/plugin_002.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:39:36+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/zh-cn.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:39:36+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/ckeditor.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:39:36+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/stat.php
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:39:36+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/core.php
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:41:01+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/config.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:41:01+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/zh-cn.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:41:01+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/default.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:41:01+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/plugin_003.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:41:01+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/plugin.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:41:01+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/plugin_002.js
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T21:41:01+08:00 ] 127.0.0.1 /book/admin.php/book/book_edit_files/editor.css
+ERR: 非法操作:book_edit_files
+
+[ 2014-04-07T22:06:45+08:00 ] 127.0.0.1 /book/admin.php/book/article_add.php
+ERR: 非法操作:article_add.php
+
+[ 2014-04-07T22:06:50+08:00 ] 127.0.0.1 /book/admin.php/book/article_add.php
+ERR: 非法操作:article_add.php
+
+[ 2014-04-07T22:11:37+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+
+[ 2014-04-07T22:16:46+08:00 ] 127.0.0.1 /book/admin.php/book/catalog_main.htm
+ERR: 非法操作:catalog_main.htm
+

@@ -1,0 +1,364 @@
+<?php
+          // 本类由系统自动生成，仅供测试用途
+    class OtherAction extends PublicAction {
+        public function index(){
+        	if(!session('admin_name')){
+        		$this->redirect('login/index');
+
+        	}else{
+        		$this->display();
+        	   }
+        	
+                 }
+
+
+
+
+          //单页管理页面
+          public function page_main(){
+              
+               $Pages = D('Pages');
+                // 导入分页类
+                import('ORG.Util.Page');
+                // 查询满足要求的总记录数
+                $count = $Pages->count();
+                // 实例化分页类 传入总记录数和每页显示的记录数
+                $Page = new Page($count,10);
+                // 分页显示输出
+                $show = $Page->show();
+                $data=$Pages->limit($Page->firstRow.','.$Page->listRows)->select();
+                // 赋值数据集
+                $this->assign('data',$data);
+                // dump($books);
+                // 赋值分页输出
+                $this->assign('page',$show);
+
+                $this->display();
+
+              
+             }   
+
+
+
+
+
+          //单页的输入页面(模型)
+
+          public function page_add(){
+
+               $this->display();
+
+          }   
+
+
+
+          //单页设置内容输入页面
+          public function inser(){
+
+
+            $Pages = D('Pages');
+            
+            if($Pages->create()){
+
+                  $result = $Pages->add();
+
+              if($result){
+
+                  $this->success('输入成功',U('Other/page_main'));
+
+              }else{
+
+                  $this->error('输入失败，请重新输入');
+
+              }
+            }else{
+
+                  $this->error($Pag->getError());
+
+            }
+           
+            }   
+
+
+
+
+          //单页的删除操作
+          public function page_del(){
+
+            $Pages = D('Pages');
+            $id = $_GET['id'];
+
+            if($Pages->delete($id)){
+
+                $this->success('删除成功',U('Other/page_main'));
+            }else{
+
+
+                $this->error('删除失败');
+            }
+
+
+          }   
+
+
+
+          //单页的修改操作模板
+
+          public function page_edit(){
+
+            $Pages = D('Pages');
+            $id = $_GET['id'];
+            $data = $Pages->select($id);
+            $this->assign('data',$data);
+            $this->display();
+
+          }
+
+
+
+            //单页设置项目修改的方法
+
+            public function page_update(){
+
+              $Pages = D('Pages');
+              if($Pages->create()){
+
+                $result = $Pages->save();
+                if($result){
+
+                    $this->success('修改成功，跳转到单页主页',U('Other/page_main'));
+                }else{
+
+                    $this->error('修改失败');
+                }
+
+            }else{
+
+
+                     $this->error($Pages->getError());
+            }
+
+          }
+
+
+
+          //广告管理页面
+          public function ad_main(){
+
+
+               $Ad = D('Ad');
+                // 导入分页类
+                import('ORG.Util.Page');
+                // 查询满足要求的总记录数
+                $count = $Ad->count();
+                // 实例化分页类 传入总记录数和每页显示的记录数
+                $Page = new Page($count,2);
+                // 分页显示输出
+                $show = $Page->show();
+                $data=$Ad->limit($Page->firstRow.','.$Page->listRows)->select();
+                // 赋值数据集
+                $this->assign('data',$data);
+                // dump($books);
+                // 赋值分页输出
+                $this->assign('page',$show);
+
+                $this->display();
+          
+               }
+
+
+          //调用添加广告的模板
+          public function ad_add(){
+                      
+             $this->display();
+          }
+
+
+          //操作添加广告的方法
+          public function insert(){
+
+          //实例化一个Ad类
+           
+            $Ad = D('Ad'); 
+
+           //调用public中的上传类,实现图片上传功能
+           $image = $this->upload('image','90','100');
+           if($image){
+              $data['image']=$image;
+
+           }
+
+
+          //获取提交的表单的值
+            $data['content'] = I('content');
+            $data['url'] = I('url');
+            if($Ad->add($data)){
+
+                $this->success('添加成功',U('Other/ad_main'));
+
+            }else{
+
+                $this->error('添加失败',U('Other/ad_add'));    
+            }
+
+       
+            }
+
+
+
+
+            //广告删除的方法
+            public function ad_del(){
+
+                $Ad = D('Ad');
+                $id = $_GET['id'];
+                if($Ad->delete($id)){
+
+                    $this->success('删除成功，返回广告列表页面',U('Other/ad_main'));
+
+                }else{
+
+                    $this->error('删除失败，请重新删除');
+
+                      }
+
+                     }
+
+
+
+            //广告的更新操作模型
+            public function ad_edit(){
+
+               $Ad = D('Ad');
+               $id = $_GET['id'];
+               $data = $Ad->select($id);
+               $this->assign('data',$data); 
+               $this->display();   
+
+           }
+          
+
+            public function update(){
+
+              $Ad = D('Ad');
+            //调用public中的上传类,实现图片上传功能
+               $image = $this->upload('image','./Uploads/'.Avatar.'/','90','100');
+               if($image){
+                  $data['image'] = $image;
+               }
+                             
+               $data['content'] = I('content'); 
+               $data['url'] = I('url');
+               $id = I('id');
+               $result = $Ad->where("id=$id")->save($data);
+               if($result){
+
+                  $this->success('修改成功,跳转到广告主页',U('Other/ad_main'));
+               }else{
+
+                  $this->error('修改失败，请重新修改',U('Other/ad_edit'));
+               }
+
+              }
+
+
+               
+
+            
+            //友情链接管理页面
+            public function link_main(){
+               $Link=M('Link');
+                // 导入分页类
+                import('ORG.Util.Page');
+                // 查询满足要求的总记录数
+                $count = $Link->count();
+                // 实例化分页类 传入总记录数和每页显示的记录数
+                $Page = new Page($count,1);
+                // 分页显示输出
+                $show = $Page->show();
+                $data=$Link->limit($Page->firstRow.','.$Page->listRows)->select();
+                // 赋值数据集
+                $this->assign('data',$data);
+                // dump($books);
+                // 赋值分页输出
+                $this->assign('page',$show);
+
+                $this->display();
+                }
+
+
+
+
+            //友情链接删除方法
+            public function link_del(){
+                //实例化一个模型类
+                $Link = D('Link');
+                $id=$_GET['id'];
+                if($Link->delete($id)){
+
+                    $this->success('删除成功，返回链接列表');
+
+                }else{
+                    $this->error('删除失败，请重新删除');
+                     }
+                    }
+
+
+            //友情链接的修改模板
+            public function link_edit(){
+
+                $id=$_GET['id'];
+                $Link = D('Link');
+                $data = $Link->select($id);
+                $this->assign('data',$data);
+                $this->display();
+
+                }
+
+
+            //修改友情链接的方法
+            public function link_update(){
+
+            $Link = D('Link');
+
+            if($Link->create()){
+
+              $result = $Link->save();
+              
+              if($result){
+
+                $this->success('修改成功，跳转到列表页面',U('Other/link_main'));
+
+              }else{
+
+                $this->error('修改失败，返回修改页面');
+              }  
+
+            }else{
+
+                $this->error($Link->getError());
+
+                 }
+
+                }
+
+
+              //审核友情链接的模板
+
+              public function link_add(){
+
+                $id = $_GET['id'];
+
+                //实例化一个模型
+                $Link = D('Link');
+
+                $data = $Link->select($id);
+                //分配变量
+                $this->assign('data',$data);
+                $this->display();
+
+
+              } 
+                 
+
+          }  

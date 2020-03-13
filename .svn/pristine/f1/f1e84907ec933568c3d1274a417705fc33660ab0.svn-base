@@ -1,0 +1,191 @@
+<?php
+		/*后台管理小说的控制器book_list
+		*管理小说分类
+		*管理小说的章节
+		*/
+class BookAction extends PublicAction {
+
+    //小说分类管理页面
+    public function cat_main(){
+        //检测是否登录
+        $this->islogin();
+        $cats=M('Cats');
+        $cats=$cats->where('type=0')->order('ordernum asc')->select();
+        //分配数据并将数据输出到模板
+        $this->assign('cats',$cats);
+        $this->display();
+    }
+    //添加分类页面
+    public function cat_add(){
+        //检测是否登录
+        $this->islogin();
+        //调用模板文件
+        $this->display();
+        
+    }
+    //增加分类方法
+    public function insert(){
+        $this->islogin();
+        //判断是否是通过表单提交的
+        if(I('submit')){
+            //实例化一个cats类
+            $cats=M('Cats');
+            // 判断输入分类是否存在
+            $result=$cats->where(array('cat_name'=>I('cat_name')))->find();
+            if($result){
+                $this->error('该分类已经存在，请重新输入！');
+            }
+            $cats->create();
+            $result =  $cats->add();
+            if($result) {
+                $this->success('分类添加成功！');
+            }else{
+                $this->error('分类添加失败！');
+            }
+        }
+    }
+    //显示修改分类页面
+    public function cat_edit(){
+        //检测是否登录
+        $this->islogin();
+        $cid=$_GET['cid'];
+        $cats=M('Cats');
+        $cat=$cats->find($cid);
+        $this->assign('cat',$cat);
+        $this->display();
+    }
+    //修改分类方法
+    public function update(){
+        //检测是否登录
+        $this->islogin();
+        //实例化一个cats类
+        $cats=D('Cats');
+        //判断修改后的分类名是否与其他分类重复
+        $num=$cats->where(array('cat_name'=>I('cat_name')))->count('cat_id');
+        if($num>1){
+            $this->error('该分类已经存在，请重新输入！');
+        }
+        $cats->create();
+        $result =   $cats->save();
+        if($result) {
+            $this->success('分类修改成功！');
+        }else{
+            $this->error('分类修改错误！');
+        }
+         
+    }
+    //删除分类方法
+    public function cat_del(){
+        //检测是否登录
+        $this->islogin();
+        $cid=$_GET['cid'];
+        $cats=M('Cats');
+        $cat=$cats->find($cid);
+
+        if($cat['total']){
+            $this->error('该分类下还有小说，不允许删除！');
+        }
+        
+        if($cats->delete($cid)){
+            $this->success('该分类删除成功');
+        }
+        
+    }
+
+	//小说列表的方法
+	public function book_list(){
+		//显示所有作者的所有小说列表
+		$book=D('Book');
+		
+		//小说列表的分页
+		import('ORG.Util.Page');// 导入分页类
+		$count= $book->count();// 查询满足要求的总记录数
+		$Page= new Page($count,10);// 实例化分页类 传入总记录数和每页显示的记录数
+		$show= $Page->show();// 分页显示输出
+		// 进行分页数据查询 注意limit方法的参数要使用Page类的属性
+
+		$books=$book->relation(true)->order('public_time desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+		$this->assign('page',$show);// 赋值分页输出
+
+		$i=1;
+		$this->assign('books',$books);
+		$this->assign('i',$i);
+		$this->display();
+	}
+
+	//删除小说的方法
+	public function del(){
+    	//检测是否登录
+        $this->islogin();
+		//获取小说的id
+		$book_id=$_GET['book_id'];
+	
+		//判断该小说下是否有章节
+		//先删除该小说下的所有章节
+		$book_chaps=M('Chapter');
+		$where='book_id='.$book_id;
+		$res=$book_chaps->where($where)->select();
+		if($res){
+			//存在章节，删除所有章节
+			$res1=$book_chaps->where($where)->delete();
+			//如果删除成功，再删除小说信息
+			if($res1){
+				//建立Book表的模型
+				$book=M('Book');
+				$where="book_id=$book_id";
+				$res2=$book->where($where)->delete();
+					if($res2){
+						$this->success('删除成功');
+					}else{
+						$this->error('删除失败');
+					}
+			}
+		}else{
+			//如果不存在章节，则直接删除小说信息
+			$book=M('Book');
+				$where="book_id=$book_id";
+				$res2=$book->where($where)->delete();
+					if($res2){
+						$this->success('删除成功');
+					}else{
+						$this->error('删除失败');
+					}
+		}
+    }
+	
+
+	//小说的章节列表
+	public function chapter_list(){
+		//显示所有的小说的所有章节，并且根据更新时间排序
+		$chapter=D('Chapter');
+
+		//如果有传过来的book_id,则根据id来搜索章节
+		$where=isset($_GET['book_id'])?'book_id='.$_GET['book_id']:'';
+
+		//章节搜索结果的分页
+		import('ORG.Util.Page');// 导入分页类
+		$count= $chapter->where($where)->count();// 查询满足要求的总记录数
+		$Page= new Page($count,15);// 实例化分页类 传入总记录数和每页显示的记录数
+		$show= $Page->show();// 分页显示输出
+	
+		$chap=$chapter->where($where)->relation(true)->order('update_time desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+		
+		$i=1;
+		$this->assign('i',$i);
+		$this->assign('chapter',$chap);
+		$this->assign('page',$show);
+		$this->display();
+	}
+	//删除章节的方法
+	public function delChap(){
+		//获取要删除的章节的id
+		$chapter_id=$_GET['chapter_id'];
+		$chap=M('Chapter');
+		$res=$chap->delete($chapter_id);
+		if($res){
+			$this->success('删除成功');
+		}else{
+			$this->error('删除失败');
+		}
+	}  
+}

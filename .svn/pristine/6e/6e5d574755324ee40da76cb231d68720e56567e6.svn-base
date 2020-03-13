@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>订阅记录——<{$Think.SITE_NAME}></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all">
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all">
+<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/scripts/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
+</script>
+<![endif]-->
+
+</head>
+<body>
+
+<!---头部部分--->
+<include file="Public:header" />
+
+<!--------------------------------------------内容部分---------------------------------------------->
+
+
+
+
+
+<div class="main">
+
+<!---左侧导航--->
+<include file="Public:memberleft" />
+  <div id="centerm"><div id="content">
+<table class="grid" align="center" width="100%">
+<caption>我的收藏夹</caption>
+  <tbody><tr align="center">
+    <th width="16%">书名</th>
+    <th width="31%">最新章节</th>
+    <th width="27%">收藏日期</th>
+    <th width="26%">操作</th>
+  </tr>
+ 
+  <tr>
+    <td align="center" class="even"><a href="#" target="_blank"><{$vo.book_id}></a></td>
+    <td align="center" class="odd"><a href="#" target="_blank"><{$vo.chapter_id}></a></td>
+    <td class="even" align="center"><{$vo.order_time}></td>
+    <td class="even" align="center"><a href="#">继续阅读</a>|<a href="#">移除收藏夹</a></td>
+  </tr>
+ 
+</tbody></table>
+<div class="pages"><div class="pagelink" id="pagelink"><em id="pagestats">1/1</em><a href="http://www.cuiweiju.com/modules/obook/buylog.php?oid=2998&amp;page=1" class="first">1</a><a href="http://www.cuiweiju.com/modules/obook/buylog.php?oid=2998&amp;page=1" class="pgroup">&lt;&lt;</a><strong>1</strong><a href="http://www.cuiweiju.com/modules/obook/buylog.php?oid=2998&amp;page=1" class="ngroup">&gt;&gt;</a><a href="http://www.cuiweiju.com/modules/obook/buylog.php?oid=2998&amp;page=1" class="last">1</a><kbd><input name="page" size="4" maxlength="6" onkeydown="if(event.keyCode==13){window.location='http://www.cuiweiju.com/modules/obook/buylog.php?oid=2998&amp;page='+this.value; return false;}" type="text"></kbd></div></div>
+
+</div>
+</div>
+
+</div>
+
+
+
+
+<!--foot底部部分--->
+<include file="Public:footer" />
+
+</body></html>

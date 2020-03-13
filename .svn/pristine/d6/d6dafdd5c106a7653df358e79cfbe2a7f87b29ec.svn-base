@@ -1,0 +1,234 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0038)http://www.cuiweiju.com/userdetail.php -->
+<html  xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>作者中心——听雨轩在线书城</title>
+
+<meta  name="keywords"  content="小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载">
+<meta  name="description"  content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！">
+<meta  name="author"  content="http://www.jieqi.com (jieqi cms)">
+<meta  name="copyright"  content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
+翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
+
+
+">
+<meta  name="generator"  content="jieqi.com">
+<link  rel="stylesheet"  rev="stylesheet"  href="__CSS__/style.css"  type="text/css"  media="all">
+<link  rel="stylesheet"  rev="stylesheet"  href="__CSS__/main.css"  type="text/css"  media="all">
+<script  language="javascript"  type="text/javascript"  src="__JS__/common.js"></script><style  type="text/css"></style>
+<script  language="javascript"  type="text/javascript"  src="__JS__/theme.js"></script>
+<style>
+	#booklist{
+		font-size:16px;
+		line-height:30px;
+		width:600px;
+	}
+</style>
+
+</head>
+<body>
+
+<!---头部部分--->
+
+
+<div  id="ptop">
+<div><span><?php echo showbar();?></span><a  href="book/index.php?charset=gbk">简体</a>|<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>|<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a></div>
+</div>
+
+<div id="phead" class="clearfix">
+	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
+	<a href="#" target="_blank" rel="nofollow"><img src="__IMG__/huan.gif" border="0" width="465" height="55"></a>
+    <ul><li><a href="#" target="_blank">新手必读手册</a></li>
+        <li><a href="#" target="_blank"><font color=red>免费领取翠微币活动</font></a></li>
+        <li><a href="#" target="_blank">举报低俗信息有奖</a></li>
+    </ul>
+</div>
+<div id="pmenu_bar">
+<div id="mynav">
+ <?php echo showHeadermenu();?>
+ </div>
+
+
+    <div class="type">
+   
+   <?php echo showcats();?>
+    </div>
+    <div class="dynamic">
+		<div class="m_quee" id="m_quee">
+		<dl class="dl_quee">
+
+
+
+<dd><a href="/userpage.php?uid=2979095" target="_blank"><em>a593913134</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126334.htm" target="_blank"><strong>《人生得意须纵欢》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=2282522" target="_blank"><em>咪咪姐</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125765.htm" target="_blank"><strong>《川蜀大军阀》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3141175" target="_blank"><em>dong1028</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/125/125832.htm" target="_blank"><strong>《欲望之门》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=3151348" target="_blank"><em>27611800</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/111/111082.htm" target="_blank"><strong>《君临战国》</strong></a></dd>
+
+
+
+<dd><a href="/userpage.php?uid=1850289" target="_blank"><em>lingmuqiang</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126990.htm" target="_blank"><strong>《都市后花园》</strong></a></dd>
+
+
+
+</dl>
+
+<script language="javascript" type="text/javascript">
+
+var Marquee1 = new Marquee("m_quee");
+
+	Marquee1.Direction = "top";
+
+	Marquee1.Step = 1;
+
+	Marquee1.Width = 580;
+
+	Marquee1.Height = 28;
+
+	Marquee1.ScrollStep = 28;
+
+	Marquee1.Timer = 30;
+
+	Marquee1.DelayTime = 3000;
+
+	Marquee1.WaitTime = 3000;
+
+	Marquee1.Start();
+
+</script>
+		</div>
+		<div class="m_sr">
+		<form name="articlesearch" method="post" action="/modules/article/search.php" target="_blank">
+    	<span><input name="searchkey" type="text" class="search_text"> <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	<input type="radio" class="radio" name="searchtype" value="author" />作者<input type="submit" class="search_submit" value=" "></span>
+		</form>
+		</div>
+    </div>
+</div>
+
+
+
+<div  class="main">
+
+<div  id="left">
+
+	<div  class="block">
+		<div  class="blocktitle"><span>用户设置</span></div>
+		<div  class="blockcontent">
+			<ul  class="ulnav">
+				<li><a  href="http://www.cuiweiju.com/userdetail.php">个人首页</a></li>
+				<li><a  href="http://www.cuiweiju.com/useredit.php">修改资料</a></li>
+				<li><a  href="http://www.cuiweiju.com/setavatar.php">设置头像</a></li>
+				<li><a  href="http://www.cuiweiju.com/passedit.php">修改密码</a></li>
+				<li><a  href="http://www.cuiweiju.com/logout.php">退出登录</a></li>
+			</ul>
+		</div>
+	</div>
+<div  class="block">
+	<div  class="blocktitle"><span>短消息</span></div>
+	<div  class="blockcontent">
+		<ul  class="ulnav">
+			<li><a  href="__APP__/letter/inbox">收件箱</a></li>
+<li><a  href="__APP__/letter/outbox">发件箱</a></li>
+<li><a  href="__APP__/letter/write">写新消息</a></li>
+<li><a  href="__APP__/letter/toadmin">写给管理员</a></li>
+		</ul>
+	</div>
+</div>
+
+<div  class="block">
+	<div  class="blocktitle"><span>工具箱</span></div>
+		<div  class="blockcontent">
+			<ul  class="ulnav">
+				<li><a  href="__APP__/book/booklist">我的小说</a></li>
+				<li><a  href="__APP__/book/add">添加小说</a></li>
+				<li><a  href="http://www.cuiweiju.com/modules/article/bookcase.php">我的书架</a></li>
+				<li><a  href="http://www.cuiweiju.com/modules/obook/buylist.php">订阅记录</a></li>
+			</ul>
+		</div>
+</div>
+  
+</div>
+<div  id="centerm">
+	<div  id="content">
+		<div  class="mb_admin_show clearfix">
+			<span style="font-size:14px;"><a href="">会员中心</a>->><a href="">小说管理</a>->><a href="">小说列表</a></span>
+		</div>
+		<form action="/message.php?box=outbox" method="post" name="checkform" id="checkform">
+<table class="grid" width="100%" align="center">
+  <tr>
+   <!-- <th width="5%"><input type="checkbox" id="checkall" name="checkall" value="checkall" onclick="javascript: for(var i=0;i<this.form.elements.length;i++){ if(this.form.elements[i].name != 'checkkall') this.form.elements[i].checked = this.form.checkall.checked; }"></th>-->
+    <th width="10%">序号</th>
+    <th width="20%">小说名</th>
+    <th width="20%">上架时间</th>
+    <th width="20%">最新更新</th>
+    <th width="10%">总点击</th>
+	<th colspan="2" width="25%">&nbsp;&nbsp;编&nbsp;辑</td>
+  </tr>
+
+<?php if(is_array($booklist)): foreach($booklist as $key=>$vo): ?><tr>
+		<td class="odd" align="center"><?php echo ($i++); ?></td>
+		<td class="odd" align="center"><a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>"><?php echo ($vo["book_name"]); ?></td>
+		<td class="odd" align="center"><?php echo (date("Y-m-d",$vo["public_time"])); ?></td>
+		<td class="odd" align="center"><?php echo (date("m-d H:i",$vo["update_time"])); ?></td>
+		<td class="odd" align="center"><?php echo ($vo["hits"]); ?></td>
+		<td class="odd" align="center">
+			<a href="__URL__/del/book_id/<?php echo ($vo["book_id"]); ?>">删除</a>
+			<a href="__APP__/chapters/update/book_id/<?php echo ($vo["book_id"]); ?>">更新</a>
+		</td>
+	</tr><?php endforeach; endif; ?>
+   <!-- <td class="odd" align="center">
+		<input type="checkbox" id="checkid[]" name="checkid[]" value="1843141">
+	</td>
+    <td class="even">
+		<span class="hottext"><?php echo ($vo["user_name"]); ?></span>
+	</td>
+    <td class="odd">
+		<a href="__URL__/detail/letter_id/<?php echo ($vo["letter_id"]); ?>"					style="color:<?php echo ($vo[status]?$colorA:$colorB); ?>">
+			<?php echo ($vo["letter_title"]); ?>
+			<span><?php echo ($vo['status']?$staB:$staA); ?></span>
+		</a>
+	</td>
+    <td class="even" align="center"><?php echo (date("Y-m-d",$vo["time"])); ?></td>
+  </tr>
+</foreach>
+  <tr>
+    <td colspan="4" class="foot">&nbsp;
+		<input type="button" name="allcheck" value="全部选中" class="button" 
+			onclick="javascript: for (var i=0;i<this.form.elements.length;i++){										this.form.elements[i].checked = true; }">&nbsp;&nbsp;
+		<input type="button" name="nocheck" value="全部取消" class="button" 
+			onclick="javascript: for (var i=0;i<this.form.elements.length;i++){										this.form.elements[i].checked = false; }">&nbsp;&nbsp;
+		<input type="button" name="delcheck" value="删除选中记录" class="button"						onclick="javascript:if(confirm('确实要删除选中记录么？')){														this.form.checkaction.value='1'; this.form.submit();}">&nbsp;&nbsp;
+		<input type="button" name="delall" value="清空所有记录" class="button"								onclick="javascript:if(confirm('确实要清空所有记录么																？'))document.location='/message.php?box=outbox&checkaction=2'">
+		<input name="checkaction" type="hidden" id="checkaction" value="0">
+	</td>
+  </tr>-->
+</table>
+</form>
+	</div>
+</div>
+
+
+<!--foot底部部分--->
+
+<div class="cb"></div>
+<div id="pfoot">
+	<div class="foot_nav">
+    	
+        <?php echo showFootermenu();?>
+    </div>
+    <p>请所有作者发布作品时务必遵守国家互联网信息管理办法规定，我们拒绝任何色情小说，一经发现，即作删除！<br />本站所收录作品、社区话题、书库评论及本站所做之广告均属其个人行为，与本站立场无关</p>
+    <p><?php echo (SITE_COPYRIGHT); ?>&nbsp;&nbsp;<?php echo (SITE_BEIAN); ?></p>
+    <div class="authority">
+    	<a href="#"><img src="__IMG__/wj.gif" /></a><a href="#"><img src="__IMG__/ppaa.gif" /></a>
+    </div>
+</div>
+
+
+</body></html>
