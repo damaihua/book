@@ -2128,3 +2128,918 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.000597s ]
 INFO: [ view_end ] --END-- [ RunTime:0.000678s ]
 
+[ 2020-03-13T18:09:08+08:00 ] 0.0.0.0 /book/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002397s ]
+SQL: SELECT * FROM `book_siteset` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `book_notice` [ RunTime:0.025576s ]
+SQL: SELECT * FROM `book_notice` LIMIT 8   [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.039950s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%a%' ) LIMIT 7   [ RunTime:0.001090s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.progress=59 ) ORDER BY a.public_time LIMIT 7   [ RunTime:0.000707s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%b%' ) LIMIT 3   [ RunTime:0.000685s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id ) ORDER BY a.public_time LIMIT 12   [ RunTime:0.001328s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%c%' )  [ RunTime:0.000652s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%d%' )  [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.006053s ]
+SQL: SELECT * FROM `book_book`  [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `book_user` [ RunTime:0.038571s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.005252s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.018664s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='14' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000725s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.001404s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000682s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='15' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001261s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000527s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.000388s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='22' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000541s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='27' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000454s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000510s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='3' ) LIMIT 1   [ RunTime:0.000574s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='28' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000661s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.001012s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000705s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='29' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001070s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000611s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.001072s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='30' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000431s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000410s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.000394s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='31' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000500s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000391s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='32' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000443s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000404s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000585s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='33' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000630s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000385s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.001875s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='34' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000826s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000772s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.000764s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='35' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001013s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.001315s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000531s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='36' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000480s ]
+SQL: SELECT * FROM `book_book` ORDER BY hits asc  [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `book_comment` [ RunTime:0.010645s ]
+SQL: SELECT * FROM `book_comment` ORDER BY time desc  [ RunTime:0.000446s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='27' ) LIMIT 1   [ RunTime:0.000338s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000324s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000421s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000555s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000614s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000526s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000505s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000604s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.001965s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `book_user_info` [ RunTime:0.005679s ]
+SQL: SELECT * FROM `book_user_info` ORDER BY user_score desc  [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `book_link` [ RunTime:0.021368s ]
+SQL: SELECT * FROM `book_link` WHERE ( status=1 ) LIMIT 32   [ RunTime:0.001072s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `book_letter` [ RunTime:0.026327s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\book\index\Lib\Model\LetterModel.class.php 第 23 行.
+SQL: SELECT COUNT(letter_id) AS tp_count FROM `book_letter` WHERE ( `letter_to` = null ) AND ( `status` = 0 ) LIMIT 1   [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `book_ad` [ RunTime:0.081577s ]
+SQL: SELECT * FROM `book_ad` WHERE ( `id` = 121 ) LIMIT 1   [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `book_menu` [ RunTime:0.004889s ]
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='header' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.000544s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 and status=1 ) ORDER BY ordernum asc  [ RunTime:0.000423s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 25 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='footer' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.001850s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.161986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162346s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001780s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001336s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001756s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006133s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2020-03-13T18:09:31+08:00 ] 0.0.0.0 /book/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+SQL: SELECT * FROM `book_siteset` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `book_notice` [ RunTime:0.010979s ]
+SQL: SELECT * FROM `book_notice` LIMIT 8   [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.010223s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%a%' ) LIMIT 7   [ RunTime:0.002208s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.progress=59 ) ORDER BY a.public_time LIMIT 7   [ RunTime:0.000683s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%b%' ) LIMIT 3   [ RunTime:0.000585s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id ) ORDER BY a.public_time LIMIT 12   [ RunTime:0.000761s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%c%' )  [ RunTime:0.000734s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%d%' )  [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.010194s ]
+SQL: SELECT * FROM `book_book`  [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `book_user` [ RunTime:0.011078s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.007588s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.002506s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.005597s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='14' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000500s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000432s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000590s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='15' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001425s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000858s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.000807s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='22' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.002198s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000698s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000626s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='27' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000658s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000592s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='3' ) LIMIT 1   [ RunTime:0.000596s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='28' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000716s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000649s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.001069s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='29' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001345s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.002636s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000774s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='30' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000653s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000592s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.000578s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='31' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000688s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000589s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.000749s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='32' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001021s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.001123s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.001134s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='33' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000989s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000701s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='34' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000500s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000447s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='35' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000451s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000606s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.001454s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='36' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001093s ]
+SQL: SELECT * FROM `book_book` ORDER BY hits asc  [ RunTime:0.001658s ]
+SQL: SHOW COLUMNS FROM `book_comment` [ RunTime:0.006702s ]
+SQL: SELECT * FROM `book_comment` ORDER BY time desc  [ RunTime:0.000673s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='27' ) LIMIT 1   [ RunTime:0.000661s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.001467s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.001275s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000896s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000478s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000451s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000419s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `book_user_info` [ RunTime:0.008698s ]
+SQL: SELECT * FROM `book_user_info` ORDER BY user_score desc  [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `book_link` [ RunTime:0.005969s ]
+SQL: SELECT * FROM `book_link` WHERE ( status=1 ) LIMIT 32   [ RunTime:0.001064s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `book_letter` [ RunTime:0.008969s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\book\index\Lib\Model\LetterModel.class.php 第 23 行.
+SQL: SELECT COUNT(letter_id) AS tp_count FROM `book_letter` WHERE ( `letter_to` = null ) AND ( `status` = 0 ) LIMIT 1   [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `book_ad` [ RunTime:0.005607s ]
+SQL: SELECT * FROM `book_ad` WHERE ( `id` = 121 ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `book_menu` [ RunTime:0.009656s ]
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='header' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.000707s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 and status=1 ) ORDER BY ordernum asc  [ RunTime:0.000471s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 25 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='footer' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.000547s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075962s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001216s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000647s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003302s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001634s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001829s ]
+
+[ 2020-03-13T18:11:13+08:00 ] 0.0.0.0 /book/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+SQL: SELECT * FROM `book_siteset` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `book_notice` [ RunTime:0.012929s ]
+SQL: SELECT * FROM `book_notice` LIMIT 8   [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.016066s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%a%' ) LIMIT 7   [ RunTime:0.001297s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.progress=59 ) ORDER BY a.public_time LIMIT 7   [ RunTime:0.001049s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%b%' ) LIMIT 3   [ RunTime:0.000891s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id ) ORDER BY a.public_time LIMIT 12   [ RunTime:0.004358s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%c%' )  [ RunTime:0.001796s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%d%' )  [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.007177s ]
+SQL: SELECT * FROM `book_book`  [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `book_user` [ RunTime:0.008385s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.003564s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.023197s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.005479s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='14' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000457s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.001805s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.001986s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='15' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001010s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000592s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.000645s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='22' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000711s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.002131s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.001999s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='27' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000614s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000421s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='3' ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='28' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000435s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000380s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='29' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000516s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='30' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000426s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.000376s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='31' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000582s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='32' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000421s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000648s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000452s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='33' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000448s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000400s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.000853s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='34' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.005455s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.002728s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.001546s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='35' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001666s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000759s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.001087s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='36' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `book_book` ORDER BY hits asc  [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `book_comment` [ RunTime:0.010468s ]
+SQL: SELECT * FROM `book_comment` ORDER BY time desc  [ RunTime:0.000444s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='27' ) LIMIT 1   [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000283s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000567s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000389s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000301s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000624s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000486s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000504s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `book_user_info` [ RunTime:0.012339s ]
+SQL: SELECT * FROM `book_user_info` ORDER BY user_score desc  [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `book_link` [ RunTime:0.005735s ]
+SQL: SELECT * FROM `book_link` WHERE ( status=1 ) LIMIT 32   [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `book_letter` [ RunTime:0.006078s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\book\index\Lib\Model\LetterModel.class.php 第 23 行.
+SQL: SELECT COUNT(letter_id) AS tp_count FROM `book_letter` WHERE ( `letter_to` = null ) AND ( `status` = 0 ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `book_ad` [ RunTime:0.018403s ]
+SQL: SELECT * FROM `book_ad` WHERE ( `id` = 121 ) LIMIT 1   [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `book_menu` [ RunTime:0.016591s ]
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='header' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.001022s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 and status=1 ) ORDER BY ordernum asc  [ RunTime:0.004188s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 25 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='footer' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.002203s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.126937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127140s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002201s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002072s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002147s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009182s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001188s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2020-03-13T18:12:04+08:00 ] 0.0.0.0 /book/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003517s ]
+SQL: SELECT * FROM `book_siteset` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `book_notice` [ RunTime:0.008133s ]
+SQL: SELECT * FROM `book_notice` LIMIT 8   [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.006830s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%a%' ) LIMIT 7   [ RunTime:0.000869s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.progress=59 ) ORDER BY a.public_time LIMIT 7   [ RunTime:0.000728s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%b%' ) LIMIT 3   [ RunTime:0.001008s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id ) ORDER BY a.public_time LIMIT 12   [ RunTime:0.005991s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%c%' )  [ RunTime:0.001238s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%d%' )  [ RunTime:0.003467s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.029061s ]
+SQL: SELECT * FROM `book_book`  [ RunTime:0.003325s ]
+SQL: SHOW COLUMNS FROM `book_user` [ RunTime:0.012526s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.007579s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.006789s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='14' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000629s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='15' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000624s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.005933s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.001592s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='22' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.004238s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000969s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.001363s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='27' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001084s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.001006s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='3' ) LIMIT 1   [ RunTime:0.000697s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='28' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001398s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.001105s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.001847s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='29' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001344s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000987s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000882s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='30' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.002378s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.001131s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.001015s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='31' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001046s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.002242s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.003228s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='32' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001282s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.001115s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000748s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='33' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001243s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000776s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.000818s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='34' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001023s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000731s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.000710s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='35' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000623s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000663s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000696s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='36' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000721s ]
+SQL: SELECT * FROM `book_book` ORDER BY hits asc  [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `book_comment` [ RunTime:0.019440s ]
+SQL: SELECT * FROM `book_comment` ORDER BY time desc  [ RunTime:0.000697s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='27' ) LIMIT 1   [ RunTime:0.001620s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.001079s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000597s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.002092s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.003110s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.001232s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000873s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000898s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000792s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000886s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000911s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.001365s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000958s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.001040s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.002424s ]
+SQL: SHOW COLUMNS FROM `book_user_info` [ RunTime:0.010616s ]
+SQL: SELECT * FROM `book_user_info` ORDER BY user_score desc  [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `book_link` [ RunTime:0.006812s ]
+SQL: SELECT * FROM `book_link` WHERE ( status=1 ) LIMIT 32   [ RunTime:0.000927s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `book_letter` [ RunTime:0.007314s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\book\index\Lib\Model\LetterModel.class.php 第 23 行.
+SQL: SELECT COUNT(letter_id) AS tp_count FROM `book_letter` WHERE ( `letter_to` = null ) AND ( `status` = 0 ) LIMIT 1   [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `book_ad` [ RunTime:0.015494s ]
+SQL: SELECT * FROM `book_ad` WHERE ( `id` = 121 ) LIMIT 1   [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `book_menu` [ RunTime:0.011463s ]
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='header' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.002628s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 and status=1 ) ORDER BY ordernum asc  [ RunTime:0.000851s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 25 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='footer' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.001086s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.128175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128322s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001381s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000870s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001013s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007203s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002115s ]
+
+[ 2020-03-13T18:12:44+08:00 ] 0.0.0.0 /book/index.php/booksear/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002413s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.010635s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 )  [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.006448s ]
+SQL: SELECT `tags` FROM `book_book`  [ RunTime:0.000465s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=1 )  [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index: type D:\wamp\www\book\index\Lib\Action\BooksearAction.class.php 第 27 行.
+NOTIC: [8] Undefined index: val D:\wamp\www\book\index\Lib\Action\BooksearAction.class.php 第 28 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT * FROM `book_book` ORDER BY update_time desc LIMIT 0,10   [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `book_user` [ RunTime:0.006095s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.009461s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.002842s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.011768s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='33' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000963s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000815s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000674s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='14' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000823s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.002173s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000937s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='27' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000555s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000417s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='3' ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='28' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000503s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='29' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000412s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='30' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000430s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.000387s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='22' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000430s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='31' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000410s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='15' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000429s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000538s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.000641s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='32' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `book_letter` [ RunTime:0.006512s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\book\index\Lib\Model\LetterModel.class.php 第 23 行.
+SQL: SELECT COUNT(letter_id) AS tp_count FROM `book_letter` WHERE ( `letter_to` = null ) AND ( `status` = 0 ) LIMIT 1   [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `book_ad` [ RunTime:0.011039s ]
+SQL: SELECT * FROM `book_ad` WHERE ( `id` = 121 ) LIMIT 1   [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `book_menu` [ RunTime:0.005364s ]
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='header' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.000538s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 and status=1 ) ORDER BY ordernum asc  [ RunTime:0.000428s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 25 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: chapter_id D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 175 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: chapter_id D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 175 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: chapter_id D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 175 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 187 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='footer' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.000641s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061861s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000748s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000436s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000297s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002190s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2020-03-13T18:13:12+08:00 ] 0.0.0.0 /book/index.php/booksear/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003041s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003604s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003012s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.014097s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 )  [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.012979s ]
+SQL: SELECT `tags` FROM `book_book`  [ RunTime:0.000794s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=1 )  [ RunTime:0.000793s ]
+NOTIC: [8] Undefined index: type D:\wamp\www\book\index\Lib\Action\BooksearAction.class.php 第 27 行.
+NOTIC: [8] Undefined index: val D:\wamp\www\book\index\Lib\Action\BooksearAction.class.php 第 28 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1   [ RunTime:0.001125s ]
+SQL: SELECT * FROM `book_book` ORDER BY update_time desc LIMIT 0,10   [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `book_user` [ RunTime:0.023149s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.002798s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.012776s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.002715s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.013688s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='33' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000955s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.001659s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000794s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='14' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000891s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000962s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000987s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='27' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001545s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000939s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='3' ) LIMIT 1   [ RunTime:0.002249s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='28' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000904s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000752s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000747s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='29' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000851s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000780s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.001590s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='30' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000861s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000920s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.001970s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='22' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000943s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000990s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.000744s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='31' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000952s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.001244s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000792s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='15' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000869s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000841s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.002060s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='32' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000830s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `book_letter` [ RunTime:0.009371s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\book\index\Lib\Model\LetterModel.class.php 第 23 行.
+SQL: SELECT COUNT(letter_id) AS tp_count FROM `book_letter` WHERE ( `letter_to` = null ) AND ( `status` = 0 ) LIMIT 1   [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `book_ad` [ RunTime:0.018504s ]
+SQL: SELECT * FROM `book_ad` WHERE ( `id` = 121 ) LIMIT 1   [ RunTime:0.001413s ]
+SQL: SHOW COLUMNS FROM `book_menu` [ RunTime:0.012686s ]
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='header' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.001228s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 and status=1 ) ORDER BY ordernum asc  [ RunTime:0.001313s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 25 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: chapter_id D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 175 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: chapter_id D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 175 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: chapter_id D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 175 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+NOTIC: [8] Undefined index: cat_name D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 172 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 187 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\book\index\Runtime\Cache\ff9e251985aea110780535efb576d367.php 第 190 行.
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='footer' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.000837s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.101035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101220s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001222s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000923s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001153s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001699s ]
+
+[ 2020-03-13T18:13:17+08:00 ] 0.0.0.0 /book/index.php/search/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002664s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006789s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `book_letter` [ RunTime:0.011296s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\book\index\Lib\Model\LetterModel.class.php 第 23 行.
+SQL: SELECT COUNT(letter_id) AS tp_count FROM `book_letter` WHERE ( `letter_to` = null ) AND ( `status` = 0 ) LIMIT 1   [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `book_ad` [ RunTime:0.011007s ]
+SQL: SELECT * FROM `book_ad` WHERE ( `id` = 121 ) LIMIT 1   [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `book_menu` [ RunTime:0.034123s ]
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='header' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.015742s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 and status=1 ) ORDER BY ordernum asc  [ RunTime:0.000881s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 25 行.
+NOTIC: [8] Undefined variable: book D:\wamp\www\book\index\Runtime\Cache\a500e7c55fdfb87942c3f4caa90e9423.php 第 125 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\book\index\Runtime\Cache\a500e7c55fdfb87942c3f4caa90e9423.php 第 155 行.
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='footer' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.000814s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.190327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190492s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001493s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001162s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000856s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005252s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001559s ]
+
+[ 2020-03-13T18:14:19+08:00 ] 0.0.0.0 /book/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003431s ]
+SQL: SELECT * FROM `book_siteset` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `book_notice` [ RunTime:0.005224s ]
+SQL: SELECT * FROM `book_notice` LIMIT 8   [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.009985s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%a%' ) LIMIT 7   [ RunTime:0.001030s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.progress=59 ) ORDER BY a.public_time LIMIT 7   [ RunTime:0.000890s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%b%' ) LIMIT 3   [ RunTime:0.000718s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id ) ORDER BY a.public_time LIMIT 12   [ RunTime:0.000888s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%c%' )  [ RunTime:0.000833s ]
+SQL: SELECT * FROM book_book as a,book_cats as b WHERE ( a.book_cat=b.cat_id and a.flags like '%d%' )  [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.006853s ]
+SQL: SELECT * FROM `book_book`  [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `book_user` [ RunTime:0.008776s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.010474s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.020051s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='14' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000760s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000611s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000447s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='15' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001615s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000757s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.001536s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='22' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001200s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000669s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='27' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000488s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000432s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='3' ) LIMIT 1   [ RunTime:0.000401s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='28' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000460s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='29' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000460s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000605s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.002783s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='30' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001802s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000702s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='5' ) LIMIT 1   [ RunTime:0.000654s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='31' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000626s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000515s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.000467s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='32' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000538s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='1' ) LIMIT 1   [ RunTime:0.000458s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='33' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000531s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000403s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.000434s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='34' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001745s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='38' ) LIMIT 1   [ RunTime:0.000771s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='2' ) LIMIT 1   [ RunTime:0.000943s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='35' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.001715s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000492s ]
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='4' ) LIMIT 1   [ RunTime:0.000484s ]
+SQL: SELECT `chapter_title` FROM `book_chapter` WHERE ( 1=1 AND book_id='36' ) ORDER BY update_time desc LIMIT 1   [ RunTime:0.000478s ]
+SQL: SELECT * FROM `book_book` ORDER BY hits asc  [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `book_comment` [ RunTime:0.011483s ]
+SQL: SELECT * FROM `book_comment` ORDER BY time desc  [ RunTime:0.000630s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='27' ) LIMIT 1   [ RunTime:0.000451s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000423s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000426s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000535s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000505s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.001432s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000653s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000861s ]
+SQL: SELECT `user_name` FROM `book_user` WHERE ( 1=1 AND user_id='36' ) LIMIT 1   [ RunTime:0.000633s ]
+NOTIC: [8] Undefined index: book_cat D:\wamp\www\book\ThinkPHP\Extend\Model\RelationModel.class.php 第 164 行.
+SQL: SELECT `cat_sortname` FROM `book_cats` WHERE ( 1=1 AND cat_id='' ) LIMIT 1   [ RunTime:0.000437s ]
+SQL: SELECT `book_name` FROM `book_book` WHERE ( 1=1 AND book_id='33' ) LIMIT 1   [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `book_user_info` [ RunTime:0.006386s ]
+SQL: SELECT * FROM `book_user_info` ORDER BY user_score desc  [ RunTime:0.002034s ]
+SQL: SHOW COLUMNS FROM `book_link` [ RunTime:0.007329s ]
+SQL: SELECT * FROM `book_link` WHERE ( status=1 ) LIMIT 32   [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `book_letter` [ RunTime:0.007477s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\book\index\Lib\Model\LetterModel.class.php 第 23 行.
+SQL: SELECT COUNT(letter_id) AS tp_count FROM `book_letter` WHERE ( `letter_to` = null ) AND ( `status` = 0 ) LIMIT 1   [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `book_ad` [ RunTime:0.005176s ]
+SQL: SELECT * FROM `book_ad` WHERE ( `id` = 121 ) LIMIT 1   [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `book_menu` [ RunTime:0.007256s ]
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='header' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.000500s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 and status=1 ) ORDER BY ordernum asc  [ RunTime:0.000401s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 25 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+NOTIC: [8] Undefined index: chapter_title D:\wamp\www\book\index\Runtime\Cache\6f9ff6e3cd1727a9c4c714dfe3682b60.php 第 465 行.
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='footer' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.000402s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068159s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001109s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000587s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000445s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003051s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001880s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002163s ]
+
+[ 2020-03-13T18:14:23+08:00 ] 0.0.0.0 /book/index.php/search/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001810s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001963s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `book_letter` [ RunTime:0.017080s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\book\index\Lib\Model\LetterModel.class.php 第 23 行.
+SQL: SELECT COUNT(letter_id) AS tp_count FROM `book_letter` WHERE ( `letter_to` = null ) AND ( `status` = 0 ) LIMIT 1   [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `book_ad` [ RunTime:0.014209s ]
+SQL: SELECT * FROM `book_ad` WHERE ( `id` = 121 ) LIMIT 1   [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `book_menu` [ RunTime:0.018463s ]
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='header' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.003042s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.014360s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 and status=1 ) ORDER BY ordernum asc  [ RunTime:0.000955s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 25 行.
+NOTIC: [8] Undefined variable: book D:\wamp\www\book\index\Runtime\Cache\a500e7c55fdfb87942c3f4caa90e9423.php 第 125 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\book\index\Runtime\Cache\a500e7c55fdfb87942c3f4caa90e9423.php 第 155 行.
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='footer' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.001213s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.110075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110194s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001499s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001869s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002121s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012521s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001821s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002023s ]
+
+[ 2020-03-13T18:14:48+08:00 ] 0.0.0.0 /book/index.php/search/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001357s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002721s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `book_letter` [ RunTime:0.016045s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\book\index\Lib\Model\LetterModel.class.php 第 23 行.
+SQL: SELECT COUNT(letter_id) AS tp_count FROM `book_letter` WHERE ( `letter_to` = null ) AND ( `status` = 0 ) LIMIT 1   [ RunTime:0.004098s ]
+SQL: SHOW COLUMNS FROM `book_ad` [ RunTime:0.015123s ]
+SQL: SELECT * FROM `book_ad` WHERE ( `id` = 121 ) LIMIT 1   [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `book_menu` [ RunTime:0.016144s ]
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='header' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.016859s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 and status=1 ) ORDER BY ordernum asc  [ RunTime:0.000837s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 25 行.
+NOTIC: [8] Undefined variable: book D:\wamp\www\book\index\Runtime\Cache\a500e7c55fdfb87942c3f4caa90e9423.php 第 125 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\book\index\Runtime\Cache\a500e7c55fdfb87942c3f4caa90e9423.php 第 155 行.
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='footer' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.000869s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.119233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119484s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001108s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001754s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006874s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001608s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001801s ]
+
+[ 2020-03-13T18:14:57+08:00 ] 0.0.0.0 /book/index.php/search/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `book_letter` [ RunTime:0.006799s ]
+NOTIC: [8] Undefined index: user_name D:\wamp\www\book\index\Lib\Model\LetterModel.class.php 第 23 行.
+SQL: SELECT COUNT(letter_id) AS tp_count FROM `book_letter` WHERE ( `letter_to` = null ) AND ( `status` = 0 ) LIMIT 1   [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `book_ad` [ RunTime:0.008894s ]
+SQL: SELECT * FROM `book_ad` WHERE ( `id` = 121 ) LIMIT 1   [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `book_menu` [ RunTime:0.005282s ]
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='header' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.007509s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 and status=1 ) ORDER BY ordernum asc  [ RunTime:0.000845s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 25 行.
+NOTIC: [8] Undefined variable: book D:\wamp\www\book\index\Runtime\Cache\a500e7c55fdfb87942c3f4caa90e9423.php 第 125 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\book\index\Runtime\Cache\a500e7c55fdfb87942c3f4caa90e9423.php 第 155 行.
+SQL: SELECT * FROM `book_menu` WHERE ( status=1 and position='footer' ) ORDER BY ordernum asc LIMIT 7   [ RunTime:0.001026s ]
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\index\Common\common.php 第 44 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052444s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002411s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002129s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010202s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001122s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001219s ]
+

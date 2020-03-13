@@ -28,11 +28,7 @@
 
 <div  id="ptop">
 	<div>
-		<span><?php echo showbar();?></span>
-		<a  href="book/index.php?charset=gbk">简体</a>|
-		<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>|
-		<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|
-		<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a>
+		<span><?php echo showbar();?></span><a  href="book/index.php?charset=gbk">简体</a>|<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>|<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a>
 	</div>
 </div>
 
@@ -87,7 +83,7 @@
 			</script>
 		</div>
 		<div class="m_sr">
-			<form name="articlesearch" method="post" action="/modules/article/search.php" target="_blank">
+			<form name="articlesearch" method="post" action="/book/index.php/search/index.html" target="_blank">
     			<span>
 				<input name="searchkey" type="text" class="search_text"> 
 				<input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	
