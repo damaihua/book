@@ -6,6 +6,8 @@
 
 <link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css" media="screen">
 <link rel="stylesheet" href="__PUBLIC__/admin/css/style.css" type="text/css" media="screen">
+<script  language="javascript"  src="__PUBLIC__/admin/js/jquery.min.js"  type="text/javascript"></script>	
+
 <script charset="UTF-8"src="__PUBLIC__/kindeditor/kindeditor-min.js"></script> 
  	<script charset="UTF-8"src="__PUBLIC__/kindeditor/lang/zh_CN.js">
     </script> 
@@ -33,7 +35,9 @@
 					
 					<h3 style="cursor: s-resize;">小说审核</h3>
 					
-				
+				<ul>
+					<span class="new-add">修改</span>
+				</ul>
 					
 					<div class="clear"></div>
 					
@@ -44,7 +48,7 @@
 					<form name="form1" action="__APP__/book/do_book_edit" enctype="multipart/form-data" method="post" onsubmit="return checkSubmit()">
   <input name="book_id" value="<?php echo ($book_id); ?>" type="hidden">
  
-					<div style="display: block;" class="tab-content  default-tab" id="tab1">				
+					<div style="display: none;" class="tab-content  default-tab" id="tab1">				
 						
 							
 							<fieldset> 
@@ -118,7 +122,7 @@
 						
 					</div> <!-- End #tab1 -->
 					
-					<div style="display: none;" class="tab-content" id="tab2">
+					<div style="display: block;" class="tab-content" id="tab2">
 						<fieldset> 
 						
 							<p>
@@ -265,6 +269,13 @@
 						<!-- End #footer -->			
 		</div> <!-- End #main-content -->	
 	
+<script>
 
+	$('.new-add').click(function(){
+		alert('a')
+		$('#tab1').hide();
+		$('#tab2').show();
+	})
+</script>
 
 </body></html>

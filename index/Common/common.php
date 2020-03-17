@@ -4,7 +4,7 @@ function showbar(){
         $letter=D('Letter');
         $num=$letter->noReadNum();
         if(!session('user_name')){
-        	$bar="<a href='__MEMBER__/reg'>我要注册</a>|<a href='__MEMBER__/login'>立即登录</a>";        	
+        	$bar="<a href='__APP__/member/reg'>我要注册</a>|<a href='__APP__/member/login'>立即登录</a>";        	
         }else{
         	$user_name=session('user_name');
             if($num==0){
@@ -22,7 +22,9 @@ function showcats(){
         $cats=D('Cats');
         $data=$cats->where('type=0 and status=1')->order('ordernum asc')->select();
         foreach ($data as $value) {
-        	$catlist.='<a href="#">'.$value['cat_name'].'</a>┊';
+            $catlist.='<a href="__APP__/booksear/index/type/cats/val/'.$value['cat_id'].'">'.$value['cat_name'].'</a>|';
+           
+          
         }        
         return rtrim("$catlist",'|');
     }

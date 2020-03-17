@@ -61,6 +61,7 @@ class BookAction extends PublicAction {
             $this->success('小说审核成功');
         }else{
             $this->error('小说审核失败');
+            
         }
     }
     //小说删除方法
@@ -143,6 +144,7 @@ class BookAction extends PublicAction {
             }
             $cats->create();
             $result =  $cats->add();
+            
             if($result) {
                 $this->success('分类添加成功！');
             }else{

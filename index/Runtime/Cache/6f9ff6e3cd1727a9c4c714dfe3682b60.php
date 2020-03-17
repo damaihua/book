@@ -26,17 +26,19 @@
 <!---头部部分--->
 
 
-<div  id="ptop">
-	<div>
-		<span><?php echo showbar();?></span>
+<div  id="top">
+	<div class="wrap">
+		<p class="top-welcome">欢迎访问在线阅读！</p>
+		<div class="login-content"><?php echo showbar();?></div>
 		<!-- <a  href="book/index.php?charset=gbk">简体</a>|
-		<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>| -->
+		<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>| 
 		<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|
-		<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a>
+		<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a>-->
 	</div>
 </div>
 
 <div id="phead" class="clearfix">
+	ROOT--------__ROOT__        //  URl   ---- __URL__     //APP---__APP__
 	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
 <!-- 	
 	<?php echo getAD(121,465,55);?>
@@ -66,9 +68,11 @@
 	 </div>
 
 
-    <div class="type">
-   
-		 <?php echo showcats();?>
+    <div class="type-nav">
+		<div class="wrap">
+			<?php echo showcats();?>
+		</div>
+		 
     </div>
     <div class="dynamic">
 		<div class="m_quee" id="m_quee">
@@ -137,12 +141,7 @@ $(document).ready(function(){
 });
 //]]>
 </script>
-<!--[if IE 6]>
-<script type="text/javascript" src="__JS__/dd_belatedpng.js" ></script>
-<script type="text/javascript">
-	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic ');
-</script>
-<![endif]-->
+
 <!--------------------------------------------内容部分---------------------------------------------->
 <div id="pbody">
 <!--行1-->
@@ -234,7 +233,7 @@ $(document).ready(function(){
 				<h2 class="tabs01 recommend-tabTit"><a href="javascript:void(0)">强力推荐</a><a href="javascript:void(0)">最新完本</a></h2>
 				<ul class="tab_cnt1 recommend-tabItem">
 					
-					<?php if(is_array($abook)): $i = 0; $__LIST__ = $abook;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if($i == 1): ?><li class="pic_text"><a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>" target="_self"><img src="<?php echo ($vo["book_cover"]); ?>" /></a><h3><a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>" target="_self"><?php echo ($vo["book_name"]); ?></a></h3><p><?php echo (substr($vo["book_info"],0,96)); ?></p></li><?php endif; ?>
+					<?php if(is_array($abook)): $i = 0; $__LIST__ = array_slice($abook,0,4,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if($i == 1): ?><li class="pic_text"><a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>" target="_self"><img src="<?php echo ($vo["book_cover"]); ?>" /></a><h3><a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>" target="_self"><?php echo ($vo["book_name"]); ?></a></h3><p><?php echo (substr($vo["book_info"],0,96)); ?></p></li><?php endif; ?>
 					<li><em><a href="#">[<?php echo ($vo["cat_sortname"]); ?>]</a></em><a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>" target="_blank"><?php echo ($vo["book_name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 
 				</ul>
@@ -293,7 +292,7 @@ $(document).ready(function(){
 	<div class="new-arrival common-left">
 		<h2 class="common-headline"><span>最新上架</span></h2>
 		<ul class="new-books">
-			<?php if(is_array($newbook)): $i = 0; $__LIST__ = $newbook;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><em><a href="#">[<?php echo ($vo["cat_sortname"]); ?>]</a></em><a class="newBook-name" href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>" target="_blank"><?php echo ($vo["book_name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+			<?php if(is_array($newbook)): $i = 0; $__LIST__ = array_slice($newbook,0,10,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><em><a href="#">[<?php echo ($vo["cat_sortname"]); ?>]</a></em><a class="newBook-name" href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>" target="_blank"><?php echo ($vo["book_name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
 		</ul>
 	</div>
 	<div class="editor-recommend">

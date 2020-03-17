@@ -395,16 +395,14 @@ $(document).ready(function(){
 <!--foot底部部分--->
 
 <div class="cb"></div>
-<div id="pfoot">
+<div id="footer">
 	<div class="foot_nav">
     	
         <?php echo showFootermenu();?>
     </div>
-    <p>请所有作者发布作品时务必遵守国家互联网信息管理办法规定，我们拒绝任何色情小说，一经发现，即作删除！<br />本站所收录作品、社区话题、书库评论及本站所做之广告均属其个人行为，与本站立场无关</p>
-    <p><?php echo (SITE_COPYRIGHT); ?>&nbsp;&nbsp;<?php echo (SITE_BEIAN); ?></p>
-    <div class="authority">
-    	<a href="#"><img src="__IMG__/wj.gif" /></a><a href="#"><img src="__IMG__/ppaa.gif" /></a>
-    </div>
+    <p>请作者发布作品时遵守国家互联网信息管理办法规定</p>
+    <!-- <p><?php echo (SITE_COPYRIGHT); ?>&nbsp;&nbsp;<?php echo (SITE_BEIAN); ?></p> -->
+    
 </div>
 
 </body>

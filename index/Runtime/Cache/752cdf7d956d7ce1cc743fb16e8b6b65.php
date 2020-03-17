@@ -1,43 +1,37 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>会员登录——听雨轩在线书城</title>
-<meta charset="utf-8" />
-<meta name="keywords" content="keywords" />
-<meta name="description" content="description" />
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>订阅记录——<?php echo (SITE_NAME); ?></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-<meta charset='utf-8'/>
-<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
-<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all">
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all">
 <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
 <!--[if IE 6]>
-<script type="text/javascript" src="__JS__/dd_belatedpng.js" ></script>
+<script type="text/javascript" src="/scripts/DD_belatedPNG.js" ></script>
 <script type="text/javascript">
 	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
 </script>
 <![endif]-->
-<script>
-	
-</script>
+
 </head>
 <body>
+
 <!---头部部分--->
 
 
-<div  id="top">
-	<div class="wrap">
-		<p class="top-welcome">欢迎来在线阅读网！</p>
-		<div class="login-content"><?php echo showbar();?></div>
+<div  id="ptop">
+	<div>
+		<span><?php echo showbar();?></span>
 		<!-- <a  href="book/index.php?charset=gbk">简体</a>|
-		<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>| 
+		<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>| -->
 		<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|
-		<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a>-->
+		<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a>
 	</div>
 </div>
 
 <div id="phead" class="clearfix">
-	ROOT--------__ROOT__        //  URl   ---- __URL__     //APP---__APP__
 	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
 <!-- 	
 	<?php echo getAD(121,465,55);?>
@@ -117,64 +111,79 @@
 
 </div>
 
-<!---内容部分-->
+<!--------------------------------------------内容部分---------------------------------------------->
 
-<div class="main"><div class="logindiv" id="overlay_login">
-	<div class="c_head">
-    	<h4>会员登录</h4>
-    </div>
-    <div class=" c_body main_form">                   
-        <form name="frmlogin" method="post" action="__URL__/checklogin">
-        <div>
-       
-            <div class="clue"><p>没有账号？立即<a href="__URL__/reg.html">免费注册</a>一个</p></div>
-        </div>
-        <table cellspacing="0" cellpadding="0">
-            <tr>
-                <td class="t1">
-                <label>登陆账号：</label>
-                </td>
-                <td>
-                <input name="user_name" type="text" class="text" style="width:200px;" value="请在此输入用户名/账号" onFocus="if(this.value=='请在此输入用户名/账号'){this.value='';}" onBlur="if(this.value==''){this.value='请在此输入用户名/账号';}">
-                <span class="quick_feeaback"></span>
-                </td>
-            </tr>
-            <tr>
-                <td class="t1">
-                <label>登陆密码：</label>
-                </td>
-                <td>
-                <input class="text" name="user_pwd" style="width:200px;" type="password">
-                <span class="quick_feeaback"></span>
-                </td>
-            </tr>
-			
-			<tr>
-                <td class="t1">
-                <label>验证码：</label>
-                </td>
-                <td>
-                <input type="text" class="text" size="8" maxlength="8" name="verify">&nbsp;<img src="__APP__/Public/verify/" alt="点击更换验证码" style="cursor:pointer;" onclick="this.src='__APP__/Public/verify/?rand='+Math.random();">
-                
-                </td>
-            </tr>
-			
-            <tr>
-                <td></td>
-                <td>
-                <sup><input class="checkbox" name="usecookie" id="usecookie" value="315360000" type="checkbox" style="margin-top:-0px"></sup><span style="padding-left:5px;">记住密码</span><a style="color:#719E18;padding:0px 0px 0px 50px;vertical-align: middle;" href="http://www.cuiweiju.com/getpass.php">忘记密码？</a>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="hidden" name="action" value="login"></td>
-                <td>
-                <input name="submit" value="登 录" id="" class="bt_login" type="submit">
-                </td>
-            </tr>
-        </table> 
-        </form>
-    </div>
-</div></div>
+
+
+
+
+<div class="main">
+
+<!---左侧导航--->
+<div  id="left">
+
+<div  class="block">
+<div  class="blocktitle"><span>用户设置</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="__APP__/member/index">个人首页</a></li>
+<li><a  href="__APP__/member/member_edit">修改资料</a></li>
+<li><a  href="__APP__/member/avatar_edit">修改头像</a></li>
+<li><a  href="__APP__/member/pwd_edit">修改密码</a></li>
+
+<li><a  href="__APP__/member/loginout">退出登录</a></li>
+</ul></div>
+</div>
+
+<div  class="block">
+<div  class="blocktitle"><span>短消息</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="__APP__/letter/inbox">收件箱</a></li>
+<li><a  href="__APP__/letter/outbox">发件箱</a></li>
+<li><a  href="__APP__/letter/write">写新消息</a></li>
+<li><a  href="__APP__/letter/toadmin">写给管理员</a></li>
+</ul></div>
+</div>
+
+<div  class="block">
+<div  class="blocktitle"><span>工具箱</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="http://www.cuiweiju.com/ptopics.php?uid=self">我的留言</a></li>
+
+<li><a  href="__APP__/member/order">订阅记录</a></li>
+
+<li><a  href="__APP__/member/pay">在线充值</a></li>
+
+<li><a  href="__APP__/member/applyauthor">申请作者</a></li>
+
+</ul></div>
+</div>
+  
+</div>
+  <div id="centerm"><div id="content">
+<table class="grid" align="center" width="100%">
+<caption>VIP章节订阅记录</caption>
+  <tbody><tr align="center">
+    <th width="15%">书名</th>
+    <th width="41%">章节</th>
+    <th width="17%">消费积分</th>
+    <th width="24%">日期</th>
+  </tr>
+  <?php if(is_array($orderlist)): $i = 0; $__LIST__ = $orderlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+    <td align="center" class="even"><a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>"><?php echo ($vo["book_name"]); ?></a></td>
+    <td align="center" class="odd"><a href="__APP__/chapters/read/chapter_id/<?php echo ($vo["chapter_id"]); ?>"><?php echo ($vo["chapter_title"]); ?></a></td>
+    <td class="even" align="center"><?php echo ($vo["much"]); ?></td>
+    <td class="even" align="center"><?php echo (date("Y-m-d H:i:s",$vo["update_time"])); ?></td>
+  </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+</tbody></table>
+<div class="pages">
+<?php echo ($page); ?>
+</div>
+
+</div>
+</div>
+
+</div>
+
 
 
 
@@ -192,7 +201,4 @@
 </div>
 
 
-
-</body>
-
-</html>
+</body></html>

@@ -145,14 +145,14 @@ class MemberAction extends PublicAction {
 		if($id&&$info){
             
             //判断是否允许注册成功发送邮件
-            if(REG_SEND_EMAIL){
-                //提示注册成功并转跳到会员中心 
-                $address=I('user_email');
-                $title='听雨轩在线书城会员注册提醒';
-                $url="__APP__/member/login";
-                $message="尊敬的".I('user_name').",你已经成功注册为".SITE_NAME."会员。";
-                SendMail($address,$title,$message);
-            }
+            // if(REG_SEND_EMAIL){
+            //     //提示注册成功并转跳到会员中心 
+            //     $address=I('user_email');
+            //     $title='听雨轩在线书城会员注册提醒';
+            //     $url="__APP__/member/login";
+            //     $message="尊敬的".I('user_name').",你已经成功注册为".SITE_NAME."会员。";
+            //     SendMail($address,$title,$message);
+            // }
 			$this->success('注册成功！正在转跳到登录页面……',U('Member/login/'));
 		}else{
 			$this->error('注册失败！正在返回注册页面……',U('Member/reg/'));
@@ -164,7 +164,7 @@ class MemberAction extends PublicAction {
         session('user_name',null); // 清空当前的session
         session('user_type',null); // 清空当前的session
         session('email_status',null); // 清空当前的session
-        $this->success('退出登录成功！','__MEMBER__/login');
+        $this->success('退出登录成功！','__URL__/login');
     }
     //头像修改页面
     public function avatar_edit(){

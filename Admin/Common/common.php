@@ -4,13 +4,13 @@ function showbar(){
         $letter=D('Letter');
         $num=$letter->noReadNum();
         if(!session('user_name')){
-        	$bar="<a href='__MEMBER__/reg'>我要注册</a>|<a href='__MEMBER__/login'>立即登录</a>";        	
+        	$bar="<a href='__URL__/reg'>我要注册</a>|<a href='__URL__/login'>立即登录</a>";        	
         }else{
         	$user_name=session('user_name');
             if($num==0){
-               $bar="<strong>$user_name</strong> | <a href='__APP__/letter/inbox'>短消息<b>(0)</b></a> <a href='__APP__/member/index'><b class='hottext'>邮箱未验证</b></a> | <a href='__APP__/book/collect'>收藏夹</a> | <a href='__APP__/member/index'>用户面板</a> | <a href='__MEMBER__/loginout'>退出</a>";         
+               $bar="<strong>$user_name</strong> | <a href='__APP__/letter/inbox'>短消息<b>(0)</b></a> <a href='__APP__/member/index'><b class='hottext'>邮箱未验证</b></a> | <a href='__APP__/book/collect'>收藏夹</a> | <a href='__APP__/member/index'>用户面板</a> | <a href='__URL__/loginout'>退出</a>";         
             }else{
-                $bar="<strong>$user_name</strong> | <a href='__APP__/letter/inbox'>短消息<b class='hottext'>($num)</b></a> <a href='/userdetail.php'><b class='hottext'>邮箱未验证</b></a> | <a href='__APP__/book/collect'>收藏夹</a> |  <a href='__APP__/member/index'>用户面板</a> | <a href='__MEMBER__/loginout'>退出</a>";        
+                $bar="<strong>$user_name</strong> | <a href='__APP__/letter/inbox'>短消息<b class='hottext'>($num)</b></a> <a href='/userdetail.php'><b class='hottext'>邮箱未验证</b></a> | <a href='__APP__/book/collect'>收藏夹</a> |  <a href='__APP__/member/index'>用户面板</a> | <a href='__URL__/loginout'>退出</a>";        
             }
         		
         }

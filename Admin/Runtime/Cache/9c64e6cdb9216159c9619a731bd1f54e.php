@@ -22,17 +22,17 @@
 			
 			<h2>欢迎访问网站管理后台</h2>
 			 <script>
-                $(".shortcut-button").click(function(){
-                    curhref=$(this).attr('href');
+    //             $(".shortcut-button").click(function(){
+    //                 curhref=$(this).attr('href');
  
-                    $("#main-nav li ul",window.parent.menu.document).hide(); // Slide up all sub menus except the one clicked
+    //                 $("#main-nav li ul",window.parent.menu.document).hide(); // Slide up all sub menus except the one clicked
 
-	  $(".nav-bottom-item[href='"+curhref+"']",window.parent.menu.document).parent().parent().show(); // Slide down the clicked sub menu
-                    $(".nav-bottom-item",window.parent.menu.document).removeClass('current');
-                    $(".nav-top-item",window.parent.menu.document).removeClass('current');
-                    $(".nav-bottom-item[href='"+curhref+"']",window.parent.menu.document).addClass("current");
-                    $(".nav-bottom-item[href='"+curhref+"']",window.parent.menu.document).parents("li").children(".nav-top-item").addClass("current");
-                });        
+	//   $(".nav-bottom-item[href='"+curhref+"']",window.parent.menu.document).parent().parent().show(); // Slide down the clicked sub menu
+    //                 $(".nav-bottom-item",window.parent.menu.document).removeClass('current');
+    //                 $(".nav-top-item",window.parent.menu.document).removeClass('current');
+    //                 $(".nav-bottom-item[href='"+curhref+"']",window.parent.menu.document).addClass("current");
+    //                 $(".nav-bottom-item[href='"+curhref+"']",window.parent.menu.document).parents("li").children(".nav-top-item").addClass("current");
+    //             });        
         
     </script>            
 			
@@ -57,7 +57,7 @@
 						<table> 
 							<tbody>
 								<tr  class="alt-row">
-									 <th width="10%">序号</th>
+									 <th width="10%">序号11</th>
 									<th width="20%">小说名</th>
 									 <th width="15%">作者</th>
 									 <th width="15%">上架时间</th>
@@ -65,15 +65,16 @@
 									<th width="10%">总点击</th>
 									<th width="25%">&nbsp;&nbsp;编&nbsp;辑</td>
 								</tr>
-								<?php if(is_array($books)): foreach($books as $key=>$vo): ?><tr>
+								<?php if(is_array($books)): foreach($books as $i=>$vo): ?><tr>
 											<td class="odd" align="center"><?php echo ($i++); ?></td>
 											<td class="odd" align="center">
+												
 												<a href="__APP__/book/chapter_list/book_id/<?php echo ($vo["book_id"]); ?>"><?php echo ($vo["book_name"]); ?>
 											</td>
 											<td class="odd" align="center">
 												<a href=""><?php echo ($vo["user_name"]); ?>
 											</td>
-											<td class="odd" align="center"><?php echo (date("Y-m-d",$vo["public_time"])); ?></td>
+											<td class="odd" align="center"> <?php echo (date("Y-m-d",$vo["public_time"])); ?></td>
 											<td class="odd" align="center"><?php echo (date("m-d H:i",$vo["update_time"])); ?></td>
 											<td class="odd" align="center"><?php echo ($vo["hits"]); ?></td>
 											<td class="odd" align="center">
@@ -81,7 +82,7 @@
 											</td>
 										</tr><?php endforeach; endif; ?>
 								<tr>
-									<td colspan="7" text-align="right"><?php echo ($page); ?></td>
+									<td colspan="7" text-align="right">page<?php echo ($page); ?></td>
 								</tr>
 								</tbody>
 							

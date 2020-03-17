@@ -41,7 +41,7 @@ height:18px
 			    <h3 style="cursor: s-resize;">小说栏目管理</h3>
 					
 					<ul class="content-box-tabs">
-						<li><a href="__APP__/book/cat_add">增加分类</a></li> <!-- href must be unique and match the id of target div --> 
+						<li><a href="__APP__/book/chapter_list">增加章节</a></li> <!-- href must be unique and match the id of target div --> 
 						<li><a href="#" onclick="document.form1.submit();">更新排序</a></li>
                       
                         
@@ -87,7 +87,10 @@ height:18px
 </td>
     <td width="13%" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo ($vo["much"]); ?></td>
     <td width="21%" align="right">2014-12-23 23:34:45</td>
-    <td width="24%" align="right"><a href="http://localhost/dede/plus/list.php?tid=2" target="_blank">预览</a>|<a href="__APP__/book/cat_edit?cid=<?php echo ($cat["cat_id"]); ?>">修改</a>|<a href="__APP__/book/chapter_del?id=<?php echo ($vo["chapter_id"]); ?>" onclick="return confirm('确定要删除?')">删除</a></td>
+	<td width="24%" align="right"><a href="http://localhost/dede/plus/list.php?tid=2" target="_blank">预览</a>|
+		<a href="__APP__/book/cat_edit?cid=<?php echo ($cat["cat_id"]); ?>">修改</a>|
+			<!-- <a href="__APP__/book/cat_edit?cid=<?php echo ($cat["cat_id"]); ?>">修改</a> -->
+		<a href="__APP__/book/chapter_del?id=<?php echo ($vo["chapter_id"]); ?>" onclick="return confirm('确定要删除?')">删除</a></td>
   </tr><?php endforeach; endif; else: echo "" ;endif; ?>
   <!--分类循环结束-->
   

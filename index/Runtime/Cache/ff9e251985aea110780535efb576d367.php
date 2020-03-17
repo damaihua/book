@@ -3,8 +3,8 @@
 <head>
 <title>在线书库——听雨轩在线书城</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载" />
-<meta name="description" content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
 <meta name="author" content="http://www.jieqi.com (jieqi cms)" />
 <meta name="copyright" content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
 
@@ -32,17 +32,19 @@
 <!---头部部分--->
 
 
-<div  id="ptop">
-	<div>
-		<span><?php echo showbar();?></span>
+<div  id="top">
+	<div class="wrap">
+		<p class="top-welcome">欢迎来在线阅读网！</p>
+		<div class="login-content"><?php echo showbar();?></div>
 		<!-- <a  href="book/index.php?charset=gbk">简体</a>|
-		<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>| -->
+		<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>| 
 		<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|
-		<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a>
+		<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a>-->
 	</div>
 </div>
 
 <div id="phead" class="clearfix">
+	ROOT--------__ROOT__        //  URl   ---- __URL__     //APP---__APP__
 	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
 <!-- 	
 	<?php echo getAD(121,465,55);?>
@@ -72,9 +74,11 @@
 	 </div>
 
 
-    <div class="type">
-   
-		 <?php echo showcats();?>
+    <div class="type-nav">
+		<div class="wrap">
+			<?php echo showcats();?>
+		</div>
+		 
     </div>
     <div class="dynamic">
 		<div class="m_quee" id="m_quee">

@@ -35,7 +35,8 @@ height:18px
 					<h3 style="cursor: s-resize;">小说管理</h3>
 					
 					<ul class="content-box-tabs">
-
+						<li><a href="__APP__/book/book_list">新加book-list</a></li> <!-- href must be unique and match the id of target div --> 
+						<li><a href="#" onclick="document.form1.submit();">更新排序</a></li>
 					</ul>
 					
 					<div class="clear"></div>
@@ -76,7 +77,10 @@ height:18px
 	<td width="7%"><?php echo ($book["total"]); ?></td>
 	<td width="17%">2014-03-04 21:23:45</td>
 	<td width="18%">2014-03-04 21:23:45</td>
-	<td width="10%"><a href="__APP__/book/book_edit?book_id=<?php echo ($book["book_id"]); ?>">审核</a>|<a href="__APP__/book/book_del?book_id=<?php echo ($book["book_id"]); ?>" onclick="return confirm('确定要删除?')">删除</a></td>
+	<td width="10%">
+		<a href="__APP__/book/book_edit?book_id=<?php echo ($book["book_id"]); ?>">审核</a>|
+		<a href="__APP__/book/book_del?book_id=<?php echo ($book["book_id"]); ?>" onclick="return confirm('确定要删除?')">删除</a>
+	</td>
 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
 
 <tr align="right" bgcolor="#F9FCEF">

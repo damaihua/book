@@ -75,7 +75,8 @@ height:18px
   <tbody>
   <!--分类循环开始-->
   <?php if(is_array($cats)): $i = 0; $__LIST__ = $cats;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cat): $mod = ($i % 2 );++$i;?><tr class="alt-row"><td width="25%"><input type="checkbox" /><a href="cat_edit?cid=<?php echo ($cat["cat_id"]); ?>" ><?php echo ($cat["cat_name"]); ?></a>(小说：<?php echo ($cat["total"]); ?>本)  <a href="cat_edit?cid=<?php echo ($cat["cat_id"]); ?>"><img src="__PUBLIC__/admin/images/write2.gif"></a></td><td width="17%" align="center"><?php if($cat["status"] == 1): ?>显示
-<?php else: ?> 隐藏<?php endif; ?></td><td width="26%" align="right"><a href="http://localhost/dede/plus/list.php?tid=2" target="_blank">预览</a>|<a href="http://localhost/dede/dede/catalog_do.php?cid=2&amp;dopost=listArchives">内容</a>|<a href="__APP__/book/cat_edit?cid=<?php echo ($cat["cat_id"]); ?>">修改</a>|<a href="__APP__/book/cat_del?cid=<?php echo ($cat["cat_id"]); ?>" onclick="return confirm('确定要删除?')">删除</a></td>
+<?php else: ?> 隐藏<?php endif; ?></td><td width="26%" align="right"><a href="http://localhost/dede/plus/list.php?tid=2" target="_blank">预览</a>|<a href="http://localhost/dede/dede/catalog_do.php?cid=2&amp;dopost=listArchives">内容</a>|
+	<a href="__APP__/book/cat_edit?cid=<?php echo ($cat["cat_id"]); ?>">修改</a>|<a href="__APP__/book/cat_del?cid=<?php echo ($cat["cat_id"]); ?>" onclick="return confirm('确定要删除?')">删除</a></td>
     <td width="32%" align="right"><input name="ordernum" value="<?php echo ($cat["ordernum"]); ?>" style="width:25px;height:20px" type="text"></td>
   </tr><?php endforeach; endif; else: echo "" ;endif; ?>
   <!--分类循环结束-->

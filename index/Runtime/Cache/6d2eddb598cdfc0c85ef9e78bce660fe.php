@@ -1,27 +1,31 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>会员登录——听雨轩在线书城</title>
-<meta charset="utf-8" />
-<meta name="keywords" content="keywords" />
-<meta name="description" content="description" />
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>翠微居小说网-小说阅读网,干净好看的小说网,txt小说免费下载</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载">
+<meta name="description" content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！">
+<meta name="author" content="http://www.jieqi.com (jieqi cms)">
+<meta name="copyright" content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
+翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
 
-<meta charset='utf-8'/>
-<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
-<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+
+">
+<meta name="generator" content="jieqi.com">
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all">
+<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all">
 <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
 <!--[if IE 6]>
-<script type="text/javascript" src="__JS__/dd_belatedpng.js" ></script>
+<script type="text/javascript" src="/scripts/DD_belatedPNG.js" ></script>
 <script type="text/javascript">
 	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
 </script>
 <![endif]-->
-<script>
-	
-</script>
+
 </head>
 <body>
+<!---------------------------------------------头部部分---------------------------------------------->
+<script type="text/javascript" charset="utf-8" src="pay_files/toplink.js"></script>
 <!---头部部分--->
 
 
@@ -37,7 +41,6 @@
 </div>
 
 <div id="phead" class="clearfix">
-	ROOT--------__ROOT__        //  URl   ---- __URL__     //APP---__APP__
 	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
 <!-- 	
 	<?php echo getAD(121,465,55);?>
@@ -116,66 +119,89 @@
 </div>
 
 </div>
+<!--------------------------------------------内容部分---------------------------------------------->
 
-<!---内容部分-->
 
-<div class="main"><div class="logindiv" id="overlay_login">
-	<div class="c_head">
-    	<h4>会员登录</h4>
-    </div>
-    <div class=" c_body main_form">                   
-        <form name="frmlogin" method="post" action="__URL__/checklogin">
-        <div>
-       
-            <div class="clue"><p>没有账号？立即<a href="__URL__/reg.html">免费注册</a>一个</p></div>
-        </div>
-        <table cellspacing="0" cellpadding="0">
-            <tr>
-                <td class="t1">
-                <label>登陆账号：</label>
-                </td>
-                <td>
-                <input name="user_name" type="text" class="text" style="width:200px;" value="请在此输入用户名/账号" onFocus="if(this.value=='请在此输入用户名/账号'){this.value='';}" onBlur="if(this.value==''){this.value='请在此输入用户名/账号';}">
-                <span class="quick_feeaback"></span>
-                </td>
-            </tr>
-            <tr>
-                <td class="t1">
-                <label>登陆密码：</label>
-                </td>
-                <td>
-                <input class="text" name="user_pwd" style="width:200px;" type="password">
-                <span class="quick_feeaback"></span>
-                </td>
-            </tr>
-			
-			<tr>
-                <td class="t1">
-                <label>验证码：</label>
-                </td>
-                <td>
-                <input type="text" class="text" size="8" maxlength="8" name="verify">&nbsp;<img src="__APP__/Public/verify/" alt="点击更换验证码" style="cursor:pointer;" onclick="this.src='__APP__/Public/verify/?rand='+Math.random();">
-                
-                </td>
-            </tr>
-			
-            <tr>
-                <td></td>
-                <td>
-                <sup><input class="checkbox" name="usecookie" id="usecookie" value="315360000" type="checkbox" style="margin-top:-0px"></sup><span style="padding-left:5px;">记住密码</span><a style="color:#719E18;padding:0px 0px 0px 50px;vertical-align: middle;" href="http://www.cuiweiju.com/getpass.php">忘记密码？</a>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="hidden" name="action" value="login"></td>
-                <td>
-                <input name="submit" value="登 录" id="" class="bt_login" type="submit">
-                </td>
-            </tr>
-        </table> 
-        </form>
-    </div>
-</div></div>
 
+
+
+<div class="main">
+
+<!---左侧导航--->
+<div  id="left">
+
+<div  class="block">
+<div  class="blocktitle"><span>用户设置</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="__APP__/member/index">个人首页</a></li>
+<li><a  href="__APP__/member/member_edit">修改资料</a></li>
+<li><a  href="__APP__/member/avatar_edit">修改头像</a></li>
+<li><a  href="__APP__/member/pwd_edit">修改密码</a></li>
+
+<li><a  href="__APP__/member/loginout">退出登录</a></li>
+</ul></div>
+</div>
+
+<div  class="block">
+<div  class="blocktitle"><span>短消息</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="__APP__/letter/inbox">收件箱</a></li>
+<li><a  href="__APP__/letter/outbox">发件箱</a></li>
+<li><a  href="__APP__/letter/write">写新消息</a></li>
+<li><a  href="__APP__/letter/toadmin">写给管理员</a></li>
+</ul></div>
+</div>
+
+<div  class="block">
+<div  class="blocktitle"><span>工具箱</span></div>
+<div  class="blockcontent"><ul  class="ulnav">
+<li><a  href="http://www.cuiweiju.com/ptopics.php?uid=self">我的留言</a></li>
+
+<li><a  href="__APP__/member/order">订阅记录</a></li>
+
+<li><a  href="__APP__/member/pay">在线充值</a></li>
+
+<li><a  href="__APP__/member/applyauthor">申请作者</a></li>
+
+</ul></div>
+</div>
+  
+</div>
+  <div id="centerm"><div id="content"><table class="grid" cellpadding="0" cellspacing="1" align="center" width="600">
+  <tbody><tr>
+    <td class="title" align="center" valign="middle">购买点卡确认</td>
+  </tr>
+  <tr>
+    <td class="even"><form name="frmalipay" method="post" action="__APP__/member/do_pay">
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tbody><tr>
+          <td width="14%">点卡类型：</td>
+          <td width="86%" valign="middle">
+<input type="hidden" name='score' value="<?php echo getData('Paycard',$paycard_id,'paycard_score');?>" />         <?php echo getData('Paycard',$paycard_id,'paycard_score');?>积分卡         </td>
+          </tr>
+          <tr>
+            <td>花费金额：</td>
+            <td valign="middle"><?php echo getData('Paycard',$paycard_id,'paycard_money');?>RMB</td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="确认购买"/></td>
+            <td valign="middle"></td>
+          </tr>
+        </tbody>
+      </table>
+    </form></td>
+  </tr>
+<tr>
+	<td></td>
+	  </tr>
+
+	 
+</tbody></table>
+<br><br>
+</div>
+</div>
+
+</div>
 
 
 <!--foot底部部分--->
@@ -193,6 +219,5 @@
 
 
 
-</body>
 
-</html>
+<div id="tips"></div></body></html>

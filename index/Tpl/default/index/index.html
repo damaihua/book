@@ -47,12 +47,7 @@ $(document).ready(function(){
 });
 //]]>
 </script>
-<!--[if IE 6]>
-<script type="text/javascript" src="__JS__/dd_belatedpng.js" ></script>
-<script type="text/javascript">
-	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic ');
-</script>
-<![endif]-->
+
 <!--------------------------------------------内容部分---------------------------------------------->
 <div id="pbody">
 <!--行1-->
@@ -144,8 +139,8 @@ $(document).ready(function(){
 				<h2 class="tabs01 recommend-tabTit"><a href="javascript:void(0)">强力推荐</a><a href="javascript:void(0)">最新完本</a></h2>
 				<ul class="tab_cnt1 recommend-tabItem">
 					
-					<volist name="abook" id="vo" key="i" >
-
+					<volist name="abook" id="vo" key="i" offset="0" length='4' >
+						
 					<if condition="$i eq 1">
 						<li class="pic_text"><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_self"><img src="<{$vo.book_cover}>" /></a><h3><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_self"><{$vo.book_name}></a></h3><p><{$vo.book_info|substr=0,96}></p></li>
 					</if>
@@ -220,7 +215,7 @@ $(document).ready(function(){
 	<div class="new-arrival common-left">
 		<h2 class="common-headline"><span>最新上架</span></h2>
 		<ul class="new-books">
-			<volist name="newbook" id="vo" key="i" >
+			<volist name="newbook" id="vo" key="i" offset="0" length="10" >
 			<li><em><a href="#">[<{$vo.cat_sortname}>]</a></em><a class="newBook-name" href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></li>
 			</volist>
 		</ul>
