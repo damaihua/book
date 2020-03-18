@@ -915,13 +915,94 @@ a.vote:hover{ text-decoration:none;color:#cc3300;}
 .rank_title_list li a.rank_current{font-weight:bold;color:#719e18;}
 
 /*--------------------------------------注册登陆-----------------------------------------------------*/
-.register_intro{ background:url(img/rg_intro.gif) no-repeat -1px 0px;height:340px;width:228px;margin-top:50px; text-indent:-5000px;}
-.column_register{margin-bottom:8px;border:#eee solid 1px; background:#fff;}
-.column_cr{ background:url(img/bg_clm_cr.png) repeat-y -20px 0px;margin:1px;}
+/* .register_intro{ background:url(img/rg_intro.gif) no-repeat -1px 0px;height:340px;width:228px;margin-top:50px; text-indent:-5000px;} */
+/* .column_register{margin-bottom:8px;border:#eee solid 1px; background:#fff;} */
+/* .column_cr{ background:url(img/bg_clm_cr.png) repeat-y -20px 0px;margin:1px;}
 .column_register .left{ float:left;width:228px;}
 .column_register .left2{ float:left;width:747px;border-right:#eee solid 1px;}
 .column_register .center{ float:left;border-left:#eee solid 1px;border-right:#eee solid 1px;width:496px;}
-.column_register .right{ float:right;width:723px;border-left:#fff solid 1px;}
+.column_register .right{ float:right;width:723px;border-left:#fff solid 1px;} */
+.userInfo-module{
+  background:#f8f8f8;
+  margin:0 auto 20px;
+}
+.userInfo-content{
+  width:600px;
+  padding:0 0 30px;
+  
+  margin:0 auto;
+}
+.userInfo-content .go-login{
+  display:block;
+  color:#666;
+  text-decoration: underline;
+  font-size:14px;
+  margin:60px 0 0 110px;
+}
+.userInfo-content h2{height:100px;font-size:20px; color:#333; line-height: 100px; margin-left:170px; font-weight:bold;}
+.userInfo-item{
+  margin-bottom:16px;
+  overflow: hidden;
+}
+.userInfo-item .userInfo-sortTit{
+  float:left;
+  width:100px;padding-right:10px;
+  text-align: right;
+  line-height: 32px;
+} 
+.userInfo-item .text{
+  float:left;
+  width:200px;
+  height:30px;
+  padding:0 10px;
+  line-height: 30px;
+  border:1px solid #ccc;
+  font-size:14px;
+  color:#333;
+  
+}
+.userInfo-item .Validform_checktip{
+  float:left;
+  width:200px;
+  height:32px;
+  line-height: 32px;
+  color:#999;
+  font-size:12px;
+  white-space: nowrap;
+  margin-left:10px;
+}
+.userInfo-item .bt_reg,.userInfo-item .bt_login{
+  display:block;
+  width:100px;
+  height:32px;
+  background:#719e18;
+  color:#fff;
+  text-align: center;
+  line-height: 32px;
+  border-radius:2px;
+  margin:0 0 0 110px;
+  cursor: pointer;
+
+}
+.remember-pass{
+  float:left; height:24px; line-height: 24px; margin:0 0 0 110px;
+}
+.remember-pass #usecookie{
+  float:left; margin:5px 3px 0 0;
+}
+.userInfo-item .ver-code{
+  cursor:pointer; height:30px; margin-left:10px;
+}
+.account-tips{
+  display:block;
+  font-size:12px;
+  margin:60px 0 0 110px;
+}
+.account-tips a{
+  color:#719e18;
+  padding:0 5px;
+}
+
 /*---------------------------------------搜索-------------------------------------------------------*/
 .p_search .main_cnt{ float:left;width:715px;padding-right:20px;}
 .p_search .side_cag{ float:left;width:225px;}

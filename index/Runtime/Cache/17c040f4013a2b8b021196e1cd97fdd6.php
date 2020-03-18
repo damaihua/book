@@ -19,7 +19,7 @@
 
 <div  id="top">
 	<div class="wrap">
-		<p class="top-welcome">欢迎来在线阅读网！</p>
+		<p class="top-welcome">欢迎访问在线阅读！</p>
 		<div class="login-content"><?php echo showbar();?></div>
 		<!-- <a  href="book/index.php?charset=gbk">简体</a>|
 		<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>| 
@@ -29,6 +29,7 @@
 </div>
 
 <div id="phead" class="clearfix">
+	ROOT--------__ROOT__        //  URl   ---- __URL__     //APP---__APP__
 	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
 <!-- 	
 	<?php echo getAD(121,465,55);?>
@@ -58,9 +59,11 @@
 	 </div>
 
 
-    <div class="type">
-   
-		 <?php echo showcats();?>
+    <div class="type-nav">
+		<div class="wrap">
+			<?php echo showcats();?>
+		</div>
+		 
     </div>
     <div class="dynamic">
 		<div class="m_quee" id="m_quee">

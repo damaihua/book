@@ -36,7 +36,8 @@ function showHeadermenu(){
         foreach ($data as $value) {
         	$catlist.='<li><a href="__ROOT__'.$value['url'].'">'.$value['name'].'</a></li>';
         }        
-        return rtrim($catlist,'|').'<li><a href="__ROOT__/bbs/">书友论坛</a></li>';
+       // return rtrim($catlist,'|').'<li><a href="__ROOT__/bbs/">书友论坛</a></li>';
+       return rtrim($catlist,'|');
     }
 //显示顶部菜单方法
 function showFootermenu(){

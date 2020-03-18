@@ -38,100 +38,43 @@ $(function(){
 <!-- 头部部分 -->
 <include file="Public:header" />
 
-<div class="main"><div id="pbody">
-   		<div class="column_register"><div class="column_cr clearfix">
-            <div class="left" style="height:500px;">
-                <div class="register_intro">
-                	<ul>
-                    <li>海量的文学作品</li>
-                    <li>良好的阅读操作体验</li>
-                    <li>系统的作者创作发展体系</li>
-                    <li>丰富的版权拓展营销推广渠道</li>
-                    </ul>
-                </div>
-            </div>
-        	<div class="right" style="height:500px;">
-            	<div class="box1" style="margin:0px;">
-                	<div class="c_head">
-                    	<h3><span></span>新用户注册</h3>
-                    </div>
-                    <div class="c_body">
-                    	<div class="main_form" style="padding:50px 0px 0px 0px;">                   
-                            <form class="registerform"  action="__URL__/do_reg" method="post">
-                            <table cellspacing="0" cellpadding="0">
-                                <tr>
-                                    <td class="t1">
-                                    <label>用户名：</label>
-                                    </td>
-                                  <td>
-                                    <input class="text" name="user_name" type="text" nullmsg="请输入用户名！"  datatype="/\w{6,16}/i"  errormsg="用户名由6-16位字母，数字或下划线组成！" >
-      <span class="Validform_checktip">6-16位字母，数字或下划线</span>
+<div class="wrap userInfo-module">
+  <div class="userInfo-content">
+    <h2>新用户注册</h2>
+    <form class="registerform"  action="__URL__/do_reg" method="post">
+      <div class="userInfo-item">
+        <span class="userInfo-sortTit">用户名</span>
+        <input class="text" name="user_name" type="text" nullmsg="请输入用户名！"  datatype="/\w{6,16}/i"  errormsg="用户名由6-16位字母，数字或下划线组成！" placeholder="请输入用户名" >
+        <span class="Validform_checktip">6-16位字母,数字或下划线</span>
+      </div>
+      <div class="userInfo-item">
+        <span class="userInfo-sortTit">密码</span>
+        <input class="text" name="user_pwd" id="user_pwd" type="password" datatype="s6-16" errormsg="密码至少6个字符,最多16个字符！"  placeholder="设置密码">
+        <span class="quick_feeaback Validform_checktip">密码在6~15位之间！</span>
+      </div>
+      <div class="userInfo-item">
+        <span class="userInfo-sortTit">确认密码</span>
+        <input class="text" name="repassword" id="repassword"  type="password" datatype="*" recheck="user_pwd" errormsg="您两次输入的账号密码不一致！" placeholder="请再次确认密码" >
+        <span class="quick_feeaback Validform_checktip">密码在6~15位之间！</span>
+      </div>
+      <div class="userInfo-item">
+        <span class="userInfo-sortTit">邮箱</span>
+        <input class="text" name="user_email" id="user_email"  type="text" datatype="e" errormsg="请输入正确的电子邮箱！" placeholder="请输入邮箱">
+        <span class="Validform_checktip">用于找回密码等</span>
+      </div>
+      <div class="userInfo-item">
+        <span class="userInfo-sortTit">验证码</span>
+        <input type="text" class="text" size="8" maxlength="8" name="verify"  placeholder="输入正确的验证码">
+        <img class="ver-code" src="__APP__/Public/verify/" alt="点击更换验证码"  onclick="this.src='__APP__/Public/verify/?rand='+Math.random();">
+      </div>
+      <div class="userInfo-item">  
+        <input name="" value="注册" id="" class="bt_reg" type="submit">
+      </div>
+    </form>
+    <a href="__URL__/login" class="go-login">去登录</a>
+  </div>
+</div>
 
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="t1">
-                                    <label>用户密码：</label>
-                                    </td>
-                                    <td>
-                                    <input class="text" name="user_pwd" id="user_pwd" type="password" datatype="s6-16" errormsg="密码至少6个字符,最多16个字符！"  >
-                                    <span class="quick_feeaback Validform_checktip">密码范围在6~15位之间！</span>
-                                    </td>
-                                </tr>
-                                 <tr>
-                                    <td class="t1">
-                                    <label>确定密码：</label>
-                                    </td>
-                                    <td>
-                                    <input class="text" name="repassword" id="repassword"  type="password" datatype="*" recheck="user_pwd" errormsg="您两次输入的账号密码不一致！" >
-                                    <span class="quick_feeaback Validform_checktip">密码范围在6~15位之间！</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="t1">
-                                    <label>电子邮箱：</label>
-                                    </td>
-                                    <td>
-                                    <input class="text" name="user_email" id="user_email"  type="text" datatype="e" errormsg="请输入正确的电子邮箱！">
-                                     <span class="Validform_checktip">用于会员验证，找回密码等</span>
-
-                                    </td>
-                                </tr>
-                                
-								
-                                <tr>
-                                    <td class="t1">
-                                    <label>验证码：</label>
-                                    </td>
-                                    <td>
-                                    <input type="text" class="text" size="8" maxlength="8" name="verify">&nbsp;<img  src="__APP__/Public/verify/" alt="点击更换验证码" style="cursor:pointer;" onclick="this.src='__APP__/Public/verify/?rand='+Math.random();">
-                          
-                                    </td>
-                                </tr>
-								
-								<!--
-                                <tr>
-                                    <td></td>
-                                    <td>
-                                    <input class="checkbox" type="checkbox"><span class="checkbox_t">同意《<a href="/help.html">注册协议</a>》</span>
-                                    </td>
-                                </tr>
-                                -->
-                                <tr>
-                                    <td></td>
-                                    <td>
-                                    <input name="" value="提交注册" id="" class="bt_reg" type="submit">
-                                    </td>
-                                </tr>
-                            </table>
-                            </form>
-
-                        </div>
-                    </div> 
-                </div>
-            </div>
-        </div></div>
-</div></div>
 
 
 

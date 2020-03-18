@@ -32,17 +32,19 @@
 <!---头部部分--->
 
 
-<div  id="ptop">
-	<div>
-		<span><?php echo showbar();?></span>
+<div  id="top">
+	<div class="wrap">
+		<p class="top-welcome">欢迎访问在线阅读！</p>
+		<div class="login-content"><?php echo showbar();?></div>
 		<!-- <a  href="book/index.php?charset=gbk">简体</a>|
-		<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>| -->
+		<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>| 
 		<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|
-		<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a>
+		<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a>-->
 	</div>
 </div>
 
 <div id="phead" class="clearfix">
+	ROOT--------__ROOT__        //  URl   ---- __URL__     //APP---__APP__
 	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
 <!-- 	
 	<?php echo getAD(121,465,55);?>
@@ -52,16 +54,17 @@
 	</ul> -->
 	<div class="header-search">
 		<form name="articlesearch" method="post" action="/book/index.php/search/index.html" target="_blank">
-			<span>
-				<select name="" id="">
+			<div class="header-searchCon">
+				<select name="" class="search-sort">
 					<option  name="searchtype" value="articlename" checked="checked">书名</option>
 					<option  name="searchtype" value="author" >作者</option>
 				</select>
+				
 			<input name="searchkey" type="text" class="search_text"> 
 
 			<!-- <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	
 			<input type="radio" class="radio" name="searchtype" value="author" />作者 -->
-			<input type="submit" class="search_submit" value=" "></span>
+			<input type="submit" class="search_submit" value="搜索"></div>
 		</form>
 	</div>
 </div>
@@ -71,9 +74,11 @@
 	 </div>
 
 
-    <div class="type">
-   
-		 <?php echo showcats();?>
+    <div class="type-nav">
+		<div class="wrap">
+			<?php echo showcats();?>
+		</div>
+		 
     </div>
     <div class="dynamic">
 		<div class="m_quee" id="m_quee">
@@ -177,16 +182,14 @@
 <!--foot底部部分--->
 
 <div class="cb"></div>
-<div id="pfoot">
+<div id="footer">
 	<div class="foot_nav">
     	
         <?php echo showFootermenu();?>
     </div>
-    <p>请所有作者发布作品时务必遵守国家互联网信息管理办法规定，我们拒绝任何色情小说，一经发现，即作删除！<br />本站所收录作品、社区话题、书库评论及本站所做之广告均属其个人行为，与本站立场无关</p>
-    <p><?php echo (SITE_COPYRIGHT); ?>&nbsp;&nbsp;<?php echo (SITE_BEIAN); ?></p>
-    <div class="authority">
-    	<a href="#"><img src="__IMG__/wj.gif" /></a><a href="#"><img src="__IMG__/ppaa.gif" /></a>
-    </div>
+    <p>请作者发布作品时遵守国家互联网信息管理办法规定</p>
+    <!-- <p><?php echo (SITE_COPYRIGHT); ?>&nbsp;&nbsp;<?php echo (SITE_BEIAN); ?></p> -->
+    
 </div>
 
 </body>
