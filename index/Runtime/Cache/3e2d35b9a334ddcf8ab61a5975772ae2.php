@@ -20,17 +20,19 @@
 <!---头部部分--->
 
 
-<div  id="ptop">
-	<div>
-		<span><?php echo showbar();?></span>
+<div  id="top">
+	<div class="wrap">
+		<p class="top-welcome">欢迎访问在线阅读！</p>
+		<div class="login-content"><?php echo showbar();?></div>
 		<!-- <a  href="book/index.php?charset=gbk">简体</a>|
-		<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>| -->
-		<!-- <a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|
-		<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a> -->
+		<a  href="http://www.cuiweiju.com/index.php?charset=big5">繁体</a>| 
+		<a  href="javascript:window.external.addFavorite('http://www.cuiweiju.com','翠微居小说网');">加入收藏</a>|
+		<a href="javascript:;" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lamp99.com');">设为首页</a>-->
 	</div>
 </div>
 
 <div id="phead" class="clearfix">
+	ROOT--------__ROOT__        //  URl   ---- __URL__     //APP---__APP__
 	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
 <!-- 	
 	<?php echo getAD(121,465,55);?>
@@ -60,11 +62,13 @@
 	 </div>
 
 
-    <div class="type">
-   
-		 <?php echo showcats();?>
+    <div class="type-nav">
+		<div class="wrap">
+			<?php echo showcats();?>
+		</div>
+		 
     </div>
-    <div class="dynamic">
+    <!-- <div class="dynamic">
 		<div class="m_quee" id="m_quee">
 			<dl class="dl_quee">
 				<dd><a href="/userpage.php?uid=2979095" target="_blank"><em>a593913134</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126334.htm" target="_blank"><strong>《人生得意须纵欢》</strong></a></dd>
@@ -105,14 +109,14 @@
 				<input type="submit" class="search_submit" value=" "></span>
 			</form>
 		</div>
-    </div>
+    </div> -->
 </div>
 
 </div>
 
 
 <div class="main">
-<div  id="left">
+<!-- <div  id="left">
 
 <div  class="block">
 <div  class="blocktitle"><span>用户设置</span></div>
@@ -150,6 +154,36 @@
 </ul></div>
 </div>
   
+</div> -->
+
+<div class="user-centerLeft">
+    <div class="userCenter-sort">
+        <h2>用户设置</h2>
+        <div class="userCenter-det">
+            <a href="__APP__/member/index">个人首页</a>
+            <a href="__APP__/member/member_edit">修改资料</a>
+            <a href="__APP__/member/avatar_edit">修改头像</a>
+            <a href="__APP__/member/pwd_edit">修改密码</a>
+        </div>
+    </div>
+    <div class="userCenter-sort">
+        <h2>短消息</h2>
+        <div class="userCenter-det">
+            <a href="__APP__/letter/inbox">收件箱</a>
+            <a href="__APP__/letter/outbox">发件箱</a>
+            <a href="__APP__/letter/write">写消息</a>
+            <a href="__APP__/letter/toadmin">写给管理员</a>
+        </div>
+    </div>
+    <div class="userCenter-sort">
+        <h2>工具箱</h2>
+        <div class="userCenter-det">
+            <a href="http://www.cuiweiju.com/ptopics.php?uid=self">我的留言</a>
+            <a href="__APP__/member/order">订阅记录</a>
+            <a href="__APP__/member/pay">在线充值</a>
+            <a href="__APP__/member/applyauthor">申请作者</a>
+        </div>
+    </div>
 </div>
 
   <div id="centerm"><div id="content">

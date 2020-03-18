@@ -1,23 +1,24 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-<title>订阅记录——<?php echo (SITE_NAME); ?></title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>写信消息--<?php echo (SITE_NAME); ?></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="<?php echo (SITE_KEYWORDS); ?>" />
+<meta name="description" content="<?php echo (SITE_DESCRIPT); ?>" />
 
-
-<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all">
-<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all">
-<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
-<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
-<!--[if IE 6]>
-<script type="text/javascript" src="/scripts/DD_belatedPNG.js" ></script>
-<script type="text/javascript">
-	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
-</script>
-<![endif]-->
-
+	<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+	<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+	<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+	<!--[if IE 6]>
+	<script type="text/javascript" src="/scripts/DD_belatedPNG.js" ></script>
+	<script type="text/javascript">
+		DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
+	</script>
+	<![endif]-->
+	<script src="__JS__/jquery-1.8.3.min.js" type="text/javascript"></script>
 </head>
 <body>
-
 <!---头部部分--->
 
 
@@ -115,16 +116,12 @@
 
 </div>
 
+
 <!--------------------------------------------内容部分---------------------------------------------->
-
-
-
-
 
 <div class="main">
 
-<!---左侧导航--->
-<!-- <div  id="left">
+	<div  id="left">
 
 <div  class="block">
 <div  class="blocktitle"><span>用户设置</span></div>
@@ -162,64 +159,93 @@
 </ul></div>
 </div>
   
-</div> -->
+</div>
 
 <div class="user-centerLeft">
     <div class="userCenter-sort">
         <h2>用户设置</h2>
         <div class="userCenter-det">
-            <a href="__APP__/member/index">个人首页</a>
-            <a href="__APP__/member/member_edit">修改资料</a>
-            <a href="__APP__/member/avatar_edit">修改头像</a>
-            <a href="__APP__/member/pwd_edit">修改密码</a>
+            <a href="">个人首页</a>
+            <a href="">修改资料</a>
+            <a href="">修改头像</a>
+            <a href="">修改密码</a>
         </div>
     </div>
     <div class="userCenter-sort">
         <h2>短消息</h2>
         <div class="userCenter-det">
-            <a href="__APP__/letter/inbox">收件箱</a>
-            <a href="__APP__/letter/outbox">发件箱</a>
-            <a href="__APP__/letter/write">写消息</a>
-            <a href="__APP__/letter/toadmin">写给管理员</a>
-        </div>
-    </div>
-    <div class="userCenter-sort">
-        <h2>工具箱</h2>
-        <div class="userCenter-det">
-            <a href="http://www.cuiweiju.com/ptopics.php?uid=self">我的留言</a>
-            <a href="__APP__/member/order">订阅记录</a>
-            <a href="__APP__/member/pay">在线充值</a>
-            <a href="__APP__/member/applyauthor">申请作者</a>
+            <a href="">个人首页</a>
+            <a href="">修改资料</a>
+            <a href="">修改头像</a>
+            <a href="">修改密码</a>
         </div>
     </div>
 </div>
-  <div id="centerm"><div id="content">
-<table class="grid" align="center" width="100%">
-<caption>VIP章节订阅记录</caption>
-  <tbody><tr align="center">
-    <th width="15%">书名</th>
-    <th width="41%">章节</th>
-    <th width="17%">消费积分</th>
-    <th width="24%">日期</th>
-  </tr>
-  <?php if(is_array($orderlist)): $i = 0; $__LIST__ = $orderlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-    <td align="center" class="even"><a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>"><?php echo ($vo["book_name"]); ?></a></td>
-    <td align="center" class="odd"><a href="__APP__/chapters/read/chapter_id/<?php echo ($vo["chapter_id"]); ?>"><?php echo ($vo["chapter_title"]); ?></a></td>
-    <td class="even" align="center"><?php echo ($vo["much"]); ?></td>
-    <td class="even" align="center"><?php echo (date("Y-m-d H:i:s",$vo["update_time"])); ?></td>
-  </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-</tbody></table>
-<div class="pages">
-<?php echo ($page); ?>
-</div>
+	<div id="centerm">
+		<div id="content">
+			<script type="text/javascript">
+				function frmnewmessage_validate(){
+					if(typeof(document.frmnewmessage.receiver) != "undefined"){
+						if(document.frmnewmessage.receiver.value == "" ){
+							 alert("请输入收件人");
+							document.frmnewmessage.receiver.focus();
+							return false;
+						}
+					}
+					
+					if(document.frmnewmessage.receiver.value=="<?php echo $_SESSION['user_name'];?>"){
+						alert('不可以给自己发短消息');
+						document.frmnewmessage.receiver.focus();
+						return false;
+					}
+
+					if(document.frmnewmessage.title.value == ""){
+						 alert("请输入标题");
+						window.document.frmnewmessage.title.focus();
+						return false;
+					 }
+				}
+			</script>
+			<script>
+				$(function(){
+					$('#receiver').blur(function(){
+						if(this.value=="<?php echo $_SESSION['user_name'];?>"){
+							alert('不可以给自己发短消息');
+						}
+					});
+				});
+			</script>
+			
+<form name="frmnewmessage" id="frmnewmessage" action="
+__URL__/doadmin/letter_to/网站管理员" method="post" onsubmit="return frmnewmessage_validate();">
+<table width="580" class="grid" cellspacing="1" align="center">
+<caption>写新消息</caption>
+<tr valign="middle" align="left">
+  <td class="odd" width="25%">收件人</td>
+  <td class="even">
+  
+  网站管理员<input type="hidden" name="tosys" id="tosys" value="1" />
+  
+  </td>
+</tr>
+  <tr valign="middle" align="left"><td class="odd" width="25%">标题</td>
+  <td class="even"><input type="text" class="text" name="title" id="title" size="30" maxlength="100" value="" /></td>
+</tr>
+<tr valign="middle" align="left">
+  <td class="odd" width="25%">内容</td>
+  <td class="even"><textarea class="textarea" name="content" id="content" rows="12" cols="60"></textarea></td>
+</tr>
+<tr valign="middle" align="left">
+  <td class="odd" width="25%">&nbsp;</td>
+  <td class="even"><input type="submit" class="button" name="submit"  id="submit" value="发 送" /><input type="hidden" name="action" id="action" value="newmessage" /></td>
+</tr>
+</table>
+</form>
+
+		</div>
+	</div>
 
 </div>
-</div>
-
-</div>
-
-
-
 
 <!--foot底部部分--->
 
@@ -235,4 +261,6 @@
 </div>
 
 
-</body></html>
+</body>
+
+</html>

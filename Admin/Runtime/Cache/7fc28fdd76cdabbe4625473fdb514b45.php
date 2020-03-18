@@ -36,7 +36,7 @@
 					<h3 style="cursor: s-resize;">小说审核</h3>
 					
 				<ul>
-					<span class="new-add">修改</span>
+					<span class="new-add">修改11</span>
 				</ul>
 					
 					<div class="clear"></div>
@@ -48,7 +48,7 @@
 					<form name="form1" action="__APP__/book/do_book_edit" enctype="multipart/form-data" method="post" onsubmit="return checkSubmit()">
   <input name="book_id" value="<?php echo ($book_id); ?>" type="hidden">
  
-					<div style="display: none;" class="tab-content  default-tab" id="tab1">				
+					<div style="display: block;" class="tab-content  default-tab" id="tab1">				
 						
 							
 							<fieldset> 
@@ -71,7 +71,8 @@
 		
 								<p>
 									<label>小说封面</label>
-                  <img name="cover" src="<?php echo getData('Book',$book_id,'book_cover');?>" width="180" height="225" alt="" />
+
+                  <img name="cover" src="__ROOT__/<?php echo getData('Book',$book_id,'book_cover');?>" width="180" height="225" alt="" />
 					
                 
                   
@@ -122,7 +123,7 @@
 						
 					</div> <!-- End #tab1 -->
 					
-					<div style="display: block;" class="tab-content" id="tab2">
+					<div style="display: none;" class="tab-content" id="tab2">
 						<fieldset> 
 						
 							<p>
@@ -271,11 +272,11 @@
 	
 <script>
 
-	$('.new-add').click(function(){
-		alert('a')
-		$('#tab1').hide();
-		$('#tab2').show();
-	})
+	// $('.new-add').click(function(){
+	// 	alert('a')
+	// 	$('#tab1').hide();
+	// 	$('#tab2').show();
+	// })
 </script>
 
 </body></html>

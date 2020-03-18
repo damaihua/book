@@ -7,7 +7,7 @@ return array(
 	'DB_HOST'=>'127.0.0.1',//设置主机
 	'DB_NAME'=>'book',//设置数据库名
 	'DB_USER'=>'root',    //设置用户名
-	'DB_PWD'=>'123456',        //设置密码
+	'DB_PWD'=>'',        //设置密码
 	'DB_PORT'=>'3306',   //设置端口号
 	'DB_PREFIX'=>'book_',  //设置表前缀
 

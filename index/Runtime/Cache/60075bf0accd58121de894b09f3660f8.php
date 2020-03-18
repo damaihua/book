@@ -76,7 +76,7 @@
 		</div>
 		 
     </div>
-    <div class="dynamic">
+    <!-- <div class="dynamic">
 		<div class="m_quee" id="m_quee">
 			<dl class="dl_quee">
 				<dd><a href="/userpage.php?uid=2979095" target="_blank"><em>a593913134</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126334.htm" target="_blank"><strong>《人生得意须纵欢》</strong></a></dd>
@@ -117,7 +117,7 @@
 				<input type="submit" class="search_submit" value=" "></span>
 			</form>
 		</div>
-    </div>
+    </div> -->
 </div>
 
 </div>

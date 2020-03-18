@@ -16,12 +16,7 @@
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
 <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
-<!--[if IE 6]>
-<script type="text/javascript" src="__JS__/dd_belatedpng.js" ></script>
-<script type="text/javascript">
-	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
-</script>
-<![endif]-->
+
 
 </head>
 <body>
@@ -67,7 +62,7 @@ $(document).ready(function(){
 
 	<volist name='newfree' id='vo'>
 
-	<li><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><img src="__ROOT__/<{$vo.book_cover}>" /></a><h3><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank">《<{$vo.book_name}>》</a></h3><p><{$vo.book_info|substr=0,66}></p></li>
+	<li><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank">111<img src="__ROOT__/<{$vo.book_cover}>" /></a><h3><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank">《<{$vo.book_name}>》</a></h3><p><{$vo.book_info|substr=0,66}></p></li>
 
 </volist>	
 

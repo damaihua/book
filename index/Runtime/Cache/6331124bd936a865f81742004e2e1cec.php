@@ -16,12 +16,7 @@
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
 <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
-<!--[if IE 6]>
-<script type="text/javascript" src="__JS__/dd_belatedpng.js" ></script>
-<script type="text/javascript">
-	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
-</script>
-<![endif]-->
+
 
 </head>
 <body>
@@ -76,7 +71,7 @@
 		</div>
 		 
     </div>
-    <div class="dynamic">
+    <!-- <div class="dynamic">
 		<div class="m_quee" id="m_quee">
 			<dl class="dl_quee">
 				<dd><a href="/userpage.php?uid=2979095" target="_blank"><em>a593913134</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126334.htm" target="_blank"><strong>《人生得意须纵欢》</strong></a></dd>
@@ -117,7 +112,7 @@
 				<input type="submit" class="search_submit" value=" "></span>
 			</form>
 		</div>
-    </div>
+    </div> -->
 </div>
 
 </div>
@@ -159,7 +154,7 @@ $(document).ready(function(){
 
 	
 
-	<?php if(is_array($newfree)): $i = 0; $__LIST__ = $newfree;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>" target="_blank"><img src="__ROOT__/<?php echo ($vo["book_cover"]); ?>" /></a><h3><a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>" target="_blank">《<?php echo ($vo["book_name"]); ?>》</a></h3><p><?php echo (substr($vo["book_info"],0,66)); ?></p></li><?php endforeach; endif; else: echo "" ;endif; ?>	
+	<?php if(is_array($newfree)): $i = 0; $__LIST__ = $newfree;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>" target="_blank">111<img src="__ROOT__/<?php echo ($vo["book_cover"]); ?>" /></a><h3><a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>" target="_blank">《<?php echo ($vo["book_name"]); ?>》</a></h3><p><?php echo (substr($vo["book_info"],0,66)); ?></p></li><?php endforeach; endif; else: echo "" ;endif; ?>	
 
 </ul>
         </div>
