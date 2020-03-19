@@ -9,6 +9,11 @@ class BookAction extends PublicAction {
         //检测是否登录
         $this->islogin();
         $book=M('Book');
+        //add
+        $cats=D('Cats');
+        $catlist=$cats->selectCats(0);
+        dump($catlist);
+
         // 导入分页类
         import('ORG.Util.Page');
         // 查询满足要求的总记录数
@@ -18,13 +23,56 @@ class BookAction extends PublicAction {
         // 分页显示输出
         $show = $Page->show();
         $books=$book->limit($Page->firstRow.','.$Page->listRows)->select();
+        //$data['book_cat']=I('book_cat');
         // 赋值数据集
         $this->assign('books',$books);
         // dump($books);
         // 赋值分页输出
         $this->assign('page',$show);
-
+        $this->assign('catlist',$catlist);
         $this->display();
+    }
+    // new-add 添加小说
+    public function book_insert(){
+        $this->islogin();
+        
+        //判断是否是通过表单提交的
+        if(I('submit')){
+            
+            //实例化一个book类
+            $book=M('Book');
+
+            $data['book_name']=I('book_name');
+            $data['flags']=implode(',', I('flags'));
+            $data['book_cat']=I('book_cat');
+            $data['progress']=I('progress');
+            $data['book_info']=I('book_info');
+            //$data['user_id']=I('writer');
+            
+            //调用public中的上传类,实现图片上传功能
+            $cover = $this->upload('cover','','180','225');
+            if($cover){
+               $data['book_cover']=$cover;
+            }
+
+            // 判断输入是否存在
+            $result=$book->where(array('book_name'=>I('book_name')))->find();
+            if($result){
+                $this->error('该小说已经存在，请重新输入！');
+            }
+
+            $book->create();
+            $result =  $book->add($data);
+            if($result) {
+                $this->success('小说添加成功！');
+            }else{
+                $this->error('小说添加失败！');
+            }
+
+  
+       
+
+        }
     }
     //小说审核页面
     public function book_edit(){
@@ -41,9 +89,11 @@ class BookAction extends PublicAction {
         if(in_array('a', $array)){
 
         }
+        //dump($catlist);
         $this->assign('catlist',$catlist);
         $this->assign('proglist',$proglist);
         $this->display();
+        dump($catlist);
     }
     //小说审核方法
     public function do_book_edit(){
@@ -101,6 +151,63 @@ class BookAction extends PublicAction {
         $this->assign('page',$show);
         $this->display();
     }
+    // add 添加章节
+    public function chapter_insert(){
+        $this->islogin();
+        
+        //判断是否是通过表单提交的
+        if(I('submit')){
+            //实例化一个类
+            $chapter=M('Chapter');
+            $book=M('Book');
+            //在book表中找书名ID
+            $book_id=$book->where(array('book_name'=>I('book_name')))->field('book_id')->find();
+            dump($book_id);  //exit;
+           // if($book_id){  //小说存在
+                // 判断输入分类是否存在
+                $chapter=M('Chapter');
+                $book=M('Book');
+
+                //$result=$chapter->where(array('book_id'=>I($book_id2)))->find();
+                //$result2=$chapter->where(array('book_id'=>'$book_id2'))->find();
+                $result=$chapter->where('book_id',$book_id)->find();
+
+                // dump($result1);
+                //dump($result); exit;
+                // dump($result3);
+                //  exit;
+                //->field('chapter_title')
+
+                $data['chapter_title']=I('chapter_title');
+                $data['book_id']=$book_id;
+                $data['content']=I('chapter_content'); 
+                $data['much']=I('chapter_much'); 
+                $data['charge']=I('charge');
+                
+                //if($result){
+                    //$this->error('该章节已经存在，请重新输入！');
+                //}
+                $chapter->create();
+                $result=$chapter->add($data);
+
+                dump( $data['chapter_title']);
+                dump($data['book_id']);
+                dump($data['content']);
+                dump($result); //exit;
+                if($result) {
+                    $this->success('章节添加成功！');
+                }else{
+                    $this->error('章节添加失败！');
+                }
+            // }else{
+            //     $this->error('小说不存在');
+            // }
+
+            
+        }
+
+
+    }
     //章节删除方法
     public function chapter_del(){
         $id=$_GET['id'];
@@ -152,6 +259,9 @@ class BookAction extends PublicAction {
             }
         }
     }
+    
+
+
     //显示修改分类页面
     public function cat_edit(){
         //检测是否登录

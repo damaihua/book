@@ -33,11 +33,10 @@
 				
 				<div class="content-box-header">
 					
-					<h3 style="cursor: s-resize;">小说审核</h3>
+					<h3 style="cursor: s-resize;">添加小说</h3>
 					
 				<ul>
 					<span class="new-add">修改11</span>
-					
 				</ul>
 					
 					<div class="clear"></div>
@@ -46,7 +45,7 @@
 				
 				<div class="content-box-content">
 					
-					<form name="form1" action="__APP__/book/do_book_edit" enctype="multipart/form-data" method="post" onsubmit="return checkSubmit()">
+					<form action="__URL__/book_insert" enctype="multipart/form-data" method="post" >
   <input name="book_id" value="<{$book_id}>" type="hidden">
  
 					<div style="display: block;" class="tab-content  default-tab" id="tab1">				
@@ -55,53 +54,55 @@
 							<fieldset> 
 								<p>
 									<label>小说标题</label>
-									<input name="book_name" style="width:80px" type="text" value="<{:getData('Book',$book_id,'book_name')}>"> 
+									<input name="book_name" style="width:80px" type="text"> 
+								</p>
+								
+								<p>
+									<label>作者</label>
+								  <input name="writer" type="text">
 								</p>
 								<p>
 									<label>推荐位</label>
-                                    <input name="flags[]" type="checkbox" class="np" id="flagsh" value="a" checked="checked" 
-                                
-                                    >
+                                    <input name="flags[a]" type="checkbox" class="np" id="flagsh" value="a">
                                     强力推荐[a]
-                                <input class="np" name="flags[]" id="flagsc" value="b" type="checkbox">
+                                <input class="np" name="flags[b]" id="flagsc" value="b" type="checkbox">
                                     封面推荐[b]
-                                    <input class="np" name="flags[]" id="flagsf" value="c" type="checkbox">
+                                    <input class="np" name="flags[c]" id="flagsf" value="c" type="checkbox">
                                     编辑推荐[c]
-                                    <input class="d" name="flags[]" id="flagss" value="d" type="checkbox">精品推荐[d]							</p>   
+                                    <input class="d" name="flags[d]" id="flagss" value="d" type="checkbox">精品推荐[d]							
+                                </p>   
                                 
 		
 								<p>
 									<label>小说封面</label>
-
-                  <img name="cover" src="__ROOT__/<{:getData('Book',$book_id,'book_cover')}>" width="180" height="225" alt="" />
-					
-                
-                  
-                  
-</p>                  
+                  						<input name='cover' type="file" />
+                                </p>                  
 								<p></p>
 								
 								<p>
 									<label>所属分类</label>
                                    <span id="typeidct">
-                                   <select name="book_cat" id="typeid" style="width:240px">
-<{$catlist}>
-</select>
-</span>
+                                   
+                                    <select name="book_cat" id="typeid" style="width:240px">
+                                        <{$catlist}>
+                                        
+                                    </select>
+                                    </span>
 									
 								</p>
 								<p>
 									<label>小说进度</label>
                                    <span id="typeidct">
                                    <select name="progress" id="progress" style="width:240px">
-<{$proglist}>
+                                    <{$proglist}>
 
-</select></span>
+                                    </select>
+                                    </span>
 									
 								</p>
 						  <p>
 									<label>小说简介</label>
-								<textarea name="book_info" style="width:800px;height:200px;visibility:hidden;"><{:getData('Book',$book_id,'book_info')}></textarea>
+								<textarea name="book_info" style="width:800px;height:200px;visibility:hidden;"></textarea>
                               
 							  </p>
                                 
@@ -113,7 +114,7 @@
                                 </p>                                
 
 								<p>
-									<br><input class="button" name="imageField" value="编辑" type="submit">
+									<br><input class="button" name="submit" value="编辑" type="submit">
 								</p>
 								
 							</fieldset>

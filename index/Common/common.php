@@ -22,9 +22,9 @@ function showcats(){
         $cats=D('Cats');
         $data=$cats->where('type=0 and status=1')->order('ordernum asc')->select();
         foreach ($data as $value) {
-            $catlist.='<a href="__APP__/booksear/index/type/cats/val/'.$value['cat_id'].'">'.$value['cat_name'].'</a>|';
+            //$catlist.='<a href="__APP__/booksear/index/type/cats/val/'.$value['cat_id'].'">'.$value['cat_name'].'</a>|';
            
-          
+            $catlist.='<a href="__APP__/search/index/type/cats/val/'.$value['cat_id'].'">'.$value['cat_name'].'</a>|';
         }        
         return rtrim("$catlist",'|');
     }
@@ -34,7 +34,8 @@ function showHeadermenu(){
         $data=$menu->where("status=1 and position='header'")->order('ordernum asc')->limit(7)->select();
         $catlist='<ul><li><a href="__ROOT__">首页</a></li></ul>';
         foreach ($data as $value) {
-        	$catlist.='<li><a href="__ROOT__'.$value['url'].'">'.$value['name'].'</a></li>';
+            $catlist.='<li><a href="__ROOT__'.$value['url'].'">'.$value['name'].'</a></li>';
+         
         }        
        // return rtrim($catlist,'|').'<li><a href="__ROOT__/bbs/">书友论坛</a></li>';
        return rtrim($catlist,'|');

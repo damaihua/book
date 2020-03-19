@@ -53,7 +53,8 @@
         <li><a href="#" target="_blank">举报低俗信息有奖</a></li>
 	</ul> -->
 	<div class="header-search">
-		<form name="articlesearch" method="post" action="/book/index.php/search/index.html" target="_blank">
+		<form name="book" method="post" action="__URL__/index" target="_blank">
+			<!-- /book/index.php/search/index.html -->
 			<div class="header-searchCon">
 				<select name="" class="search-sort">
 					<option  name="searchtype" value="articlename" checked="checked">书名</option>
@@ -80,7 +81,7 @@
 		</div>
 		 
     </div>
-    <div class="dynamic">
+    <!-- <div class="dynamic">
 		<div class="m_quee" id="m_quee">
 			<dl class="dl_quee">
 				<dd><a href="/userpage.php?uid=2979095" target="_blank"><em>a593913134</em></a>&nbsp;订阅了&nbsp;<a href="/cwjinfo/126/126334.htm" target="_blank"><strong>《人生得意须纵欢》</strong></a></dd>
@@ -121,7 +122,7 @@
 				<input type="submit" class="search_submit" value=" "></span>
 			</form>
 		</div>
-    </div>
+    </div> -->
 </div>
 
 </div>

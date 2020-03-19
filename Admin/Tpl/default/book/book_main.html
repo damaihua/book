@@ -37,6 +37,9 @@ height:18px
 					<ul class="content-box-tabs">
 						<li><a href="__APP__/book/book_list">新加book-list</a></li> <!-- href must be unique and match the id of target div --> 
 						<li><a href="#" onclick="document.form1.submit();">更新排序</a></li>
+						<li>
+							<a class="new-add" href="__URL__/book_add">添加小说</a>
+						</li>
 					</ul>
 					
 					<div class="clear"></div>

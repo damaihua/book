@@ -41,7 +41,7 @@ height:18px
 			    <h3 style="cursor: s-resize;">小说栏目管理</h3>
 					
 					<ul class="content-box-tabs">
-						<li><a href="__APP__/book/chapter_list">增加章节</a></li> <!-- href must be unique and match the id of target div --> 
+						<li><a href="__APP__/book/chapter_add">增加章节</a></li> <!-- href must be unique and match the id of target div --> 
 						<li><a href="#" onclick="document.form1.submit();">更新排序</a></li>
                       
                         

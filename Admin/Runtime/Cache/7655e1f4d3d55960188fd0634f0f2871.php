@@ -32,7 +32,7 @@
 				</div> <!-- End .content-box-header -->
 				
 				<div class="content-box-content">
-					
+					__URL__/
   <form  action="__URL__/insert" method="post" >
 
   					<div style="display: block;" class="tab-content  default-tab" id="tab1">				
