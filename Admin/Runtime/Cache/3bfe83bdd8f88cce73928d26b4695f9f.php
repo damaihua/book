@@ -56,11 +56,11 @@ height:18px
 <div style="display: block;" class="tab-content  default-tab" id="tab1">				
 						
 							
-							<table>
+							<!-- <table>
 						 
 							<thead>
 								<tr>
-								   <!--<th><input class="check-all" type="checkbox" /></th> -->
+								   <th style="display:none;"><input class="check-all" type="checkbox" /></th>
 								   <th width="83" align="center">章节名</th>
                                     <th width="17" align="center">所属小说</th>
 							      <th width="21" align="center">收费/免费</th>
@@ -73,10 +73,23 @@ height:18px
 							
 							<tbody>
 								<form name="form1" method="post" action="catalog_do.php?dopost=upRankAll"></form>
-                                </tbody></table>
+								</tbody>
+							</table> -->
                                 
                                 <table cellpadding="2" cellspacing="0" border="0" width="100%">
   <tbody>
+	  <!--  -->
+	  <tr>
+		<!--<th><input class="check-all" type="checkbox" /></th> -->
+		<th width="83" align="center"><strong>章节名</strong></th>
+		 <th width="17" align="center"><strong>所属小说</strong></th>
+	   <th width="21" align="center"><strong>收费/免费</strong></th>
+		<th width="33" align="center"><strong>所需积分</strong></th>
+		<th width="64" align="center"><strong>更新时间</strong></th>
+		<th width="60" align="center"><strong>操作</strong></th>
+	 </tr>
+	  <!--  -->
+
   <!--分类循环开始-->
  <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr >
     <td width="25%"><?php echo ($vo["chapter_title"]); ?></td>
@@ -93,15 +106,20 @@ height:18px
 		<a href="__APP__/book/chapter_del?id=<?php echo ($vo["chapter_id"]); ?>" onclick="return confirm('确定要删除?')">删除</a></td>
   </tr><?php endforeach; endif; else: echo "" ;endif; ?>
   <!--分类循环结束-->
-  
+  <tr align="right" bgcolor="#F9FCEF">
+	<td colspan="6" align="center" height="36">
+		<span><?php echo ($page); ?></span>
+	</td>
+</tr>
 </tbody></table>
 
 								
 
 										
-										<div class="pagination">
-						<?php echo ($page); ?>					
-										</div> <!-- End .pagination -->
+										<!-- <div class="pagination">
+							<?php echo ($page); ?>				
+										</div>  -->
+										<!-- End .pagination -->
 
 						
 						

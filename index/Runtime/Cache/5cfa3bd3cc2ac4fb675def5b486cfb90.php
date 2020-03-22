@@ -23,7 +23,7 @@
 	</div>
 </div>
 
-<div id="phead" class="clearfix">
+<div id="head" class="clearfix">
 	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
 	<?php echo getAD(121,465,55);?>
     <ul><li><a href="#" target="_blank">新手必读手册</a></li>

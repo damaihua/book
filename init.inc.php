@@ -43,7 +43,7 @@ return array(
        'email_user'=>'gouguolei',
        'email_pwd'=>'gouguolei1990717',
        'email'=>'gouguolei@163.com',
-       'email_name'=>'听雨轩在线书城',
+       'email_name'=>'在线书城',
     ),
 
 

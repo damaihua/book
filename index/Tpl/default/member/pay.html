@@ -1,96 +1,102 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-<title>翠微居小说网-小说阅读网,干净好看的小说网,txt小说免费下载</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="keywords" content="小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载">
-<meta name="description" content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！">
-<meta name="author" content="http://www.jieqi.com (jieqi cms)">
-<meta name="copyright" content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
-翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-
-">
-<meta name="generator" content="jieqi.com">
-<link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all">
-<link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all">
-<script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
-<script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
-<!--[if IE 6]>
-<script type="text/javascript" src="/scripts/DD_belatedPNG.js" ></script>
-<script type="text/javascript">
-	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
-</script>
-<![endif]-->
-
+<head>
+  <title>翠微居小说网-小说阅读网,干净好看的小说网,txt小说免费下载</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="keywords"
+    content="小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载">
+  <meta name="description"
+    content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！">
+  <meta name="author" content="">
+  <meta name="copyright" content="">
+  <meta name="generator" content="jieqi.com">
+  <link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all">
+  <link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all">
+  <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
+  <script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
+  <script type="text/javascript" charset="utf-8" src="pay_files/toplink.js"></script>
 </head>
+
 <body>
-<!---------------------------------------------头部部分---------------------------------------------->
-<script type="text/javascript" charset="utf-8" src="pay_files/toplink.js"></script>
-<!---头部部分--->
-<include file="Public:header" />
-<!--------------------------------------------内容部分---------------------------------------------->
+
+  <include file="Public:header" />
+
+  <div class="clearfix wrap mb20">
+
+    <!---左侧导航--->
+    <include file="Public:memberleft" />
+    <div class="user-right">
+      
+        <table class="grid" cellpadding="0" cellspacing="1" align="center" width="100%">
+          <tbody>
+            <tr>
+              <td class="title" align="center" valign="middle">购买点卡</td>
+            </tr>
+            <tr>
+              <td class="even">
+                <form name="frmalipay" method="post" action="__APP__/member/repay">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td width="4%">&nbsp;</td>
+                        <td valign="middle" width="44%">
+                          <table cellpadding="3" cellspacing="0" border="0" width="262">
+                            <tbody>
+                              <tr>
+                                <td align="left">请选择购买类别</td>
+                              </tr>
+                              <volist name='data' id='vo'>
+                                <tr>
+                                  <td><input name="paycard" value="<{$vo.paycard_id}>" class="radio" type="radio">
+                                    <{$vo.paycard_score}>积分卡（<{$vo.paycard_money}>元）
+                                  </td>
+                                </tr>
+                              </volist>
+
+                              <tr>
+                                <td><input name="Submit" value="进入下一步" class="button" type="submit">
+                                  <input name="action" value="bankpay" type="hidden"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td valign="top" width="4%">&nbsp;</td>
+                        <td valign="top" width="48%">
+                          <p>操作说明：<br>
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;1、支持全国13家银行卡及支付宝账户支付，方便、快捷、安全 <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;2、起付金额10元RMB <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;3、无需开通网银，线下邮局就可以使用支付宝 帮助 <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;4、支付结束，翠微币实时到账 </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+
+
+          </tbody>
+        </table>
+        
+     
+    </div>
+
+  </div>
+
+
+  <!--foot底部部分--->
+  <include file="Public:footer" />
 
 
 
+  <div id="tips"></div>
+</body>
 
-
-<div class="main">
-
-<!---左侧导航--->
-<include file="Public:memberleft" />
-  <div id="centerm"><div id="content"><table class="grid" cellpadding="0" cellspacing="1" align="center" width="600">
-  <tbody><tr>
-    <td class="title" align="center" valign="middle">购买点卡</td>
-  </tr>
-  <tr>
-    <td class="even"><form name="frmalipay" method="post" action="__APP__/member/repay">
-      <table cellpadding="0" cellspacing="0" border="0" width="100%">
-        <tbody><tr>
-          <td width="4%">&nbsp;</td>
-          <td valign="middle" width="44%"><table cellpadding="3" cellspacing="0" border="0" width="262">
-              <tbody><tr>
-                <td align="left">请选择购买类别</td>
-              </tr>
-              <volist name='data' id='vo'>
-              <tr>
-                <td><input name="paycard" value="<{$vo.paycard_id}>" class="radio" type="radio">
-            <{$vo.paycard_score}>积分卡（<{$vo.paycard_money}>元）</td>
-              </tr>
-              </volist>
-             
-              <tr>
-                <td><input name="Submit" value="进入下一步" class="button" type="submit">
-                    <input name="action" value="bankpay" type="hidden"></td>
-              </tr>
-          </tbody></table></td>
-          <td valign="top" width="4%">&nbsp;</td>
-          <td valign="top" width="48%"><p>操作说明：<br>
-            <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;1、支持全国13家银行卡及支付宝账户支付，方便、快捷、安全 <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;2、起付金额10元RMB <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;3、无需开通网银，线下邮局就可以使用支付宝 帮助 <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;4、支付结束，翠微币实时到账 </p>
-          </td>
-        </tr>
-      </tbody></table>
-    </form></td>
-  </tr>
-<tr>
-	<td></td>
-	  </tr>
-
-	 
-</tbody></table>
-<br><br>
-</div>
-</div>
-
-</div>
-
-
-<!--foot底部部分--->
-<include file="Public:footer" />
-
-
-
-<div id="tips"></div></body></html>
+</html>

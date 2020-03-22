@@ -6,35 +6,13 @@
 <meta name="keywords" content="小说;小说阅读网;好看的小说;娱乐;艳遇;情人;后宫;美人;TXT;泡妞;激情小说;成人小说;都市小说;玄幻小说;言情小说;免费小说;H小说;yy小说;乡村;山村;小说下载" />
 <meta name="description" content="翠微居小说网致力于打造成为最好看的小说阅读网，提供免费的都市小说、言情小说、玄幻小说、武侠小说、同人小说、仙侠小说、yy小说、激情小说、成人小说、乡村、山村、娱乐、艳遇、后宫、泡妞等的在线阅读，努力营造一个绿色的创作与阅读平台！同时提供免费txt小说下载，每日最快更新，页面简洁，访问速度快！" />
 <meta name="author" content="http://www.jieqi.com (jieqi cms)" />
-<meta name="copyright" content="Copyright (C) 2002-2013 cuiweiju.com All Rights Reserved 
-翠微居-原创小说阅读网 版权所有，严禁任何网站转载 
-
-
-" />
+<meta name="copyright" content="" />
 <meta name="generator" content="jieqi.com" />
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
 <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
-<!--[if IE 6]>
-<script type="text/javascript" src="__JS__/dd_belatedpng.js" ></script>
-<script type="text/javascript">
-	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
-</script>
-<![endif]-->
-
-</head>
-<body>
-<!---头部部分--->
-<include file="Public:header" />
-
-<!--------------------------------------------内容部分---------------------------------------------->
-
-
-
-
-
-<div class="main"><script type="text/javascript" src="__JS__/jquery.tools.min.js"></script>
+<script type="text/javascript" src="__JS__/jquery.tools.min.js"></script>
 <script type="text/javascript">
 //<![CDATA[
 $(document).ready(function(){
@@ -49,85 +27,65 @@ $(document).ready(function(){
 });
 //]]>
 </script>
-<!--------------------------------------------内容部分---------------------------------------------->
-<div id="pbody">
-<!--行1-->
-
-    <div class="row clearfix">
-    	
-        
-    </div>
-<!--行2-->
-	<div class="row clearfix">
-    	<div class="column row_bg comments " style="width:717px;height:312px;">
-            <div class="title_pic">最新VIP小说</div>
-            <ul class="list_02 list_vip">
-
-	
-
-	<volist name='newfree' id='vo'>
-
-	<li><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><img src="__ROOT__/<{$vo.book_cover}>" /></a><h3><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank">《<{$vo.book_name}>》</a></h3><p><{$vo.book_info|substr=0,66}></p></li>
-
-</volist>	
-
-</ul>
+</head>
+<body>
+<!---头部部分--->
+<include file="Public:header" />
+<div class="wrap">
+    <div class="clearfix wrap mb20">
+        <div class="recommend-banner">
+            <h2 class="common-headline"><span>最新VIP小说</span></h2>
+            <ul>
+                <volist name='newfree' id='vo' offset="0" length="8">
+                    <li>
+                        <a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><img src="__ROOT__/<{$vo.book_cover}>" /></a>
+                        <h3><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank">《<{$vo.book_name}>》</a></h3>
+                        <p><{$vo.book_info|substr=0,66}></p></li>
+                </volist>
+            </ul>
         </div>
-        <div class="column" style="height:312px;">
-                <h2><span class="rank">VIP小说点击榜</span></h2>
-                
-
-                <ul class="tab_cnt2">
-<volist name='hits' id='vo'>
-<li><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></li>
-</volist>
-
-
-
-          </ul>
+        <div class="common-right most-popular">
+            <h2 class="common-headline"><span>VIP小说点击榜</span></h2>
+            <ul>
+                <volist name='hits' id='vo'>
+                    <li><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></li>
+                </volist>
+            </ul>
         </div>
     </div>
-<!--行3-->
-	<div class="row clearfix">
-    	<div class="column_leftwrap">
-            <div class="column" style="height:312px;">
-                <h2><span>VIP小说随机推荐</span></h2>
-                <ul class="tab_cnt2">
-<volist name='rand' id='vo' >
-<li><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></li>
-</volist>
-
-              </ul>
-            </div>
-         </div>
-        <div class="column column_update" style="height:312px;">
-        	<h2><span class="update">最新更新</span></h2>
-           
-            <ul class="tab_cnt1" style=" margin-top:5px;margin-bottom:5px;">
-<volist name='newfree' id='vo'>
-	<li><span><{$vo.update_time|date="Y_m-d ",###}> </span><em>[玄幻]</em><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank">《<{$vo.book_name}>》</a></li>
-</volist>
-	
-
-	
-
-</ul>
+    <!-- start -->
+	<div class="clearfix mb20">
+        <div class="new-arrival common-left">
+			<h2 class="common-headline"><span>VIP小说随机推荐</span></h2>
+			<ul class="new-books">
+                <volist name='rand' id='vo' >
+                    <li><em><a href="#">[<{$vo.cat_sortname}>]</a></em><a class="newBook-name" href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></li>
+                </volist>
+			</ul>
         </div>
-        <div class="column_rightwrap">
-        	<div class="column" style="height:312px;">
-                <h2><span>VIP小说字数榜</span></h2>
-                <ul class="tab_cnt2">
-
-<volist name='size' id='vo' >
-<li><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></li>
-</volist>
-
-
-</ul>
-            </div>
-         </div>
-    </div>
-</div></div>
+		<div class="common-center recent-update">
+			<h2 class="common-headline"><span>最近更新</span></h2>
+			<ul>
+                <volist name='newfree' id='vo' offset="0" length='10'>
+                    <li>
+                        <a class="update-cat" href="/cwjsort1/0/1.htm">[<{$vo.cat_sortname}>]</a>
+                        <a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank">《<{$vo.book_name}>》</a>
+                        <span class="update-time"><{$vo.update_time|date="Y_m-d ",###}> </span>
+                    </li>
+                </volist>
+			</ul>
+        </div>
+        <div class="new-arrival common-right">
+			<h2 class="common-headline"><span>VIP小说字数榜</span></h2>
+			<ul class="new-books">
+                <volist name='size' id='vo' >
+                    <li><em><a href="#">[<{$vo.cat_sortname}>]</a></em><a class="newBook-name" href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></li>
+                </volist>
+			</ul>
+        </div>
+	</div>
+	<!-- end -->
+</div>
 
 
 <!--foot底部部分--->

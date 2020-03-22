@@ -71,8 +71,18 @@ height:18px
 							
 							<tbody>
 								<form name="form1" method="post" action="catalog_do.php?dopost=upRankAll"></form>
-                                </tbody></table><table cellpadding="2" cellspacing="0" border="0" width="100%">
+								</tbody>
+							</table>
+							<table cellpadding="2" cellspacing="0" border="0" width="100%">
   <tbody>
+	<tr>
+		<!--<th><input class="check-all" type="checkbox" /></th> -->
+		<th width="40" align="center">分类名</th>
+		 <th width="34" align="center">显示/隐藏</th>
+	   <th width="34" align="center">操作</th>
+		<th width="60" align="center">排序</th>
+	 </tr>
+
   <!--分类循环开始-->
   <volist name='cats' id='cat'>
   <tr class="alt-row"><td width="25%"><input type="checkbox" /><a href="cat_edit?cid=<{$cat.cat_id}>" ><{$cat.cat_name}></a>(小说：<{$cat.total}>本)  <a href="cat_edit?cid=<{$cat.cat_id}>"><img src="__PUBLIC__/admin/images/write2.gif"></a></td><td width="17%" align="center"><if condition="$cat.status eq 1"> 显示
@@ -83,19 +93,23 @@ height:18px
   </tr>
   </volist>
   <!--分类循环结束-->
-  <tr><td colspan="3" id="suns1"></td></tr>
+  <!-- <tr><td colspan="3" id="suns1"></td></tr> -->
+  <tr><td colspan="4" >
+	<{$page}>
+  </td></tr>
 </tbody></table>
-<table cellpadding="2" cellspacing="0" border="0" width="100%">
+<!-- <table cellpadding="2" cellspacing="0" border="0" width="100%">
   <tbody>
 
    
-</tbody></table>
+</tbody></table> -->
 								
 
 										
-										<div class="pagination">
-											
-										</div> <!-- End .pagination -->
+										<!-- <div class="pagination">
+											<{$page}>
+										</div>  -->
+										<!-- End .pagination -->
 										<div class="clear"></div>
 									
 								

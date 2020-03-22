@@ -1,5 +1,5 @@
 /* basic */
-*{
+/* *{
 	margin: 0px;
 	padding: 0px;
 }
@@ -41,34 +41,27 @@ li{
 dl{line-height: 150%;}
 
 a{text-decoration:none;color:#333333;}
-a:hover{color:#719e18;text-decoration:underline;}
+a:hover{color:#719e18;text-decoration:underline;} */
 
 /* table */
 table{
 	text-align: left; 
-	font: 12px/150% 宋体,Verdana,Arial,sans-serif;
+	/* font: 12px/150% 宋体,Verdana,Arial,sans-serif; */
 }
-
-table td{
-}
-
 table.fix{
 	table-layout: fixed;
 }
-
 table.fix td{
 	white-space:nowrap;
 	overflow: hidden;
 	text-overflow:ellipsis;
 	-o-text-overflow:ellipsis;
 }
-
 table.grid{
 	border-collapse: collapse;
 	border: 1px solid #e7e7e7;
 	margin: auto;
 }
-
 table.grid caption, .gridtop{
 	height: 40px; 
 	line-height: 40px; 
@@ -89,19 +82,22 @@ table.grid th, .head{
 	font-weight: bold;
 	font-size: 12px;
 	padding: 3px;
-	line-height: 180%;
+	line-height: 30px;
 }
 
 table.grid td{
 	border-bottom: 1px dashed #deeffb;
-	padding: 3px;
-	line-height: 180%;
+	padding: 3px 5px;
+	line-height:30px;
 }
+table.grid td a{float:left; line-height: 30px;; margin:0 10px;}
 
 table.hide, table.hide th, table.hide td{
-	border: 0;
+	/* border: 0; */
 }
-
+.odd,.even{
+	text-align:center;
+}
 /* table add-ons */
 
 .title{
@@ -171,11 +167,11 @@ input{vertical-align:middle;}
 
 .button{
 	background: #eaeaea;
-	color: #333333;
+	color: #333;
 	font-weight: bold;
-	border: 1px solid #dddddd3;
-	height: 24px;
-	line-height: 24px;
+	border: 1px solid #ddd;
+	height: 28px;
+	line-height: 28px;
 	padding:0px 6px;
 	cursor: pointer;
 }
@@ -224,10 +220,10 @@ input{vertical-align:middle;}
 	width: 482px;
 }
 
-#centerm{
+/* #centerm{
 	float: left;
 	width: 719px;
-}
+} */
 
 #centerl{
 	float: left;
@@ -497,21 +493,35 @@ a.btnlinks:hover{color:#ff0000; text-decoration: none;}
 .tabcontent{clear:both; border:1px solid #dddddd; padding:10px;}
 
 .pages{
-	padding: 5px 0px;
+	text-align: center;
+	padding:20px 0px 30px;
 }
 .pagelink{
-	border: 1px solid #E7E7E7;
-	float: right;
-	background: #f7f7f7;
-	line-height:24px;
-	padding:0;
+	/* border: 1px solid #E7E7E7; */
+	/* float: right; */
+	/* background: #f7f7f7; */
+	/* line-height:24px; */
+	/* padding:0; */
+	display:inline-block;
+	line-height: 24px;
 }
-.pagelink a, .pagelink strong, .pagelink em, .pagelink kbd, .pagelink a.first, .pagelink a.last, .pagelink a.prev, .pagelink a.next, .pagelink a.pgroup, .pagelink a.ngroup{
+.pagelink a,.pagelink span,.pagelink strong, .pagelink em, .pagelink kbd, .pagelink a.first, .pagelink a.last, .pagelink a.prev, .pagelink a.next, .pagelink a.pgroup, .pagelink a.ngroup{
 	float: left;
-	padding: 0 6px;
+	padding: 0 10px;
+	height:24px;
+	background:#eee;
+
+	line-height: 24px;
+	margin:0 3px;
 }
-.pagelink a:hover{background-color: #ffffff; }
-.pagelink strong{font-weight: bold; color: #ff6600; background: #E7E7E7;}
+.pagelink .current{
+	background:#5f8612; color:#fff;
+}
+.pagelink span:hover,.pagelink a:hover{
+	background:#5f8612; color:#fff;
+}
+/* .pagelink a:hover{background-color: #ffffff; } */
+/* .pagelink strong{font-weight: bold; color: #ff6600; background: #E7E7E7;} */
 .pagelink kbd{height:24px; border-left: 1px solid #dddddd;}
 .pagelink em{height:24px; border-right: 1px solid #dddddd; font-style:normal;}
 .pagelink input{border: 1px solid #dddddd; color: #0067B1; margin-top:1px; height: 18px;}
@@ -687,3 +697,15 @@ a.logout{background:url("img/aicons.gif") 0px -133px no-repeat; padding-left:16p
 #Validform_msg a.Validform_close:link,#Validform_msg a.Validform_close:visited{line-height:22px; position:absolute; right:8px; top:0px; color:#fff; text-decoration:none;}
 #Validform_msg a.Validform_close:hover{color:#cc0;}
 #Validform_msg .Validform_info{padding:8px;border:1px solid #000; border-top:none; text-align:left;}
+
+
+/* user-right */
+.user-right{
+	float:left; width:740px; margin-left:20px;
+}
+.read-record{
+	padding:20px 30px;border:1px solid #eee;
+}
+.admin_show{
+	margin-bottom:20px;
+}

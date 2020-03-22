@@ -137,7 +137,7 @@ class BookAction extends PublicAction {
     	$book=M('Book');
     	//最新免费小说
 		//$newfree=$book->where('needscore=0')->order('public_time desc')->select();
-		$newfree=$book->where('user_id=36')->order('public_time desc')->select();
+		$newfree=$book->where('needscore=0')->order('public_time desc')->select();
     	$this->assign('newfree',$newfree);
     	//最近更新免费小说
     	$newupdate=$book->where('needscore=0')->order('update_time desc')->limit(10)->select();

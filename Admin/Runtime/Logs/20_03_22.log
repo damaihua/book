@@ -1,0 +1,441 @@
+[ 2020-03-22T14:59:43+08:00 ] 0.0.0.0 /book/admin.php/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002112s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002306s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_softname D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 4 行.
+NOTIC: [8] Undefined variable: cfg_version D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 4 行.
+NOTIC: [8] Undefined variable: redmsg D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 116 行.
+NOTIC: [8] Undefined variable: cfg_powerby D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 117 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017148s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000617s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000626s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000443s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002524s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000827s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2020-03-22T14:59:43+08:00 ] 0.0.0.0 /book/admin.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+
+[ 2020-03-22T14:59:50+08:00 ] 0.0.0.0 /book/admin.php/login/check
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000697s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.005103s ]
+SQL: SELECT * FROM `book_admin` WHERE ( admin_name='admin' ) LIMIT 1   [ RunTime:0.000485s ]
+NOTIC: [8] Undefined index: role_id D:\wamp\www\book\Admin\Lib\Action\LoginAction.class.php 第 36 行.
+
+[ 2020-03-22T14:59:50+08:00 ] 0.0.0.0 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000648s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007770s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000587s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000427s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002146s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2020-03-22T14:59:50+08:00 ] 0.0.0.0 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000718s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027202s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000689s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000469s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002346s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2020-03-22T14:59:50+08:00 ] 0.0.0.0 /book/admin.php/index/index_body
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030347s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000925s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002851s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000867s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2020-03-22T15:00:44+08:00 ] 0.0.0.0 /book/admin.php/book/book_main/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000646s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.005456s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.004826s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.004958s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 )  [ RunTime:0.000552s ]
+NOTIC: [8] Undefined variable: option D:\wamp\www\book\Admin\Lib\Model\CatsModel.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1   [ RunTime:0.000519s ]
+SQL: SELECT * FROM `book_book` LIMIT 0,10   [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022126s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000572s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000389s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002039s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2020-03-22T15:00:45+08:00 ] 0.0.0.0 /book/admin.php/book/chapter_main/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.005059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_chapter` LIMIT 1   [ RunTime:0.000557s ]
+SQL: SELECT * FROM `book_chapter` LIMIT 0,10   [ RunTime:0.005167s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022864s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000646s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000539s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002191s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000847s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2020-03-22T15:00:46+08:00 ] 0.0.0.0 /book/admin.php/book/book_main/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.005851s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.005033s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.005315s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 )  [ RunTime:0.000516s ]
+NOTIC: [8] Undefined variable: option D:\wamp\www\book\Admin\Lib\Model\CatsModel.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1   [ RunTime:0.000447s ]
+SQL: SELECT * FROM `book_book` LIMIT 0,10   [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010431s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000640s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000551s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002697s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000771s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2020-03-22T15:00:48+08:00 ] 0.0.0.0 /book/admin.php/book/book_add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000671s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: book_id D:\wamp\www\book\Admin\Runtime\Cache\5442f3e585b3688a5e9cee0caefd6767.php 第 55 行.
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\Admin\Runtime\Cache\5442f3e585b3688a5e9cee0caefd6767.php 第 93 行.
+NOTIC: [8] Undefined variable: proglist D:\wamp\www\book\Admin\Runtime\Cache\5442f3e585b3688a5e9cee0caefd6767.php 第 106 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009975s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000423s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001876s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000634s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2020-03-22T15:03:31+08:00 ] 0.0.0.0 /book/admin.php/book/book_insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000993s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.005407s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\wamp\www\book\Admin\Lib\Action\PublicAction.class.php 第 30 行.
+SQL: SELECT * FROM `book_book` WHERE ( `book_name` = '巴顿传' ) LIMIT 1   [ RunTime:0.000851s ]
+SQL: INSERT INTO `book_book` (`book_name`,`flags`,`book_cat`,`progress`,`book_info`,`book_cover`) VALUES ('巴顿传','a',0,0,'&lt;span style=&quot;font-family:楷体_GB2312;font-size:large;background-color:#D3B286;&quot;&gt;1945年10月2日。二战胜利不久的美国。《纽约时报》、《纽约每日新闻》等具有重要影响的报纸以头版头条大字刊印：“盟军最高司令艾森豪威尔免去巴顿将军美第3集团军司令之职。”&lt;/span&gt;','Uploads//5e770dc37c81c.jpg') [ RunTime:0.090188s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033714s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002487s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002023s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001867s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008603s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001433s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2020-03-22T15:03:32+08:00 ] 0.0.0.0 /book/admin.php/book/book_add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001528s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: book_id D:\wamp\www\book\Admin\Runtime\Cache\5442f3e585b3688a5e9cee0caefd6767.php 第 55 行.
+NOTIC: [8] Undefined variable: catlist D:\wamp\www\book\Admin\Runtime\Cache\5442f3e585b3688a5e9cee0caefd6767.php 第 93 行.
+NOTIC: [8] Undefined variable: proglist D:\wamp\www\book\Admin\Runtime\Cache\5442f3e585b3688a5e9cee0caefd6767.php 第 106 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015279s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001032s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000910s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000780s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003971s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001212s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2020-03-22T15:04:31+08:00 ] 0.0.0.0 /book/admin.php/book/chapter_main/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001273s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.005248s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_chapter` LIMIT 1   [ RunTime:0.000610s ]
+SQL: SELECT * FROM `book_chapter` LIMIT 0,10   [ RunTime:0.005483s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 104 行.
+NOTIC: [8] Undefined variable: cat D:\wamp\www\book\Admin\Runtime\Cache\3bfe83bdd8f88cce73928d26b4695f9f.php 第 105 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013337s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000921s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000750s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003289s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000843s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2020-03-22T15:04:34+08:00 ] 0.0.0.0 /book/admin.php/book/chapter_add
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\book\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008579s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000727s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000707s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000586s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003127s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000962s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2020-03-22T15:05:34+08:00 ] 0.0.0.0 /book/admin.php/book/chapter_insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001082s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.005546s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.006025s ]
+SQL: SELECT `book_id` FROM `book_book` WHERE ( `book_name` = '巴顿传' ) LIMIT 1   [ RunTime:0.000541s ]
+SQL: SELECT `needscore` FROM `book_book` WHERE ( `book_name` = '巴顿传' ) LIMIT 1   [ RunTime:0.000398s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 471 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 515 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 515 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 516 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 519 行.
+SQL: SELECT * FROM `book_chapter` WHERE ( (`book_id` = null)  ) LIMIT 1   [ RunTime:0.000608s ]
+SQL: INSERT INTO `book_chapter` (`chapter_title`,`content`,`much`,`charge`,`book_id`) VALUES ('第一章　　战神之初','　1945年10月2日。二战胜利不久的美国。《纽约时报》、《纽约每日新闻》等具有重要影响的报纸以头版头条大字刊印：“盟军最高司令艾森豪威尔免去巴顿将军美第3集团军司令之职。”\r\n\r\n　　消息一公布，大西洋两岸一片哗然。前一个月的这一天，日本新任首相重光葵代表日本天皇和政府，才在东京湾的美战列舰“密苏里号”上当着美、英、苏、中等盟国代表，在投降书上签了字。第二次世界大战的硝烟刚刚散尽，为盟军的胜利立下汗马功劳、创造了许多坦克作战指挥奇迹的巴顿将军，却在法西斯的投降书墨迹未干之时，被免去了主要职务！战争英雄难道在和平的祥云刚刚飘在空中的时候就被断然遗忘了吗？难道一切真应验了那句古老的谚语：狡兔死，走狗烹？\r\n\r\n　　这个消息所引起的震动不亚于八级地震。它让华盛顿许多厌恶、愤恨甚至仇视乔治·巴顿的政界、军界人士以及许多为新闻媒介左右的市民高兴至极，也让许多真正欣赏巴顿的上层人士（大多是巴顿的朋友和支持者）及敬佩巴顿的骁勇精神和卓越指挥才能的官兵及市民惋惜不已。\r\n\r\n　　《华盛顿邮报》更是连篇累牍地报道事件的前因后果。巴顿将军身着戎装的肖像照、战地指挥所实景照等等被放大数倍刊印在头版，附以详细的说明和分析文章。有一篇文章得到了大多数人的赞同。文章写道：\r\n\r\n　　“巴顿将军这一不同寻常的职务变更，让每一个崇拜英雄的美国人感到失落。人们对他的辉煌业绩不会忘记。然而，这或许是一种比较妥当的安排。乔治·巴顿将军不愧是本世纪最伟大的军事将领之一，然而他的性格、所受的训练以及战争的经历，使他不适宜担任和平时期的一位行政长官。艾森豪威尔总司令既是巴顿的上司，也是他的朋友。他的决定，既是对朋友负责，也是对国家负责。……”\r\n\r\n　　然而还是有一些文章不断地重提巴顿过去的耻辱。“打耳光事件”让更多的人知道了巴顿曾因在战地医院怒不可遏地打了一个他认为懦弱胆小的士兵而闹得满城风雨。“答美联社记者问”中他把美国人加入民主党或共和党与德国人加入纳粹党相提并论，让许多人瞠目结舌，继而愤怒不已。一个被美国政府引以为自豪的两党政治制度竟被军界的一位显赫人物狂乱攻击！他侮辱的是一个可以堂而皇之进行报复的敌人，而这个报复来得又是如此之快。\r\n\r\n　　巴顿本人对此保持着一种异样的、有点病态的沉寂。他不是一个言行谨慎的政治家。在不算短的军事生涯里，因为任性的言语而招致多方攻击的事例不胜枚举，由此惹出的麻烦贯穿了他的整个工作过程。现在，对他有利的情有可原的因素已不复存在。战争的结束意味着军人巴顿已不再必不可少，他是可以牺牲的了。这一两个月以来他一直在宿命地等待着，就像赴死的英雄在乱哄哄的时局里坚定着自己的信念。哪怕这种信念可能被所有的人彻底否定，他也无所顾忌，因为这个信念是根深蒂固的，是他所特有的，它以势不可挡之势冲破了所有阻碍。这次，巴顿心里不再祈祷奇迹，他甚至没有表现出一丝一毫的哪怕是权宜之计的谦卑与懊悔。一切反抗情绪都表现在绝对的沉默之中。现在命运终于决定了，他成了一名光杆司令，没有了他曾经为之倾注了全部才智与心血、与之共赴枪林弹雨、共同享受胜利的辉煌与荣誉的第3集团军——他是多么爱这支部队！但这一切都将不复存在，惟一剩下的是一个让他体面过渡的空壳——一支由司机、炊事员等后勤人员组成的一个小规模的服务部队，由他充当这个所谓的第15集团军的司令官。作为一名将军，乔治·巴顿的指挥生涯彻底结束了，今后能体现他的个人价值的将是他作为将军应该享受的遗产——战争中的勋章以及他一直比较喜欢的职业——对军事历史颇有建树的研究。\r\n\r\n　　历史将无情地离他远去。',0,0,66) [ RunTime:0.000633s ]
+ERR: 1062:Duplicate entry '127' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `book_chapter` (`chapter_title`,`content`,`much`,`charge`,`book_id`) VALUES ('第一章　　战神之初','　1945年10月2日。二战胜利不久的美国。《纽约时报》、《纽约每日新闻》等具有重要影响的报纸以头版头条大字刊印：“盟军最高司令艾森豪威尔免去巴顿将军美第3集团军司令之职。”\r\n\r\n　　消息一公布，大西洋两岸一片哗然。前一个月的这一天，日本新任首相重光葵代表日本天皇和政府，才在东京湾的美战列舰“密苏里号”上当着美、英、苏、中等盟国代表，在投降书上签了字。第二次世界大战的硝烟刚刚散尽，为盟军的胜利立下汗马功劳、创造了许多坦克作战指挥奇迹的巴顿将军，却在法西斯的投降书墨迹未干之时，被免去了主要职务！战争英雄难道在和平的祥云刚刚飘在空中的时候就被断然遗忘了吗？难道一切真应验了那句古老的谚语：狡兔死，走狗烹？\r\n\r\n　　这个消息所引起的震动不亚于八级地震。它让华盛顿许多厌恶、愤恨甚至仇视乔治·巴顿的政界、军界人士以及许多为新闻媒介左右的市民高兴至极，也让许多真正欣赏巴顿的上层人士（大多是巴顿的朋友和支持者）及敬佩巴顿的骁勇精神和卓越指挥才能的官兵及市民惋惜不已。\r\n\r\n　　《华盛顿邮报》更是连篇累牍地报道事件的前因后果。巴顿将军身着戎装的肖像照、战地指挥所实景照等等被放大数倍刊印在头版，附以详细的说明和分析文章。有一篇文章得到了大多数人的赞同。文章写道：\r\n\r\n　　“巴顿将军这一不同寻常的职务变更，让每一个崇拜英雄的美国人感到失落。人们对他的辉煌业绩不会忘记。然而，这或许是一种比较妥当的安排。乔治·巴顿将军不愧是本世纪最伟大的军事将领之一，然而他的性格、所受的训练以及战争的经历，使他不适宜担任和平时期的一位行政长官。艾森豪威尔总司令既是巴顿的上司，也是他的朋友。他的决定，既是对朋友负责，也是对国家负责。……”\r\n\r\n　　然而还是有一些文章不断地重提巴顿过去的耻辱。“打耳光事件”让更多的人知道了巴顿曾因在战地医院怒不可遏地打了一个他认为懦弱胆小的士兵而闹得满城风雨。“答美联社记者问”中他把美国人加入民主党或共和党与德国人加入纳粹党相提并论，让许多人瞠目结舌，继而愤怒不已。一个被美国政府引以为自豪的两党政治制度竟被军界的一位显赫人物狂乱攻击！他侮辱的是一个可以堂而皇之进行报复的敌人，而这个报复来得又是如此之快。\r\n\r\n　　巴顿本人对此保持着一种异样的、有点病态的沉寂。他不是一个言行谨慎的政治家。在不算短的军事生涯里，因为任性的言语而招致多方攻击的事例不胜枚举，由此惹出的麻烦贯穿了他的整个工作过程。现在，对他有利的情有可原的因素已不复存在。战争的结束意味着军人巴顿已不再必不可少，他是可以牺牲的了。这一两个月以来他一直在宿命地等待着，就像赴死的英雄在乱哄哄的时局里坚定着自己的信念。哪怕这种信念可能被所有的人彻底否定，他也无所顾忌，因为这个信念是根深蒂固的，是他所特有的，它以势不可挡之势冲破了所有阻碍。这次，巴顿心里不再祈祷奇迹，他甚至没有表现出一丝一毫的哪怕是权宜之计的谦卑与懊悔。一切反抗情绪都表现在绝对的沉默之中。现在命运终于决定了，他成了一名光杆司令，没有了他曾经为之倾注了全部才智与心血、与之共赴枪林弹雨、共同享受胜利的辉煌与荣誉的第3集团军——他是多么爱这支部队！但这一切都将不复存在，惟一剩下的是一个让他体面过渡的空壳——一支由司机、炊事员等后勤人员组成的一个小规模的服务部队，由他充当这个所谓的第15集团军的司令官。作为一名将军，乔治·巴顿的指挥生涯彻底结束了，今后能体现他的个人价值的将是他作为将军应该享受的遗产——战争中的勋章以及他一直比较喜欢的职业——对军事历史颇有建树的研究。\r\n\r\n　　历史将无情地离他远去。',0,0,66)
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009439s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000684s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003048s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000902s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2020-03-22T15:05:41+08:00 ] 0.0.0.0 /book/admin.php/book/chapter_insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000997s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.005017s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.005349s ]
+SQL: SELECT `book_id` FROM `book_book` WHERE ( `book_name` = '巴顿传' ) LIMIT 1   [ RunTime:0.000564s ]
+SQL: SELECT `needscore` FROM `book_book` WHERE ( `book_name` = '巴顿传' ) LIMIT 1   [ RunTime:0.000475s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 471 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 515 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 515 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 516 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 519 行.
+SQL: SELECT * FROM `book_chapter` WHERE ( (`book_id` = null)  ) LIMIT 1   [ RunTime:0.000654s ]
+SQL: INSERT INTO `book_chapter` (`chapter_title`,`content`,`much`,`charge`,`book_id`) VALUES ('第一章　　战神之初','　1945年10月2日。二战胜利不久的美国。《纽约时报》、《纽约每日新闻》等具有重要影响的报纸以头版头条大字刊印：“盟军最高司令艾森豪威尔免去巴顿将军美第3集团军司令之职。”\r\n\r\n　　消息一公布，大西洋两岸一片哗然。前一个月的这一天，日本新任首相重光葵代表日本天皇和政府，才在东京湾的美战列舰“密苏里号”上当着美、英、苏、中等盟国代表，在投降书上签了字。第二次世界大战的硝烟刚刚散尽，为盟军的胜利立下汗马功劳、创造了许多坦克作战指挥奇迹的巴顿将军，却在法西斯的投降书墨迹未干之时，被免去了主要职务！战争英雄难道在和平的祥云刚刚飘在空中的时候就被断然遗忘了吗？难道一切真应验了那句古老的谚语：狡兔死，走狗烹？\r\n\r\n　　这个消息所引起的震动不亚于八级地震。它让华盛顿许多厌恶、愤恨甚至仇视乔治·巴顿的政界、军界人士以及许多为新闻媒介左右的市民高兴至极，也让许多真正欣赏巴顿的上层人士（大多是巴顿的朋友和支持者）及敬佩巴顿的骁勇精神和卓越指挥才能的官兵及市民惋惜不已。\r\n\r\n　　《华盛顿邮报》更是连篇累牍地报道事件的前因后果。巴顿将军身着戎装的肖像照、战地指挥所实景照等等被放大数倍刊印在头版，附以详细的说明和分析文章。有一篇文章得到了大多数人的赞同。文章写道：\r\n\r\n　　“巴顿将军这一不同寻常的职务变更，让每一个崇拜英雄的美国人感到失落。人们对他的辉煌业绩不会忘记。然而，这或许是一种比较妥当的安排。乔治·巴顿将军不愧是本世纪最伟大的军事将领之一，然而他的性格、所受的训练以及战争的经历，使他不适宜担任和平时期的一位行政长官。艾森豪威尔总司令既是巴顿的上司，也是他的朋友。他的决定，既是对朋友负责，也是对国家负责。……”\r\n\r\n　　然而还是有一些文章不断地重提巴顿过去的耻辱。“打耳光事件”让更多的人知道了巴顿曾因在战地医院怒不可遏地打了一个他认为懦弱胆小的士兵而闹得满城风雨。“答美联社记者问”中他把美国人加入民主党或共和党与德国人加入纳粹党相提并论，让许多人瞠目结舌，继而愤怒不已。一个被美国政府引以为自豪的两党政治制度竟被军界的一位显赫人物狂乱攻击！他侮辱的是一个可以堂而皇之进行报复的敌人，而这个报复来得又是如此之快。\r\n\r\n　　巴顿本人对此保持着一种异样的、有点病态的沉寂。他不是一个言行谨慎的政治家。在不算短的军事生涯里，因为任性的言语而招致多方攻击的事例不胜枚举，由此惹出的麻烦贯穿了他的整个工作过程。现在，对他有利的情有可原的因素已不复存在。战争的结束意味着军人巴顿已不再必不可少，他是可以牺牲的了。这一两个月以来他一直在宿命地等待着，就像赴死的英雄在乱哄哄的时局里坚定着自己的信念。哪怕这种信念可能被所有的人彻底否定，他也无所顾忌，因为这个信念是根深蒂固的，是他所特有的，它以势不可挡之势冲破了所有阻碍。这次，巴顿心里不再祈祷奇迹，他甚至没有表现出一丝一毫的哪怕是权宜之计的谦卑与懊悔。一切反抗情绪都表现在绝对的沉默之中。现在命运终于决定了，他成了一名光杆司令，没有了他曾经为之倾注了全部才智与心血、与之共赴枪林弹雨、共同享受胜利的辉煌与荣誉的第3集团军——他是多么爱这支部队！但这一切都将不复存在，惟一剩下的是一个让他体面过渡的空壳——一支由司机、炊事员等后勤人员组成的一个小规模的服务部队，由他充当这个所谓的第15集团军的司令官。作为一名将军，乔治·巴顿的指挥生涯彻底结束了，今后能体现他的个人价值的将是他作为将军应该享受的遗产——战争中的勋章以及他一直比较喜欢的职业——对军事历史颇有建树的研究。\r\n\r\n　　历史将无情地离他远去。',0,0,66) [ RunTime:0.000636s ]
+ERR: 1062:Duplicate entry '127' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `book_chapter` (`chapter_title`,`content`,`much`,`charge`,`book_id`) VALUES ('第一章　　战神之初','　1945年10月2日。二战胜利不久的美国。《纽约时报》、《纽约每日新闻》等具有重要影响的报纸以头版头条大字刊印：“盟军最高司令艾森豪威尔免去巴顿将军美第3集团军司令之职。”\r\n\r\n　　消息一公布，大西洋两岸一片哗然。前一个月的这一天，日本新任首相重光葵代表日本天皇和政府，才在东京湾的美战列舰“密苏里号”上当着美、英、苏、中等盟国代表，在投降书上签了字。第二次世界大战的硝烟刚刚散尽，为盟军的胜利立下汗马功劳、创造了许多坦克作战指挥奇迹的巴顿将军，却在法西斯的投降书墨迹未干之时，被免去了主要职务！战争英雄难道在和平的祥云刚刚飘在空中的时候就被断然遗忘了吗？难道一切真应验了那句古老的谚语：狡兔死，走狗烹？\r\n\r\n　　这个消息所引起的震动不亚于八级地震。它让华盛顿许多厌恶、愤恨甚至仇视乔治·巴顿的政界、军界人士以及许多为新闻媒介左右的市民高兴至极，也让许多真正欣赏巴顿的上层人士（大多是巴顿的朋友和支持者）及敬佩巴顿的骁勇精神和卓越指挥才能的官兵及市民惋惜不已。\r\n\r\n　　《华盛顿邮报》更是连篇累牍地报道事件的前因后果。巴顿将军身着戎装的肖像照、战地指挥所实景照等等被放大数倍刊印在头版，附以详细的说明和分析文章。有一篇文章得到了大多数人的赞同。文章写道：\r\n\r\n　　“巴顿将军这一不同寻常的职务变更，让每一个崇拜英雄的美国人感到失落。人们对他的辉煌业绩不会忘记。然而，这或许是一种比较妥当的安排。乔治·巴顿将军不愧是本世纪最伟大的军事将领之一，然而他的性格、所受的训练以及战争的经历，使他不适宜担任和平时期的一位行政长官。艾森豪威尔总司令既是巴顿的上司，也是他的朋友。他的决定，既是对朋友负责，也是对国家负责。……”\r\n\r\n　　然而还是有一些文章不断地重提巴顿过去的耻辱。“打耳光事件”让更多的人知道了巴顿曾因在战地医院怒不可遏地打了一个他认为懦弱胆小的士兵而闹得满城风雨。“答美联社记者问”中他把美国人加入民主党或共和党与德国人加入纳粹党相提并论，让许多人瞠目结舌，继而愤怒不已。一个被美国政府引以为自豪的两党政治制度竟被军界的一位显赫人物狂乱攻击！他侮辱的是一个可以堂而皇之进行报复的敌人，而这个报复来得又是如此之快。\r\n\r\n　　巴顿本人对此保持着一种异样的、有点病态的沉寂。他不是一个言行谨慎的政治家。在不算短的军事生涯里，因为任性的言语而招致多方攻击的事例不胜枚举，由此惹出的麻烦贯穿了他的整个工作过程。现在，对他有利的情有可原的因素已不复存在。战争的结束意味着军人巴顿已不再必不可少，他是可以牺牲的了。这一两个月以来他一直在宿命地等待着，就像赴死的英雄在乱哄哄的时局里坚定着自己的信念。哪怕这种信念可能被所有的人彻底否定，他也无所顾忌，因为这个信念是根深蒂固的，是他所特有的，它以势不可挡之势冲破了所有阻碍。这次，巴顿心里不再祈祷奇迹，他甚至没有表现出一丝一毫的哪怕是权宜之计的谦卑与懊悔。一切反抗情绪都表现在绝对的沉默之中。现在命运终于决定了，他成了一名光杆司令，没有了他曾经为之倾注了全部才智与心血、与之共赴枪林弹雨、共同享受胜利的辉煌与荣誉的第3集团军——他是多么爱这支部队！但这一切都将不复存在，惟一剩下的是一个让他体面过渡的空壳——一支由司机、炊事员等后勤人员组成的一个小规模的服务部队，由他充当这个所谓的第15集团军的司令官。作为一名将军，乔治·巴顿的指挥生涯彻底结束了，今后能体现他的个人价值的将是他作为将军应该享受的遗产——战争中的勋章以及他一直比较喜欢的职业——对军事历史颇有建树的研究。\r\n\r\n　　历史将无情地离他远去。',0,0,66)
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008589s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000743s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000668s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002937s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000812s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2020-03-22T15:07:03+08:00 ] 0.0.0.0 /book/admin.php/book/chapter_insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.005171s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.005244s ]
+SQL: SELECT `book_id` FROM `book_book` WHERE ( `book_name` = '巴顿传' ) LIMIT 1   [ RunTime:0.000531s ]
+SQL: SELECT `needscore` FROM `book_book` WHERE ( `book_name` = '巴顿传' ) LIMIT 1   [ RunTime:0.000451s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 471 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 515 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 515 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 516 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\book\ThinkPHP\Lib\Core\Db.class.php 第 519 行.
+SQL: SELECT * FROM `book_chapter` WHERE ( (`book_id` = null)  ) LIMIT 1   [ RunTime:0.000610s ]
+SQL: INSERT INTO `book_chapter` (`chapter_title`,`content`,`much`,`charge`,`book_id`) VALUES ('第一章　　战神之初','　1945年10月2日。二战胜利不久的美国。《纽约时报》、《纽约每日新闻》等具有重要影响的报纸以头版头条大字刊印：“盟军最高司令艾森豪威尔免去巴顿将军美第3集团军司令之职。”\r\n\r\n　　消息一公布，大西洋两岸一片哗然。前一个月的这一天，日本新任首相重光葵代表日本天皇和政府，才在东京湾的美战列舰“密苏里号”上当着美、英、苏、中等盟国代表，在投降书上签了字。第二次世界大战的硝烟刚刚散尽，为盟军的胜利立下汗马功劳、创造了许多坦克作战指挥奇迹的巴顿将军，却在法西斯的投降书墨迹未干之时，被免去了主要职务！战争英雄难道在和平的祥云刚刚飘在空中的时候就被断然遗忘了吗？难道一切真应验了那句古老的谚语：狡兔死，走狗烹？\r\n\r\n　　这个消息所引起的震动不亚于八级地震。它让华盛顿许多厌恶、愤恨甚至仇视乔治·巴顿的政界、军界人士以及许多为新闻媒介左右的市民高兴至极，也让许多真正欣赏巴顿的上层人士（大多是巴顿的朋友和支持者）及敬佩巴顿的骁勇精神和卓越指挥才能的官兵及市民惋惜不已。\r\n\r\n　　《华盛顿邮报》更是连篇累牍地报道事件的前因后果。巴顿将军身着戎装的肖像照、战地指挥所实景照等等被放大数倍刊印在头版，附以详细的说明和分析文章。有一篇文章得到了大多数人的赞同。文章写道：\r\n\r\n　　“巴顿将军这一不同寻常的职务变更，让每一个崇拜英雄的美国人感到失落。人们对他的辉煌业绩不会忘记。然而，这或许是一种比较妥当的安排。乔治·巴顿将军不愧是本世纪最伟大的军事将领之一，然而他的性格、所受的训练以及战争的经历，使他不适宜担任和平时期的一位行政长官。艾森豪威尔总司令既是巴顿的上司，也是他的朋友。他的决定，既是对朋友负责，也是对国家负责。……”\r\n\r\n　　然而还是有一些文章不断地重提巴顿过去的耻辱。“打耳光事件”让更多的人知道了巴顿曾因在战地医院怒不可遏地打了一个他认为懦弱胆小的士兵而闹得满城风雨。“答美联社记者问”中他把美国人加入民主党或共和党与德国人加入纳粹党相提并论，让许多人瞠目结舌，继而愤怒不已。一个被美国政府引以为自豪的两党政治制度竟被军界的一位显赫人物狂乱攻击！他侮辱的是一个可以堂而皇之进行报复的敌人，而这个报复来得又是如此之快。\r\n\r\n　　巴顿本人对此保持着一种异样的、有点病态的沉寂。他不是一个言行谨慎的政治家。在不算短的军事生涯里，因为任性的言语而招致多方攻击的事例不胜枚举，由此惹出的麻烦贯穿了他的整个工作过程。现在，对他有利的情有可原的因素已不复存在。战争的结束意味着军人巴顿已不再必不可少，他是可以牺牲的了。这一两个月以来他一直在宿命地等待着，就像赴死的英雄在乱哄哄的时局里坚定着自己的信念。哪怕这种信念可能被所有的人彻底否定，他也无所顾忌，因为这个信念是根深蒂固的，是他所特有的，它以势不可挡之势冲破了所有阻碍。这次，巴顿心里不再祈祷奇迹，他甚至没有表现出一丝一毫的哪怕是权宜之计的谦卑与懊悔。一切反抗情绪都表现在绝对的沉默之中。现在命运终于决定了，他成了一名光杆司令，没有了他曾经为之倾注了全部才智与心血、与之共赴枪林弹雨、共同享受胜利的辉煌与荣誉的第3集团军——他是多么爱这支部队！但这一切都将不复存在，惟一剩下的是一个让他体面过渡的空壳——一支由司机、炊事员等后勤人员组成的一个小规模的服务部队，由他充当这个所谓的第15集团军的司令官。作为一名将军，乔治·巴顿的指挥生涯彻底结束了，今后能体现他的个人价值的将是他作为将军应该享受的遗产——战争中的勋章以及他一直比较喜欢的职业——对军事历史颇有建树的研究。\r\n\r\n　　历史将无情地离他远去。',0,0,66) [ RunTime:0.000648s ]
+ERR: 1062:Duplicate entry '127' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `book_chapter` (`chapter_title`,`content`,`much`,`charge`,`book_id`) VALUES ('第一章　　战神之初','　1945年10月2日。二战胜利不久的美国。《纽约时报》、《纽约每日新闻》等具有重要影响的报纸以头版头条大字刊印：“盟军最高司令艾森豪威尔免去巴顿将军美第3集团军司令之职。”\r\n\r\n　　消息一公布，大西洋两岸一片哗然。前一个月的这一天，日本新任首相重光葵代表日本天皇和政府，才在东京湾的美战列舰“密苏里号”上当着美、英、苏、中等盟国代表，在投降书上签了字。第二次世界大战的硝烟刚刚散尽，为盟军的胜利立下汗马功劳、创造了许多坦克作战指挥奇迹的巴顿将军，却在法西斯的投降书墨迹未干之时，被免去了主要职务！战争英雄难道在和平的祥云刚刚飘在空中的时候就被断然遗忘了吗？难道一切真应验了那句古老的谚语：狡兔死，走狗烹？\r\n\r\n　　这个消息所引起的震动不亚于八级地震。它让华盛顿许多厌恶、愤恨甚至仇视乔治·巴顿的政界、军界人士以及许多为新闻媒介左右的市民高兴至极，也让许多真正欣赏巴顿的上层人士（大多是巴顿的朋友和支持者）及敬佩巴顿的骁勇精神和卓越指挥才能的官兵及市民惋惜不已。\r\n\r\n　　《华盛顿邮报》更是连篇累牍地报道事件的前因后果。巴顿将军身着戎装的肖像照、战地指挥所实景照等等被放大数倍刊印在头版，附以详细的说明和分析文章。有一篇文章得到了大多数人的赞同。文章写道：\r\n\r\n　　“巴顿将军这一不同寻常的职务变更，让每一个崇拜英雄的美国人感到失落。人们对他的辉煌业绩不会忘记。然而，这或许是一种比较妥当的安排。乔治·巴顿将军不愧是本世纪最伟大的军事将领之一，然而他的性格、所受的训练以及战争的经历，使他不适宜担任和平时期的一位行政长官。艾森豪威尔总司令既是巴顿的上司，也是他的朋友。他的决定，既是对朋友负责，也是对国家负责。……”\r\n\r\n　　然而还是有一些文章不断地重提巴顿过去的耻辱。“打耳光事件”让更多的人知道了巴顿曾因在战地医院怒不可遏地打了一个他认为懦弱胆小的士兵而闹得满城风雨。“答美联社记者问”中他把美国人加入民主党或共和党与德国人加入纳粹党相提并论，让许多人瞠目结舌，继而愤怒不已。一个被美国政府引以为自豪的两党政治制度竟被军界的一位显赫人物狂乱攻击！他侮辱的是一个可以堂而皇之进行报复的敌人，而这个报复来得又是如此之快。\r\n\r\n　　巴顿本人对此保持着一种异样的、有点病态的沉寂。他不是一个言行谨慎的政治家。在不算短的军事生涯里，因为任性的言语而招致多方攻击的事例不胜枚举，由此惹出的麻烦贯穿了他的整个工作过程。现在，对他有利的情有可原的因素已不复存在。战争的结束意味着军人巴顿已不再必不可少，他是可以牺牲的了。这一两个月以来他一直在宿命地等待着，就像赴死的英雄在乱哄哄的时局里坚定着自己的信念。哪怕这种信念可能被所有的人彻底否定，他也无所顾忌，因为这个信念是根深蒂固的，是他所特有的，它以势不可挡之势冲破了所有阻碍。这次，巴顿心里不再祈祷奇迹，他甚至没有表现出一丝一毫的哪怕是权宜之计的谦卑与懊悔。一切反抗情绪都表现在绝对的沉默之中。现在命运终于决定了，他成了一名光杆司令，没有了他曾经为之倾注了全部才智与心血、与之共赴枪林弹雨、共同享受胜利的辉煌与荣誉的第3集团军——他是多么爱这支部队！但这一切都将不复存在，惟一剩下的是一个让他体面过渡的空壳——一支由司机、炊事员等后勤人员组成的一个小规模的服务部队，由他充当这个所谓的第15集团军的司令官。作为一名将军，乔治·巴顿的指挥生涯彻底结束了，今后能体现他的个人价值的将是他作为将军应该享受的遗产——战争中的勋章以及他一直比较喜欢的职业——对军事历史颇有建树的研究。\r\n\r\n　　历史将无情地离他远去。',0,0,66)
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008660s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000680s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000698s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003112s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001030s ]
+

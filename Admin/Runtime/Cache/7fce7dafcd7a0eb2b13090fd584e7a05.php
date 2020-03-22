@@ -71,8 +71,18 @@ height:18px
 							
 							<tbody>
 								<form name="form1" method="post" action="catalog_do.php?dopost=upRankAll"></form>
-                                </tbody></table><table cellpadding="2" cellspacing="0" border="0" width="100%">
+								</tbody>
+							</table>
+							<table cellpadding="2" cellspacing="0" border="0" width="100%">
   <tbody>
+	<tr>
+		<!--<th><input class="check-all" type="checkbox" /></th> -->
+		<th width="40" align="center">分类名</th>
+		 <th width="34" align="center">显示/隐藏</th>
+	   <th width="34" align="center">操作</th>
+		<th width="60" align="center">排序</th>
+	 </tr>
+
   <!--分类循环开始-->
   <?php if(is_array($cats)): $i = 0; $__LIST__ = $cats;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cat): $mod = ($i % 2 );++$i;?><tr class="alt-row"><td width="25%"><input type="checkbox" /><a href="cat_edit?cid=<?php echo ($cat["cat_id"]); ?>" ><?php echo ($cat["cat_name"]); ?></a>(小说：<?php echo ($cat["total"]); ?>本)  <a href="cat_edit?cid=<?php echo ($cat["cat_id"]); ?>"><img src="__PUBLIC__/admin/images/write2.gif"></a></td><td width="17%" align="center"><?php if($cat["status"] == 1): ?>显示
 <?php else: ?> 隐藏<?php endif; ?></td><td width="26%" align="right"><a href="http://localhost/dede/plus/list.php?tid=2" target="_blank">预览</a>|<a href="http://localhost/dede/dede/catalog_do.php?cid=2&amp;dopost=listArchives">内容</a>|
@@ -80,19 +90,23 @@ height:18px
     <td width="32%" align="right"><input name="ordernum" value="<?php echo ($cat["ordernum"]); ?>" style="width:25px;height:20px" type="text"></td>
   </tr><?php endforeach; endif; else: echo "" ;endif; ?>
   <!--分类循环结束-->
-  <tr><td colspan="3" id="suns1"></td></tr>
+  <!-- <tr><td colspan="3" id="suns1"></td></tr> -->
+  <tr><td colspan="4" >
+	<?php echo ($page); ?>
+  </td></tr>
 </tbody></table>
-<table cellpadding="2" cellspacing="0" border="0" width="100%">
+<!-- <table cellpadding="2" cellspacing="0" border="0" width="100%">
   <tbody>
 
    
-</tbody></table>
+</tbody></table> -->
 								
 
 										
-										<div class="pagination">
-											
-										</div> <!-- End .pagination -->
+										<!-- <div class="pagination">
+											<?php echo ($page); ?>
+										</div>  -->
+										<!-- End .pagination -->
 										<div class="clear"></div>
 									
 								

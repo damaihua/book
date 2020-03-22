@@ -20,12 +20,7 @@
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
 <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
-<!--[if IE 6]>
-<script type="text/javascript" src="__CSS__/dd_belatedpng.js" ></script>
-<script type="text/javascript">
-	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
-</script>
-<![endif]-->
+
 
 </head>
 <body>
@@ -34,11 +29,7 @@
 
 <!--------------------------------------------内容部分---------------------------------------------->
 
-
-
-
-
-<div class="main"><script type="text/javascript" src="__JS__/jquery.tools.min.js"></script>
+<script type="text/javascript" src="__JS__/jquery.tools.min.js"></script>
 
 <script type="text/javascript">
 
@@ -54,14 +45,44 @@ $("div.tabs02").tabs(".tab_cnt2",{event:'mouseover'});
 
 </script>
 
+<div class="clearfix wrap mb20">
+    <div class=" common-list">
+        <h2 class="common-headline"><span>点击榜</span></h2>
+        <ul>
+            <volist name='hits' id='vo' offset="1" length='20'>
+                <li><span><{$i}></span><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></li>
+            </volist>
+        </ul>
+    </div>
+    <div class=" common-list">
+        <h2 class="common-headline"><span>章节榜</span></h2>
+        <ul>
+            <volist name='chapters' id='vo' offset="1" length='16'>
+                <li><span><{$i}></span><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></li>
+            </volist>
+        </ul>
+    </div>
+    <div class=" common-list">
+        <h2 class="common-headline"><span>推荐榜</span></h2>
+        <ul>
+            <volist name='recommend' id='vo' offset="1" length='18'>
+                <li><span><{$i}></span><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></li>
+            </volist>
+        </ul>
+    </div>
+    <div class="common-left click-list common-list">
+        <h2 class="common-headline"><span>字数榜</span></h2>
+        <ul>
+            <volist name='size' id='vo' offset="1" length='10'>
+                <li><span><{$i}></span><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></li>
+            </volist>
+        </ul>
+    </div>
 
+</div>
 
-<div id="pbody">
-
-	 
-
+<!-- <div id="body">
       <div class="row rank clearfix">
-
             <div class="column">
 
                 <h2><span class="rank">点击榜</span></h2>
@@ -126,28 +147,15 @@ $("div.tabs02").tabs(".tab_cnt2",{event:'mouseover'});
 
 
 				<ul class="tab_cnt2">
-
-
 <volist name='recommend' id='vo' offset="1" length='10'>
 <li><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></li>
 </volist>
-
 </ul>
-
              </div>
 
             <div class="column" style=" margin-right:0;">
 
                 <h2><span class="rank">字数榜</span></h2>
-
-                
-
-                
-
-
-
-				
-
 
 
 				<ul class="tab_cnt2">
@@ -163,7 +171,7 @@ $("div.tabs02").tabs(".tab_cnt2",{event:'mouseover'});
 
     </div>
 
-</div></div>
+</div> -->
 
 
 

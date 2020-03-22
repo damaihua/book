@@ -237,6 +237,7 @@
           }
           //增加公告页面
           public function notice_add(){
+              
               $this->display();
           }
           //修改公告页面

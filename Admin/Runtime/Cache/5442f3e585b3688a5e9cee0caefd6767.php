@@ -24,10 +24,16 @@
 						'insertunorderedlist', '|', 'emoticons', 'image', 'link']
 				});
 			});
+
+
+			 					
+
+
+
 		</script>
 
 </head>
-<body >
+<body onload="ContextMenu.intializeContextMenu()" >
 <div id="main-content">
 			<div class="content-box"><!-- Start Content Box -->
 				
@@ -46,7 +52,7 @@
 				<div class="content-box-content">
 					
 					<form action="__URL__/book_insert" enctype="multipart/form-data" method="post" >
-  <input name="book_id" value="<?php echo ($book_id); ?>" type="hidden">
+  <!-- <input name="book_id" value="<?php echo ($book_id); ?>" type="hidden"> -->
  
 					<div style="display: block;" class="tab-content  default-tab" id="tab1">				
 						
@@ -82,10 +88,13 @@
 								<p>
 									<label>所属分类</label>
                                    <span id="typeidct">
-                                   
+                                 
                                     <select name="book_cat" id="typeid" style="width:240px">
                                         <?php echo ($catlist); ?>
-                                        
+										<!-- <?php ($catlist); ?> -->
+										
+										<?php
+ ?>
                                     </select>
                                     </span>
 									

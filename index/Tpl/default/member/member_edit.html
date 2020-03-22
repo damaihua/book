@@ -31,27 +31,20 @@ $(function(){
 	
 })
 </script>
-<!--[if IE 6]>
-<script type="text/javascript" src="/scripts/DD_belatedPNG.js" ></script>
-<script type="text/javascript">
-	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
-</script>
-<![endif]-->
-
 </head>
 <body>
 <!---头部部分--->
 <include file="Public:header" />
-<!--------------------------------------------内容部分---------------------------------------------->
 
-<div  class="main">
-<!---左侧导航--->
-<include file="Public:memberleft" />
+<div class="clearfix wrap mb20">
+  <!---左侧导航--->
+  <include file="Public:memberleft" />
 
-  <div id="centerm"><div id="content">
+  <div class="user-right">
+    
 
 <form class='editform' name="useredit" id="useredit" action="__APP__/member/do_member_edit" method="post" enctype="multipart/form-data">
-<table class="grid" cellspacing="1" align="center" width="650">
+<table class="grid" cellspacing="1" align="center" width="100%">
 <caption>
 会员资料修改
 </caption>
@@ -94,7 +87,9 @@ checked <else />
   <td class="even"><input class="button" name="submit" id="submit" value="保 存" type="submit"></td>
 </tr>
 </tbody></table>
-</form></div>
+</form>
+
+
 </div>
 
 </div>

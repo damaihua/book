@@ -16,12 +16,7 @@
 <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/jquery-1.8.3.min.js"></script>
-<!--[if IE 6]>
-<script type="text/javascript" src="/scripts/DD_belatedPNG.js" ></script>
-<script type="text/javascript">
-	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
-</script>
-<![endif]-->
+
  
   <script type="text/javascript">
    function uploadevent(status,picUrl,callbackdata){
