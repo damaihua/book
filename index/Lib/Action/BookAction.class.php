@@ -36,6 +36,7 @@ class BookAction extends PublicAction {
         $this->islogin();
 		$cat=D('Cats');
 		$cats=$cat->showCats();
+		dump($cats);
 	
 		//把类别的数组赋给模版变量
 		$this->assign('cat',$cats);

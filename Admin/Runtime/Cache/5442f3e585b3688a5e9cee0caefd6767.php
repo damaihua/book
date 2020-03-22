@@ -49,8 +49,8 @@
 					
 				</div> <!-- End .content-box-header -->
 				
-				<div class="content-box-content">
-					
+				<div class="content-box-content" >
+					<!-- <?php echo ($catlist); ?> -->
 					<form action="__URL__/book_insert" enctype="multipart/form-data" method="post" >
   <!-- <input name="book_id" value="<?php echo ($book_id); ?>" type="hidden"> -->
  
@@ -93,8 +93,7 @@
                                         <?php echo ($catlist); ?>
 										<!-- <?php ($catlist); ?> -->
 										
-										<?php
- ?>
+									
                                     </select>
                                     </span>
 									

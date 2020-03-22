@@ -9,12 +9,6 @@ class BookAction extends PublicAction {
         //检测是否登录
         $this->islogin();
         $book=M('Book');
-        //add
-        $cats=D('Cats');
-        $catlist=$cats->selectCats(0);
-        // dump($catlist);
-        // echo '111';
-
         // 导入分页类
         import('ORG.Util.Page');
         // 查询满足要求的总记录数
@@ -27,38 +21,37 @@ class BookAction extends PublicAction {
         //$data['book_cat']=I('book_cat');
         // 赋值数据集
         $this->assign('books',$books);
-        // dump($books);
         // 赋值分页输出
         $this->assign('page',$show);
+        $this->display();
+    }
+    public function book_add(){
+        $this->islogin();
+        $cats=D('Cats');
+        $catlist=$cats->selectCats(0);
+        $proglist=$cats->selectCats(1);
         $this->assign('catlist',$catlist);
+        $this->assign('proglist',$proglist);
         $this->display();
     }
     // new-add 添加小说
     public function book_insert(){
         $this->islogin();
-                // $cats=D('Cats');
-                // $catlist=$cats->selectCats(0);
-                // dump($catlist);
-                // echo '111';
-                // $this->assign('catlist',$catlist);
-                // exit;
-        
         //判断是否是通过表单提交的
         if(I('submit')){
-            
-        
             //实例化一个book类
             $book=M('Book');
-
             $data['book_name']=I('book_name');
             $data['flags']=implode(',', I('flags'));
             $data['book_cat']=I('book_cat');
             $data['progress']=I('progress');
             $data['book_info']=I('book_info');
             //$data['user_id']=I('writer');
-            
+            $data['public_time']=time();//小说的创建时间
             //调用public中的上传类,实现图片上传功能
-            $cover = $this->upload('cover','','180','225');
+           
+            $cover = $this->upload('cover','cover','180','225');
+          // dump($cover); exit;
             if($cover){
                $data['book_cover']=$cover;
             }
@@ -176,23 +169,30 @@ class BookAction extends PublicAction {
             //在book表中找书名ID
             $book_id=$book->where(array('book_name'=>I('book_name')))->field('book_id')->find();
             $needscore=$book->where(array('book_name'=>I('book_name')))->field('needscore')->find();
-            dump($book_id);  //exit;
+            // dump($book_id);  //exit;
             if($book_id){  //小说存在
                 // 判断输入分类是否存在
-                $result=$chapter->where(array('book_id'=>$book_id))->find();
+                // dump($chapter);
+                // $result=$chapter->where(array('book_id'=>$book_id))->find();
+                
+                // if($result){
+                    // $this->error('该章节已经存在，请重新输入！');
+                // }
                 //保存数据到chapter
-                $insert=$book_id['book_id'];
+                $insert=$book_id['id'];
                 $data['chapter_title']=I('chapter_title');
                 $data['content']=I('chapter_content'); 
                 $data['much']=I('chapter_much'); 
                 $data['charge']=I('charge');
-                $data['book_id']=$insert;
+                $data['book_id']=11;
+
+                // dump($res);
                 dump($data);
-                if($result){
-                    $this->error('该章节已经存在，请重新输入！');
-                }
-                $chapter->create();
+                
+               $chapter->create();
                 $result = $chapter->add($data);
+                
+                dump ($result);die;
                 if($result) {
                     //是否免费 保存到book
                     $count=I('chapter_much')+$needscore;
@@ -203,8 +203,10 @@ class BookAction extends PublicAction {
                     $scoreresult=$book->where($condition)->save($datascore);
                     $this->success('章节添加成功！');
                 }else{
+                    echo 'false'; exit;
                     $this->error('章节添加失败！');
                 }
+
             }else{
                 $this->error('小说不存在');
             }

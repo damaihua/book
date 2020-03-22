@@ -47,26 +47,18 @@
 <form name="form1" method="post" action="friendlink_edit.php" onsubmit="return checkSubmit();"></form>
 <input name="dopost" value="delall" type="hidden">
 <input name="allid" value="" type="hidden">
-
    </tbody></table>
-  
-
   		<table cellpadding="3" cellspacing="1" align="center" bgcolor="#FBFCE2" border="0" width="98%">
 		<form action="__URL__/do_ad_add" method="post" enctype="multipart/form-data">
-		
   		<tr >
   		  <td>广告名称</td><td><input type="text" name="name"></td></tr>
   		<tr>
   		  <td>广告图片</td><td><input type="text"><input name='image' type="file" /></td></tr><br />
   		<tr>
   		  <td>链接地址</td><td><input name="url" type="text" value="http://"><span class="Validform_checktip"></span></td></tr>
-  		
   		<tr><br />
-	
-	
   		<tr><td><input type="submit" name="submit" value="增加"> <input type="hidden" name="id" value="<{$vo.id}>">
 </td><td></td></tr><br />	
-	
 	</form>
 
   </table>

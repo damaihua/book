@@ -163,6 +163,7 @@
                   $data['image']=$image;
 
                }
+               
               //获取提交的表单的值
                 $data['name'] = I('name');
                 $data['url'] = I('url');

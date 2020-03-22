@@ -35,10 +35,11 @@ height:18px
 					<h3 style="cursor: s-resize;">小说管理</h3>
 					
 					<ul class="content-box-tabs">
+						
 						<li><a href="__APP__/book/book_list">新加book-list</a></li> <!-- href must be unique and match the id of target div --> 
 						<li><a href="#" onclick="document.form1.submit();">更新排序</a></li>
 						<li>
-							<a class="new-add" href="__URL__/book_add">添加小说</a>
+							<a class="new-add" href="__APP__/book/book_add">添加小说</a>
 						</li>
 					</ul>
 					
@@ -78,8 +79,9 @@ height:18px
 	<td width="8%"><?php echo ($book["user_id"]); ?></td>
 	<td width="6%">完本</td>
 	<td width="7%"><?php echo ($book["total"]); ?></td>
-	<td width="17%">2014-03-04 21:23:45</td>
-	<td width="18%">2014-03-04 21:23:45</td>
+	<td width="17%"><?php echo (date("Y-m-d H;i",$book["public_time"])); ?></td>
+	
+	<td width="18%">2020-03-04 21:23:45</td>
 	<td width="10%">
 		<a href="__APP__/book/book_edit?book_id=<?php echo ($book["book_id"]); ?>">审核</a>|
 		<a href="__APP__/book/book_del?book_id=<?php echo ($book["book_id"]); ?>" onclick="return confirm('确定要删除?')">删除</a>
