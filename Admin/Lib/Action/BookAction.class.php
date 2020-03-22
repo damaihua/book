@@ -110,6 +110,7 @@ class BookAction extends PublicAction {
         $data['book_info']=I('book_info');
         // dump($data);exit;
         $book=D('Book');
+        //$book=M('Book');
         $book->create();
         $result=$book->save($data);
         if($result){
@@ -157,59 +158,50 @@ class BookAction extends PublicAction {
         $this->assign('page',$show);
         $this->display();
     }
+    public function chapter_add(){
+        $book_id=$_GET['book_id'];
+        $this->assign('book_id',$book_id);
+        $this->display();
+    }
     // add 添加章节
     public function chapter_insert(){
         $this->islogin();
-        
         //判断是否是通过表单提交的
         if(I('submit')){
             //实例化一个类
             $chapter=M('Chapter');
             $book=M('Book');
-            //在book表中找书名ID
-            $book_id=$book->where(array('book_name'=>I('book_name')))->field('book_id')->find();
-            $needscore=$book->where(array('book_name'=>I('book_name')))->field('needscore')->find();
-            // dump($book_id);  //exit;
-            if($book_id){  //小说存在
-                // 判断输入分类是否存在
-                // dump($chapter);
-                // $result=$chapter->where(array('book_id'=>$book_id))->find();
-                
-                // if($result){
-                    // $this->error('该章节已经存在，请重新输入！');
-                // }
-                //保存数据到chapter
-                $insert=$book_id['id'];
-                $data['chapter_title']=I('chapter_title');
-                $data['content']=I('chapter_content'); 
-                $data['much']=I('chapter_much'); 
-                $data['charge']=I('charge');
-                $data['book_id']=11;
-
-                // dump($res);
-                dump($data);
-                
-               $chapter->create();
-                $result = $chapter->add($data);
-                
-                dump ($result);die;
-                if($result) {
-                    //是否免费 保存到book
-                    $count=I('chapter_much')+$needscore;
-                    $datascore['needscore']=$count;
-                    $condition['book_id'] = $insert;
-                    dump( $count);
-                    dump($datascore['needscore']); exit;
-                    $scoreresult=$book->where($condition)->save($datascore);
-                    $this->success('章节添加成功！');
-                }else{
-                    echo 'false'; exit;
-                    $this->error('章节添加失败！');
-                }
-
-            }else{
-                $this->error('小说不存在');
+            $book_id=I('book_id');
+            $chapter_title=I('chapter_title');
+            $result=$chapter->where(array('chapter_title'=>$chapter_title))->find();
+            if($result){
+                $this->error('该章节已经存在，请重新输入！');
             }
+            //获取 章节所对应的book中的相关数据
+            $bookList=$book->where(array('book_id'=>$book_id))->find();
+            //保存数据到chapter
+            $data['chapter_title']=I('chapter_title');
+            $data['content']=I('chapter_content'); 
+            $data['much']=I('chapter_much'); 
+            $data['charge']=I('charge');
+            $data['update_time']=I('charge');
+            $data['book_id']=$book_id;
+            $chapter->create();
+            $result = $chapter->add($data);
+            
+            if($result) {
+                //是否免费 保存到book
+                $count= $bookList['needscore']+I('chapter_much'); //所需积分相加
+                $data['needscore']= $count;   //需要更新数据
+                $condition['book_id']=$book_id;  // 条件
+                $score=$book->where($condition)->setField($data);
+                $this->success('章节添加成功！');
+            }else{
+                echo 'false'; exit;
+                $this->error('章节添加失败！');
+            }
+
+            
 
             
         }

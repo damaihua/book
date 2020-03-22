@@ -53,15 +53,17 @@
 				<div  class="content-box-content">
 					__URL__
 					<form action="__URL__/chapter_insert" enctype="multipart/form-data" method="post" >
+						<input type="hidden" name="book_id" value="<?php echo ($book_id); ?>">
 						<fieldset> 
+							<!-- <p>
+								<label>小说标题</label>
+								<input name="book_name" style="width:80px" type="text" value=">"> 
+							</p> -->
 							<p>
 								<label>章节名</label>
 								<input name="chapter_title" style="width:80px" type="text"> 
 							</p>
-							<p>
-								<label>小说标题</label>
-								<input name="book_name" style="width:80px" type="text"> 
-							</p>
+							
 							<p>
 								<label>收费\免费</label>
 								<input name="charge" value="0" class="np" checked="checked" type="radio">
