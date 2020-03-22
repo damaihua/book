@@ -190,9 +190,11 @@ class BookAction extends PublicAction {
             $result = $chapter->add($data);
             
             if($result) {
-                //是否免费 保存到book
+                //是否免费score 保存到book  章节总数+1
                 $count= $bookList['needscore']+I('chapter_much'); //所需积分相加
                 $data['needscore']= $count;   //需要更新数据
+                $data['total']=$bookList['needscore']+1;
+                $data['public_time']=time();
                 $condition['book_id']=$book_id;  // 条件
                 $score=$book->where($condition)->setField($data);
                 $this->success('章节添加成功！');

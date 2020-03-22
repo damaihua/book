@@ -13413,3 +13413,278 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.000938s ]
 INFO: [ view_end ] --END-- [ RunTime:0.001020s ]
 
+[ 2020-03-22T22:05:31+08:00 ] 0.0.0.0 /book/admin.php/book/book_main/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001231s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.005396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1   [ RunTime:0.000527s ]
+SQL: SELECT * FROM `book_book` LIMIT 0,10   [ RunTime:0.000468s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\book\Admin\Runtime\Cache\d9aafbc1ea251e629a6e5e733fc8895a.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011067s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000644s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000697s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002901s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2020-03-22T22:05:32+08:00 ] 0.0.0.0 /book/admin.php/book/book_main/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.005604s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1   [ RunTime:0.000491s ]
+SQL: SELECT * FROM `book_book` LIMIT 0,10   [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\book\Admin\Runtime\Cache\d9aafbc1ea251e629a6e5e733fc8895a.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011229s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000598s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000733s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002888s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2020-03-22T22:07:48+08:00 ] 0.0.0.0 /book/admin.php/book/book_main/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001279s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.005664s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1   [ RunTime:0.000537s ]
+SQL: SELECT * FROM `book_book` LIMIT 0,10   [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\book\Admin\Runtime\Cache\d9aafbc1ea251e629a6e5e733fc8895a.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011528s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000993s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000720s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000586s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003274s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000888s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2020-03-22T22:07:54+08:00 ] 0.0.0.0 /book/admin.php/book/chapter_add?book_id=22
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009488s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000545s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000724s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002842s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2020-03-22T22:08:05+08:00 ] 0.0.0.0 /book/admin.php/book/chapter_insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002339s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002787s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.005351s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.005851s ]
+SQL: SELECT * FROM `book_chapter` WHERE ( `chapter_title` = '101' ) LIMIT 1   [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009544s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000498s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000725s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002781s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000846s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2020-03-22T22:08:12+08:00 ] 0.0.0.0 /book/admin.php/book/chapter_insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.005076s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.005585s ]
+SQL: SELECT * FROM `book_chapter` WHERE ( `chapter_title` = '1010' ) LIMIT 1   [ RunTime:0.000704s ]
+SQL: SELECT * FROM `book_book` WHERE ( `book_id` = 22 ) LIMIT 1   [ RunTime:0.000479s ]
+SQL: INSERT INTO `book_chapter` (`chapter_title`,`content`,`much`,`charge`,`update_time`,`book_id`) VALUES ('1010','+1',0,0,'0',22) [ RunTime:0.136076s ]
+SQL: UPDATE `book_book` SET `update_time`='0',`book_id`=22,`needscore`=0,`total`=1 WHERE ( `book_id` = 22 ) [ RunTime:0.071206s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036034s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001486s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001265s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001045s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005819s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001611s ]
+
+[ 2020-03-22T22:08:13+08:00 ] 0.0.0.0 /book/admin.php/book/chapter_add?book_id=22
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002390s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009913s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000558s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000756s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002877s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000807s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2020-03-22T22:08:14+08:00 ] 0.0.0.0 /book/admin.php/book/book_main/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001071s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.005577s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1   [ RunTime:0.000495s ]
+SQL: SELECT * FROM `book_book` LIMIT 0,10   [ RunTime:0.000503s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\book\Admin\Runtime\Cache\d9aafbc1ea251e629a6e5e733fc8895a.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009904s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000837s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000618s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000444s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003015s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000858s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2020-03-22T22:11:37+08:00 ] 0.0.0.0 /book/admin.php/book/chapter_add?book_id=27
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004206s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006172s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007712s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000646s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000490s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002314s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000879s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2020-03-22T22:11:55+08:00 ] 0.0.0.0 /book/admin.php/book/chapter_insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001344s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `book_chapter` [ RunTime:0.005077s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.005542s ]
+SQL: SELECT * FROM `book_chapter` WHERE ( `chapter_title` = '24' ) LIMIT 1   [ RunTime:0.000799s ]
+SQL: SELECT * FROM `book_book` WHERE ( `book_id` = 27 ) LIMIT 1   [ RunTime:0.000573s ]
+SQL: INSERT INTO `book_chapter` (`chapter_title`,`content`,`much`,`charge`,`update_time`,`book_id`) VALUES ('24','24',24,1,'1',27) [ RunTime:0.099133s ]
+SQL: UPDATE `book_book` SET `update_time`='1',`book_id`=27,`needscore`=24,`total`=1,`public_time`=1584886315 WHERE ( `book_id` = 27 ) [ RunTime:0.116930s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027045s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001712s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001819s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001482s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007731s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002698s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002968s ]
+
+[ 2020-03-22T22:11:56+08:00 ] 0.0.0.0 /book/admin.php/book/chapter_add?book_id=27
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001253s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011021s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000857s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000689s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003171s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001075s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2020-03-22T22:11:57+08:00 ] 0.0.0.0 /book/admin.php/book/book_main/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `book_book` [ RunTime:0.005728s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1   [ RunTime:0.000583s ]
+SQL: SELECT * FROM `book_book` LIMIT 0,10   [ RunTime:0.000530s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] date() expects parameter 2 to be long, string given D:\wamp\www\book\Admin\Runtime\Cache\d9aafbc1ea251e629a6e5e733fc8895a.php 第 107 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011859s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000765s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000799s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003156s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000945s ]
+
