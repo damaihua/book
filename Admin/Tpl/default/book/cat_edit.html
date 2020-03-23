@@ -34,19 +34,16 @@
 				<div class="content-box-content">
 					
   <form name='form' action="__URL__/update" method="post" onsubmit="return checkSubmit();">
-
   					<div style="display: block;" class="tab-content  default-tab" id="tab1">				
-
 							<fieldset> 
                           <input name="cat_id" id="cat_id" value="<{$cat['cat_id']}>" type="hidden">
-
                             	<p>
                                 <label>是否隐藏分类</label>
-                                 <input name="status" value="0" class="np" type="radio" <if condition="$cat.status eq 1">
+                                 <input name="status" value="1" class="np" type="radio" <if condition="$cat.status eq 1">
 checked <else /> 
 </if>>
               显示　&nbsp;
-              <input name="status" value="1" class="np" type="radio" <if condition="$cat.status eq 0">
+              <input name="status" value="0" class="np" type="radio" <if condition="$cat.status eq 0">
 checked <else /> 
 </if>>
               隐藏 
@@ -73,7 +70,7 @@ checked <else />
 								
 								
 								<p>
-									<br><input class="button" name="imageField" value="编辑" type="submit">
+									<br><input class="button" name="imageField" value="修改" type="submit">
 								</p>
 								
 							</fieldset>

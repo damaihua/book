@@ -34,17 +34,14 @@
 				<div class="content-box-content">
 					
   <form name='form' action="__URL__/update" method="post" onsubmit="return checkSubmit();">
-
   					<div style="display: block;" class="tab-content  default-tab" id="tab1">				
-
 							<fieldset> 
                           <input name="cat_id" id="cat_id" value="<?php echo ($cat['cat_id']); ?>" type="hidden">
-
                             	<p>
                                 <label>是否隐藏分类</label>
-                                 <input name="status" value="0" class="np" type="radio" <?php if($cat["status"] == 1): ?>checked <?php else: endif; ?>>
+                                 <input name="status" value="1" class="np" type="radio" <?php if($cat["status"] == 1): ?>checked <?php else: endif; ?>>
               显示　&nbsp;
-              <input name="status" value="1" class="np" type="radio" <?php if($cat["status"] == 0): ?>checked <?php else: endif; ?>>
+              <input name="status" value="0" class="np" type="radio" <?php if($cat["status"] == 0): ?>checked <?php else: endif; ?>>
               隐藏 
                                 </p> 
                             	                                                                

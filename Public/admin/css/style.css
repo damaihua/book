@@ -742,4 +742,12 @@ body#login {
   z-index: 99;
 }
 
+/* admin-page */
+.admin-page a,.admin-page span{
+  display:inline-block;
+  padding:0 5px;
+}
 
+.admin-page .current{
+  border:1px solid #57a000
+}

@@ -158,9 +158,47 @@ class BookAction extends PublicAction {
         $this->assign('page',$show);
         $this->display();
     }
+    //chapter_edit
+    public function chapter_edit(){
+        $chapter_id=$_GET['chapter_id'];
+        $chapter=M('Chapter');
+        $chapter=$chapter->find($chapter_id);
+        $this->assign('chapter_id',$chapter_id);
+        $this->assign('chapter',$chapter);
+        $this->display();
+    }
+    //修改章节
+    public function do_chapter_edit(){
+        $this->islogin();
+        $chapter=D('chapter');
+        $chapter->create();
+        //$score=
+        $data['chapter_id']=I('chapter_id');
+        $data['chapter_title']=I('chapter_title');
+        $data['charge']=I('charge');
+        $data['much']=I('chapter_much');
+        $data['content']=I('chapter_content');
+        $data['update_time']=time();
+        $data['chapter_size']=mb_strlen(I('chapter_content'),"utf-8");
+        
+        
+        $result=$chapter->save($data);
+
+        // dump( $chapter->create());
+        // dump($data);
+        // dump($result); die;
+        if($result){
+            $this->success('章节修改成功');
+        }else{
+            $this->error('章节修改失败');
+            
+        }
+    }
     public function chapter_add(){
         $book_id=$_GET['book_id'];
+        $book_name=getData('Book',$book_id,'book_name');
         $this->assign('book_id',$book_id);
+        $this->assign('book_name',$book_name);
         $this->display();
     }
     // add 添加章节
@@ -172,19 +210,23 @@ class BookAction extends PublicAction {
             $chapter=M('Chapter');
             $book=M('Book');
             $book_id=I('book_id');
+            $book_name=I('book_name');  //disabled  无法获取到
             $chapter_title=I('chapter_title');
             $result=$chapter->where(array('chapter_title'=>$chapter_title))->find();
             if($result){
                 $this->error('该章节已经存在，请重新输入！');
             }
+            
             //获取 章节所对应的book中的相关数据
             $bookList=$book->where(array('book_id'=>$book_id))->find();
+            //$book_name=$bookList['book_name'];
             //保存数据到chapter
             $data['chapter_title']=I('chapter_title');
             $data['content']=I('chapter_content'); 
             $data['much']=I('chapter_much'); 
             $data['charge']=I('charge');
-            $data['update_time']=I('charge');
+            $data['update_time']=time();
+            $data['book_name']=I('book_name');
             $data['book_id']=$book_id;
             $chapter->create();
             $result = $chapter->add($data);
@@ -193,8 +235,8 @@ class BookAction extends PublicAction {
                 //是否免费score 保存到book  章节总数+1
                 $count= $bookList['needscore']+I('chapter_much'); //所需积分相加
                 $data['needscore']= $count;   //需要更新数据
-                $data['total']=$bookList['needscore']+1;
-                $data['public_time']=time();
+                $data['total']=$bookList['total']+1;
+                $data['update_time']=time();
                 $condition['book_id']=$book_id;  // 条件
                 $score=$book->where($condition)->setField($data);
                 $this->success('章节添加成功！');
@@ -303,11 +345,23 @@ class BookAction extends PublicAction {
         if($num>1){
             $this->error('该分类已经存在，请重新输入！');
         }
+    //     $data['cat_id']=I('cat_id');
+    //    $data['status']=I('status');
+    //    $data['cat_name']=I('cat_name');
+    //     $data['cat_sortname']=I('cat_sortname');
+    //     $data['ordernum']=I('ordernum');
+        
         $cats->create();
-        $result =   $cats->save();
+        $result = $cats->save();
+        //$result = $cats->save($data);
+        // dump($data);
+        // dump($result); 
+
         if($result) {
             $this->success('分类修改成功！');
         }else{
+            dump('false');
+            exit;
             $this->error('分类修改错误！');
         }
          

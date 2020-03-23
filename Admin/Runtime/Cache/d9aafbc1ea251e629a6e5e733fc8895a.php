@@ -49,12 +49,9 @@
 				<h3 style="cursor: s-resize;">小说管理</h3>
 
 				<ul class="content-box-tabs">
-
-					<li><a href="__APP__/book/book_list">新加book-list</a></li>
-					<!-- href must be unique and match the id of target div -->
-					<li><a href="#" onclick="document.form1.submit();">更新排序</a></li>
+					<!-- <li><a href="#" onclick="document.form1.submit();">更新排序</a></li> -->
 					<li>
-						<a class="new-add" href="__APP__/book/book_add">添加小说</a>
+						<a class="new-add" href="__APP__/book/book_add" style="font-size:14px;">添加小说</a>
 					</li>
 				</ul>
 
@@ -95,19 +92,32 @@
 										<td width="15%">《<?php echo ($book["book_name"]); ?>》</td>
 										<td width="7%">
 											<?php echo ($book["book_cat"]); ?>
+											<!-- <?php if($$book["book_cat"] == 55): ?>新书上传
+												<?php elseif($book["book_cat"] == 56): ?>情节展开
+												<?php elseif($book["book_cat"] == 57): ?>精彩纷呈
+												<?php elseif($book["book_cat"] == 58): ?>接近尾声
+												<?php elseif($book["book_cat"] == 59): ?>已经完本
+												<?php else: endif; ?> -->
 										</td>
 										<td width="8%">
 											<?php echo ($book["user_id"]); ?>
 										</td>
-										<td width="6%">完本</td>
+										<td width="6%">
+											<?php if($book["progress"] == 55): ?>新书上传
+												<?php elseif($book["progress"] == 56): ?>情节展开
+												<?php elseif($book["progress"] == 57): ?>精彩纷呈
+												<?php elseif($book["progress"] == 58): ?>接近尾声
+												<?php elseif($book["progress"] == 59): ?>已经完本
+												<?php else: endif; ?>
+										</td>
 										<td width="7%">
 											<?php echo ($book["total"]); ?>
 										</td>
 										<td width="17%">
-											<?php echo (date("Y-m-d H;i",$book["public_time"])); ?>
+											<?php echo (date("Y-m-d H:i",$book["public_time"])); ?>
 										</td>
 
-										<td width="18%">2020-03-04 21:23:45</td>
+										<td width="18%"><?php echo (date("Y-m-d H:i",$book["update_time"])); ?></td>
 										<td width="12%">
 											<a href="__APP__/book/chapter_add?book_id=<?php echo ($book["book_id"]); ?>">添加章节</a>|
 											<a href="__APP__/book/book_edit?book_id=<?php echo ($book["book_id"]); ?>">审核</a>|

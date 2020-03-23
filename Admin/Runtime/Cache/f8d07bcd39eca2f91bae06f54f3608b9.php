@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- saved from url=(0041)http://localhost/dede/dede/index_body.php -->
 <html  xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
@@ -51,36 +51,42 @@
 				</div> 
 				
 				<div  class="content-box-content">
-					<form action="__URL__/chapter_insert" enctype="multipart/form-data" method="post" >
-						<input type="hidden" name="book_id" value="<{$book_id}>">
-						<input type="hidden" name="book_name" value="<{$book_name}>">
+                    
+					<form name="form" action="__URL__/do_chapter_edit" enctype="multipart/form-data" method="post" onsubmit="return checkSubmit()" >
+						
+                        <input name="chapter_id" value="<?php echo ($chapter_id); ?>" type="hidden">
+                        <input name="book_name" value="<?php echo ($chapter['book_name']); ?>" type="hidden">
+                        
 						<fieldset> 
 							<p>
 								<label>小说标题</label>
-								<input name="book_name" style="width:80px" type="text" value="<{$book_name}>" disabled> 
+								<input name="book_name" style="width:80px" type="text" value="<?php echo ($chapter['book_name']); ?>" disabled> 
 							</p>
 							<p>
-								<label>章节名</label>
-								<input name="chapter_title" style="width:80px" type="text"> 
+                                <label>章节名</label>   
+                                <!-- <?php echo getData('Book',$book_id,'book_name');?> -->
+								<input name="chapter_title" style="width:80px" type="text" value="<?php echo getData('Chapter',$chapter_id,'chapter_title');?>"> 
 							</p>
 							
 							<p>
 								<label>收费\免费</label>
-								<input name="charge" value="0" class="np" checked="checked" type="radio">
-              免费&nbsp;
-              <input name="charge" value="1" class="np" type="radio">
-             收费 
+								<input name="charge" value="0" class="np" type="radio" <?php if($chapter["charge"] == 0): ?>checked <?php else: endif; ?>>
+                                    免费&nbsp;  
+                                    <input name="charge" value="1" class="np" type="radio" <?php if($chapter["charge"] == 1): ?>checked <?php else: endif; ?>>
+                                    收费 
 							</p>
 							<p>
 								<label>所需积分</label>
-								<input name="chapter_much" style="width:80px" type="text"> 
+								<input name="chapter_much" style="width:80px" type="text" value="<?php echo getData('Chapter',$chapter_id,'much');?>"> 
 							</p>
 							<p>
 								<label>内容</label>
-								<textarea name="chapter_content" style="width:800px;height:200px;"></textarea>
+                                <textarea name="chapter_content" style="width:800px;height:200px;" >
+                                    <?php echo getData('Chapter',$chapter_id,'content');?>
+                                </textarea>
 							</p>
 
-							<input class="button" name="submit" value="添加" type="submit">
+							<input class="button" name="submit" value="修改" type="submit">
 						</fieldset>
 					</form>
 					

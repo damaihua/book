@@ -91,19 +91,14 @@
                                  
                                     <select name="book_cat" id="typeid" style="width:240px">
                                         <?php echo ($catlist); ?>
-										<!-- <?php ($catlist); ?> -->
-										
-									
                                     </select>
                                     </span>
-									
 								</p>
 								<p>
 									<label>小说进度</label>
                                    <span id="typeidct">
                                    <select name="progress" id="progress" style="width:240px">
                                     <?php echo ($proglist); ?>
-
                                     </select>
                                     </span>
 									

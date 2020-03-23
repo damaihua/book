@@ -51,14 +51,14 @@
 				</div> 
 				
 				<div  class="content-box-content">
-					__URL__
 					<form action="__URL__/chapter_insert" enctype="multipart/form-data" method="post" >
 						<input type="hidden" name="book_id" value="<?php echo ($book_id); ?>">
+						<input type="hidden" name="book_name" value="<?php echo ($book_name); ?>">
 						<fieldset> 
-							<!-- <p>
+							<p>
 								<label>小说标题</label>
-								<input name="book_name" style="width:80px" type="text" value=">"> 
-							</p> -->
+								<input name="book_name" style="width:80px" type="text" value="<?php echo ($book_name); ?>" disabled> 
+							</p>
 							<p>
 								<label>章节名</label>
 								<input name="chapter_title" style="width:80px" type="text"> 
@@ -80,7 +80,7 @@
 								<textarea name="chapter_content" style="width:800px;height:200px;"></textarea>
 							</p>
 
-							<input class="button" name="submit" value="编辑" type="submit">
+							<input class="button" name="submit" value="添加" type="submit">
 						</fieldset>
 					</form>
 					
@@ -88,7 +88,7 @@
 				
 			</div> 
 			
-			<div  class="clear"></div>
+			
 			
 									
 		</div> 	

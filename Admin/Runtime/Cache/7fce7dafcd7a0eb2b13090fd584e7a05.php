@@ -62,8 +62,8 @@
 
 				<ul class="content-box-tabs">
 					<li><a href="__APP__/book/cat_add">增加分类</a></li>
-					<!-- href must be unique and match the id of target div -->
-					<li><a href="#" onclick="document.form1.submit();">更新排序</a></li>
+					
+					<!-- <li><a href="#" onclick="document.form1.submit();">更新排序</a></li> -->
 
 
 				</ul>
@@ -96,17 +96,18 @@
 					</table>
 					<table cellpadding="2" cellspacing="0" border="0" width="100%">
 						<tbody>
-							<tr>
-								<!--<th><input class="check-all" type="checkbox" /></th> -->
+							<!-- <tr>
 								<th width="40" align="center">分类名</th>
 								<th width="34" align="center">显示/隐藏</th>
 								<th width="34" align="center">操作</th>
 								<th width="60" align="center">排序</th>
-							</tr>
+							</tr> -->
 
 							<!--分类循环开始-->
 							<?php if(is_array($cats)): $i = 0; $__LIST__ = $cats;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cat): $mod = ($i % 2 );++$i;?><tr class="alt-row">
-									<td width="25%"><input type="checkbox" /><a href="cat_edit?cid=<?php echo ($cat["cat_id"]); ?>">
+									<td width="25%">
+										<!-- <input type="checkbox" /> -->
+										<a href="cat_edit?cid=<?php echo ($cat["cat_id"]); ?>">
 											<?php echo ($cat["cat_name"]); ?>
 										</a>(小说：<?php echo ($cat["total"]); ?>本) <a href="cat_edit?cid=<?php echo ($cat["cat_id"]); ?>"><img
 													src="__PUBLIC__/admin/images/write2.gif"></a></td>
@@ -115,8 +116,8 @@
 											<?php else: ?> 隐藏<?php endif; ?>
 									</td>
 									<td width="26%" align="right"><a href="http://localhost/dede/plus/list.php?tid=2"
-											target="_blank">预览</a>|<a
-											href="http://localhost/dede/dede/catalog_do.php?cid=2&amp;dopost=listArchives">内容</a>|
+											target="_blank">预览</a>|
+											
 										<a href="__APP__/book/cat_edit?cid=<?php echo ($cat["cat_id"]); ?>">修改</a>|<a
 											href="__APP__/book/cat_del?cid=<?php echo ($cat["cat_id"]); ?>"
 											onclick="return confirm('确定要删除?')">删除</a></td>

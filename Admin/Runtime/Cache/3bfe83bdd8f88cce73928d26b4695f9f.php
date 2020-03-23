@@ -42,7 +42,7 @@ height:18px
 					
 					<ul class="content-box-tabs">
 						<li><a href="__APP__/book/chapter_add">增加章节</a></li> <!-- href must be unique and match the id of target div --> 
-						<li><a href="#" onclick="document.form1.submit();">更新排序</a></li>
+						<!-- <li><a href="#" onclick="document.form1.submit();">更新排序</a></li> -->
                       
                         
 					</ul>
@@ -92,23 +92,24 @@ height:18px
 
   <!--分类循环开始-->
  <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr >
-    <td width="25%"><?php echo ($vo["chapter_title"]); ?></td>
-    <td width="10%" align="center">大脑天内可</td>
-    <td width="10%" align="right">&nbsp;&nbsp;<?php if($vo["charge"] == 1): ?>收费
-<?php else: ?> 免费<?php endif; ?>
+    <td width="22%"><?php echo ($vo["chapter_title"]); ?></td>
+    <td width="15%" align="center"><?php echo ($vo["book_name"]); ?></td>
+    <td width="8%" align="right">&nbsp;&nbsp;<?php if($vo["charge"] == 1): ?>收费
+<?php else: ?>免费<?php endif; ?>
 
 </td>
     <td width="13%" align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo ($vo["much"]); ?></td>
-    <td width="21%" align="right">2014-12-23 23:34:45</td>
-	<td width="24%" align="right"><a href="http://localhost/dede/plus/list.php?tid=2" target="_blank">预览</a>|
-		<a href="__APP__/book/cat_edit?cid=<?php echo ($cat["cat_id"]); ?>">修改</a>|
+    <td width="21%" align="right"><?php echo (date("Y-m-d H:i",$vo["update_time"])); ?></td>
+	<td width="24%" align="right">
+		
+		<a href="__APP__/book/chapter_edit?chapter_id=<?php echo ($vo["chapter_id"]); ?>">修改</a>|
 			<!-- <a href="__APP__/book/cat_edit?cid=<?php echo ($cat["cat_id"]); ?>">修改</a> -->
 		<a href="__APP__/book/chapter_del?id=<?php echo ($vo["chapter_id"]); ?>" onclick="return confirm('确定要删除?')">删除</a></td>
   </tr><?php endforeach; endif; else: echo "" ;endif; ?>
   <!--分类循环结束-->
-  <tr align="right" bgcolor="#F9FCEF">
+  <tr class="admin-page" align="right" bgcolor="#F9FCEF">
 	<td colspan="6" align="center" height="36">
-		<span><?php echo ($page); ?></span>
+		<div><?php echo ($page); ?></div>
 	</td>
 </tr>
 </tbody></table>
