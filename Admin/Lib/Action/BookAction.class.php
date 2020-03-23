@@ -171,8 +171,12 @@ class BookAction extends PublicAction {
     public function do_chapter_edit(){
         $this->islogin();
         $chapter=D('chapter');
+        $book=M('Book');
         $chapter->create();
-        //$score=
+        $score=getData('Chapter',I('chapter_id'),'much');  //原来的 所需积分
+        //dump(I('chapter_id'));
+        $book_id=getData('Chapter',I('chapter_id'),'book_id');
+
         $data['chapter_id']=I('chapter_id');
         $data['chapter_title']=I('chapter_title');
         $data['charge']=I('charge');
@@ -181,15 +185,22 @@ class BookAction extends PublicAction {
         $data['update_time']=time();
         $data['chapter_size']=mb_strlen(I('chapter_content'),"utf-8");
         
-        
+        $disscore=I('chapter_much')-$score; //积分变化
+        $bookList=$book->where(array('book_id'=>$book_id))->find();
+        $count= $bookList['needscore']+$disscore;
         $result=$chapter->save($data);
 
-        // dump( $chapter->create());
-        // dump($data);
-        // dump($result); die;
         if($result){
+            if($disscore){
+                $data['needscore']= $count; //改变的数据
+                $condition['book_id']=$book_id;  // 条件
+                $score=$book->where($condition)->setField($data);
+               
+            }
+            
             $this->success('章节修改成功');
         }else{
+           
             $this->error('章节修改失败');
             
         }
@@ -256,8 +267,25 @@ class BookAction extends PublicAction {
     public function chapter_del(){
         $id=$_GET['id'];
         $chapter=M('Chapter');
-        $result=$chapter->delete($id);
+        $book=M('Book');
+        
+       
+
+        $book_id=getData('Chapter',$id,'book_id');
+        $needscore=getData('Chapter',$id,'much');
+        $dis=getData('Book',$book_id,'needscore')-$needscore;
+        // dump($id);
+        // dump($book_id);
+        // dump($needscore);
+        // dump($dis); die;
+
+        
+
         if($result){
+            $data['needscore']=$dis ;   //需要更新数据
+            $condition['book_id']=$book_id;  // 条件
+            $score=$book->where($condition)->setField($data);
+            $result=$chapter->delete($id);
                 $this->success('章节删除成功！');
             }else{
                 $this->erroe('章节删除失败！');
