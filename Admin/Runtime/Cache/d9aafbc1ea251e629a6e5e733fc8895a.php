@@ -45,28 +45,18 @@
 			<!-- Start Content Box -->
 
 			<div class="content-box-header">
-
-				<h3 style="cursor: s-resize;">小说管理</h3>
-
+				<h3 style="cursor: s-resize;">书籍管理</h3>
 				<ul class="content-box-tabs">
-					<!-- <li><a href="#" onclick="document.form1.submit();">更新排序</a></li> -->
 					<li>
-						<a class="new-add" href="__APP__/book/book_add" style="font-size:14px;">添加小说</a>
+						<a class="new-add" href="__APP__/book/book_add" style="font-size:14px;">添加书籍</a>
 					</li>
 				</ul>
-
-				<div class="clear"></div>
-
-			</div> <!-- End .content-box-header -->
+			</div>
 
 			<div class="content-box-content">
 
-				<div style="display: block;" class="tab-content  default-tab" id="tab1">
-					<!--  快速转换位置按钮  -->
-
-
-					<!--  内容列表   -->
-
+				<div style="display: block;" class="tab-content  default-tab">
+				
 
 					<form name="form2">
 						<table style="margin-top:8px" cellpadding="2" cellspacing="1" align="center" border="0"
@@ -74,7 +64,6 @@
 							<tbody>
 								<tr align="center" height="25">
 									<td width="6%"><strong>ID</strong></td>
-
 									<td width="15%"><strong>书名</strong></td>
 									<td width="7%"><strong>类别</strong></td>
 									<td width="8%"><strong>作者</strong></td>
@@ -91,7 +80,7 @@
 
 										<td width="15%">《<?php echo ($book["book_name"]); ?>》</td>
 										<td width="7%">
-											<?php echo ($book["book_cat"]); ?>
+											<?php echo ($book["tags"]); ?>
 											<!-- <?php if($$book["book_cat"] == 55): ?>新书上传
 												<?php elseif($book["book_cat"] == 56): ?>情节展开
 												<?php elseif($book["book_cat"] == 57): ?>精彩纷呈
@@ -100,7 +89,7 @@
 												<?php else: endif; ?> -->
 										</td>
 										<td width="8%">
-											<?php echo ($book["user_id"]); ?>
+											<?php echo ($book["writer"]); ?>
 										</td>
 										<td width="6%">
 											<?php if($book["progress"] == 55): ?>新书上传
@@ -120,7 +109,7 @@
 										<td width="18%"><?php echo (date("Y-m-d H:i",$book["update_time"])); ?></td>
 										<td width="12%">
 											<a href="__APP__/book/chapter_add?book_id=<?php echo ($book["book_id"]); ?>">添加章节</a>|
-											<a href="__APP__/book/book_edit?book_id=<?php echo ($book["book_id"]); ?>">审核</a>|
+											<a href="__APP__/book/book_edit?book_id=<?php echo ($book["book_id"]); ?>">修改</a>|
 											<a href="__APP__/book/book_del?book_id=<?php echo ($book["book_id"]); ?>"
 												onclick="return confirm('确定要删除?')">删除</a>
 										</td>

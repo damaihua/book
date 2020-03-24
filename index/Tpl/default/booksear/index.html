@@ -10,17 +10,26 @@
 <meta name="generator" content="jieqi.com" />
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+<style>
+	.book-sort td a.current{color:green;}
+</style>
+<script src="__JS__/jquery-1.8.3.min.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
-<style>
-	
-</style>
+<script>
+	$(function(){
+
+		// $('.book-sort td a').on('click',function(){
+		// 	$(this).addClass('current')
+		// })
+	})
+</script>
 </head>
 <body>
 <!---头部部分--->
 <include file="Public:header" />
 <div class="wrap">
-	<table width="100%" class="grid" cellspacing="1" align="center" style="margin-bottom:5px;">
+	<table  width="100%" class="grid book-sort" cellspacing="1" align="center" style="margin-bottom:5px;">
 		<caption>筛选条件</caption>
 		<tr valign="middle" align="left">
 		<td class="tdl" width="80">
@@ -81,26 +90,38 @@
 				<th width="6%">状态</th>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody >
 			<foreach name="book" item="vo">
 				<tr>
 					<td class="odd even">
 						<a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>"><{$vo.book_name}></a>
 					</td>
 					<td class="odd even">
-						<a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>"><{$vo.cat_name}></a>
+						<a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>">
+							<switch name="vo.book_cat">
+								<case value="1">玄幻仙侠</case>
+								<case value="2">古风古韵</case>
+								<case value="3">文学作品</case>
+								<case value="4">成功励志</case>
+								<case value="6">历史传奇</case>
+								<case value="49">人文社科</case>
+								<case value="50">悬疑探险</case>
+							</switch>	
+							
+							
+						</a>
 					</td>
 					<td class="even">
 						<a href="__APP__/chapters/read/chapter_id/<{$vo['chapter'][0]['chapter_id']}>" target="_blank"><{$vo['chapter'][0]['chapter_title']}></a>
 					</td>
 					<td class="odd even">
-						<a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3136702" target="_blank"><{$vo.user_name}></a>
+						<a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3136702" target="_blank"><{$vo.writer}></a>
 					</td>
 					<td class="even">
 						<{$vo.tags}>
 					</td>
 					<td class="even">
-						<{$vo.total}>
+						<{$vo.book_size}>
 					</td>
 					<td class="odd even" align="center">
 						<{$vo.update_time|date="Y-m-d",###}>

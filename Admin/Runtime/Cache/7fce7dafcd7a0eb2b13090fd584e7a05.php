@@ -109,7 +109,7 @@
 										<!-- <input type="checkbox" /> -->
 										<a href="cat_edit?cid=<?php echo ($cat["cat_id"]); ?>">
 											<?php echo ($cat["cat_name"]); ?>
-										</a>(小说：<?php echo ($cat["total"]); ?>本) <a href="cat_edit?cid=<?php echo ($cat["cat_id"]); ?>"><img
+										</a>(书籍：<?php echo ($cat["total"]); ?>本) <a href="cat_edit?cid=<?php echo ($cat["cat_id"]); ?>"><img
 													src="__PUBLIC__/admin/images/write2.gif"></a></td>
 									<td width="17%" align="center">
 										<?php if($cat["status"] == 1): ?>显示

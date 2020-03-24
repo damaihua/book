@@ -66,7 +66,7 @@
 								
 								
 								<p>
-									<br><input class="button" name="imageField" value="编辑" type="submit">
+									<br><input class="button" name="imageField" value="修改" type="submit">
 								</p>
 								
 							</fieldset>

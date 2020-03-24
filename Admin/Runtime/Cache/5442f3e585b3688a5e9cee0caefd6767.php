@@ -62,7 +62,10 @@
 									<label>小说标题</label>
 									<input name="book_name" style="width:80px" type="text"> 
 								</p>
-								
+								<p>
+									<label>标签</label>
+									<input name="tags" type="text" >
+								</p>
 								<p>
 									<label>作者</label>
 								  <input name="writer" type="text">
@@ -94,6 +97,8 @@
                                     </select>
                                     </span>
 								</p>
+								
+
 								<p>
 									<label>小说进度</label>
                                    <span id="typeidct">
@@ -117,7 +122,7 @@
                                 </p>                                
 
 								<p>
-									<br><input class="button" name="submit" value="编辑" type="submit">
+									<br><input class="button" name="submit" value="确认添加" type="submit">
 								</p>
 								
 							</fieldset>
@@ -128,142 +133,7 @@
 						
 					</div> <!-- End #tab1 -->
 					
-					<div style="display: none;" class="tab-content" id="tab2">
-						<fieldset> 
-						
-							<p>
-								<label>发布时间</label>
-                                    <input name="pubdate" value="2014-04-07 21:37:00" id="pubdate" style="width:220px" type="text">	 
-							</p>
-				  <script language="javascript" type="text/javascript">
-					Calendar.setup({
-						inputField     :    "pubdate",
-						ifFormat       :    "%Y-%m-%d %H:%M:%S",
-						showsTime      :    true,
-						timeFormat     :    "24"
-					});
-				 </script> 
-							
-							<p>
-								<label>作者</label>
-								  <input class="text-input small-input" id="writer" name="writer" type="text">
-							    
-							</p>
-							
-							<p>
-						    <label>来源</label>
-								<input class="text-input small-input" id="source" name="source" type="text"> 
-							</p>
-							
-							<p>
-								<label>TAG标签</label>
-								<input class="text-input small-input" name="tags" id="tags" style="width:300px" onchange="$Obj('keywords').value=this.value;" type="text">(','号分开，单个标签小于12字节)
-							</p>
-                            
-							
-							<p>
-								<label>附加选项</label>
-                                <input name="remote" class="np" id="remote" value="1" checked="checked" type="checkbox">
-                                下载远程图片和资源
-                                <input name="dellink" class="np" id="dellink" value="1" type="checkbox">
-                                删除非站内链接 <a href="javascript:OpenMyWin('article_allowurl_edit.php');">[设置]</a>
-                                <input name="autolitpic" class="np" id="autolitpic" value="1" checked="checked" type="checkbox">
-                                提取第一个图片为缩略图
-                                <input name="needwatermark" value="1" class="np" checked="checked" type="checkbox">
-                                图片是否加水印
-							</p>
-                            
-                            
-							
-							<p>
-								<label>seo关键词</label>
-								<input class="text-input small-input" name="keywords" id="keywords" type="text"><input name="Submit" value="浏览..." style="width:56;height:20" onclick="SelectKeywords('form1.keywords');" type="button"><input name="autokey" onclick="ShowHide('keywords');" ;="" class="np" id="autokey" value="1" checked="checked" type="checkbox">
-自动获取，手动填写用","分开
-							</p>
-								
-							<p>
-								<label>标题颜色</label>
-                                <input name="color" id="color" style="width:120px" type="text">
-                                <input name="modcolor" id="modcolor" value="选取" onclick="ShowColor(event,this)" type="button">
-							</p>							
-							
-							<p>
-								<label>自定义文件名（可代替id为唯一标识，建议为小写字母，可以作为seo使用，例如标题拼音、英文翻译等）</label>
-								<input class="text-input medium-input" id="filename" name="filename" type="text"> （不包括后缀名如.html等）
-							</p>
-							
-							<p>
-								<label>点击</label>
-							  <input class="text-input small-input" name="click" value="86" style="width:100px;" type="text">
-							</p>
-							
-						  <p>
-						    <label>评论选项</label>
-                              <input name="notpost" class="np" value="0" checked="checked" type="radio">允许评论
-                              &nbsp;
-                              <input name="notpost" class="np" value="1" type="radio">禁止评论                            
-
-							</p>
-							
-							<p>
-								<label>文章排序</label>
-                                <select name="sortup" id="sortup" style="width:150px">
-                                <option value="0" selected="selected">默认排序</option>
-                                <option value="7">置顶一周</option>
-                                <option value="30">置顶一个月</option>
-                                <option value="90">置顶三个月</option>
-                                <option value="180">置顶半年</option>
-                                <option value="360">置顶一年</option>
-                                </select>
-							</p>
-							<p>
-								<label>权重</label>
-								<input name="weight" id="weight" style="width:50px" value="0" type="text">(越小越靠前)
-							</p>                            
-							<p>
-								<label>阅读权限</label>
-                                <select name="arcrank" id="arcrank" style="width:150px">
-                                         <option selected="selected" value="0">开放浏览</option>
-     <option value="-1">待审核稿件</option>
-     <option value="10">注册会员</option>
-     <option value="50">中级会员</option>
-     <option value="100">高级会员</option>
-     <option value="20">低级会员</option>
-     <option value="150">给力会员</option>
-     <option value="180">超能会员</option>
-                                </select> 
-							</p>
-                            
-							<p>
-								<label>消费金币</label>
-                                <input class="text-input small-input" name="money" id="money" value="0" size="10" type="text">
-							</p>
-                                                        
-                            							
-							<p>
-								<label>发布选项</label>
-                                <input name="ishtml" value="1" checked="checked" type="radio">生成HTML 
-                                <input name="ishtml" value="0" type="radio">仅动态浏览
-							</p>
-							
-							<p>
-								<label>分页方式</label>
-                                <input name="sptype" class="np" value="hand" checked="checked" type="radio">
-                                手动
-                                <input name="sptype" value="auto" class="np" type="radio">
-                                自动　大小：
-                                <input name="spsize" id="spsize" value="5" size="6" type="text"> K
-                                (分页符为： <font color="#FF0000">#p#分页标题#e# </font>)
-							</p>
-
-							
-							<p>
-									<br><input class="button" name="imageField" value="编辑" type="submit">
-							</p>
-								
-						</fieldset>
-						<div class="clear"></div><!-- End .clear -->
-					</div> <!-- End #tab2 -->
+					
 					</form>
 					
 				</div> <!-- End .content-box-content -->

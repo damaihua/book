@@ -34,28 +34,33 @@ class BookAction extends PublicAction {
         $this->assign('proglist',$proglist);
         $this->display();
     }
-    // new-add 添加小说
+    // new-add 添加书籍
     public function book_insert(){
         $this->islogin();
         //判断是否是通过表单提交的
         if(I('submit')){
             //实例化一个book类
             $book=M('Book');
+            $cats=M('Cats');
             $data['book_name']=I('book_name');
             $data['flags']=implode(',', I('flags'));
             $data['book_cat']=I('book_cat');
             $data['progress']=I('progress');
             $data['book_info']=I('book_info');
-            //$data['user_id']=I('writer');
+            //$data['tags']=I('book_cat');
+            
+            $data['writer']=I('writer');
+            //$cat_id=I('book_cat');
+            //$book_cats=getData('Cats',$cat_id,'cat_name');
+            $data['tags']=I('tags');
+
+
             $data['public_time']=time();//小说的创建时间
             //调用public中的上传类,实现图片上传功能
-           
             $cover = $this->upload('cover','cover','180','225');
-          // dump($cover); exit;
             if($cover){
                $data['book_cover']=$cover;
             }
-
             // 判断输入是否存在
             $result=$book->where(array('book_name'=>I('book_name')))->find();
             if($result){
@@ -64,20 +69,18 @@ class BookAction extends PublicAction {
 
             $book->create();
             $result =  $book->add($data);
+            
             if($result) {
-                
+                 //需要更新数据
+                $total=getData('Cats',$cat_id,'total');
+                $data['total']=$total+1;
+                $condition['cat_id']=$cat_id;  // 条件
+                $cats=$cats->where($condition)->setField($data);
                 $this->success('小说添加成功！');
-
             }else{
                 $this->error('小说添加失败！');
             }
-
-  
-       
-
         }
-
-       
     }
     //小说审核页面
     public function book_edit(){
@@ -108,9 +111,12 @@ class BookAction extends PublicAction {
         $data['book_cat']=I('book_cat');
         $data['progress']=I('progress');
         $data['book_info']=I('book_info');
-        // dump($data);exit;
+        $data['writer']=I('writer');
+        //$cat_id=I('book_cat');
+       // $book_cats=getData('Cats',$cat_id,'cat_name');
+        //$data['tags']=$book_cats;
+        $data['tags']=I('tags');
         $book=D('Book');
-        //$book=M('Book');
         $book->create();
         $result=$book->save($data);
         if($result){
@@ -122,16 +128,22 @@ class BookAction extends PublicAction {
     }
     //小说删除方法
     public function book_del(){
+        $cats=M('Cats');
         $book_id=$_GET['book_id'];
         // 检测该小说是否有章节，如果有提示不允许删除，没有则可以删除
-        $book=M('book');
-        $total=$book->where("book_id=$book_id")->getField('total');
-        // echo $total;exit;
+        $book=M('Book');
+        $cat_id=getData('Book',$book_id,'book_cat');
         if($total){
             $this->error('该小说有章节，不允许删除！');
         }else{
             $result=$book->where("book_id=$book_id")->delete();
             if($result){
+                 //需要更新数据
+                 $total=getData('Cats',$cat_id,'total');
+                 $data['total']=$total-1;
+                 $condition['cat_id']=$cat_id;  // 条件
+                 $cats=$cats->where($condition)->setField($data);
+                 
                 $this->success('小说删除成功！');
             }else{
                 $this->erroe('小说删除失败！');
@@ -174,6 +186,7 @@ class BookAction extends PublicAction {
         $book=M('Book');
         $chapter->create();
         $score=getData('Chapter',I('chapter_id'),'much');  //原来的 所需积分
+        $size=getData('Chapter',I('chapter_size'),'much');
         //dump(I('chapter_id'));
         $book_id=getData('Chapter',I('chapter_id'),'book_id');
 
@@ -184,20 +197,26 @@ class BookAction extends PublicAction {
         $data['content']=I('chapter_content');
         $data['update_time']=time();
         $data['chapter_size']=mb_strlen(I('chapter_content'),"utf-8");
-        
+
+        $dissize=mb_strlen(I('chapter_content'),"utf-8")-$size;
         $disscore=I('chapter_much')-$score; //积分变化
         $bookList=$book->where(array('book_id'=>$book_id))->find();
         $count= $bookList['needscore']+$disscore;
+        $allsize=$bookList['book_size']+$dissize;
         $result=$chapter->save($data);
 
         if($result){
+            
             if($disscore){
                 $data['needscore']= $count; //改变的数据
                 $condition['book_id']=$book_id;  // 条件
                 $score=$book->where($condition)->setField($data);
-               
             }
-            
+            if($dissize){
+                $data['book_size']= $allsize; //改变的数据
+                $condition['book_id']=$book_id;  // 条件
+                $score=$book->where($condition)->setField($data);
+            }
             $this->success('章节修改成功');
         }else{
            
@@ -230,7 +249,6 @@ class BookAction extends PublicAction {
             
             //获取 章节所对应的book中的相关数据
             $bookList=$book->where(array('book_id'=>$book_id))->find();
-            //$book_name=$bookList['book_name'];
             //保存数据到chapter
             $data['chapter_title']=I('chapter_title');
             $data['content']=I('chapter_content'); 
@@ -239,15 +257,19 @@ class BookAction extends PublicAction {
             $data['update_time']=time();
             $data['book_name']=I('book_name');
             $data['book_id']=$book_id;
+            $data['chapter_size']=I('chapter_content'); 
+            $data['chapter_size']=mb_strlen(I('chapter_content'),"utf-8");
             $chapter->create();
             $result = $chapter->add($data);
             
             if($result) {
                 //是否免费score 保存到book  章节总数+1
                 $count= $bookList['needscore']+I('chapter_much'); //所需积分相加
+                $size=$bookList['book_size']+mb_strlen(I('chapter_content'),"utf-8");// 字数
                 $data['needscore']= $count;   //需要更新数据
                 $data['total']=$bookList['total']+1;
                 $data['update_time']=time();
+                $data['book_size']=$size;
                 $condition['book_id']=$book_id;  // 条件
                 $score=$book->where($condition)->setField($data);
                 $this->success('章节添加成功！');
@@ -255,10 +277,6 @@ class BookAction extends PublicAction {
                 echo 'false'; exit;
                 $this->error('章节添加失败！');
             }
-
-            
-
-            
         }
 
 
@@ -274,15 +292,12 @@ class BookAction extends PublicAction {
         $book_id=getData('Chapter',$id,'book_id');
         $needscore=getData('Chapter',$id,'much');
         $dis=getData('Book',$book_id,'needscore')-$needscore;
-        // dump($id);
-        // dump($book_id);
-        // dump($needscore);
-        // dump($dis); die;
-
         
+        $result=$chapter->delete($id);
 
         if($result){
             $data['needscore']=$dis ;   //需要更新数据
+            $data['total']=$bookList['total']-1;
             $condition['book_id']=$book_id;  // 条件
             $score=$book->where($condition)->setField($data);
             $result=$chapter->delete($id);
@@ -378,18 +393,19 @@ class BookAction extends PublicAction {
     //    $data['cat_name']=I('cat_name');
     //     $data['cat_sortname']=I('cat_sortname');
     //     $data['ordernum']=I('ordernum');
-        
+
+        $book=M('Book');
         $cats->create();
         $result = $cats->save();
-        //$result = $cats->save($data);
-        // dump($data);
-        // dump($result); 
+        $cat_id=I('cat_id');
+        
 
         if($result) {
+            $data['cat_name']=I('cat_name');//需要更新数据
+            $condition['book_cat']=$cat_id;  // 条件
+            $score=$book->where($condition)->setField($data);
             $this->success('分类修改成功！');
         }else{
-            dump('false');
-            exit;
             $this->error('分类修改错误！');
         }
          

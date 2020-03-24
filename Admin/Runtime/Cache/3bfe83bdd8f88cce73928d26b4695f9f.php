@@ -104,8 +104,10 @@ height:18px
 		
 		<a href="__APP__/book/chapter_edit?chapter_id=<?php echo ($vo["chapter_id"]); ?>">修改</a>|
 			<!-- <a href="__APP__/book/cat_edit?cid=<?php echo ($cat["cat_id"]); ?>">修改</a> -->
+		<!-- <a href="__APP__/book/chapter_del?id=<?php echo ($vo["chapter_id"]); ?>" onclick="return confirm('确定要删除?')">删除</a></td> -->
 		<a href="__APP__/book/chapter_del?id=<?php echo ($vo["chapter_id"]); ?>" onclick="return confirm('确定要删除?')">删除</a></td>
-  </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+  
+	</tr><?php endforeach; endif; else: echo "" ;endif; ?>
   <!--分类循环结束-->
   <tr class="admin-page" align="right" bgcolor="#F9FCEF">
 	<td colspan="6" align="center" height="36">

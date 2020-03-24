@@ -10,11 +10,20 @@
 <meta name="generator" content="jieqi.com" />
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
+<style>
+	.book-sort td a.current{color:green;}
+</style>
+<script src="__JS__/jquery-1.8.3.min.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
-<style>
-	
-</style>
+<script>
+	$(function(){
+
+		// $('.book-sort td a').on('click',function(){
+		// 	$(this).addClass('current')
+		// })
+	})
+</script>
 </head>
 <body>
 <!---头部部分--->
@@ -58,7 +67,7 @@
 
 
 <div class="wrap">
-	<table width="100%" class="grid" cellspacing="1" align="center" style="margin-bottom:5px;">
+	<table  width="100%" class="grid book-sort" cellspacing="1" align="center" style="margin-bottom:5px;">
 		<caption>筛选条件</caption>
 		<tr valign="middle" align="left">
 		<td class="tdl" width="80">
@@ -113,25 +122,35 @@
 				<th width="6%">状态</th>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody >
 			<?php if(is_array($book)): foreach($book as $key=>$vo): ?><tr>
 					<td class="odd even">
 						<a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>"><?php echo ($vo["book_name"]); ?></a>
 					</td>
 					<td class="odd even">
-						<a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>"><?php echo ($vo["cat_name"]); ?></a>
+						<a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>">
+							<?php switch($vo["book_cat"]): case "1": ?>玄幻仙侠<?php break;?>
+								<?php case "2": ?>古风古韵<?php break;?>
+								<?php case "3": ?>文学作品<?php break;?>
+								<?php case "4": ?>成功励志<?php break;?>
+								<?php case "6": ?>历史传奇<?php break;?>
+								<?php case "49": ?>人文社科<?php break;?>
+								<?php case "50": ?>悬疑探险<?php break; endswitch;?>	
+							
+							
+						</a>
 					</td>
 					<td class="even">
 						<a href="__APP__/chapters/read/chapter_id/<?php echo ($vo['chapter'][0]['chapter_id']); ?>" target="_blank"><?php echo ($vo['chapter'][0]['chapter_title']); ?></a>
 					</td>
 					<td class="odd even">
-						<a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3136702" target="_blank"><?php echo ($vo["user_name"]); ?></a>
+						<a href="http://www.cuiweiju.com/modules/article/authorpage.php?id=3136702" target="_blank"><?php echo ($vo["writer"]); ?></a>
 					</td>
 					<td class="even">
 						<?php echo ($vo["tags"]); ?>
 					</td>
 					<td class="even">
-						<?php echo ($vo["total"]); ?>
+						<?php echo ($vo["book_size"]); ?>
 					</td>
 					<td class="odd even" align="center">
 						<?php echo (date("Y-m-d",$vo["update_time"])); ?>

@@ -90,7 +90,9 @@ table.grid td{
 	padding: 3px 5px;
 	line-height:30px;
 }
-table.grid td a{float:left; line-height: 30px;; margin:0 10px;}
+table.grid td a{
+	/* float:left; */
+	 line-height: 30px;; margin:0 10px;}
 
 table.hide, table.hide th, table.hide td{
 	/* border: 0; */

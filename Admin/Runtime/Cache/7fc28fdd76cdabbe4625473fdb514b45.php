@@ -56,6 +56,14 @@
 									value="<?php echo getData('Book',$book_id,'book_name');?>">
 							</p>
 							<p>
+								<label>标签</label>
+								<input name="tags" type="text" value="<?php echo getData('Book',$book_id,'tags');?>">
+							</p>
+							<p>
+								<label>作者</label>
+							  <input name="writer" type="text" value="<?php echo getData('Book',$book_id,'writer');?>">
+							</p>
+							<p>
 								<label>推荐位</label>
 								<input name="flags[]" type="checkbox" class="np" id="flagsh" value="a"
 									checked="checked">
