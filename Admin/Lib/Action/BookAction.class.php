@@ -286,9 +286,6 @@ class BookAction extends PublicAction {
         $id=$_GET['id'];
         $chapter=M('Chapter');
         $book=M('Book');
-        
-       
-
         $book_id=getData('Chapter',$id,'book_id');
         $needscore=getData('Chapter',$id,'much');
         $dis=getData('Book',$book_id,'needscore')-$needscore;
