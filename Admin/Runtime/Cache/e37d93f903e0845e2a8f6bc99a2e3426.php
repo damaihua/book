@@ -76,7 +76,7 @@
 					<h3  style="cursor: s-resize;">系统信息</h3>
 				</div> 
 				<div  class="content-box-content">
-					<div  class="tab-content default-tab"  id="tab1"  style="display: block;"> 
+					<div  class="tab-content default-tab"  style="display: block;"> 
 						<table>
 							<tbody>
 								<tr  class="alt-row">
@@ -105,7 +105,7 @@
 								</tr>
 																<tr  class="alt-row">
 									<td>服务器时间</td>
-									<td><div  class="fRight mR10"  id="time">2014年3月31日 上午1:03:50 星期一</div></td>
+									<td><div  class="fRight mR10"  id="time"></div></td>
 								</tr>
 								<tr>
 									<td>当前附件尺寸</td>
