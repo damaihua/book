@@ -102,9 +102,7 @@
 				</p>
 				
 				<p class="cz_bar">
-					<!-- __URL__/read/chapter_id/ -->
-					<!-- <?php echo ($vo["chapter_id"]); ?> -->
-					<!-- <?php echo ($chapter[0]['chapter_id']+1); ?> -->
+				
 					<a href="__URL__/read/chapter_id/<?php echo ($chapter[0]['chapter_id']-1); ?>">上一章</a>
 					<a href="__URL__/chaplist/book_id/<?php echo ($chapter[0]['book_id']); ?>">返回目录</a>
 					<a href="<?php echo ($chapter[0]['chapter_id']+1); ?>">下一章 </a>

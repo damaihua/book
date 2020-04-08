@@ -1,0 +1,251 @@
+[ 2020-04-04T17:00:55+08:00 ] 0.0.0.0 /book/admin.php/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.037434s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.041840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042387s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_softname D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 4 行.
+NOTIC: [8] Undefined variable: cfg_version D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 4 行.
+NOTIC: [8] Undefined variable: redmsg D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 116 行.
+NOTIC: [8] Undefined variable: cfg_powerby D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 117 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.812939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.813099s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.193139s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002885s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001773s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.200699s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003150s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003446s ]
+
+[ 2020-04-04T17:00:56+08:00 ] 0.0.0.0 /book/admin.php/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_softname D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 4 行.
+NOTIC: [8] Undefined variable: cfg_version D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 4 行.
+NOTIC: [8] Undefined variable: redmsg D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 116 行.
+NOTIC: [8] Undefined variable: cfg_powerby D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 117 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.055779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055892s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000579s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000695s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002838s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000854s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2020-04-04T17:01:00+08:00 ] 0.0.0.0 /book/admin.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001129s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+
+[ 2020-04-04T17:01:00+08:00 ] 0.0.0.0 /book/admin.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001013s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+
+[ 2020-04-04T17:01:19+08:00 ] 0.0.0.0 /book/admin.php/login/check
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.114234s ]
+SQL: SELECT * FROM `book_admin` WHERE ( admin_name='admin' ) LIMIT 1   [ RunTime:0.072439s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.145094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145575s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001460s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001971s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008746s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002756s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003020s ]
+
+[ 2020-04-04T17:01:31+08:00 ] 0.0.0.0 /book/admin.php/login/check
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010215s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.014847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015034s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.039819s ]
+SQL: SELECT * FROM `book_admin` WHERE ( admin_name='admin' ) LIMIT 1   [ RunTime:0.001023s ]
+NOTIC: [8] Undefined index: role_id D:\wamp\www\book\Admin\Lib\Action\LoginAction.class.php 第 36 行.
+
+[ 2020-04-04T17:01:31+08:00 ] 0.0.0.0 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048663s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001042s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001025s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000833s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004536s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001898s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002088s ]
+
+[ 2020-04-04T17:01:32+08:00 ] 0.0.0.0 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001449s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050834s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000651s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000792s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001896s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013274s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001262s ]
+
+[ 2020-04-04T17:01:34+08:00 ] 0.0.0.0 /book/admin.php/index/index_body
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.029651s ]
+INFO: [ route_check ] --END-- [ RunTime:0.029797s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.362647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.363236s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002954s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003283s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002512s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011828s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002324s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002562s ]
+
+[ 2020-04-04T17:01:39+08:00 ] 0.0.0.0 /book/admin.php/member/member_main
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001758s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002111s ]
+SQL: SHOW COLUMNS FROM `book_user` [ RunTime:0.104834s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_user` LIMIT 1   [ RunTime:0.039262s ]
+SQL: SELECT a.user_id as user_id,a.user_name as user_name,a.user_email as user_email,a.user_type as user_type,a.user_status as user_status,a.reg_time as reg_time,b.user_nicename as user_nicename,b.user_score as user_score FROM book_user as a LEFT JOIN book_user_info as b on a.user_id =b.user_id LIMIT 0,10   [ RunTime:0.068332s ]
+NOTIC: [8] Undefined variable: regtime D:\wamp\www\book\Admin\Lib\Action\MemberAction.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.087445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087933s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002027s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003512s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002837s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011023s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002314s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002545s ]
+
+[ 2020-04-04T17:01:44+08:00 ] 0.0.0.0 /book/admin.php/book/cat_main/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.038974s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 ) ORDER BY ordernum asc  [ RunTime:0.074282s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page D:\wamp\www\book\Admin\Runtime\Cache\7fce7dafcd7a0eb2b13090fd584e7a05.php 第 131 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\book\Admin\Runtime\Cache\7fce7dafcd7a0eb2b13090fd584e7a05.php 第 145 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045204s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001317s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001787s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001440s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006995s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002080s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002304s ]
+
+[ 2020-04-04T17:01:47+08:00 ] 0.0.0.0 /book/admin.php/book/cat_edit?cid=50
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001032s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.029888s ]
+SQL: SELECT * FROM `book_cats` WHERE ( `cat_id` = 50 ) LIMIT 1   [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069801s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002265s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001838s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001426s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008478s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004345s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004789s ]
+
+[ 2020-04-04T17:02:44+08:00 ] 0.0.0.0 /book/admin.php/book/cat_main/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001132s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `book_cats` [ RunTime:0.018222s ]
+SQL: SELECT * FROM `book_cats` WHERE ( type=0 ) ORDER BY ordernum asc  [ RunTime:0.009242s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page D:\wamp\www\book\Admin\Runtime\Cache\7fce7dafcd7a0eb2b13090fd584e7a05.php 第 131 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\book\Admin\Runtime\Cache\7fce7dafcd7a0eb2b13090fd584e7a05.php 第 145 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075888s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000688s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000632s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003037s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001245s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001367s ]
+

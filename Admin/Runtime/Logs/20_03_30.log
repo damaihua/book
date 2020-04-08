@@ -1,0 +1,123 @@
+[ 2020-03-30T23:20:22+08:00 ] 0.0.0.0 /book/admin.php/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000972s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cfg_softname D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 4 行.
+NOTIC: [8] Undefined variable: cfg_version D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 4 行.
+NOTIC: [8] Undefined variable: redmsg D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 116 行.
+NOTIC: [8] Undefined variable: cfg_powerby D:\wamp\www\book\Admin\Runtime\Cache\b46a69aae7a32d1baa706789852ef81e.php 第 117 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019475s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001120s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001243s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001080s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007883s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001538s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2020-03-30T23:20:22+08:00 ] 0.0.0.0 /book/admin.php/Public/verify/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002491s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+
+[ 2020-03-30T23:20:31+08:00 ] 0.0.0.0 /book/admin.php/login/check
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `book_admin` [ RunTime:0.008349s ]
+SQL: SELECT * FROM `book_admin` WHERE ( admin_name='admin' ) LIMIT 1   [ RunTime:0.000534s ]
+NOTIC: [8] Undefined index: role_id D:\wamp\www\book\Admin\Lib\Action\LoginAction.class.php 第 36 行.
+
+[ 2020-03-30T23:20:31+08:00 ] 0.0.0.0 /book/admin.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002541s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002839s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067605s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000478s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000891s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002213s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005324s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004126s ]
+
+[ 2020-03-30T23:20:31+08:00 ] 0.0.0.0 /book/admin.php/index/index_body
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002839s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038240s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005891s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005201s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001914s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015877s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001747s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001966s ]
+
+[ 2020-03-30T23:20:32+08:00 ] 0.0.0.0 /book/admin.php/index/index_menu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004458s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061500s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001967s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002853s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006353s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013647s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003276s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003449s ]
+
+[ 2020-03-30T23:20:57+08:00 ] 0.0.0.0 /book/admin.php/index/index_body
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002130s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002288s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024407s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000677s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000726s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001220s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004171s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001669s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001799s ]
+
