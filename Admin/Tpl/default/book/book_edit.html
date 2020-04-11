@@ -34,10 +34,11 @@
 <body>
 	<div id="main-content">
 		<div class="content-box">
-			<!-- Start Content Box -->
+		
 
 			<div class="content-box-header">
-				<h3 style="cursor: s-resize;">小说审核</h3>
+				<h3 style="cursor: s-resize;">书籍修改</h3>
+				<a class="close-btn" href="javascript:void(0);" onClick="javascript :history.back(-1);">关闭</a>
 			</div> 
 
 			<div class="content-box-content">
@@ -51,8 +52,8 @@
 
 						<fieldset>
 							<p>
-								<label>小说标题</label>
-								<input name="book_name" style="width:80px" type="text"
+								<label>书名</label>
+								<input name="book_name" type="text"
 									value="<{:getData('Book',$book_id,'book_name')}>">
 							</p>
 							<p>
@@ -74,16 +75,12 @@
 								编辑推荐[c]
 								<input class="d" name="flags[]" id="flagss" value="d" type="checkbox">精品推荐[d] </p>
 
-
 							<p>
-								<label>小说封面</label>
+								<label>封面</label>
 
 								<img name="cover" src="__ROOT__/<{:getData('Book',$book_id,'book_cover')}>" width="180"
 									height="225" alt="" />
-
-
-
-
+									<input name='cover' type="file" />
 							</p>
 							<p></p>
 
@@ -98,7 +95,7 @@
 
 							</p>
 							<p>
-								<label>小说进度</label>
+								<label>书籍进度</label>
 								<span id="typeidct">
 									<select name="progress" id="progress" style="width:240px">
 										<{$proglist}>
@@ -107,7 +104,7 @@
 
 							</p>
 							<p>
-								<label>小说简介</label>
+								<label>书籍简介</label>
 								<textarea name="book_info"
 									style="width:800px;height:200px;visibility:hidden;"><{:getData('Book',$book_id,'book_info')}></textarea>
 
@@ -120,8 +117,9 @@
 
 							</p>
 
-							<p>
-								<br><input class="button" name="imageField" value="审核通过" type="submit">
+							<p class="operate-btn">
+								<input class="button" name="imageField" value="修改" type="submit">
+								<a class="cancel-btn" href="javascript:void(0);" onClick="javascript:history.back(-1);">取消</a>
 							</p>
 
 						</fieldset>

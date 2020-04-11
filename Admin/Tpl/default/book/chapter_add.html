@@ -9,59 +9,48 @@
 <script  language="javascript"  src="__PUBLIC__/admin/js/jquery.min.js"  type="text/javascript"></script>	
 <script  type="text/javascript"  src="__PUBLIC__/admin/js/admin.jquery.configuration.js"></script>
 <script  src="__PUBLIC__/admin/js/frame.js"  language="javascript"  type="text/javascript"></script>
-
+<script charset="UTF-8"src="__PUBLIC__/kindeditor/kindeditor-min.js"></script> 
 <script  language="javascript"  type="text/javascript">
 	window.onload=function (){
 		setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
 	}
 </script>
-	
-</head>
-<body>
-<div  id="main-content">
-			
-			<h2>欢迎访问网站管理后台</h2>
-			 <script>
-    //             $(".shortcut-button").click(function(){
-    //                 curhref=$(this).attr('href');
- 
-    //                 $("#main-nav li ul",window.parent.menu.document).hide(); // Slide up all sub menus except the one clicked
+<script>
+	var editor;
+	KindEditor.ready(function(K) {
+		editor = K.create('textarea[name="chapter_content"]', {
+			resizeType : 1,
+			allowPreviewEmoticons : false,
+			allowImageUpload : false,
+			items : [
+				'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+				'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+				'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+		});
+	});
 
-	//   $(".nav-bottom-item[href='"+curhref+"']",window.parent.menu.document).parent().parent().show(); // Slide down the clicked sub menu
-    //                 $(".nav-bottom-item",window.parent.menu.document).removeClass('current');
-    //                 $(".nav-top-item",window.parent.menu.document).removeClass('current');
-    //                 $(".nav-bottom-item[href='"+curhref+"']",window.parent.menu.document).addClass("current");
-    //                 $(".nav-bottom-item[href='"+curhref+"']",window.parent.menu.document).parents("li").children(".nav-top-item").addClass("current");
-    //             });        
-        
-    </script>            
-			
-			<div class="clear"></div> 
-			
+
+</script>
+</head>
+<body  onload="ContextMenu.intializeContextMenu()">
+<div  id="main-content">
 			<div  class="content-box">
-				
 				<div  class="content-box-header">
-					
 					<h3  style="cursor: s-resize;">新增章节</h3>
-					
-					
-					
-					<div  class="clear"></div>
-					
+					<a class="close-btn" href="javascript:void(0);" onClick="javascript :history.back(-1);">关闭</a>
 				</div> 
-				
 				<div  class="content-box-content">
 					<form action="__URL__/chapter_insert" enctype="multipart/form-data" method="post" >
 						<input type="hidden" name="book_id" value="<{$book_id}>">
 						<input type="hidden" name="book_name" value="<{$book_name}>">
 						<fieldset> 
 							<p>
-								<label>小说标题</label>
-								<input name="book_name" style="width:80px" type="text" value="<{$book_name}>" disabled> 
+								<label>书名</label>
+								<input name="book_name" style="width:150px" type="text" value="<{$book_name}>" disabled> 
 							</p>
 							<p>
 								<label>章节名</label>
-								<input name="chapter_title" style="width:80px" type="text"> 
+								<input name="chapter_title" style="width:150px" type="text"> 
 							</p>
 							
 							<p>
@@ -73,15 +62,26 @@
 							</p>
 							<p>
 								<label>所需积分</label>
-								<input name="chapter_much" style="width:80px" type="text"> 
+								<input name="chapter_much" style="width:150px" type="text"> 
 							</p>
 							<p>
-								<label>内容</label>
-								<textarea name="chapter_content" style="width:800px;height:200px;"></textarea>
+								<label>章节内容</label>
+								<textarea name="chapter_content" style="width:800px;height:200px;visibility:hidden;"></textarea>
 							</p>
-
-							<input class="button" name="submit" value="添加" type="submit">
+							<p>
+  
+								<input name="dede_addonfields" value="" type="hidden">
+   
+									  
+								   </p>  
+							<p class="operate-btn">
+								<input class="button" name="submit" value="确定" type="submit">
+							
+								<a class="cancel-btn" href="javascript:void(0);" onClick="javascript:history.back(-1);">取消</a>
+							</p>
+							
 						</fieldset>
+					
 					</form>
 					
 				</div> 

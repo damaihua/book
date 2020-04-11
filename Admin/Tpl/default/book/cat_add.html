@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>
-栏目管理</title>
+分类管理</title>
 
 <link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css" media="screen">
 <link rel="stylesheet" href="__PUBLIC__/admin/css/style.css" type="text/css" media="screen">
@@ -10,29 +10,22 @@
 <script type="text/javascript" src="__PUBLIC__/admin/js/admin.js"></script>
 
 <script src="__PUBLIC__/admin/js/config.js" type="text/javascript"></script>
-<style type="text/css" id="cke_ui_color">.cke_1 .cke_wrapper,.cke_1_dialog .cke_dialog_contents,.cke_1_dialog a.cke_dialog_tab,.cke_1_dialog .cke_dialog_footer{background-color: #F1F5F2 !important;}</style>
+
 <link href="__PUBLIC__/admin/css/editor.css" type="text/css" rel="stylesheet">
 </head>
 <body >
 
 <div id="main-content">
 
-
-			
-			<div class="content-box"><!-- Start Content Box -->
+			<div class="content-box">
 				
 				<div class="content-box-header">
-					
-			    <h3 style="cursor: s-resize;">&nbsp;<a href="cat_main"><u>分类管理</u></a>&gt;&gt;&nbsp;增加分类</h3>
-					
-					
-					
-					<div class="clear"></div>
-					
-				</div> <!-- End .content-box-header -->
+					<h3 style="cursor: s-resize;">增加分类</h3>
+					<a class="close-btn" href="javascript:void(0);" onClick="javascript :history.back(-1);">关闭</a>
+				</div> 
 				
 				<div class="content-box-content">
-					__URL__/
+				
   <form  action="__URL__/insert" method="post" >
 
   					<div style="display: block;" class="tab-content  default-tab" id="tab1">				
@@ -40,7 +33,7 @@
 							<fieldset> 
                             	
                             	<p>
-                                <label>是否隐藏分类</label>
+                                <label>是否隐藏</label>
                                  <input name="status" value="1" class="np" checked="checked" type="radio">
               显示　&nbsp;
               <input name="status" value="0" class="np" type="radio">
@@ -63,31 +56,27 @@
 								
 
 								
-								<p>
-									<br><input class="button" name="submit" value="编辑" type="submit">
+								<p class="operate-btn">
+									<input class="button" name="submit" value="确定" type="submit">
+									<a class="cancel-btn" href="javascript:void(0);" onClick="javascript:history.back(-1);">取消</a>
 								</p>
 								
 							</fieldset>
 							
-							<div class="clear"></div><!-- End .clear -->
-							
 						
-						
-					</div> <!-- End #tab1 -->
+					</div> 
 					
-					 <!-- End #tab2 -->
-                    
- <!-- End #tab3 -->                    
+					
 					</form>
 					
-				</div> <!-- End .content-box-content -->
+				</div> 
 				
-			</div> <!-- End .content-box -->
+			</div> 
 			
-			<div class="clear"></div>
 			
-						<!-- End #footer -->			
-		</div> <!-- End #main-content -->	
+			
+								
+		</div> 
 	
 
 

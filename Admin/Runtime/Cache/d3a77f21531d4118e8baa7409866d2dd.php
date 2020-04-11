@@ -19,17 +19,13 @@
 
 
 			
-			<div class="content-box"><!-- Start Content Box -->
+			<div class="content-box">
 				
 				<div class="content-box-header">
 					
-			    <h3 style="cursor: s-resize;">&nbsp;<a href="cat_main"><u>分类管理</u></a>&gt;&gt;&nbsp;修改分类</h3>
-					
-					
-					
-					<div class="clear"></div>
-					
-				</div> <!-- End .content-box-header -->
+			    <h3>修改分类</h3>
+				<a class="close-btn" href="javascript:void(0);" onClick="javascript :history.back(-1);">关闭</a>
+				</div> 
 				
 				<div class="content-box-content">
 					
@@ -38,7 +34,7 @@
 							<fieldset> 
                           <input name="cat_id" id="cat_id" value="<?php echo ($cat['cat_id']); ?>" type="hidden">
                             	<p>
-                                <label>是否隐藏分类</label>
+                                <label>是否隐藏</label>
                                  <input name="status" value="1" class="np" type="radio" <?php if($cat["status"] == 1): ?>checked <?php else: endif; ?>>
               显示　&nbsp;
               <input name="status" value="0" class="np" type="radio" <?php if($cat["status"] == 0): ?>checked <?php else: endif; ?>>
@@ -60,36 +56,25 @@
 								</p>   
 								
 								                                                                
-								                                
 								
 								
-								
-								
-								<p>
-									<br><input class="button" name="imageField" value="修改" type="submit">
+								<p class="operate-btn">
+									<input class="button" name="imageField" value="修改" type="submit">
+									<a class="cancel-btn" href="javascript:void(0);" onClick="javascript:history.back(-1);">取消</a>
 								</p>
 								
 							</fieldset>
 							
-							<div class="clear"></div><!-- End .clear -->
-							
 						
-						
-					</div> <!-- End #tab1 -->
-					
-					 <!-- End #tab2 -->
-                    
- <!-- End #tab3 -->                    
+					</div> 
 					</form>
 					
-				</div> <!-- End .content-box-content -->
+				</div> 
 				
-			</div> <!-- End .content-box -->
+			</div> 
 			
-			<div class="clear"></div>
-			
-						<!-- End #footer -->			
-		</div> <!-- End #main-content -->	
+						
+		</div> 
 	
 
 

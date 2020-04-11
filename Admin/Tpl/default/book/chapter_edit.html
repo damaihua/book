@@ -9,18 +9,31 @@
 <script  language="javascript"  src="__PUBLIC__/admin/js/jquery.min.js"  type="text/javascript"></script>	
 <script  type="text/javascript"  src="__PUBLIC__/admin/js/admin.jquery.configuration.js"></script>
 <script  src="__PUBLIC__/admin/js/frame.js"  language="javascript"  type="text/javascript"></script>
-
+<script charset="UTF-8" src="__PUBLIC__/kindeditor/kindeditor-min.js"></script>
 <script  language="javascript"  type="text/javascript">
 	window.onload=function (){
 		setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
 	}
 </script>
-	
+<script>
+	var editor;
+	KindEditor.ready(function (K) {
+		editor = K.create('textarea[name="chapter_content"]', {
+			resizeType: 1,
+			allowPreviewEmoticons: false,
+			allowImageUpload: false,
+			items: [
+				'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+				'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+				'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+		});
+	});
+</script>
 </head>
 <body>
 <div  id="main-content">
 			
-			<h2>欢迎访问网站管理后台</h2>
+			
 			 <script>
     //             $(".shortcut-button").click(function(){
     //                 curhref=$(this).attr('href');
@@ -36,14 +49,14 @@
         
     </script>            
 			
-			<div class="clear"></div> 
+			
 			
 			<div  class="content-box">
 				
 				<div  class="content-box-header">
 					
-					<h3  style="cursor: s-resize;">新增章节</h3>
-					
+					<h3  style="cursor: s-resize;">修改章节</h3>
+					<a class="close-btn" href="javascript:void(0);" onClick="javascript :history.back(-1);">关闭</a>
 					
 					
 					<div  class="clear"></div>
@@ -60,12 +73,12 @@
 						<fieldset> 
 							<p>
 								<label>小说标题</label>
-								<input name="book_name" style="width:80px" type="text" value="<{$chapter['book_name']}>" disabled> 
+								<input name="book_name"  type="text" value="<{$chapter['book_name']}>" disabled> 
 							</p>
 							<p>
                                 <label>章节名</label>   
                                 <!-- <{:getData('Book',$book_id,'book_name')}> -->
-								<input name="chapter_title" style="width:80px" type="text" value="<{:getData('Chapter',$chapter_id,'chapter_title')}>"> 
+								<input name="chapter_title" type="text" value="<{:getData('Chapter',$chapter_id,'chapter_title')}>"> 
 							</p>
 							
 							<p>
@@ -79,7 +92,7 @@
 							</p>
 							<p>
 								<label>所需积分</label>
-								<input name="chapter_much" style="width:80px" type="text" value="<{:getData('Chapter',$chapter_id,'much')}>"> 
+								<input name="chapter_much"  type="text" value="<{:getData('Chapter',$chapter_id,'much')}>"> 
 							</p>
 							<p>
 								<label>内容</label>
@@ -87,8 +100,11 @@
                                     <{:getData('Chapter',$chapter_id,'content')}>
                                 </textarea>
 							</p>
-
-							<input class="button" name="submit" value="修改" type="submit">
+							<p  class="operate-btn">
+								<input class="button" name="submit" value="修改" type="submit">
+								<a class="cancel-btn" href="javascript:void(0);" onClick="javascript:history.back(-1);">取消</a>
+							</p>
+							
 						</fieldset>
 					</form>
 					

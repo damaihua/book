@@ -331,8 +331,8 @@ ul.content-box-tabs li a.current {
                 }
 
 .content-box-content {
-                
-                font-size: 13px;
+                padding:20px 0 0;
+                font-size: 12px;
                 border-top: 1px solid #ccc;
                 }
                 
@@ -443,11 +443,17 @@ ul.shortcut-buttons-set li {
 				background: 0;
                 }
 
-
+form  p{
+  padding:0 0 0 30px;
+  clear:both;
+  overflow: hidden;
+  margin-bottom:10px;
+}
 
 form label {
-                display: block;
-                padding: 10px 0 5px 0;
+                float:left;
+                width:60px;
+                
                 font-weight: bold;
                 }
              
@@ -750,4 +756,12 @@ body#login {
 
 .admin-page .current{
   border:1px solid #57a000
+}
+.operate-btn{margin-left:60px;}
+.operate-btn .cancel-btn{margin-left:10px; color:#666}
+.close-btn{float:right; line-height: 40px; padding:0 10px; color:#666;}
+.new-add{float:right; padding:0 20px; line-height: 40px; color:#459300; }
+input[name="ordernum"]{
+  border:none;
+background:none;
 }

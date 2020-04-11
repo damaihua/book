@@ -42,15 +42,12 @@
 	<div id="main-content">
 
 		<div class="content-box">
-			<!-- Start Content Box -->
+		
 
 			<div class="content-box-header">
 				<h3 style="cursor: s-resize;">书籍管理</h3>
-				<ul class="content-box-tabs">
-					<li>
-						<a class="new-add" href="__APP__/book/book_add" style="font-size:14px;">添加书籍</a>
-					</li>
-				</ul>
+				<a class="new-add" href="__APP__/book/book_add" style="font-size:14px;">添加书籍</a>
+				
 			</div>
 
 			<div class="content-box-content">

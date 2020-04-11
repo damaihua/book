@@ -100,19 +100,21 @@ a.remove-link:hover {
 
 
 #sidebar {
-                background: url("../images/bg-sidebar.gif") top left no-repeat;
-                width: 230px;
+                /* background: url("../images/bg-sidebar.gif") top left no-repeat; */
+                /* width: 220px; */
+                width:100%;
                 height: 100%;
                 position: absolute;
                 left: 0;
                 top: 0;
                 color: #888;
-                font-size: 11px;
+                font-size: 12px;
+                background:#000;
                 }
 
-#sidebar #sidebar-wrapper {
+/* #sidebar #sidebar-wrapper {
                 margin: 0 0 0 9px;
-                }
+                } */
 
 #sidebar a,
 #sidebar a:active {
@@ -123,8 +125,10 @@ a.remove-link:hover {
                 color:#fff;
                 }
 
-#sidebar #sidebar-title {
-                margin: 10px 0 10px 15px;
+#sidebar-title {
+  padding:20px 10px 0;
+  text-align: right;
+               
                 }
 
 #sidebar #logo {
@@ -132,18 +136,22 @@ a.remove-link:hover {
                 }
 
 #sidebar #profile-links {
-                padding: 0 15px 10px 15px;
+               padding:10px;
                 text-align: right;
-                line-height: 1.5em;
+               color:#fff;
+               line-height: 20px;
+               
                 }
 
 
 
 #sidebar #main-nav {
-                width: 206px;
+                width: 150px;
                 padding: 0;
-                margin: 0 0 0 15px;
-                font-family: Microsoft YAHEI, Helvetica, Arial, sans-serif;
+                float:right;
+                border-radius:6px 0 0 6px;
+                /* margin: 0 0 0 20px; */
+               
                 }
 
 #sidebar #main-nav li {
@@ -153,7 +161,7 @@ a.remove-link:hover {
                 }
 
 #sidebar #main-nav li a.nav-top-item {
-                background: transparent url("../images/bg-menu-item-green.gif") right center no-repeat; 
+                background: #5f8612; 
                 padding: 10px 15px;
                 color: #fff;
                 font-size: 14px;

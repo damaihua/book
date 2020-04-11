@@ -26,31 +26,21 @@
 			});
 
 
-			 					
-
-
-
 		</script>
 
 </head>
 <body onload="ContextMenu.intializeContextMenu()" >
 <div id="main-content">
-			<div class="content-box"><!-- Start Content Box -->
+			<div class="content-box">
 				
 				<div class="content-box-header">
 					
-					<h3 style="cursor: s-resize;">添加小说</h3>
-					
-				<ul>
-					<span class="new-add">修改11</span>
-				</ul>
-					
-					<div class="clear"></div>
-					
-				</div> <!-- End .content-box-header -->
+					<h3>添加书籍</h3>
+					<a class="close-btn" href="javascript:void(0);" onClick="javascript :history.back(-1);">关闭</a>
+				</div>
 				
 				<div class="content-box-content" >
-					<!-- <?php echo ($catlist); ?> -->
+					
 					<form action="__URL__/book_insert" enctype="multipart/form-data" method="post" >
   <!-- <input name="book_id" value="<?php echo ($book_id); ?>" type="hidden"> -->
  
@@ -59,8 +49,8 @@
 							
 							<fieldset> 
 								<p>
-									<label>小说标题</label>
-									<input name="book_name" style="width:80px" type="text"> 
+									<label>书名</label>
+									<input name="book_name" type="text"> 
 								</p>
 								<p>
 									<label>标签</label>
@@ -83,7 +73,7 @@
                                 
 		
 								<p>
-									<label>小说封面</label>
+									<label>书籍封面</label>
                   						<input name='cover' type="file" />
                                 </p>                  
 								<p></p>
@@ -100,7 +90,7 @@
 								
 
 								<p>
-									<label>小说进度</label>
+									<label>书籍进度</label>
                                    <span id="typeidct">
                                    <select name="progress" id="progress" style="width:240px">
                                     <?php echo ($proglist); ?>
@@ -109,41 +99,31 @@
 									
 								</p>
 						  <p>
-									<label>小说简介</label>
+									<label>书籍简介</label>
 								<textarea name="book_info" style="width:800px;height:200px;visibility:hidden;"></textarea>
                               
 							  </p>
                                 
                                 <p>
   
-     <input name="dede_addonfields" value="" type="hidden">
+     						<input name="dede_addonfields" value="" type="hidden">
 
                                    
                                 </p>                                
 
-								<p>
-									<br><input class="button" name="submit" value="确认添加" type="submit">
+								<p class="operate-btn">
+									<input class="button" name="submit" value="确定" type="submit">
+								
+									<a class="cancel-btn" href="javascript:void(0);" onClick="javascript:history.back(-1);">取消</a>
 								</p>
 								
 							</fieldset>
 							
-							<div class="clear"></div><!-- End .clear -->
-							
-						
-						
-					</div> <!-- End #tab1 -->
-					
-					
+					</div> 
 					</form>
-					
-				</div> <!-- End .content-box-content -->
-				
-			</div> <!-- End .content-box -->
-			
-			<div class="clear"></div>
-			
-						<!-- End #footer -->			
-		</div> <!-- End #main-content -->	
+				</div>
+			</div> 
+		</div> 
 	
 <script>
 

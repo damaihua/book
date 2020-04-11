@@ -50,12 +50,12 @@ class BookAction extends PublicAction {
             //$data['tags']=I('book_cat');
             
             $data['writer']=I('writer');
-            //$cat_id=I('book_cat');
+            $cat_id=I('book_cat');  //找到分类id
             //$book_cats=getData('Cats',$cat_id,'cat_name');
             $data['tags']=I('tags');
 
 
-            $data['public_time']=time();//小说的创建时间
+            $data['public_time']=time();//书籍的创建时间
             //调用public中的上传类,实现图片上传功能
             $cover = $this->upload('cover','cover','180','225');
             if($cover){
@@ -64,7 +64,7 @@ class BookAction extends PublicAction {
             // 判断输入是否存在
             $result=$book->where(array('book_name'=>I('book_name')))->find();
             if($result){
-                $this->error('该小说已经存在，请重新输入！');
+                $this->error('该书籍已经存在，请重新输入！');
             }
 
             $book->create();
@@ -72,8 +72,8 @@ class BookAction extends PublicAction {
             
             if($result) {
                  //需要更新数据
-                $total=getData('Cats',$cat_id,'total');
-                $data['total']=$total+1;
+                $total=getData('Cats',$cat_id,'total');  
+                $data['total']=$total+1;//分类+1
                 $condition['cat_id']=$cat_id;  // 条件
                 $cats=$cats->where($condition)->setField($data);
                 $this->success('小说添加成功！');
@@ -101,7 +101,7 @@ class BookAction extends PublicAction {
         $this->assign('catlist',$catlist);
         $this->assign('proglist',$proglist);
         $this->display();
-        dump($catlist);
+        //dump($catlist);
     }
     //小说审核方法
     public function do_book_edit(){
@@ -116,6 +116,10 @@ class BookAction extends PublicAction {
        // $book_cats=getData('Cats',$cat_id,'cat_name');
         //$data['tags']=$book_cats;
         $data['tags']=I('tags');
+        
+        //调用public中的上传类,实现图片上传功能
+        $cover = $this->upload('cover','cover','180','225');
+        $data['book_cover']=$cover;
         $book=D('Book');
         $book->create();
         $result=$book->save($data);
@@ -130,8 +134,10 @@ class BookAction extends PublicAction {
     public function book_del(){
         $cats=M('Cats');
         $book_id=$_GET['book_id'];
-        // 检测该小说是否有章节，如果有提示不允许删除，没有则可以删除
         $book=M('Book');
+        // 检测该书籍是否有章节，如果有提示不允许删除，没有则可以删除
+        $total=$book->where("book_id=$book_id")->getField('total');
+        
         $cat_id=getData('Book',$book_id,'book_cat');
         if($total){
             $this->error('该小说有章节，不允许删除！');

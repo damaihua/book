@@ -4,8 +4,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>
-		网站栏目管理</title>
+	<title></title>
 
 	<link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="__PUBLIC__/admin/css/style.css" type="text/css" media="screen">
@@ -17,14 +16,14 @@
 	<script language="javascript" src="__PUBLIC__/admin/js/ieemu.js"></script>
 	<script language="javascript" src="__PUBLIC__/admin/js/dialog.js"></script>
 	<style type="text/css">
-		.close {
+		/* .close {
 			float: right;
 			cursor: default;
-		}
+		} */
 	</style>
 
 	<style>
-		.coolbg2 {
+		/* .coolbg2 {
 			border: 1px solid #000000;
 			background-color: #F2F5E9;
 			height: 18px
@@ -46,42 +45,26 @@
 		.bline2 {
 			border-bottom: 1px solid #d6d6d6;
 			background-color: #F9FCEF;
-		}
+		} */
 	</style>
 </head>
 
 <body>
 	<div id="main-content">
-
 		<div class="content-box">
-			<!-- Start Content Box -->
-
 			<div class="content-box-header">
 
-				<h3 style="cursor: s-resize;">小说栏目管理</h3>
+				<h3 style="cursor: s-resize;">分类管理</h3>
+				<a class="new-add" href="__APP__/book/cat_add">增加分类</a>
+			</div>
 
-				<ul class="content-box-tabs">
-					<li><a href="__APP__/book/cat_add">增加分类</a></li>
-					
-					<!-- <li><a href="#" onclick="document.form1.submit();">更新排序</a></li> -->
-
-
-				</ul>
-
-				<div class="clear"></div>
-
-			</div> <!-- End .content-box-header -->
-
-			<div class="content-box-content">
+			<div class="">
 
 				<div style="display: block;" class="tab-content  default-tab" id="tab1">
 
-
 					<table>
-
 						<thead>
 							<tr>
-								<!--<th><input class="check-all" type="checkbox" /></th> -->
 								<th width="40" align="center">分类名</th>
 								<th width="34" align="center">显示/隐藏</th>
 								<th width="34" align="center">操作</th>
@@ -121,8 +104,9 @@
 										<a href="__APP__/book/cat_edit?cid=<?php echo ($cat["cat_id"]); ?>">修改</a>|<a
 											href="__APP__/book/cat_del?cid=<?php echo ($cat["cat_id"]); ?>"
 											onclick="return confirm('确定要删除?')">删除</a></td>
-									<td width="32%" align="right"><input name="ordernum" value="<?php echo ($cat["ordernum"]); ?>"
-											style="width:25px;height:20px" type="text"></td>
+									<td width="32%" align="right">
+										<input name="ordernum" value="<?php echo ($cat["ordernum"]); ?>"
+											style="width:25px;height:20px" type="text" readonly></td>
 								</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 							<!--分类循环结束-->
 							<!-- <tr><td colspan="3" id="suns1"></td></tr> -->

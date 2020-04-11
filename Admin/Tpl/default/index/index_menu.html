@@ -45,13 +45,9 @@
 			<div id="sidebar-wrapper">
 
 
-				<h2 id="sidebar-title"><a href="http://localhost/dede/dede/index_menu.php#">信息管理系统</a></h2>
-
-
-				<!-- <a  href="__ROOT__" target="_blank"><img  src="__PUBLIC__/admin/images/logo.png"  alt="zcncms logo" border="0"  id="logo"></a> -->
-
+				<h2 id="sidebar-title"><a href="http://localhost/dede/dede/index_menu.php#">后台管理系统</a></h2>
 				<div id="profile-links">
-					<{$admin_name}>,欢迎登录后台管理系统<br>
+					<{$admin_name}>, <br/>欢迎登录后台管理系统<br>
 						<a href="__ROOT__" title="前台首页" target="_blank">前台首页</a> | <a href="<{:U('login/out')}>"
 							title="退出" target="_parent">退出</a>
 				</div>
@@ -67,11 +63,11 @@
 
 					<li>
 						<a id="articles" href="javascript:void(0);" class="nav-top-item" style="padding-right: 15px;">
-							小说管理
+							内容管理
 						</a>
 						<ul style="display: none;">
 							<li><a class="nav-bottom-item" id="article_add" href="__APP__/book/book_main/"
-									target="main">小说管理</a></li>
+									target="main">书籍管理</a></li>
 							<li><a class="nav-bottom-item" id="catalog_main" href="__APP__/book/chapter_main/"
 									target="main">章节管理</a></li>
 							<li><a class="nav-bottom-item" id="content_list" href="__APP__/book/cat_main/"
@@ -129,18 +125,7 @@
 					</li>
 
 
-					<li>
-						<a id="module" href="javascript:void(0);" class="nav-top-item" style="padding-right: 15px;">
-							稿费管理 </a>
-						<ul style="display: none;">
-							<li><a class="nav-bottom-item" id="module_main"
-									href="http://localhost/dede/dede/module_main.php" target="main">模块管理</a></li>
-							<li><a class="nav-bottom-item" id="module_upload"
-									href="http://localhost/dede/dede/module_upload.php" target="main">上传新模块</a></li>
-							<li><a class="nav-bottom-item" id="module_make"
-									href="http://localhost/dede/dede/module_make.php" target="main">模块生成向导</a></li>
-						</ul>
-					</li>
+					
 					<li>
 						<a id="channel" href="javascript:void(0);" class="nav-top-item" style="padding-right: 15px;">
 							权限管理 </a>
@@ -184,12 +169,6 @@
 									target="main">菜单管理</a></li>
 
 
-
-							<li><a class="nav-bottom-item" id="sys_data" href="__APP__/database/index"
-									target="main">数据库备份</a></li>
-
-							<li><a class="nav-bottom-item" id="sys_data" href="__APP__/database/index"
-									target="main">数据库还原</a></li>
 						</ul>
 					</li>
 
