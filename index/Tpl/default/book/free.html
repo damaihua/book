@@ -41,7 +41,7 @@ $(document).ready(function(){
                     <li>
                         <a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><img src="__ROOT__/<{$vo.book_cover}>" /></a>
                         <h3><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank">《<{$vo.book_name}>》</a></h3>
-                        <p><{$vo.book_info|substr=0,66}></p>
+                        <p><{$vo.writer}></p>
                     </li>
                 </volist>	
             </ul>

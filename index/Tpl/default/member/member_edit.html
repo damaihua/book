@@ -1,9 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
-<title>个人资料修改--<{$Think.SITE_NAME}></title>
-
-<meta name="keywords" content="<{$Think.SITE_KEYWORDS}>" />
-<meta name="description" content="<{$Think.SITE_DESCRIPT}>" />
+<title>个人资料修改</title>
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all">
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all">
 <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
@@ -13,8 +10,6 @@
 
 <script type="text/javascript">
 $(function(){
-	//$(".registerform").Validform();  //就这一行代码！;
-		
 	$(".editform").Validform({
 		tiptype:function(msg,o,cssctl){
         if(!o.obj.is("form")){
@@ -24,8 +19,6 @@ $(function(){
 			 }
 		}
     
-		
-		
 	});
 	
 	
@@ -33,11 +26,11 @@ $(function(){
 </script>
 </head>
 <body>
-<!---头部部分--->
+
 <include file="Public:header" />
 
 <div class="clearfix wrap mb20">
-  <!---左侧导航--->
+
   <include file="Public:memberleft" />
 
   <div class="user-right">
@@ -89,13 +82,9 @@ checked <else />
 </tbody></table>
 </form>
 
-
+</div>
 </div>
 
-</div>
 
-
-
-<!--foot底部部分--->
 <include file="Public:footer" />
 </body></html>

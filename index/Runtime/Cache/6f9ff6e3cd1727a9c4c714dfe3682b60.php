@@ -3,8 +3,6 @@
 <head>
 <title><?php echo (SITE_NAME); ?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="<?php echo (SITE_KEYWORDS); ?>">
-<meta name="description" content="<?php echo (SITE_DESCRIPT); ?>" />
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
 <link href="style/footlogin.css" rel="stylesheet" type="text/css">
@@ -13,49 +11,40 @@
 <script src="__JS__/jquery-1.8.3.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="__JS__/jquery.tools.min.js"></script>
 <script type="text/javascript">
-//<![CDATA[
 $(document).ready(function(){
-	// $("h2.tabs01").tabs(".tab_cnt1",{event:'mouseover'});
 	 $(".recommend-tabTit").tabs(".recommend-tabItem",{event:'mouseover'});
-	//  $("div.tabs02").tabs(".tab_cnt2",{event:'mouseover'});
 	 $("div.slidetabs").tabs("ul.book_rmd_slide > li", {
 		effect: 'fade',
 		event: 'mouseover',
 		fadeOutSpeed: "slow",
 		rotate: true
 	}).slideshow({autoplay:true,interval:5000,fade:1});
-
-
-	
-
 });
-//]]>
 </script>
 </head>
 <body>
 <!---header--->
 <div  id="top">
 	<div class="wrap">
-		<p class="top-welcome">欢迎访问在线阅读！</p>
+		<p class="top-welcome">您好，欢迎来访！</p>
 		<div class="login-content"><?php echo showbar();?></div>
 	</div>
 </div>
 
 <div id="head" class="clearfix">
-	ROOT--------__ROOT__        //  URl   ---- __URL__     //APP---__APP__
+	
 	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
 
 	<div class="header-search">
 		<form name="book" method="post" action="__URL__/index" target="_blank">
-			<!-- /book/index.php/search/index.html -->
+			
 			<div class="header-searchCon">
 				<select name="" class="search-sort">
 					<option  name="searchtype" value="articlename" checked="checked">书名</option>
 					<option  name="searchtype" value="author" >作者</option>
 				</select>
 			<input name="searchkey" type="text" class="search_text"> 
-			<!-- <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	
-			<input type="radio" class="radio" name="searchtype" value="author" />作者 -->
+			
 			<input type="submit" class="search_submit" value="搜索"></div>
 		</form>
 	</div>
@@ -74,7 +63,7 @@ $(document).ready(function(){
 
 
 <div class="wrap">
-<!--行1-->
+
 	<div class="clearfix mb20">
 			<div class="cover-recommend ">
 				<div class="recommend_pic"></div>
@@ -164,7 +153,6 @@ $(document).ready(function(){
 			</div>
 	</div>
     
-	<!--行2-->
 	<div class="clearfix mb20">
 		<div class="new-arrival common-left">
 			<h2 class="common-headline"><span>最新上架</span></h2>
@@ -218,7 +206,6 @@ $(document).ready(function(){
 		</div>
 	</div>
 
-	
 	<div class="boutique-books">
 		<h2 class="common-headline"><span>精品推荐</span></h2>
 		<ul class="boutique-item">
@@ -226,7 +213,6 @@ $(document).ready(function(){
 		</ul>
 	</div>
 
-	
 	<!-- start -->
 	<div class="clearfix mb20">
 		<div class="common-left click-list ">
@@ -257,7 +243,6 @@ $(document).ready(function(){
 	</div>
 	<!-- end -->
 
-
 	<div class="row clearfix">
     	<div class="column row_bg comments " style="width:717px;">
             <div class="title_pic ie6_jr">作品评论展示</div>
@@ -285,18 +270,8 @@ $(document).ready(function(){
 			</li>
 			<li><a href="">网易</a></li>
 		</ul>	
-
 	</div>
-	<!-- <div class="row clearfix">
-        <div class="column links">
-            <h2><span>友情链接</span></h2>
-            <ul>
-				<?php if(is_array($links)): $i = 0; $__LIST__ = $links;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a target="_blank" href="<?php echo ($vo["url"]); ?>"><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
-				</ul>
-         </div>
-     </div> -->
 </div>
-
 
 
 <!--foot底部部分--->
@@ -307,14 +282,11 @@ $(document).ready(function(){
     	
         <?php echo showFootermenu();?>
     </div>
-    <p>请作者发布作品时遵守国家互联网信息管理办法规定</p>
-    <!-- <p><?php echo (SITE_COPYRIGHT); ?>&nbsp;&nbsp;<?php echo (SITE_BEIAN); ?></p> -->
+    <p>版权仅自己所有</p>
+   
     
 </div>
 
 
-
-
 </body>
-
 </html>

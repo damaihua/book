@@ -33,26 +33,25 @@ $(document).ready(function(){
 <!---头部部分--->
 <div  id="top">
 	<div class="wrap">
-		<p class="top-welcome">欢迎访问在线阅读！</p>
+		<p class="top-welcome">您好，欢迎来访！</p>
 		<div class="login-content"><?php echo showbar();?></div>
 	</div>
 </div>
 
 <div id="head" class="clearfix">
-	ROOT--------__ROOT__        //  URl   ---- __URL__     //APP---__APP__
+	
 	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
 
 	<div class="header-search">
 		<form name="book" method="post" action="__URL__/index" target="_blank">
-			<!-- /book/index.php/search/index.html -->
+			
 			<div class="header-searchCon">
 				<select name="" class="search-sort">
 					<option  name="searchtype" value="articlename" checked="checked">书名</option>
 					<option  name="searchtype" value="author" >作者</option>
 				</select>
 			<input name="searchkey" type="text" class="search_text"> 
-			<!-- <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	
-			<input type="radio" class="radio" name="searchtype" value="author" />作者 -->
+			
 			<input type="submit" class="search_submit" value="搜索"></div>
 		</form>
 	</div>
@@ -78,7 +77,7 @@ $(document).ready(function(){
                 <?php if(is_array($newfree)): $i = 0; $__LIST__ = array_slice($newfree,0,8,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
                         <a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>" target="_blank"><img src="__ROOT__/<?php echo ($vo["book_cover"]); ?>" /></a>
                         <h3><a href="__APP__/bookInfo/index/book_id/<?php echo ($vo["book_id"]); ?>" target="_blank">《<?php echo ($vo["book_name"]); ?>》</a></h3>
-                        <p><?php echo (substr($vo["book_info"],0,66)); ?></p>
+                        <p><?php echo ($vo["writer"]); ?></p>
                     </li><?php endforeach; endif; else: echo "" ;endif; ?>	
             </ul>
         </div>
@@ -125,8 +124,8 @@ $(document).ready(function(){
     	
         <?php echo showFootermenu();?>
     </div>
-    <p>请作者发布作品时遵守国家互联网信息管理办法规定</p>
-    <!-- <p><?php echo (SITE_COPYRIGHT); ?>&nbsp;&nbsp;<?php echo (SITE_BEIAN); ?></p> -->
+    <p>版权仅自己所有</p>
+   
     
 </div>
 

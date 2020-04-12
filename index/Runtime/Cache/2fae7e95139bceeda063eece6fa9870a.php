@@ -49,26 +49,25 @@
 <!---头部部分--->
 <div  id="top">
 	<div class="wrap">
-		<p class="top-welcome">欢迎访问在线阅读！</p>
+		<p class="top-welcome">您好，欢迎来访！</p>
 		<div class="login-content"><?php echo showbar();?></div>
 	</div>
 </div>
 
 <div id="head" class="clearfix">
-	ROOT--------__ROOT__        //  URl   ---- __URL__     //APP---__APP__
+	
 	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
 
 	<div class="header-search">
 		<form name="book" method="post" action="__URL__/index" target="_blank">
-			<!-- /book/index.php/search/index.html -->
+			
 			<div class="header-searchCon">
 				<select name="" class="search-sort">
 					<option  name="searchtype" value="articlename" checked="checked">书名</option>
 					<option  name="searchtype" value="author" >作者</option>
 				</select>
 			<input name="searchkey" type="text" class="search_text"> 
-			<!-- <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	
-			<input type="radio" class="radio" name="searchtype" value="author" />作者 -->
+			
 			<input type="submit" class="search_submit" value="搜索"></div>
 		</form>
 	</div>
@@ -118,7 +117,7 @@
         <div class="userCenter-det">
             <a href="__APP__/member/order">订阅记录</a>
             <a href="__APP__/member/pay">在线充值</a>
-            <a href="__APP__/member/applyauthor">申请作者</a>
+        
         </div>
     </div>
 </div>
@@ -164,8 +163,8 @@
     	
         <?php echo showFootermenu();?>
     </div>
-    <p>请作者发布作品时遵守国家互联网信息管理办法规定</p>
-    <!-- <p><?php echo (SITE_COPYRIGHT); ?>&nbsp;&nbsp;<?php echo (SITE_BEIAN); ?></p> -->
+    <p>版权仅自己所有</p>
+   
     
 </div>
 

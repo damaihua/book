@@ -3,8 +3,6 @@
 <head>
 <title><{$Think.SITE_NAME}></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="<{$Think.SITE_KEYWORDS}>">
-<meta name="description" content="<{$Think.SITE_DESCRIPT}>" />
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
 <link href="style/footlogin.css" rel="stylesheet" type="text/css">
@@ -13,30 +11,22 @@
 <script src="__JS__/jquery-1.8.3.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="__JS__/jquery.tools.min.js"></script>
 <script type="text/javascript">
-//<![CDATA[
 $(document).ready(function(){
-	// $("h2.tabs01").tabs(".tab_cnt1",{event:'mouseover'});
 	 $(".recommend-tabTit").tabs(".recommend-tabItem",{event:'mouseover'});
-	//  $("div.tabs02").tabs(".tab_cnt2",{event:'mouseover'});
 	 $("div.slidetabs").tabs("ul.book_rmd_slide > li", {
 		effect: 'fade',
 		event: 'mouseover',
 		fadeOutSpeed: "slow",
 		rotate: true
 	}).slideshow({autoplay:true,interval:5000,fade:1});
-
-
-	
-
 });
-//]]>
 </script>
 </head>
 <body>
 <!---header--->
 <include file="Public:header" />
 <div class="wrap">
-<!--行1-->
+
 	<div class="clearfix mb20">
 			<div class="cover-recommend ">
 				<div class="recommend_pic"></div>
@@ -134,7 +124,6 @@ $(document).ready(function(){
 			</div>
 	</div>
     
-	<!--行2-->
 	<div class="clearfix mb20">
 		<div class="new-arrival common-left">
 			<h2 class="common-headline"><span>最新上架</span></h2>
@@ -192,7 +181,6 @@ $(document).ready(function(){
 		</div>
 	</div>
 
-	
 	<div class="boutique-books">
 		<h2 class="common-headline"><span>精品推荐</span></h2>
 		<ul class="boutique-item">
@@ -202,7 +190,6 @@ $(document).ready(function(){
 		</ul>
 	</div>
 
-	
 	<!-- start -->
 	<div class="clearfix mb20">
 		<div class="common-left click-list ">
@@ -239,7 +226,6 @@ $(document).ready(function(){
 	</div>
 	<!-- end -->
 
-
 	<div class="row clearfix">
     	<div class="column row_bg comments " style="width:717px;">
             <div class="title_pic ie6_jr">作品评论展示</div>
@@ -270,27 +256,12 @@ $(document).ready(function(){
 			</li>
 			<li><a href="">网易</a></li>
 		</ul>	
-
 	</div>
-	<!-- <div class="row clearfix">
-        <div class="column links">
-            <h2><span>友情链接</span></h2>
-            <ul>
-				<volist name='links' id='vo'>
-					<li><a target="_blank" href="<{$vo.url}>"><{$vo.name}></a></li>
-				</volist>
-				</ul>
-         </div>
-     </div> -->
 </div>
-
 
 
 <!--foot底部部分--->
 <include file="Public:footer" />
 
-
-
 </body>
-
 </html>

@@ -3,11 +3,6 @@
 <head>
 <title>在线书城</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<meta name="author" content="http://www.jieqi.com (jieqi cms)" />
-<meta name="copyright" content="" />
-<meta name="generator" content="jieqi.com" />
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
 <style>
@@ -16,39 +11,31 @@
 <script src="__JS__/jquery-1.8.3.min.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
-<script>
-	$(function(){
 
-		// $('.book-sort td a').on('click',function(){
-		// 	$(this).addClass('current')
-		// })
-	})
-</script>
 </head>
 <body>
 <!---头部部分--->
 <div  id="top">
 	<div class="wrap">
-		<p class="top-welcome">欢迎访问在线阅读！</p>
+		<p class="top-welcome">您好，欢迎来访！</p>
 		<div class="login-content"><?php echo showbar();?></div>
 	</div>
 </div>
 
 <div id="head" class="clearfix">
-	ROOT--------__ROOT__        //  URl   ---- __URL__     //APP---__APP__
+	
 	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
 
 	<div class="header-search">
 		<form name="book" method="post" action="__URL__/index" target="_blank">
-			<!-- /book/index.php/search/index.html -->
+			
 			<div class="header-searchCon">
 				<select name="" class="search-sort">
 					<option  name="searchtype" value="articlename" checked="checked">书名</option>
 					<option  name="searchtype" value="author" >作者</option>
 				</select>
 			<input name="searchkey" type="text" class="search_text"> 
-			<!-- <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	
-			<input type="radio" class="radio" name="searchtype" value="author" />作者 -->
+			
 			<input type="submit" class="search_submit" value="搜索"></div>
 		</form>
 	</div>
@@ -177,8 +164,8 @@
     	
         <?php echo showFootermenu();?>
     </div>
-    <p>请作者发布作品时遵守国家互联网信息管理办法规定</p>
-    <!-- <p><?php echo (SITE_COPYRIGHT); ?>&nbsp;&nbsp;<?php echo (SITE_BEIAN); ?></p> -->
+    <p>版权仅自己所有</p>
+   
     
 </div>
 

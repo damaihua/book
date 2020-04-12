@@ -1,9 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
-<title>个人资料修改--<?php echo (SITE_NAME); ?></title>
-
-<meta name="keywords" content="<?php echo (SITE_KEYWORDS); ?>" />
-<meta name="description" content="<?php echo (SITE_DESCRIPT); ?>" />
+<title>个人资料修改</title>
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all">
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all">
 <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
@@ -13,8 +10,6 @@
 
 <script type="text/javascript">
 $(function(){
-	//$(".registerform").Validform();  //就这一行代码！;
-		
 	$(".editform").Validform({
 		tiptype:function(msg,o,cssctl){
         if(!o.obj.is("form")){
@@ -24,8 +19,6 @@ $(function(){
 			 }
 		}
     
-		
-		
 	});
 	
 	
@@ -33,29 +26,28 @@ $(function(){
 </script>
 </head>
 <body>
-<!---头部部分--->
+
 <div  id="top">
 	<div class="wrap">
-		<p class="top-welcome">欢迎访问在线阅读！</p>
+		<p class="top-welcome">您好，欢迎来访！</p>
 		<div class="login-content"><?php echo showbar();?></div>
 	</div>
 </div>
 
 <div id="head" class="clearfix">
-	ROOT--------__ROOT__        //  URl   ---- __URL__     //APP---__APP__
+	
 	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
 
 	<div class="header-search">
 		<form name="book" method="post" action="__URL__/index" target="_blank">
-			<!-- /book/index.php/search/index.html -->
+			
 			<div class="header-searchCon">
 				<select name="" class="search-sort">
 					<option  name="searchtype" value="articlename" checked="checked">书名</option>
 					<option  name="searchtype" value="author" >作者</option>
 				</select>
 			<input name="searchkey" type="text" class="search_text"> 
-			<!-- <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	
-			<input type="radio" class="radio" name="searchtype" value="author" />作者 -->
+			
 			<input type="submit" class="search_submit" value="搜索"></div>
 		</form>
 	</div>
@@ -75,7 +67,7 @@ $(function(){
 
 
 <div class="clearfix wrap mb20">
-  <!---左侧导航--->
+
   
 
 <div class="user-centerLeft">
@@ -102,7 +94,7 @@ $(function(){
         <div class="userCenter-det">
             <a href="__APP__/member/order">订阅记录</a>
             <a href="__APP__/member/pay">在线充值</a>
-            <a href="__APP__/member/applyauthor">申请作者</a>
+        
         </div>
     </div>
 </div>
@@ -150,14 +142,10 @@ $(function(){
 </tbody></table>
 </form>
 
-
+</div>
 </div>
 
-</div>
 
-
-
-<!--foot底部部分--->
 
 <div class="cb"></div>
 <div id="footer">
@@ -165,8 +153,8 @@ $(function(){
     	
         <?php echo showFootermenu();?>
     </div>
-    <p>请作者发布作品时遵守国家互联网信息管理办法规定</p>
-    <!-- <p><?php echo (SITE_COPYRIGHT); ?>&nbsp;&nbsp;<?php echo (SITE_BEIAN); ?></p> -->
+    <p>版权仅自己所有</p>
+   
     
 </div>
 

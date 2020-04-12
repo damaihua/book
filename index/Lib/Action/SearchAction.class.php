@@ -1,7 +1,7 @@
 <?php
 
-	/*所有小说的页面 ->>written by LAMP76-36
-	*index方法：显示所有小说的最近更新页面
+	/*所有书籍的页面 ->>written by LAMP76-36
+	*index方法：显示所有书籍的最近更新页面
 	*并且可以根据条件进行排序
 	*/
 	class SearchAction extends Action{
@@ -11,11 +11,11 @@
 		// 	}
 		// }
 		public function index(){
-			//查询所有的小说类别
+			//查询所有的书籍类别
 			$cats=M('Cats');
 			$array['cat']=$cats->where('type=0')->select();
 
-			//查询所有的小说标签的名字
+			//查询所有的书籍标签的名字
 			$data=D('Book');
 			$array['tags']=$data->tags();
 			
@@ -35,7 +35,7 @@
 
 			switch($type){
 				case '':
-						//如果没有传值的话，默认根据更新时间显示小说
+						//如果没有传值的话，默认根据更新时间显示书籍
 						$count=$book->count();
 						$page= new Page($count,10);// 实例化分页类 传入总记录数和每页显示的记录数
 						$page->setConfig('theme','%totalRow% %header%  %upPage% %linkPage% %downPage%');
@@ -44,7 +44,7 @@
 						$data=$book->relation(true)->limit($page->firstRow.','.$page->listRows)->order('update_time desc')->select();
 						break;
 				case 'cats':
-						//根据小说的类别显示
+						//根据书籍的类别显示
 						$where='book_cat='.$val;
 						$count=$book->where($where)->count();
 						$page= new Page($count,10);// 实例化分页类 传入总记录数和每页显示的记录数
@@ -54,7 +54,7 @@
 						$data=$book->relation(true)->where($where)->limit($page->firstRow.','.$page->listRows)->select();
 						break;
 				case 'tag':
-						//根据小说的标签搜索
+						//根据书籍的标签搜索
 						$where['tags']=array("like","%${val}%");
 						$count=$book->where($where)->count();
 						$page= new Page($count,10);// 实例化分页类 传入总记录数和每页显示的记录数
@@ -64,7 +64,7 @@
 						$data=$book->where($where)->relation(true)->limit($page->firstRow.','.$page->listRows)->select();
 						break;
 				case 'pro':
-						//根据小说的进度类别搜索
+						//根据书籍的进度类别搜索
 						$where='progress='.$val;
 						$count=$book->where($where)->count();
 						$page= new Page($count,10);// 实例化分页类 传入总记录数和每页显示的记录数
@@ -74,7 +74,7 @@
 						$data=$book->relation(true)->where($where)->limit($page->firstRow.','.$page->listRows)->select();
 						break;
 				case 'other':
-						//根据小说status搜索
+						//根据书籍status搜索
 						$where="status=".$val;
 						$count=$book->where($where)->count();
 						$page= new Page($count,10);// 实例化分页类 传入总记录数和每页显示的记录数
@@ -86,7 +86,7 @@
 						break;
 				//add
 				case 'name':
-					//根据小说的类别显示
+					//根据书籍的类别显示
 					$where='book_name='.$val;
 					$count=$book->where($where)->count();
 					$page= new Page($count,10);// 实例化分页类 传入总记录数和每页显示的记录数

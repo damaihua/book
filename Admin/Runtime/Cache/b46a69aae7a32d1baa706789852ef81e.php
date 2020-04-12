@@ -4,10 +4,9 @@
 <title>管理员登录页面</title>
 <link href="__PUBLIC__/admin/css/login.css" rel="stylesheet" type="text/css" />
 <script src="__PUBLIC__/admin/js/j.js" language="javascript" type="text/javascript"></script>
-
 </head>
 <body>
-<!--wrap-->
+
 <div class="admin-content">
   <form  method="post" action="__URL__/check">
       <h2>管理员登录</h2>
@@ -25,14 +24,7 @@
         <img  src="__APP__/Public/verify/" alt="点击更换验证码"  onClick="this.src='__APP__/Public/verify/?rand='+Math.random();">
     </div>
     <input type="submit" value="登录" name="submit" class="login-btn" onClick="this.form.submit();" />
-
-
-
-
-
   </form>
-  
-  
 </div>
 
 </body>

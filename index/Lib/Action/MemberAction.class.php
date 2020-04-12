@@ -370,38 +370,7 @@ class MemberAction extends PublicAction {
             $this->error('充值失败！','__APP__/member/pay');
         }
     }
-    //显示作者申请页面
-    public function applyauthor(){
-        //验证是否登录
-        $this->islogin();
-        //显示模板
-        $this->display();
-    }
-    // 处理申请方法
-    public function do_apply(){
-        //验证是否登录
-        $this->islogin();
-
-        $apply=M('Apply');
-        $data['user_id']=I('user_id');
-        $data['realy_name']=I('realy_name');
-        $data['card_no']=I('card_no');
-        $data['bank_type']=I('bank_type');
-        $data['bank_no']=I('bank_no');
-        $data['test_chapter']=I('test_chapter');
-        //如果申请数据表里已经存在该用户，提示错误信息
-        if($apply->find(I('user_id'))){
-            $this->error('你已经提交了作者申请，请耐心等待审核！');
-        }
-        $apply->create();
-        $result=$apply->add($data);
-        if($result){
-            $this->success('申请提交成功，请等待管理员审核！','__APP__/member/index');
-        }else{
-            $this->error('申请提交失败');
-        }
-
-    }
+ 
 
     
 }
