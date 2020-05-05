@@ -17,7 +17,7 @@ $(document).ready(function(){
 		effect: 'fade',
 		event: 'mouseover',
 		fadeOutSpeed: "slow",
-		rotate: true
+		//rotate: true
 	}).slideshow({autoplay:true,interval:5000,fade:1});
 });
 </script>
@@ -31,56 +31,30 @@ $(document).ready(function(){
 			<div class="cover-recommend ">
 				<div class="recommend_pic"></div>
 				<ul class="book_rmd_slide">
-					<li><a href="/cwjinfo/127/127180.htm" target="_blank"><img src="__IMG__/shancun.jpg" /></a>
-
-						<h3><a href="/cwjinfo/127/127180.htm" target="_blank">行尸走肉之猎艳无限</a></h3>
-
-						<p class="author">作者：童鞋真好</p>
-
-						<p>　　无尽杀戮下，张荣成为了末世的强者。他找寻着自己在末世中失散的母亲和姐姐还有嫂子们，他也组建着属于自己的王国和后宫。
-
-			　　一路探寻，一..</p>
-
-					</li>
-					<li><a href="/cwjinfo/127/127180.htm" target="_blank"><img src="__IMG__/shancun.jpg" /></a>
-
-						<h3><a href="/cwjinfo/127/127180.htm" target="_blank">行尸走肉之猎艳无限</a></h3>
-
-						<p class="author">作者：童鞋真好</p>
-
-						<p>　　无尽杀戮下，张荣成为了末世的强者。他找寻着自己在末世中失散的母亲和姐姐还有嫂子们，他也组建着属于自己的王国和后宫。
-
-			　　一路探寻，一..</p>
-
-					</li>
-					<li><a href="/cwjinfo/116/116864.htm" target="_blank"><img src="__IMG__/shengnv.jpg" /></a>
-
-						<h3>奇门家族</h3>
-
-						<p class="author">作者：<a href="/userpage.php?uid=2038022" target="_blank">沛泷</a></p>
-
-						<p>这是一个属于术士的世界，在这个世界里面，没有狗血的桥段，也绝对没有YY，也没有后宫之说，有的只有亲情，友情，和纯粹爱情。
-
-			领略真正的人类与尸鬼之..</p>
-
-					</li>
-					<li><a href="/cwjinfo/127/127054.htm" target="_blank"><img src="__IMG__/nocover.jpg" /></a>
-
-						<h3><a href="/cwjinfo/127/127054.htm" target="_blank">亡灵剑圣</a></h3>
-
-						<p class="author">作者：霸刀公爵</p>
-
-						<p>这是一个充满法力的世界，天鹰剑，真空烈焰刀，盘龙长枪，谁与争锋。
-
-			尽情阅读小刀第一部作品《亡灵剑圣》</p>
-
-					</li>
+					<volist name="bbook"  id="vo" key="i" offset="0" length='4'>
+						<li>
+							<a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank">
+								<img src="<{$vo.book_cover}>" /></a>
+							<h3>
+								<a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a>
+							</h3>
+							<p class="author"><{$vo.writer}></p>
+							<p style="height:48px; line-height:24px; color:#888;overflow: hidden;"><{$vo.book_info|htmlspecialchars_decode}></p>
+						</li>
+					</volist>
+					
 				</ul>
 				<div class="slidetabs clearfix">
-					<a><img src="__IMG__/shancun.jpg" /></a>
+					<volist name="bbook"  id="vo" key="i" offset="0" length='4'>
+						<a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>">
+							<img src="<{$vo.book_cover}>" />
+						</a>
+					</volist>
+					
+					<!-- <a><img src="__IMG__/shancun.jpg" /></a>
 					<a><img src="__IMG__/shancun.jpg" /></a>
 					<a><img src="__IMG__/shengnv.jpg" /></a>
-					<a><img src="__IMG__/nocover.jpg" /></a>
+					<a><img src="__IMG__/nocover.jpg" /></a> -->
 				</div>
 			</div>
 			<div class="recommend-module">
@@ -97,7 +71,7 @@ $(document).ready(function(){
 							</a>
 							<div class="book-info">
 								<h3><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_self"><{$vo.book_name}></a></h3>
-								<p><{$vo.book_info|substr=0,96}></p>
+								<p style="color:#999;"><{$vo.book_info|substr=0,96}></p>
 							</div>
 						</li>
 					</if>
@@ -105,7 +79,7 @@ $(document).ready(function(){
 					</volist>
 				</ul>
 				<ul class="recommend-tabItem">
-					<volist name="endbook" id="vo" key="i" >
+					<volist name="endbook" id="vo" key="i" offset="0" length='4'>
 					<if condition="$i eq 1">
 						<li class="pic_text">
 							<a class="book-cover" href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_self">
@@ -114,7 +88,8 @@ $(document).ready(function(){
 									<h3>
 										<a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_self"><{$vo.book_name}></a>
 									</h3>
-									<p><{$vo.book_info|substr=0,96}></p>
+									
+									<p><{$vo.book_info|htmlspecialchars_decode}></p>
 								</div>
 							</li>
 					</if>
@@ -135,50 +110,70 @@ $(document).ready(function(){
 		</div>
 		<div class="editor-recommend">
 			<h2 class="common-headline"><span>编辑推荐</span></h2>
-			<ul class="editor-recomList">
-				<volist name="bianji" id="vo" offset="1" length='2'>
-					<li class="editor-recomItem clearfix">
-						<div class="editor-bookCover">
-							<a class="book-img" href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank">
-								<img src="<{$vo.book_cover}>" />
+			<ul class="clearfix editor-recomList">
+				<volist name="newbook" id="vo" key="i" offset="0" length="5" >
+						<if condition="$i eq 1">
+							<li class="editor-recomItem clearfix">
+								<div class="editor-bookCover">
+									<a class="book-img" href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank">
+										<img src="<{$vo.book_cover}>" />
+									</a>
+									
+									<div class="book-det">
+										<h3><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></h3>
+										<p class="author">作者：<{$vo.writer}></p>
+										<p style="height:72px; line-height: 24px; color:#999"><{$vo.book_info|htmlspecialchars_decode}></p>
+									</div>
+								</div>
+							</li>
+						<else/>
+						<li  class="similar-book">
+							<a href="">
+								<p style="float:left;width:240px;">
+									<{$vo.book_name}>
+								</p>
+								<span style="float:right;padding-right:20px; color:#666;">
+									<{$vo.writer}>
+								</span>
 							</a>
-							<div class="book-det">
-								<h3><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank">《<{$vo.book_name}>》</a></h3>
-								<p class="author">作者：<{$vo.user_id}></p><p><{$vo.book_info}></p>
-							</div>
-						</div>
-						<ul class="similar-book">
-							<li><a href="/cwjinfo/126/126564.htm" target="_blank">《桃色花医》</a></li>
-							<li><a href="/cwjinfo/126/126223.htm" target="_blank">《美人录》</a></li>
-							<li><a href="/cwjinfo/127/127174.htm" target="_blank">《无情风流人生》</a></li>
-							<li><a href="/cwjinfo/127/127002.htm" target="_blank">《神之传人猎艳风流》</a></li>
-							<li><a href="/cwjinfo/126/126052.htm" target="_blank">《剑录：逆路问道》</a></li>
-						</ul>
-					</li>
+							
+						</li>
+						</if>
+				</volist>
+			</ul>
+			<ul class="clearfix editor-recomList">
+				<volist name="newbook" id="vo" key="i" offset="5" length="5" >
+						<if condition="$i eq 1">
+							<li class="editor-recomItem clearfix">
+								<div class="editor-bookCover">
+									<a class="book-img" href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank">
+										<img src="<{$vo.book_cover}>" />
+									</a>
+									
+									<div class="book-det">
+										<h3><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></h3>
+										<p class="author">作者：<{$vo.writer}></p>
+										<p style="height:72px; line-height: 24px; color:#999"><{$vo.book_info|htmlspecialchars_decode}></p>
+									</div>
+								</div>
+							</li>
+						
+						<else/>
+						<li  class="similar-book">
+							<a href="">
+								<p style="float:left;width:240px;">
+									<{$vo.book_name}>
+								</p>
+								<span style="float:right;padding-right:20px; color:#666;">
+									<{$vo.writer}>
+								</span>
+							</a>
+						</li>
+					</if>
 				</volist>
 			</ul>
 		</div>
-		<div class="hot-tags common-right">
-			<h2 class="common-headline"><span>热门标签</span></h2>
-			<div class="hot_tag" id="tagcloud">
-				<a href="/modules/article/tagarticle.php?tag=%D6%D6%C2%ED" target="_blank">种马</a>
-				<a href="/modules/article/tagarticle.php?tag=%BA%F3%B9%AC" target="_blank">后宫</a>
-				<a href="/modules/article/tagarticle.php?tag=%D1%DE%C7%E9" target="_blank">艳情</a>
-				<a href="/modules/article/tagarticle.php?tag=yy" target="_blank">yy</a>
-				<a href="/modules/article/tagarticle.php?tag=%CF%E3%D1%DE" target="_blank">香艳</a>
-				<a href="/modules/article/tagarticle.php?tag=%CB%AC%CE%C4" target="_blank">爽文</a>
-				<a href="/modules/article/tagarticle.php?tag=%C8%AB%CA%D5" target="_blank">全收</a>
-				<a href="/modules/article/tagarticle.php?tag=%B6%BC%CA%D0" target="_blank">都市</a>
-				<a href="/modules/article/tagarticle.php?tag=%B4%A9%D4%BD" target="_blank">穿越</a>
-				<a href="/modules/article/tagarticle.php?tag=%CB%BF%CD%E0" target="_blank">丝袜</a>
-				<a href="/modules/article/tagarticle.php?tag=%EA%D3%C3%C1" target="_blank">暧昧</a>
-				<a href="/modules/article/tagarticle.php?tag=%C3%C0%C5%AE" target="_blank">美女</a>
-				<a href="/modules/article/tagarticle.php?tag=YD" target="_blank">YD</a>
-				<a href="/modules/article/tagarticle.php?tag=%B0%AE%C7%E9" target="_blank">爱情</a>
-				<a href="/modules/article/tagarticle.php?tag=%C8%C8%D1%AA" target="_blank">热血</a>
-				<a href="/modules/article/tagarticle.php?tag=%B7%E7%C1%F7" target="_blank">风流</a>
-			</div>
-		</div>
+		
 	</div>
 
 	<div class="boutique-books">
@@ -226,27 +221,7 @@ $(document).ready(function(){
 	</div>
 	<!-- end -->
 
-	<div class="row clearfix">
-    	<div class="column row_bg comments " style="width:717px;">
-            <div class="title_pic ie6_jr">作品评论展示</div>
-			<a href="#" class="more">更多&gt;&gt;</a>
-
-				<ul class="list_03 clear">
-
-				<li class="li_tt"><span class="pl01">分类</span><span class="pl02">作品名称</span><span class="pl03">评论内容</span><span class="pl04">发表人</span></li>
-
-
-				<volist name='comment' id='vo'  offset="1" length='10'>
-					<li class="li_tt"><span class="pl01"><a href="/cwjsort2/0/1.htm">[都市]</a></span><span class="pl02"><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>" target="_blank"><{$vo.book_name}></a></span><span class="pl03"><a href="__APP__/bookInfo/index/book_id/<{$vo.book_id}>#comment" target="_blank"><{$vo.title}></a></span><span class="pl04"><{$vo.user_name}></span></li>
-
-				</volist>
-
-				</ul>
-        </div>
-        
-			 
-
-    </div>
+	
 	<!--友情链接-->
 	<div class="friend-link mb20">
 		<h2 class="common-headline"><span>友情链接</span></h2>

@@ -1,6 +1,8 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0041)http://localhost/dede/dede/index_body.php -->
 <html  xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title></title>
+
+<title>我的网站-织梦内容管理系统 V57_GBK_SP1</title>
 <link  rel="stylesheet"  href="__PUBLIC__/admin/css/reset.css"  type="text/css"  media="screen">
 <link  rel="stylesheet"  href="__PUBLIC__/admin/css/style.css"  type="text/css"  media="screen">
 <link  rel="stylesheet"  href="__TMPL__/public/css/invalid.css"  type="text/css"  media="screen">	
@@ -19,9 +21,7 @@
 <div  id="main-content">
 			
 			<h2>欢迎访问网站管理后台</h2>
-			<p  id="page-intro">快捷方式</p>
-		
-            <script>
+			 <script>
                 $(".shortcut-button").click(function(){
                     curhref=$(this).attr('href');
  
@@ -36,53 +36,52 @@
         
     </script>            
 			
+			<div  class="clear"></div> 
 			
 			<div  class="content-box">
+				
 				<div  class="content-box-header">
-					<h3  style="cursor: s-resize;">系统信息</h3>
+					
+					<h3  style="cursor: s-resize;">小说章节列表</h3>
+					
+					
+					
+					<div  class="clear"></div>
+					
 				</div> 
+				
 				<div  class="content-box-content">
-					<div  class="tab-content default-tab"  style="display: block;"> 
-						<table>
+					
+					<div  class="tab-content default-tab"  id="tab1"  style="display: block;"> 
+						
+						<table> 
 							<tbody>
 								<tr  class="alt-row">
-									<td>程序版本</td>
-									<td>thinkphp<?php echo (THINK_VERSION); ?></td>
+									 <th width="10%">序号</th>
+									<th width="20%">章节名</th>
+									 <th width="15%">小说名</th>
+									 <th width="10%">发表时间</th>
+									<th width="25%">&nbsp;&nbsp;编&nbsp;辑</td>
 								</tr>
+								<foreach name="chapter" item="vo">
+									  <tr>
+											<td class="odd" align="center"><{$i++}></td>
+											<td class="odd" align="center">
+												<a href="__APP__/book/book_list/book_id/<{$vo.book_id}>"><{$vo.chapter_title}>
+											</td>
+											<td class="odd" align="center">
+												<a href=""><{$vo.book_name}>
+											</td>
+											<td class="odd" align="center"><{$vo.update_time|date="Y-m-d H:i",###}></td>
+											<td class="odd" align="center">
+												<a href="__URL__/delChap/chapter_id/<{$vo.chapter_id}>">删除</a>
+											</td>
+										</tr>
+								</foreach>
 								<tr>
-									<td>操作系统</td>
-									<td>WINNT</td>
+									<td colspan="7" text-align="right"><{$page}></td>
 								</tr>
-								<tr  class="alt-row">
-									<td>网站域名/IP</td>
-									<td><?php echo ($_SERVER['HTTP_HOST']); ?></td>
-								</tr>
-								<tr>
-									<td>服务器解译引擎</td>
-									<td><?php echo PHP_OS;?></td>
-								</tr>
-								<tr  class="alt-row">
-									<td>PHP</td>
-									<td>php <?php echo PHP_VERSION;?></td>
-								</tr>
-																<tr>
-									<td>MySQL 版本</td>
-									<td><?php echo PHP_VERSION;?></td>
-								</tr>
-																<tr  class="alt-row">
-									<td>服务器时间</td>
-									<td><div  class="fRight mR10"  id="time"></div></td>
-								</tr>
-								<tr>
-									<td>当前附件尺寸</td>
-									<td>2M</td>
-								</tr>
-								<tr  class="alt-row">
-									<td>服务器语言</td>
-									<td>zh-CN,zh;q=0.8</td>
-								</tr>
-
-							</tbody>
+								</tbody>
 							
 						</table>
 						
@@ -91,7 +90,12 @@
 				</div> 
 				
 			</div> 
-					
+			
+			<div  class="clear"></div>
+			
+									
 		</div> 	
+	
 
- </body></html>
+
+            </body></html>

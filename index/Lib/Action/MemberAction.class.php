@@ -34,26 +34,7 @@ class MemberAction extends PublicAction {
         
 
     }
-    //调用作者模板方法
-    public function author(){
-        //验证是否登录
-        $this->islogin();
-
-        $user_id=session('user_id');
-        if(session('user_type')==2){
-            //显示作者信息
-            $user_info=M('User_info');
-            $userinfo=$user_info->where("user_id=$user_id")->find();
-            $user=M('User');
-            $user=$user->where("user_id=$user_id")->find();
-
-            $this->assign('user',$user);
-            $this->assign('userinfo',$userinfo);
-            $this->display();
-        }else{
-            $this->redirect('Member/login');
-        }
-    }
+   
     //调用会员登录模板方法
     public function login(){
         //如果会员类型为普通会员(type=1),则转跳到会员中心

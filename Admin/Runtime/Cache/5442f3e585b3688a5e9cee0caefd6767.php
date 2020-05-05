@@ -1,13 +1,10 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>
-增加文章</title>
-
+<title>增加文章</title>
 <link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css" media="screen">
 <link rel="stylesheet" href="__PUBLIC__/admin/css/style.css" type="text/css" media="screen">
 <script  language="javascript"  src="__PUBLIC__/admin/js/jquery.min.js"  type="text/javascript"></script>	
-
 <script charset="UTF-8"src="__PUBLIC__/kindeditor/kindeditor-min.js"></script> 
  	<script charset="UTF-8"src="__PUBLIC__/kindeditor/lang/zh_CN.js">
     </script> 
@@ -24,29 +21,19 @@
 						'insertunorderedlist', '|', 'emoticons', 'image', 'link']
 				});
 			});
-
-
 		</script>
-
 </head>
 <body onload="ContextMenu.intializeContextMenu()" >
 <div id="main-content">
 			<div class="content-box">
-				
-				<div class="content-box-header">
-					
+				<div class="content-box-header">	
 					<h3>添加书籍</h3>
 					<a class="close-btn" href="javascript:void(0);" onClick="javascript :history.back(-1);">关闭</a>
 				</div>
-				
-				<div class="content-box-content" >
-					
+				<div class="content-box-content" >	
 					<form action="__URL__/book_insert" enctype="multipart/form-data" method="post" >
   <!-- <input name="book_id" value="<?php echo ($book_id); ?>" type="hidden"> -->
- 
 					<div style="display: block;" class="tab-content  default-tab" id="tab1">				
-						
-							
 							<fieldset> 
 								<p>
 									<label>书名</label>
@@ -124,14 +111,6 @@
 				</div>
 			</div> 
 		</div> 
-	
-<script>
 
-	// $('.new-add').click(function(){
-	// 	alert('a')
-	// 	$('#tab1').hide();
-	// 	$('#tab2').show();
-	// })
-</script>
 
 </body></html>

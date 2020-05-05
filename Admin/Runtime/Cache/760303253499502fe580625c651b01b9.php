@@ -1,42 +1,15 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html
 	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- saved from url=(0041)http://localhost/dede/dede/index_menu.php -->
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-	<title>我的网站-织梦内容管理系统 V57_GBK_SP1</title>
+	<title>1</title>
 	<link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="__PUBLIC__/admin/css/menu.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="__PUBLIC__/admin/css/invalid.css" type="text/css" media="screen">
 	<script language="javascript" src="__PUBLIC__/admin/js/jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="__PUBLIC__/admin/js/admin.jquery.configuration.js"></script>
 	<script src="__TMPL__/public/js/frame.js" language="javascript" type="text/javascript"></script>
-	<style type="text/css">
-		body {
-			margin-left: 0px;
-			margin-top: 0px;
-			margin-right: 0px;
-			margin-bottom: 0px;
-		}
-
-		.STYLE1 {
-			font-size: 12px;
-			color: #000000;
-		}
-
-		.STYLE5 {
-			font-size: 12
-		}
-
-		.STYLE7 {
-			font-size: 12px;
-			color: #FFFFFF;
-		}
-	</style>
-
-
 </head>
 
 <body>
@@ -47,7 +20,7 @@
 
 				<h2 id="sidebar-title"><a href="http://localhost/dede/dede/index_menu.php#">后台管理系统</a></h2>
 				<div id="profile-links">
-					<?php echo ($admin_name); ?>, <br/>欢迎登录后台管理系统<br>
+					<?php echo ($admin_name); ?>, <br />欢迎登录后台管理系统<br>
 						<a href="__ROOT__" title="前台首页" target="_blank">前台首页</a> | <a href="<?php echo U('login/out');?>"
 							title="退出" target="_parent">退出</a>
 				</div>
@@ -72,7 +45,8 @@
 									target="main">章节管理</a></li>
 							<li><a class="nav-bottom-item" id="content_list" href="__APP__/book/cat_main/"
 									target="main">分类管理</a></li>
-
+									<li><a class="nav-bottom-item" id="member_guestbook" href="__APP__/member/comment_main"
+										target="main">评论管理</a></li>
 						</ul>
 					</li>
 
@@ -87,8 +61,8 @@
 
 							<li><a class="nav-bottom-item" id="member_pm" href="__APP__/member/letter_main"
 									target="main">会员信箱管理</a></li>
-							<li><a class="nav-bottom-item" id="member_guestbook" href="__APP__/member/comment_main"
-									target="main">会员留言管理</a></li>
+							<!-- <li><a class="nav-bottom-item" id="member_guestbook" href="__APP__/member/comment_main"
+									target="main">会员留言管理</a></li> -->
 
 						</ul>
 					</li>
@@ -125,8 +99,8 @@
 					</li>
 
 
-					
-					<li>
+
+					<li style="display:none;">
 						<a id="channel" href="javascript:void(0);" class="nav-top-item" style="padding-right: 15px;">
 							权限管理 </a>
 						<ul style="display: none;">
@@ -154,14 +128,13 @@
 
 						</ul>
 					</li>
-
-
 					<li>
 						<a id="sys" href="javascript:void(0);" class="nav-top-item">
 							系统设置
 						</a>
 						<ul style="display: none;">
-							<li><a  class="nav-bottom-item"  id="sys_info"  href="__APP__/siteset/sys_main"  target="main">系统信息</a></li>
+							<li><a class="nav-bottom-item" id="sys_info" href="__APP__/siteset/sys_main"
+									target="main">系统信息</a></li>
 							<li><a class="nav-bottom-item" id="sys_info" href="__APP__/siteset/sys_set"
 									target="main">基本参数</a></li>
 
@@ -171,11 +144,6 @@
 
 						</ul>
 					</li>
-
-
-
-
-
 				</ul>
 
 				<script>
@@ -187,16 +155,9 @@
 					});
 
 				</script>
-
-
 			</div>
-
-
-
 		</div>
 	</div>
-
-
 
 </body>
 

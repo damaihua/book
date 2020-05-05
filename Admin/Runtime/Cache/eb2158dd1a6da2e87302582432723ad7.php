@@ -13,19 +13,14 @@
 <div id="main-content">
 			
 
-	<div class="content-box"><!-- Start Content Box -->
+	<div class="content-box">
 				
 				<div class="content-box-header">
 					
 					<h3 style="cursor: s-resize;">管理员收信箱</h3>
 					
-					<ul class="content-box-tabs">
-
-					</ul>
 					
-					<div class="clear"></div>
-					
-				</div> <!-- End .content-box-header -->
+				</div> 
 				
 				<div class="content-box-content">
 					
@@ -58,21 +53,9 @@
     <td height="26" colspan="9" align="center" bgcolor="#FFFFFF"> <span><?php echo ($page); ?></span> </td>
   </tr>
 </tbody></table>
-<div class="clear"></div><!-- End .clear -->
-							
-						
-						
-					</div> <!-- End #tab1 -->
-
-					
-				</div> <!-- End .content-box-content -->
 				
-			</div> <!-- End .content-box -->
-			
-		
-			
-           			<!-- End #footer -->			
-		</div> <!-- End #main-content -->	
-	
-
+					</div> 				
+				</div>				
+			</div> 
+		</div> 
 </body></html>

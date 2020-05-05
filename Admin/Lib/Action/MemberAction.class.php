@@ -22,9 +22,10 @@ class MemberAction extends PublicAction {
         
         $this->assign('regtime',$regtime);
         $this->assign('data',$data);
+        
         // 赋值分页输出
         $this->assign('page',$show);
-    	$this->display();
+        $this->display();
         
     }
     //会员删除方法

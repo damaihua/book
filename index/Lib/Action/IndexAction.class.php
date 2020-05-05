@@ -26,6 +26,12 @@ class IndexAction extends PublicAction {
         //精品推荐
         $jingpin=$book->table('book_book as a,book_cats as b')->where("a.book_cat=b.cat_id and a.flags like '%d%'")->select();
         $this->assign('jingpin',$jingpin);
+        //
+     
+        // $wenxue=$book->table('book_book as a,book_cats as b')->order('a.book_cat')->where('a.book_cat=b.cat_id and a.book_cat=4')->limit(7)->select();
+        // $this->assign('wenxue',$wenxue);
+        //  dump('bianji');
+        //  dump($bianji);
         //最近更新
         $book=D('Book');
         $newUpdate=$book->relation(true)->select();
@@ -35,6 +41,7 @@ class IndexAction extends PublicAction {
         $book=M('Book');
         $hots=$book->order('hits asc')->select();
         $this->assign('hots',$hots);
+       
         //最新评论
         $comment=D('Comment');
         $comment=$comment->relation(true)->order('time desc')->select();

@@ -210,7 +210,7 @@ a.moreb{ display:block;clear:both;text-align:right;line-height:25px;color:#88888
   width:300px;
 }
 .recommend-tabItem .book-info h3 a{display:block;height:30px; line-height: 30px;; font-size:16px;}
-.recommend-tabItem .book-info p{height:44px; line-height: 22px;}
+.recommend-tabItem .book-info p{height:44px; line-height: 22px;  overflow: hidden;}
 .recommend-tabItem  li em{
   font-style: normal;
   margin-right:5px;
@@ -276,16 +276,19 @@ a.moreb{ display:block;clear:both;text-align:right;line-height:25px;color:#88888
 }
 .editor-recommend{
   float:left;
-  width:500px;
+  /* width:500px; */
+  width:749px;
   border:1px solid #e7e7e7;
-  margin-right:20px;
+  /* margin-right:20px; */
 }
 .editor-recommend .editor-recomItem {
+  float:left;
+  width:360px;
   padding:10px;
 }
-.editor-recommend  .editor-bookCover{
+.editor-recommend .editor-bookCover{
   float:left;
-  width:260px;
+  /* width:260px; */
   height:110px;
 overflow: hidden;
 }
@@ -302,13 +305,15 @@ overflow: hidden;
 }
 .editor-recommend  .book-det{
   float:left;
-  width:150px;
+  /* width:150px; */
+  width:248px;
   padding:0 10px;
 }
 .editor-recommend .similar-book{
   float:left;
-  height:110px;
-  line-height: 22px;
+  width:369px;
+  height:28px;
+  line-height: 28px;
 }
 .hot-tags{
   float:left;

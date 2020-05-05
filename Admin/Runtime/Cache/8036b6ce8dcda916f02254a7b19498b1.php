@@ -7,67 +7,7 @@
 	<title>后台管理系统</title>
 	<link href="__PUBLIC__/admin/css/frame.css" rel="stylesheet" type="text/css">
 	<link href="__PUBLIC__/admin/css/style.css" rel="stylesheet" type="text/css">
-	<style type="text/css">
-		/* #skinlist {
-			display: block;
-			height: 11px;
-			margin-top: 10px;
-			overflow: hidden;
-			width: 86px;
-		}
-
-		#skin div {
-			float: left;
-		}
-
-		#skin li {
-			cursor: pointer;
-			float: left;
-			height: 11px;
-			width: 14px;
-		}
-
-		#def div,
-		#s1 div,
-		#s2 div,
-		#s3 div,
-		#s4 div {
-			background-image: url("images/skinbutton.png");
-			background-repeat: no-repeat;
-		}
-
-		#s1 div {
-			background-position: 0 0px;
-		}
-
-		#s2 div {
-			background-position: 0 -11px;
-		}
-
-		#s3 div {
-			background-position: 0 -22px;
-		}
-
-		#s4 div {
-			background-position: 0 -33px;
-		}
-
-		#s1 div.sel {
-			background: url("images/skinbutton.png") no-repeat scroll -14px top transparent;
-		}
-
-		#s2 div.sel {
-			background: url("images/skinbutton.png") no-repeat scroll -14px -11px transparent;
-		}
-
-		#s3 div.sel {
-			background: url("images/skinbutton.png") no-repeat scroll -14px -22px transparent;
-		}
-
-		#s4 div.sel {
-			background: url("images/skinbutton.png") no-repeat scroll -14px -33px transparent;
-		} */
-	</style>
+	
 </head>
 
 <body class="showmenu">
@@ -78,11 +18,8 @@
 	</div>
 	<div class="right">
 		<div class="main">
-
 			<iframe id="main" name="main" frameborder="0" src="index_body" scrolling="auto"></iframe>
-
 		</div>
-
 	</div>
 	<script language="javascript">
 		// function JumpFrame(url1, url2) {

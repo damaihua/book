@@ -1,50 +1,40 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>会员登录——听雨轩在线书城</title>
+<title>会员登录</title>
 <meta charset="utf-8" />
 <meta name="keywords" content="keywords" />
 <meta name="description" content="description" />
-
 <meta charset='utf-8'/>
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/style.css" type="text/css" media="all" />
 <link rel="stylesheet" rev="stylesheet" href="__CSS__/main.css" type="text/css" media="all" />
 <script language="javascript" type="text/javascript" src="__JS__/common.js"></script>
 <script language="javascript" type="text/javascript" src="__JS__/theme.js"></script>
-<!--[if IE 6]>
-<script type="text/javascript" src="__JS__/dd_belatedpng.js" ></script>
-<script type="text/javascript">
-	DD_belatedPNG.fix(' .recommend_pic,.editor_pic,.title_pic,,#phead h1,#phead h1 ');
-</script>
-<![endif]-->
-<script>
-	
-</script>
+
 </head>
 <body>
 <!---头部部分--->
 <div  id="top">
 	<div class="wrap">
-		<p class="top-welcome">欢迎访问在线阅读！</p>
+		<p class="top-welcome">您好，欢迎来访！</p>
 		<div class="login-content"><?php echo showbar();?></div>
 	</div>
 </div>
 
 <div id="head" class="clearfix">
-	ROOT--------__ROOT__        //  URl   ---- __URL__     //APP---__APP__
-	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
+	
+	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="" height="52" alt="" /></a></h1>
 
 	<div class="header-search">
 		<form name="book" method="post" action="__URL__/index" target="_blank">
-			<!-- /book/index.php/search/index.html -->
+			
 			<div class="header-searchCon">
 				<select name="" class="search-sort">
 					<option  name="searchtype" value="articlename" checked="checked">书名</option>
 					<option  name="searchtype" value="author" >作者</option>
 				</select>
 			<input name="searchkey" type="text" class="search_text"> 
-			<!-- <input type="radio" class="radio" name="searchtype" value="articlename" checked="checked" />书名 	
-			<input type="radio" class="radio" name="searchtype" value="author" />作者 -->
+			
 			<input type="submit" class="search_submit" value="搜索"></div>
 		</form>
 	</div>
@@ -112,8 +102,8 @@
     	
         <?php echo showFootermenu();?>
     </div>
-    <p>请作者发布作品时遵守国家互联网信息管理办法规定</p>
-    <!-- <p><?php echo (SITE_COPYRIGHT); ?>&nbsp;&nbsp;<?php echo (SITE_BEIAN); ?></p> -->
+    <p>版权仅自己所有</p>
+   
     
 </div>
 

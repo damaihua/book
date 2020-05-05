@@ -18,7 +18,7 @@
 
 <div id="head" class="clearfix">
 	
-	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
+	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="" height="52" alt="" /></a></h1>
 
 	<div class="header-search">
 		<form name="book" method="post" action="__URL__/index" target="_blank">

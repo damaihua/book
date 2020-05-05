@@ -21,7 +21,7 @@
 
 <div id="head" class="clearfix">
 	
-	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="222" height="53" alt="" /></a></h1>
+	<h1><a href="__ROOT__"><img name="logo" src="__ROOT__/<?php echo (SITE_LOGO); ?>" width="" height="52" alt="" /></a></h1>
 
 	<div class="header-search">
 		<form name="book" method="post" action="__URL__/index" target="_blank">
@@ -153,6 +153,7 @@
                 <div class="cmt_box main_form">
                     <h4 class="form-title">发表评论</h4>
                     <form name="frmreview" id="frmreview" method="post" action="__APP__/chapters/comment">
+                       
                         <table cellspacing="0" cellpadding="0">
                             <tbody>
                                 <tr>
@@ -179,6 +180,7 @@
                                     </td>
                                     <input type="hidden" name="book_id" value="<?php echo ($book_info[0]['book_id']); ?>" />
                                     <td>
+                                      
                                         <input type="submit" name="Submit" class="button" value=" 发表评论 ">
                                     </td>
                                 </tr>

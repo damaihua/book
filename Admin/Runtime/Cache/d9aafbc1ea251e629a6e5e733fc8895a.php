@@ -4,56 +4,21 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>
-		文档管理</title>
-
+	<title>文档管理</title>
 	<link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="__PUBLIC__/admin/css/style.css" type="text/css" media="screen">
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/base.css">
-
-	<style>
-		.coolbg2 {
-			border: 1px solid #000000;
-			background-color: #F2F5E9;
-			height: 18px
-		}
-
-		.coolbt2 {
-			border-left: 2px solid #EFEFEF;
-			border-top: 2px solid #EFEFEF;
-			border-right: 2px solid #ACACAC;
-			border-bottom: 2px solid #ACACAC;
-			background-color: #F7FCDA
-		}
-
-		.nbline {
-			border-bottom: 1px solid #d6d6d6;
-			background-color: #FFFFFF;
-		}
-
-		.bline2 {
-			border-bottom: 1px solid #d6d6d6;
-			background-color: #F9FCEF;
-		}
-	</style>
 </head>
 
 <body onload="ContextMenu.intializeContextMenu()">
 	<div id="main-content">
-
 		<div class="content-box">
-		
-
 			<div class="content-box-header">
 				<h3 style="cursor: s-resize;">书籍管理</h3>
 				<a class="new-add" href="__APP__/book/book_add" style="font-size:14px;">添加书籍</a>
-				
 			</div>
-
 			<div class="content-box-content">
-
 				<div style="display: block;" class="tab-content  default-tab">
-				
 
 					<form name="form2">
 						<table style="margin-top:8px" cellpadding="2" cellspacing="1" align="center" border="0"
@@ -78,7 +43,7 @@
 										<td width="15%">《<?php echo ($book["book_name"]); ?>》</td>
 										<td width="7%">
 											<?php echo ($book["tags"]); ?>
-											<!-- <?php if($$book["book_cat"] == 55): ?>新书上传
+												<!-- <?php if($$book["book_cat"] == 55): ?>新书上传
 												<?php elseif($book["book_cat"] == 56): ?>情节展开
 												<?php elseif($book["book_cat"] == 57): ?>精彩纷呈
 												<?php elseif($book["book_cat"] == 58): ?>接近尾声
@@ -103,7 +68,9 @@
 											<?php echo (date("Y-m-d H:i",$book["public_time"])); ?>
 										</td>
 
-										<td width="18%"><?php echo (date("Y-m-d H:i",$book["update_time"])); ?></td>
+										<td width="18%">
+											<?php echo (date("Y-m-d H:i",$book["update_time"])); ?>
+										</td>
 										<td width="12%">
 											<a href="__APP__/book/chapter_add?book_id=<?php echo ($book["book_id"]); ?>">添加章节</a>|
 											<a href="__APP__/book/book_edit?book_id=<?php echo ($book["book_id"]); ?>">修改</a>|
@@ -122,25 +89,15 @@
 							</tbody>
 						</table>
 
-						<!--  搜索表单  -->
-
-
-						<div class="clear"></div><!-- End .clear -->
-
-
-
+						
 					</form>
-				</div> <!-- End #tab1 -->
+				</div> 
+			</div>
 
+		</div> 
 
-			</div> <!-- End .content-box-content -->
-
-		</div> <!-- End .content-box -->
-
-		<div class="clear"></div>
-
-		<!-- End #footer -->
-	</div> <!-- End #main-content -->
+		
+	</div> 
 
 
 </body>

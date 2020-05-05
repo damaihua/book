@@ -2,31 +2,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>用户短信管理</title>
-
 <link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css" media="screen">
 <link rel="stylesheet" href="__PUBLIC__/admin/css/style.css" type="text/css" media="screen">
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/css/base.css">
-
 </head>
 <body>
 
 <div id="main-content">
 			
 
-	<div class="content-box"><!-- Start Content Box -->
+	<div class="content-box">
 				
 				<div class="content-box-header">
-					
 					<h3 style="cursor: s-resize;">用户短信管理</h3>
-					
-					<ul class="content-box-tabs">
-
-					</ul>
-					
-					<div class="clear"></div>
-					
-				</div> <!-- End .content-box-header -->
-				
+				</div> 
 				<div class="content-box-content">
 					
 <div style="display: block;" class="tab-content  default-tab" id="tab1">				
@@ -82,21 +71,8 @@
     <td height="26" colspan="9" align="center" bgcolor="#FFFFFF"> <span><?php echo ($page); ?></span> </td>
   </tr>
 </tbody></table>
-<div class="clear"></div><!-- End .clear -->
-							
-						
-						
-					</div> <!-- End #tab1 -->
-
-					
-				</div> <!-- End .content-box-content -->
-				
-			</div> <!-- End .content-box -->
-			
-		
-			
-           			<!-- End #footer -->			
-		</div> <!-- End #main-content -->	
-	
-
+					</div> 
+				</div> 			
+			</div> 
+		</div> 
 </body></html>
